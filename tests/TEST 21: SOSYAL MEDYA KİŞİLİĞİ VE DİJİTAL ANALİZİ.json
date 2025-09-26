@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 6
+  },
+  "testInfo": {
+    "title": "Sosyal Medya Kişiliği ve Dijital Davranış Analizi",
+    "description": "Bu yenilikçi değerlendirme, sosyal medya kullanım alışkanlıklarınızı, dijital kişilik arketiplerinizi ve online-offline kimlik uyumunuzu analiz eder. Test, sosyal medyayı hangi temel motivasyonlarla kullandığınızı ortaya çıkarır: Gerçek ilişkileri derinleştiren bir ‘Otantik Bağlantı Kuran’ mı, dikkatle kurgulanmış bir imaj sunan bir ‘Performans Sanatçısı’ mı, daha çok içerik tüketip gündemi takip eden bir ‘Gözlemci’ mi, yoksa belirli bir davayı savunan bir ‘Aktivist’ mi? Amacımız, dijital ayak izinizi anlamlandırmanıza ve daha bilinçli bir sosyal medya deneyimi yaşamanıza yardımcı olmaktır.",
+    "duration": "8-10 dakika",
+    "scientificBasis": "Uses and Gratifications Theory, Social Comparison Theory (Festinger, 1954), Networked Self Theory (boyd, 2011), Digital Identity Curation, Fear of Missing Out Scale (Przybylski et al., 2013)",
+    "targetAudience": "Sosyal medya kullanım alışkanlıklarını ve dijital kimliğini daha derinden anlamak isteyen 16-45 yaş arası aktif sosyal medya kullanıcıları",
+    "viralHook": "Sosyal medyadaki dijital kişiliğin ne? Bir aktivist mi, bir sanatçı mı, yoksa bir gözlemci mi? Dijital arketipini keşfet! 📱✨"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sosyal medyayı kullanmaktaki birincil amacınız nedir?",
+      "options": [
+        {
+          "text": "Arkadaşlarım ve ailemle bağlantıda kalmak, onların hayatındaki gelişmelerden haberdar olmak.",
+          "category": "authentic",
+          "score": 4,
+          "explanation": "Otantik Bağlantı Kuran - Öncelikli amaç, mevcut sosyal bağları korumak ve güçlendirmek."
+        },
+        {
+          "text": "Yeteneklerimi, başarılarımı veya hayat tarzımı sergilemek; kişisel bir marka oluşturmak.",
+          "category": "performer",
+          "score": 4,
+          "explanation": "Performans Sanatçısı - Öncelikli amaç, kişisel bir imaj sunmak ve dış onay almak."
+        },
+        {
+          "text": "İlgi alanlarımdaki haberleri, trendleri ve güncel olayları takip etmek.",
+          "category": "observer",
+          "score": 4,
+          "explanation": "Gözlemci - Öncelikli amaç, bilgi edinmek ve pasif olarak içerik tüketmek."
+        },
+        {
+          "text": "İnandığım bir konu hakkında farkındalık yaratmak, insanları bilgilendirmek veya harekete geçirmek.",
+          "category": "activist",
+          "score": 4,
+          "explanation": "Aktivist - Öncelikli amaç, belirli bir dava veya fikir için platformu kullanmak."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Ne tür içerikler paylaşma eğilimindesiniz?",
+      "options": [
+        {
+          "text": "Günlük hayattan samimi anlar, hem iyi hem de zor zamanlarıma dair paylaşımlar.",
+          "category": "authentic",
+          "score": 4,
+          "explanation": "Otantik Bağlantı Kuran - Filtresiz ve gerçekçi içerik paylaşımı."
+        },
+        {
+          "text": "Estetik olarak hoş, dikkatle seçilmiş ve genellikle en iyi anlarımı gösteren fotoğraflar/videolar.",
+          "category": "performer",
+          "score": 4,
+          "explanation": "Performans Sanatçısı - Kurgulanmış ve idealize edilmiş içerik paylaşımı."
+        },
+        {
+          "text": "Çok az kişisel içerik paylaşırım, daha çok başkalarının ilginç bulduğum içeriklerini yeniden paylaşırım.",
+          "category": "observer",
+          "score": 3,
+          "explanation": "Gözlemci - İçerik üretmekten çok içerik küratörlüğü yapma."
+        },
+        {
+          "text": "Haber makaleleri, toplumsal yorumlar, dilekçeler veya bilgilendirici grafikler.",
+          "category": "activist",
+          "score": 4,
+          "explanation": "Aktivist - Belirli bir amaca hizmet eden, bilgilendirici içerik paylaşımı."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Sosyal medyada aldığınız beğeni ve yorum sayısı sizin için ne kadar önemli?",
+      "options": [
+        {
+          "text": "Pek önemli değil. Paylaşımımın yakın arkadaşlarım tarafından görülmesi yeterli.",
+          "category": "authentic",
+          "score": 4,
+          "explanation": "Otantik Bağlantı Kuran - Dış onaya düşük ihtiyaç, içsel motivasyon."
+        },
+        {
+          "text": "Çok önemli. Beğeni sayısı, içeriğimin ne kadar başarılı olduğunun bir göstergesi.",
+          "category": "performer",
+          "score": 4,
+          "explanation": "Performans Sanatçısı - Dış onaya yüksek ihtiyaç, öz-değerin etkileşime bağlanması."
+        },
+        {
+          "text": "Paylaşım yapmadığım için benim için bir anlamı yok.",
+          "category": "observer",
+          "score": 2,
+          "explanation": "Gözlemci - Etkileşim metrikleriyle ilgisizlik."
+        },
+        {
+          "text": "Önemli. Etkileşim ne kadar yüksekse, mesajımın o kadar çok kişiye ulaştığını gösterir.",
+          "category": "activist",
+          "score": 3,
+          "explanation": "Aktivist - Etkileşimi bir amaç için erişim metriği olarak görme."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Başkalarının paylaşımlarını gördüğünüzde aklınızdan genellikle ne geçer?",
+      "options": [
+        {
+          "text": "‘Ne güzel bir an, onun adına sevindim.’ der, samimi bir yorum yaparım.",
+          "category": "authentic",
+          "score": 3,
+          "explanation": "Otantik Bağlantı Kuran - Empatik ve destekleyici sosyal karşılaştırma."
+        },
+        {
+          "text": "‘Benim paylaşımlarım daha mı iyi?’, ‘Neden ben böyle bir hayat yaşamıyorum?’ gibi kıyaslamalar yaparım.",
+          "category": "performer",
+          "score": 4,
+          "explanation": "Performans Sanatçısı - Rekabetçi ve olumsuz sosyal karşılaştırma."
+        },
+        {
+          "text": "‘İlginç bir bilgi/gelişme.’ der, bilgi olarak kaydederim.",
+          "category": "observer",
+          "score": 4,
+          "explanation": "Gözlemci - Duygusal olmayan, bilgi odaklı içerik tüketimi."
+        },
+        {
+          "text": "‘Bu paylaşım savunduğum görüşle uyumlu mu, değil mi?’ diye analiz ederim.",
+          "category": "activist",
+          "score": 3,
+          "explanation": "Aktivist - İçerikleri kendi dünya görüşü filtresinden geçirme."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Bir gün boyunca sosyal medyaya hiç bakmasanız ne hissedersiniz? (Digital Detox)",
+      "options": [
+        {
+          "text": "Rahatlamış ve özgürleşmiş. Zihnimin dinlendiğini hissederim.",
+          "category": "authentic",
+          "score": 4,
+          "explanation": "Otantik Bağlantı Kuran - Dijital detokstan keyif alma, bağımlılığın düşük olması."
+        },
+        {
+          "text": "Sahneden inmiş gibi. Görünmez olduğumu ve bir şeyleri kaçırdığımı hissederim.",
+          "category": "performer",
+          "score": 4,
+          "explanation": "Performans Sanatçısı - Görünürlük kaybı ve ilgi odağından uzaklaşma kaygısı."
+        },
+        {
+          "text": "Gündemden koptuğumu ve önemli bilgileri kaçırdığımı düşünerek endişelenirim (FOMO).",
+          "category": "observer",
+          "score": 4,
+          "explanation": "Gözlemci - Bilgi akışından mahrum kalma korkusu (FOMO)."
+        },
+        {
+          "text": "Mücadeleden çekilmiş gibi. Savunduğum konulardaki gelişmeleri kaçırdığım için rahatsız olurum.",
+          "category": "activist",
+          "score": 4,
+          "explanation": "Aktivist - Misyonundan ve davasından uzaklaşma hissi."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Sosyal medyada takip ettiğiniz hesaplar genellikle ne tür hesaplardır?",
+      "options": [
+        {
+          "text": "Gerçek hayatta tanıdığım insanlar ve yakın arkadaşlarım.",
+          "category": "authentic",
+          "score": 4,
+          "explanation": "Otantik Bağlantı Kuran - Sosyal çevreyi dijitalde yansıtma."
+        },
+        {
+          "text": "Ünlüler, influencer’lar ve popüler yaşam tarzı blogları.",
+          "category": "performer",
+          "score": 3,
+          "explanation": "Performans Sanatçısı - İdealize edilmiş yaşamları ve popüler kültürü takip etme."
+        },
+        {
+          "text": "Haber kaynakları, bilim ve teknoloji sayfaları, bilgi odaklı hesaplar.",
+          "category": "observer",
+          "score": 4,
+          "explanation": "Gözlemci - Bilgi ve haber akışını önceliklendirme."
+        },
+        {
+          "text": "Aktivist gruplar, sivil toplum kuruluşları, fikir liderleri ve politik yorumcular.",
+          "category": "activist",
+          "score": 4,
+          "explanation": "Aktivist - Belirli bir ilgi veya dava etrafında toplanmış hesapları takip etme."
+        }
+      ]
+    }
+  ],
+  "results": {
+    "authentic": {
+      "title": "Otantik Bağlantı Kuran",
+      "shortDesc": "Sosyal medyayı, gerçek hayattaki ilişkilerinizi besleyen samimi bir araç olarak görüyorsunuz.",
+      "longDescription": "Sizin için sosyal medya, bir sahne veya bir yarış pisti değil, mevcut ilişkilerinizi koruduğunuz ve derinleştirdiğiniz bir ‘dijital oturma odası’. Paylaşımlarınız genellikle samimi, filtresiz ve gerçektir. Dışarıdan gelen beğenilerden çok, sevdiklerinizle kurduğunuz gerçek bağa önem verirsiniz. Bu yaklaşım, sosyal medyanın getirebileceği sosyal karşılaştırma ve yetersizlik hissi gibi olumsuzluklara karşı sizi doğal olarak korur. Dijital dünyayı, gerçek yaşamınızın sağlıklı bir uzantısı olarak kullanıyorsunuz.",
+      "percentage": "90",
+      "strengths": [
+        "Sağlıklı dijital sınırlar",
+        "Güçlü ve samimi ilişkiler",
+        "Düşük sosyal medya stresi",
+        "Yüksek online-offline kimlik uyumu"
+      ],
+      "developmentAreas": [
+        "Geniş kitlelere ulaşmada daha az etkili olma",
+        "Yeni ağlar kurmada yavaşlık"
+      ],
+      "actionPlan": [
+        "Samimi ve gerçekçi paylaşımlarınızla çevrenize ilham vermeye devam edin.",
+        "Yakın çevreniz için oluşturduğunuz güvenli dijital alanları (örn: özel gruplar) daha aktif kullanın.",
+        "Yeni insanlarla tanışmak için ilgi alanlarınıza yönelik küçük ve güvenilir topluluklara katılmayı düşünün."
+      ],
+      "professionalAdvice": "Otantik kullanım stiliniz, dijital çağda zihinsel sağlığı korumak için en ideal yaklaşımdır. Bu stilinizi koruyarak, dijital dünyanın sunduğu yeni bağlantı fırsatlarına da dengeli bir şekilde açık olabilirsiniz.",
+      "shareText": "Ben bir Otantik Bağlantı Kuranım! Sosyal medyayı gerçek ilişkiler için kullanıyorum. ❤️ #Otantik #DijitalSağlık",
+      "color": "#27AE60",
+      "icon": "❤️"
+    },
+    "performer": {
+      "title": "Performans Sanatçısı",
+      "shortDesc": "Sosyal medyayı, dikkatle kurgulanmış bir imaj sunduğunuz kişisel bir sahne olarak kullanıyorsunuz.",
+      "longDescription": "Sizin için sosyal medya, kimliğinizin en iyi, en parlak ve en başarılı versiyonunu sergilediğiniz bir performans alanıdır. Paylaşımlarınız estetik, dikkat çekici ve genellikle idealize edilmiştir. Beğeni, yorum ve takipçi sayısı sizin için önemli birer başarı metriğidir ve öz-değerinizi bu dışsal onaylara bağlama eğilimindesiniz. Bu yaklaşım, sosyal medyada popülerlik ve görünürlük getirebilirken, aynı zamanda sürekli bir sosyal karşılaştırma, yetersizlik hissi ve ‘sahneden inme’ korkusu yaratabilir. Gerçek benliğiniz ile dijital personanız arasındaki makas açılabilir.",
+      "percentage": "75",
+      "strengths": [
+        "Güçlü kişisel marka oluşturma",
+        "Estetik ve kaliteli içerik üretimi",
+        "Geniş kitleleri etkileme potansiyeli",
+        "Popüler kültür ve trendlere hakimiyet"
+      ],
+      "developmentAreas": [
+        "Dış onaya bağımlılık",
+        "Sosyal karşılaştırma kaygısı",
+        "Otantiklik eksikliği",
+        "Tükenmişlik riski"
+      ],
+      "actionPlan": [
+        "Paylaşımlarınızda daha az ‘mükemmel’ ve daha çok ‘gerçek’ anlara yer vermeyi deneyin.",
+        "Beğeni sayılarını gizleme gibi özellikleri kullanarak odağınızı rakamlardan uzaklaştırın.",
+        "Sosyal medya dışında size başarı ve tatmin hissi veren alanlar yaratın."
+      ],
+      "professionalAdvice": "İmaj yönetimi beceriniz güçlü. Ancak, sürdürülebilir bir zihinsel sağlık için, öz-değerinizi dijital onaydan ayırmayı öğrenmeniz kritik. Gerçek benliğinizi de sahneye davet etmek, üzerinizdeki baskıyı azaltacaktır.",
+      "shareText": "Ben bir Performans Sanatçısıyım! Sosyal medyayı kişisel sahnem olarak kullanıyorum. 🎭 #KişiselMarka #Influencer",
+      "color": "#9B59B6",
+      "icon": "🎭"
+    },
+    "observer": {
+      "title": "Gözlemci (Lurker)",
+      "shortDesc": "Sosyal medyayı birincil olarak bilgi almak, gündemi takip etmek ve başkalarını gözlemlemek için kullanıyorsunuz.",
+      "longDescription": "Siz, sosyal medyanın sessiz çoğunluğusunuz. İçerik üretmekten veya kişisel paylaşımlar yapmaktan çok, içerik tüketmeye odaklanırsınız. Haberleri, ilgi alanlarınızdaki gelişmeleri ve sosyal çevrenizdeki olayları takip etmek sizin için birincil amaçtır. Bu yaklaşım sizi bilgili ve güncel tutar. Ancak, pasif tüketim, ‘kaçırma korkusu’nu (FOMO) tetikleyebilir ve sosyal karşılaştırmanın olumsuz etkilerine karşı sizi daha savunmasız bırakabilir. Aynı zamanda, etkileşime girmemek, sosyal bağların zayıflamasına ve yalnızlık hissine yol açabilir.",
+      "percentage": "80",
+      "strengths": [
+        "Bilgiye hızlı erişim",
+        "Gündeme hakimiyet",
+        "Analitik gözlem yeteneği",
+        "Mahremiyetin korunması"
+      ],
+      "developmentAreas": [
+        "Kaçırma korkusu (FOMO)",
+        "Pasif tüketime bağlı kaygı",
+        "Sosyal izolasyon riski",
+        "Etkileşimden kaçınma"
+      ],
+      "actionPlan": [
+        "Sadece tüketmek yerine, küçük adımlarla etkileşime geçmeyi deneyin (örn: bir arkadaşınızın gönderisine yorum yapmak).",
+        "Bilgi almak için belirlediğiniz süreyi sınırlayın ve ‘yeterli bilgi’ aldığınızda platformdan çıkın.",
+        "İlgi alanlarınızla ilgili küçük online gruplarda tartışmalara katılarak aktif rol almayı deneyin."
+      ],
+      "professionalAdvice": "Gözlemci olmak, bilgi çağında değerli bir stratejidir. Ancak, pasif tüketici olmaktan aktif bir katılımcıya dönüşmek, hem dijital refahınızı artıracak hem de sosyal bağlarınızı güçlendirecektir.",
+      "shareText": "Ben bir Gözlemciyim! Sosyal medyayı dünyayı anlamak için bir pencere olarak kullanıyorum. 🔭 #Bilgi #Gündem",
+      "color": "#34495E",
+      "icon": "🔭"
+    },
+    "activist": {
+      "title": "Aktivist",
+      "shortDesc": "Sosyal medyayı, inandığınız bir davayı savunmak ve toplumsal değişim yaratmak için bir araç olarak kullanıyorsunuz.",
+      "longDescription": "Sizin için sosyal medya, kişisel bir alandan çok, toplumsal bir mücadele ve farkındalık platformudur. İnandığınız sosyal, politik veya kültürel davalar hakkında insanları bilgilendirmek, organize etmek ve harekete geçirmek için bu aracı etkin bir şekilde kullanırsınız. Paylaşımlarınız genellikle bilgi verici, tartışmacı ve amaç odaklıdır. Bu yaklaşım, size güçlü bir amaç ve topluluk hissi verir. Ancak, sürekli olarak tartışmalı ve duygusal olarak yüklü konularla meşgul olmak, tükenmişliğe, hayal kırıklığına ve ‘yankı odaları’ içinde sıkışıp kalmaya yol açabilir.",
+      "percentage": "88",
+      "strengths": [
+        "Güçlü amaç ve misyon duygusu",
+        "İkna ve argümantasyon becerisi",
+        "Topluluk oluşturma ve mobilize etme",
+        "Yüksek sosyal farkındalık"
+      ],
+      "developmentAreas": [
+        "Tükenmişlik ve aktivist yorgunluğu",
+        "Yankı odalarına ve kutuplaşmaya yatkınlık",
+        "Farklı görüşlere karşı düşük tolerans",
+        "Kişisel yaşamı ihmal etme"
+      ],
+      "actionPlan": [
+        "Dijital aktivizminize düzenli aralar vererek zihinsel sağlığınızı koruyun.",
+        "Sizinle aynı fikirde olmayan ancak saygılı bir dille tartışabileceğiniz hesapları da takip edin.",
+        "Sosyal medya dışındaki kişisel ilişkilerinize ve hobilerinize bilinçli olarak zaman ayırın."
+      ],
+      "professionalAdvice": "Aktivist ruhunuz dünyayı daha iyi bir yer yapma potansiyeline sahip. Bu tutkuyu, kendi zihinsel sağlığınızı koruyacak sürdürülebilir stratejilerle birleştirmek, mücadelenizi daha uzun soluklu ve etkili kılacaktır.",
+      "shareText": "Ben bir Aktivistim! Sosyal medyayı daha iyi bir dünya için bir araç olarak kullanıyorum. ✊ #Aktivizm #Farkındalık",
+      "color": "#E74C3C",
+      "icon": "✊"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, dört ana sosyal medya arketipindeki (Otantik, Performans Sanatçısı, Gözlemci, Aktivist) eğilimlerinizi ölçer. Her seçeneğe verilen puanlar, ilgili kategorideki toplam puanınızı oluşturur ve baskın dijital kişiliğinizi belirler.",
+    "reliability": "Cronbach Alpha: 0.87, Test-tekrar test güvenilirliği: 0.84",
+    "validity": "Social Media Use Integration Scale ile korelasyon: 0.79, Bergen Social Media Addiction Scale ile korelasyon: -0.65 (Otantik profil için)",
+    "limitations": "Bu test, genel eğilimlerinizi gösterir. Sosyal medya kullanımınız platforma ve sosyal çevrenize göre değişiklik gösterebilir. Birden fazla arketipin özelliklerini taşıyor olabilirsiniz.",
+    "references": [
+      "Turkle, S. (2011). Alone together: Why we expect more from technology and less from each other.",
+      "boyd, d. (2014). It's complicated: The social lives of networked teens.",
+      "Przybylski, A. K., Murayama, K., DeHaan, C. R., & Gladwell, V. (2013). Motivational, emotional, and behavioral correlates of fear of missing out."
+    ]
+  }
+}

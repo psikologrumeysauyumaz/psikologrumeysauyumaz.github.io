@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 5
+  },
+  "testInfo": {
+    "title": "İş-Yaşam Sınırları ve Uyum Stili Analizi",
+    "description": "Bu test, Sınır Teorisi (Boundary Theory) ve İş-Aile Çatışması modelleri temelinde, iş ve özel yaşamınız arasındaki sınırları nasıl yönettiğinizi analiz eder. Test, sadece ‘dengeli’ veya ‘dengesiz’ demek yerine, sizin kişisel ‘sınır yönetimi’ stilinizi ortaya çıkarır. İş ve özel yaşamı birbirinden net bir şekilde ayıran ‘Ayrıştırıcı’ mı, yoksa bu iki alanı esnek bir şekilde iç içe geçiren bir ‘Bütünleştirici’ misiniz? Yoksa duruma göre stil değiştiren bir ‘Döngüsel’ mi, ya da sınırların kontrolünü kaybetmiş ‘Sınırları Belirsiz’ bir profil mi sergiliyorsunuz? Amacımız, kendi doğal eğiliminizi anlamanıza ve bu stile uygun daha sürdürülebilir bir yaşam stratejisi geliştirmenize yardımcı olmaktır.",
+    "duration": "8-10 dakika",
+    "scientificBasis": "Boundary Theory (Ashforth et al., 2000), Work-Family Conflict Scale (Netemeyer et al., 1996), Work-Life Balance Scale (Fisher et al., 2009), Job Demands-Resources Model (Bakker & Demerouti, 2007)",
+    "targetAudience": "İş ve özel yaşam arasındaki uyumu optimize etmek, tükenmişlik riskini yönetmek ve daha sürdürülebilir bir çalışma tarzı bulmak isteyen 22-65 yaş arası profesyoneller, girişimciler ve çalışanlar",
+    "viralHook": "İş ve yaşam arasında duvarlar mı örüyorsun, köprüler mi kuruyorsun? Sınır yönetimi stilini keşfet, tükenmeden yaşa! 🚧🌉"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "İş saatleri dışında işle ilgili bir e-posta veya mesaj geldiğinde genellikle ne yaparsınız?",
+      "options": [
+        {
+          "text": "Genellikle görmezden gelir, ertesi iş gününe bırakırım. Özel zamanım kutsaldır.",
+          "category": "segmenter",
+          "score": 4,
+          "explanation": "Ayrıştırıcı - İş ve özel yaşam arasına net sınırlar koyma"
+        },
+        {
+          "text": "Hemen cevap veririm. İş ve özel yaşamım arasında net bir ayrım yapmam.",
+          "category": "integrator",
+          "score": 4,
+          "explanation": "Bütünleştirici - İş ve özel yaşamı esnek bir şekilde iç içe geçirme"
+        },
+        {
+          "text": "Eğer konu acilse cevap verir, değilse bekletirim. Duruma göre karar veririm.",
+          "category": "cycler",
+          "score": 4,
+          "explanation": "Döngüsel - Sınırları durumsal ihtiyaçlara göre esnetme veya katılaştırma"
+        },
+        {
+          "text": "Cevap vermem gerektiğini hisseder, strese girerim ama genellikle ertelerim.",
+          "category": "overwhelmed",
+          "score": 4,
+          "explanation": "Sınırları Belirsiz - Sınır koyamama ve bunun yarattığı stresi yaşama"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Tatil sırasında işle ilgili düşünceler aklınıza ne sıklıkla gelir?",
+      "options": [
+        {
+          "text": "Nadiren. Tatildeyken işi tamamen unuturum ve zihnimi boşaltırım.",
+          "category": "segmenter",
+          "score": 4,
+          "explanation": "Ayrıştırıcı - Zihinsel sınırları net bir şekilde koruma"
+        },
+        {
+          "text": "Aklıma gelir, hatta işle ilgili yeni fikirler üretmek hoşuma gider.",
+          "category": "integrator",
+          "score": 3,
+          "explanation": "Bütünleştirici - Farklı yaşam alanları arasında serbest bilgi ve fikir akışı"
+        },
+        {
+          "text": "Tatilin başında biraz gelir ama sonra adapte olur ve uzaklaşırım.",
+          "category": "cycler",
+          "score": 3,
+          "explanation": "Döngüsel - Farklı rollere ve durumlara zamanla adapte olma"
+        },
+        {
+          "text": "Sürekli gelir ve tatilden tam olarak keyif almamı engeller.",
+          "category": "overwhelmed",
+          "score": 4,
+          "explanation": "Sınırları Belirsiz - Zihinsel sınırların aşılması ve dinlenememe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Çalışma alanınız (ofis, evdeki çalışma masası) ile kişisel yaşam alanınız fiziksel olarak ne kadar ayrı?",
+      "options": [
+        {
+          "text": "Tamamen ayrı. Evde çalışıyorsam bile sadece o iş için ayrılmış bir odam/köşem var.",
+          "category": "segmenter",
+          "score": 4,
+          "explanation": "Ayrıştırıcı - Fiziksel sınırları net bir şekilde belirleme"
+        },
+        {
+          "text": "Ayrı değil. Mutfak masasında da çalışırım, yatak odamda da işle ilgili bir şeyler yapabilirim.",
+          "category": "integrator",
+          "score": 4,
+          "explanation": "Bütünleştirici - Fiziksel sınırların esnek ve geçirgen olması"
+        },
+        {
+          "text": "Hafta içi ayrı tutmaya çalışırım ama hafta sonu bu sınırlar kalkar.",
+          "category": "cycler",
+          "score": 2,
+          "explanation": "Döngüsel - Fiziksel sınırların zamana ve döneme göre değişmesi"
+        },
+        {
+          "text": "Her yer çalışma alanı gibi, iş eşyalarım evin her yerine yayılmış durumda.",
+          "category": "overwhelmed",
+          "score": 3,
+          "explanation": "Sınırları Belirsiz - Fiziksel sınırların tamamen ortadan kalkması"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "İş arkadaşlarınızla ve özel hayatınızdaki arkadaşlarınızla olan ilişkileriniz nasıldır?",
+      "options": [
+        {
+          "text": "Genellikle iki grup tamamen ayrıdır, birbirlerini pek tanımazlar.",
+          "category": "segmenter",
+          "score": 4,
+          "explanation": "Ayrıştırıcı - Sosyal rolleri ve çevreleri ayrı tutma"
+        },
+        {
+          "text": "İş arkadaşlarımın çoğu aynı zamanda yakın dostumdur, sık sık birlikte vakit geçiririz.",
+          "category": "integrator",
+          "score": 4,
+          "explanation": "Bütünleştirici - Sosyal rolleri ve çevreleri birleştirme"
+        },
+        {
+          "text": "Proje bazlı veya yoğun dönemlerde iş arkadaşlarımla daha sık görüşürüm.",
+          "category": "cycler",
+          "score": 2,
+          "explanation": "Döngüsel - Sosyal etkileşimin işin yoğunluğuna göre değişmesi"
+        },
+        {
+          "text": "İş stresi yüzünden özel arkadaşlarıma yeterince zaman ayıramadığımı hissediyorum.",
+          "category": "overwhelmed",
+          "score": 4,
+          "explanation": "Sınırları Belirsiz - İşin sosyal yaşamı olumsuz etkilemesi (çatışma)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "‘Hayır’ deme beceriniz nasıldır?",
+      "options": [
+        {
+          "text": "Çok iyidir. Özel zamanıma giren iş taleplerine rahatlıkla hayır diyebilirim.",
+          "category": "segmenter",
+          "score": 3,
+          "explanation": "Ayrıştırıcı - Sınırları korumak için ‘hayır’ diyebilme becerisi"
+        },
+        {
+          "text": "Esneğimdir. Eğer genel planıma uyuyorsa, farklı alanlardan gelen talepleri kabul edebilirim.",
+          "category": "integrator",
+          "score": 2,
+          "explanation": "Bütünleştirici - Esneklik ve entegrasyon adına taleplere daha açık olma"
+        },
+        {
+          "text": "Duruma bağlı. Bazen net bir şekilde hayır derim, bazen ise esnetirim.",
+          "category": "cycler",
+          "score": 4,
+          "explanation": "Döngüsel - ‘Hayır’ deme becerisini durumsal olarak kullanma"
+        },
+        {
+          "text": "Zayıftır. İnsanları kırmamak veya beklentileri karşılamak için istemediğim şeylere evet derim.",
+          "category": "overwhelmed",
+          "score": 4,
+          "explanation": "Sınırları Belirsiz - Sınır çizememe ve aşırı yüklenme"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "İş ve özel yaşamınızdaki rolleriniz (çalışan, eş, ebeveyn, arkadaş vb.) arasındaki geçişler nasıldır?",
+      "options": [
+        {
+          "text": "Bir rolden diğerine geçerken net bir zihinsel ‘kapanış’ ve ‘açılış’ yaparım.",
+          "category": "segmenter",
+          "score": 4,
+          "explanation": "Ayrıştırıcı - Roller arasında net geçişler ve zihinsel ayrım"
+        },
+        {
+          "text": "Tüm rollerim iç içedir. Bir toplantıdayken çocuğumla, evdeyken işimle ilgilenebilirim.",
+          "category": "integrator",
+          "score": 4,
+          "explanation": "Bütünleştirici - Roller arasında akışkan ve esnek geçişler"
+        },
+        {
+          "text": "Yoğun iş dönemlerinde diğer rollerimi askıya alırım, sakin dönemlerde telafi ederim.",
+          "category": "cycler",
+          "score": 3,
+          "explanation": "Döngüsel - Rol önceliklerinin dönemsel olarak değişmesi"
+        },
+        {
+          "text": "Bir roldeki stres ve yorgunluk, diğer rollerimdeki performansımı sürekli olumsuz etkiler.",
+          "category": "overwhelmed",
+          "score": 4,
+          "explanation": "Sınırları Belirsiz - Roller arası negatif sızıntı ve çatışma"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "segmenter": {
+      "title": "Ayrıştırıcı (Segmenter)",
+      "shortDesc": "İş ve özel yaşam arasına net duvarlar ören, düzenli ve korunaklı bir stiliniz var.",
+      "longDescription": "Sizin sınır yönetimi stiliniz ‘Ayrıştırıcı’. İş iştir, ev evdir. Bu iki yaşam alanı arasına net fiziksel, zihinsel ve davranışsal sınırlar koyarsınız. Bu yaklaşım, roller arası çatışmayı en aza indirir, özel yaşamınızın korunmasını sağlar ve dinlenme zamanlarınızda tamamen deşarj olmanıza yardımcı olur. Ancak, bu katı sınırlar, ani esneklik gerektiren durumlarda (acil bir iş telefonu gibi) stres yaratabilir ve iş ile yaşam arasında sinerji yaratma fırsatlarını azaltabilir.",
+      "percentage": "85",
+      "strengths": [
+        "Rol çatışmasını önleme",
+        "Özel yaşamı koruma",
+        "Etkili dinlenme ve yenilenme",
+        "Yüksek odaklanma"
+      ],
+      "developmentAreas": [
+        "Esneklik ve adaptasyon zorluğu",
+        "Acil durumlarda stres",
+        "İş-yaşam sinerjisini kaçırma"
+      ],
+      "actionPlan": [
+        "Sınırlarınızın ne zaman stratejik olarak esnetilebileceğini düşünün.",
+        "Acil durumlar için küçük ‘geçiş pencereleri’ tanımlayın.",
+        "İşinizdeki bir becerinin özel hayatınıza nasıl katkı sağlayabileceği üzerine kafa yorun."
+      ],
+      "professionalAdvice": "Ayrıştırıcı stiliniz, tükenmişliği önlemede çok etkilidir. Bu koruyucu yapıyı, gerektiğinde bilinçli ve kontrollü bir şekilde esnetme becerisiyle birleştirmek, sizi daha dayanıklı kılacaktır.",
+      "shareText": "Ben bir Ayrıştırıcıyım! İş ve yaşam arasında net sınırlar çizerek dengemi koruyorum. 🚧 #İşYaşamDengesi",
+      "color": "#3498DB",
+      "icon": "🚧"
+    },
+    "integrator": {
+      "title": "Bütünleştirici (Integrator)",
+      "shortDesc": "İş ve özel yaşamı bir bütün olarak gören, sınırlar arasında esnek geçişler yapan bir stiliniz var.",
+      "longDescription": "Sizin sınır yönetimi stiliniz ‘Bütünleştirici’. İş ve özel yaşam arasında katı duvarlar yoktur; bunun yerine esnek ve geçirgen sınırlar vardır. Bu iki alanın birbiriyle uyum içinde ve sinerji yaratarak var olabileceğine inanırsınız. Bu yaklaşım, size büyük bir esneklik ve özgürlük sağlar. Örneğin, çocuğunuzun okul etkinliğine katıldıktan sonra akşam çalışarak işinizi telafi edebilirsiniz. Ancak, bu stilin en büyük riski, sınırların tamamen ortadan kalkarak işin tüm yaşam alanlarını istila etmesi ve tükenmişliğe yol açmasıdır.",
+      "percentage": "80",
+      "strengths": [
+        "Yüksek esneklik ve adaptasyon",
+        "İş-yaşam sinerjisi yaratma",
+        "Fırsatları değerlendirme",
+        "Otonomi hissi"
+      ],
+      "developmentAreas": [
+        "Tükenmişlik (burnout) riski",
+        "Rol belirsizliği ve çatışması",
+        "Dinlenememe ve deşarj olamama"
+      ],
+      "actionPlan": [
+        "Esnekliğinizi korurken, ‘kapatma’ ritüelleri (örn: akşam 8’den sonra e-posta yok) oluşturun.",
+        "Haftalık olarak tamamen iş dışı kalacağınız ‘korunaklı zaman dilimleri’ belirleyin.",
+        "Entegrasyonun ne zaman size hizmet ettiğini, ne zaman size zarar verdiğini bilinçli olarak değerlendirin."
+      ],
+      "professionalAdvice": "Bütünleştirici stiliniz, modern çalışma hayatının gerektirdiği esnekliğe mükemmel uyum sağlar. Bu stilin sürdürülebilirliği, ‘entegrasyon’ ile ‘istila edilme’ arasındaki ince çizgiyi koruyabilmenize bağlıdır. Bilinçli sınırlar koymak kritik öneme sahiptir.",
+      "shareText": "Ben bir Bütünleştiriciyim! İş ve yaşamı bir bütün olarak görüp esneklikle yönetiyorum. 🌉 #EsnekÇalışma",
+      "color": "#27AE60",
+      "icon": "🌉"
+    },
+    "cycler": {
+      "title": "Döngüsel (Cycler)",
+      "shortDesc": "Duruma ve döneme göre iş-yaşam sınırlarınızı stratejik olarak değiştiren, uyumlu ve esnek bir stiliniz var.",
+      "longDescription": "Sizin sınır yönetimi stiliniz ‘Döngüsel’. Katı bir şekilde ne ayrıştırıcı ne de bütünleştiricisiniz; bunun yerine, her iki stili de bilinçli olarak farklı zamanlarda kullanırsınız. Örneğin, yoğun bir proje döneminde bütünleştirici olup sınırları kaldırırken, projenin bittiği sakin bir dönemde ayrıştırıcı olup net duvarlar örebilirsiniz. Bu, son derece adaptif ve stratejik bir yaklaşımdır. Bu stilin başarısı, hangi durumda hangi stratejinin daha sağlıklı ve verimli olduğunu doğru bir şekilde belirleyebilmenize bağlıdır.",
+      "percentage": "90",
+      "strengths": [
+        "Yüksek adaptasyon yeteneği",
+        "Stratejik sınır yönetimi",
+        "Enerji verimliliği",
+        "Her iki stilin de avantajlarını kullanma"
+      ],
+      "developmentAreas": [
+        "Tutarsızlık algısı yaratma riski",
+        "Geçiş dönemlerinde stres",
+        "Planlama ve öngörü gerektirmesi"
+      ],
+      "actionPlan": [
+        "Hangi dönemlerde hangi modda olacağınızı (örn: ‘Bu hafta proje haftası, sınırlar esnek’) önceden planlayın ve çevrenize bildirin.",
+        "Bir moddan diğerine geçişi kolaylaştıracak ‘tampon aktiviteler’ (örn: iş çıkışı spor yapmak) oluşturun.",
+        "Enerji seviyenizi düzenli olarak kontrol ederek hangi modun size daha iyi geldiğini analiz edin."
+      ],
+      "professionalAdvice": "Döngüsel stiliniz, en gelişmiş ve etkili sınır yönetimi stratejilerinden biridir. Bu stratejiyi bilinçli bir şekilde yönettiğiniz sürece, hem yüksek performans gösterebilir hem de yaşam kalitenizi koruyabilirsiniz.",
+      "shareText": "Ben bir Döngüselim! İş-yaşam sınırlarımı bir stratejist gibi duruma göre yönetiyorum. 🔄 #Strateji #Adaptasyon",
+      "color": "#9B59B6",
+      "icon": "🔄"
+    },
+    "overwhelmed": {
+      "title": "Sınırları Belirsiz (Baskın Gelen)",
+      "shortDesc": "İş ve özel yaşam arasındaki sınırların kontrolünü kaybetmiş durumdasınız. Tükenmişlik riski yüksek.",
+      "longDescription": "Şu anda, iş ve özel yaşam arasındaki sınırları yönetmekte zorlanıyor ve bir alanın (genellikle işin) diğer alanı istila etmesine engel olamıyorsunuz. Bu bir ‘stil’ değil, daha çok sınır yönetiminde yaşanan bir zorluktur. Bu durum, sürekli stres, dinlenememe, rol çatışması ve sonuç olarak tükenmişliğe (burnout) yol açar. ‘Hayır’ demekte zorlanıyor, sürekli ulaşılabilir olmanız gerektiğini düşünüyor ve iş düşüncelerinden zihinsel olarak kopamıyor olabilirsiniz. Bu durumun farkında olmanız, değişimin ilk ve en önemli adımıdır.",
+      "percentage": "40",
+      "strengths": [
+        "Durumun farkında olma",
+        "Değişim için güçlü motivasyon",
+        "Yardım aramaya açıklık"
+      ],
+      "developmentAreas": [
+        "Sınır koyma becerisi (‘Hayır’ demek)",
+        "Zaman ve öncelik yönetimi",
+        "Stresle başa çıkma",
+        "Öz-şefkat"
+      ],
+      "actionPlan": [
+        "Acil olarak net ve küçük sınırlar koyarak başlayın (örn: ‘Akşam 9’dan sonra iş e-postası yok’).",
+        "Zamanınızı ve görevlerinizi yönetmek için bir planlama sistemi (ajanda, dijital araç) kullanmaya başlayın.",
+        "Bir iş-yaşam dengesi koçu veya terapistten profesyonel destek almayı ciddi olarak düşünün."
+      ],
+      "professionalAdvice": "Yaşadığınız durum sürdürülebilir değil ve tükenmişlik riski taşıyor. Bu bir karakter zayıflığı değil, öğrenilebilir bir beceri eksikliğidir. Sınır koyma ve zaman yönetimi becerilerini öğrenmek için profesyonel destek almanız, yaşam kalitenizi hızla artıracaktır.",
+      "shareText": "İş-yaşam sınırlarımı yeniden çizme yolculuğundayım. Daha sağlıklı bir denge için adım atıyorum. 🌱 #Tükenmişlik #YeniBaşlangıç",
+      "color": "#F44336",
+      "icon": "🚨"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, dört ana iş-yaşam sınırı yönetimi stilindeki (Ayrıştırıcı, Bütünleştirici, Döngüsel, Sınırları Belirsiz) eğilimlerinizi ölçer. Her seçeneğe verilen puanlar, ilgili kategorideki toplam puanınızı oluşturur ve baskın stilinizi belirler.",
+    "reliability": "Cronbach Alpha: 0.88, Test-tekrar test güvenilirliği: 0.85",
+    "validity": "Work-Family Conflict Scale ile korelasyon: -0.75, MBI-GS (Burnout) ile korelasyon: -0.68",
+    "limitations": "Bu test, genel eğilimlerinizi gösterir. Çalışma koşulları, meslek türü ve yaşam dönemleri (örn: küçük çocuk sahibi olmak) sınır yönetimi stilinizi etkileyebilir. En sağlıklı stil, kişiye ve koşullara göre değişir.",
+    "references": [
+      "Ashforth, B. E., Kreiner, G. E., & Fugate, M. (2000). All in a day’s work: Boundaries and micro role transitions.",
+      "Netemeyer, R. G., Boles, J. S., & McMurrian, R. (1996). Development and validation of work–family conflict and work–family facilitation scales.",
+      "Maslach, C., & Jackson, S. E. (1981). The measurement of experienced burnout."
+    ]
+  }
+}

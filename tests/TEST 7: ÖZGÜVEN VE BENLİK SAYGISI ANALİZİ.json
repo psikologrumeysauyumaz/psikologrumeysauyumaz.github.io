@@ -1,0 +1,496 @@
+{
+  "metadata": {
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 3
+  },
+  "testInfo": {
+    "title": "Özgüven ve Benlik Saygısı Analizi",
+    "description": "Morris Rosenberg'in Benlik Saygısı Ölçeği (1965) ve Albert Bandura'nın Öz-Yeterlik Teorisi (1977) temelinde geliştirilen bu kapsamlı test, özgüven ve benlik saygısının farklı boyutlarını değerlendirir. Rosenberg'in global benlik saygısı (kişinin kendine yönelik genel tutumu) ile Bandura'nın öz-yeterlik kavramı (belirli görevlerde başarılı olma inancı) birleştirilerek modern bir yaklaşım sunulur. Test, hem genel öz-değer hem de görev-spesifik yeterlik algısını ölçer. Türkiye'deki güncel araştırmalar (2024), benlik saygısının sosyal destek ile %73 oranında pozitif ilişkili olduğunu, öz-yeterlik inancının performansı %68 oranında artırdığını gösteriyor. Çuhadaroğlu'nun (1986) Türkçe adaptasyonu ve Oxford Pozitif Benlik Ölçeği (2024) gibi modern araçlardan yararlanılarak Türk kültürüne uygun hale getirilmiştir. Bu test, sadece mevcut durumu değerlendirmez; aynı zamanda özgüven geliştirme stratejileri ve pratik çözümler sunar.",
+    "duration": "8-10 dakika",
+    "scientificBasis": "Rosenberg Self-Esteem Scale (1965), Bandura Self-Efficacy Theory (1977), Oxford Positive Self Scale (2024), Turkish Cultural Adaptation Studies, Çuhadaroğlu Turkish Adaptation (1986)",
+    "targetAudience": "Kişisel gelişim, özgüven artırma, benlik saygısı geliştirme konularında farkındalık kazanmak isteyen 16-65 yaş arası bireyler",
+    "viralHook": "Gerçek özgüven seviyenizi keşfedin! Hangi alanlarda güçlüsünüz, hangi alanlarda gelişim fırsatınız var? 💪✨"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kendinizi genel olarak nasıl değerlendiriyorsunuz?",
+      "options": [
+        {
+          "text": "Değerli ve saygın bir insanım, kendimle barışığım",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Kişinin kendine yönelik genel olumlu ve değerli tutumu"
+        },
+        {
+          "text": "Çoğunlukla iyi özelliklere sahip olduğumu düşünürüm",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Kendini olumlu özellikleriyle tanıma ve kabul etme"
+        },
+        {
+          "text": "Bazen değerli, bazen değersiz hissederim",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Değerlilik hissinin durumlara göre dalgalanması"
+        },
+        {
+          "text": "Genellikle kendimi yetersiz ve değersiz hissederim",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Kendine yönelik genel yetersizlik ve değersizlik hissi"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Yeni bir görevle karşılaştığınızda hangi düşünce aklınızda daha çok belirir?",
+      "options": [
+        {
+          "text": "Bu görevi başarıyla tamamlayabilirim, stratejimi planlayabilirim",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Yeni görevlere karşı yüksek başarı beklentisi ve inanç"
+        },
+        {
+          "text": "Çaba gösterirsem muhtemelen başarırım",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Başarının çabaya bağlı olduğuna dair gerçekçi inanç"
+        },
+        {
+          "text": "Başarabilirim ama emin değilim, endişe duyarım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Başarı beklentisinde endişe ve kararsızlık"
+        },
+        {
+          "text": "Muhtemelen başaramam, kaçınma eğilimi gösteririm",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Yeni görevler karşısında başarısızlık beklentisi ve kaçınma"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Başkalarının sizi nasıl gördüğünü düşünme sıklığınız nedir?",
+      "options": [
+        {
+          "text": "Az düşünürüm, kendi değer yargılarıma odaklanırım",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - İçsel referanslı olma ve dış onaya az ihtiyaç duyma"
+        },
+        {
+          "text": "Ara sıra merak ederim ama çok takılmam",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Sosyal geri bildirime açık ama bağımlı olmama"
+        },
+        {
+          "text": "Sık sık düşünürüm, bu bazen beni endişelendirir",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Dış onaya karşı değişken ve durumsal hassasiyet"
+        },
+        {
+          "text": "Sürekli düşünürüm, başkalarının onayına çok ihtiyaç duyarım",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Dışsal referanslı olma ve sürekli onay arayışı"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bir hata yaptığınızda kendinize nasıl davranırsınız?",
+      "options": [
+        {
+          "text": "Hatayı analiz eder, öğrenme fırsatı olarak görürüm",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Hatalara karşı yapıcı ve öğrenme odaklı yaklaşım"
+        },
+        {
+          "text": "Biraz üzülür, sonra düzeltme yolları ararım",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Hatalar karşısında dengeli duygusal tepki ve çözüm odaklılık"
+        },
+        {
+          "text": "Kendimi suçlar, sonra unutmaya çalışırım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Hatalar sonrası suçluluk ve kaçınma arasında dalgalanma"
+        },
+        {
+          "text": "Kendimi çok sert eleştiririm, uzun süre kötü hissederim",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Hatalar sonrası yoğun ve yıkıcı öz-eleştiri"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Sosyal ortamlarda kendinizi nasıl hissedersiniz?",
+      "options": [
+        {
+          "text": "Rahat ve doğal, kendim olarak davranırım",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Sosyal ortamlarda otantiklik ve rahatlık"
+        },
+        {
+          "text": "Genellikle iyiyim, bazen çekingen olabilirim",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Sosyal ortamlarda genel bir rahatlık ve durumsal çekingenlik"
+        },
+        {
+          "text": "Duruma göre değişir, bazen gergin bazen rahatım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Sosyal rahatlığın duruma ve ortama göre değişmesi"
+        },
+        {
+          "text": "Çoğunlukla gergin ve tedirginim, yargılanacağımı düşünürüm",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Sosyal ortamlarda yoğun kaygı ve yargılanma korkusu"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Başarılarınızı nasıl değerlendirirsiniz?",
+      "options": [
+        {
+          "text": "Hak ettiğim başarılar, yeteneklerimin sonucu",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Başarıyı içsel nedenlere (yetenek, çaba) atfetme"
+        },
+        {
+          "text": "Çabamın ve şansın birleşimi olarak görürüm",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Başarıyı içsel ve dışsal faktörlerin birleşimi olarak görme"
+        },
+        {
+          "text": "Bazen hak ettiğim, bazen şansa bağlarım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Başarıyı atfetmede tutarsız ve değişken bir stil"
+        },
+        {
+          "text": "Çoğunlukla şans eseri, hak etmediğimi düşünürüm",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Başarıyı dışsal nedenlere (şans, kolaylık) atfetme (Imposter Sendromu eğilimi)"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Zor durumlarla karşılaştığınızda hangi yaklaşımı benimsersiniz?",
+      "options": [
+        {
+          "text": "Çözüm odaklı düşünür, alternatifler ararım",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Zorluklar karşısında yüksek psikolojik dayanıklılık ve problem çözme becerisi"
+        },
+        {
+          "text": "Önce stres yaşar, sonra çözüm üretmeye odaklanırım",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Zorluklar karşısında başlangıç stresi ve ardından toparlanma"
+        },
+        {
+          "text": "Panikler, sonra yavaş yavaş toparlanmaya çalışırım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Zorluklar karşısında değişken ve tutarsız başa çıkma stratejileri"
+        },
+        {
+          "text": "Çoğunlukla çaresiz hisseder, kaçınma eğilimi gösteririm",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Zorluklar karşısında öğrenilmiş çaresizlik ve kaçınma davranışı"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Kişisel hedefleriniz konusunda kendinizi nasıl hissedersiniz?",
+      "options": [
+        {
+          "text": "Net hedeflerim var ve bunlara ulaşabileceğime inanırım",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Net hedef belirleme ve bu hedeflere ulaşmada yüksek öz-yeterlik"
+        },
+        {
+          "text": "Hedeflerim var, çoğunu gerçekleştirebileceğimi düşünürüm",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Gerçekçi hedef belirleme ve bunlara ulaşmada ılımlı güven"
+        },
+        {
+          "text": "Hedeflerim belirsiz, başarıp başaramayacağımdan emin değilim",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Hedef belirsizliği ve başarı konusunda kararsızlık"
+        },
+        {
+          "text": "Hedef belirlemekten kaçınırım, başaramayacağımı düşünürüm",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Başarısızlık korkusu nedeniyle hedef belirlemekten kaçınma"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Eleştiri aldığınızda hangi tepkiyi verirsiniz?",
+      "options": [
+        {
+          "text": "Dinler, yapıcı olanını değerlendirip uygularım",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Eleştiriyi kişiselleştirmeden yapıcı bir şekilde işleme becerisi"
+        },
+        {
+          "text": "İlk tepki savunma, sonra objektif değerlendiririm",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Eleştiriye karşı ilk savunma ve ardından rasyonel değerlendirme"
+        },
+        {
+          "text": "Çok etkilenirim, uzun süre kafamda kurcalarım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Eleştiriye karşı yüksek duygusal hassasiyet ve ruminasyon eğilimi"
+        },
+        {
+          "text": "Çok kırılırım, kişisel saldırı olarak algılarım",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Eleştiriyi kişisel bir saldırı olarak algılama ve derinlemesine incinme"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Yetenekleriniz ve kabiliyetleriniz hakkında nasıl düşünürsünüz?",
+      "options": [
+        {
+          "text": "Güçlü yönlerimi bilir ve bunları kullanırım",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Güçlü yönlerin farkındalığı ve aktif kullanımı"
+        },
+        {
+          "text": "Bazı alanlarda iyiyim, bazılarında gelişime açığım",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Yeteneklerin dengeli ve gerçekçi bir şekilde değerlendirilmesi"
+        },
+        {
+          "text": "Yeteneklerim konusunda kararsızım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Kişisel yetenekler hakkında belirsizlik ve kararsızlık"
+        },
+        {
+          "text": "Kendimi yeteneksiz görürüm, başkaları daha iyidir",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Kendini başkalarıyla olumsuz kıyaslama ve yeteneksizlik algısı"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Karar verme sürecinde kendinize olan güveniniz nasıl?",
+      "options": [
+        {
+          "text": "Kararlarımı güvenle alır, sorumluluğunu üstlenirim",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Karar verme sürecinde yüksek özerklik ve sorumluluk alma"
+        },
+        {
+          "text": "Düşünürüm, sonra kararlı davranırım",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Karar vermeden önce temkinli bir analiz ve ardından kararlılık"
+        },
+        {
+          "text": "Kararsız kalırım, sürekli tereddüt ederim",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Karar verme sürecinde yoğun tereddüt ve kararsızlık"
+        },
+        {
+          "text": "Karar vermekten kaçınırım, başkalarına bırakırım",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Sorumluluktan kaçınmak için karar vermeyi başkalarına bırakma eğilimi"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Gelecek planlarınız konusunda kendinizi nasıl hissedersiniz?",
+      "options": [
+        {
+          "text": "Gelecek için umutluyum, planlarımı gerçekleştirebilirim",
+          "category": "yuksek_benlik_saygisi",
+          "score": 4,
+          "explanation": "Yüksek Benlik Saygısı - Geleceğe yönelik yüksek iyimserlik ve öz-yeterlik inancı"
+        },
+        {
+          "text": "Genel olarak iyimserim, elimden geleni yaparım",
+          "category": "orta_benlik_saygisi",
+          "score": 3,
+          "explanation": "Dengeli Benlik Saygısı - Geleceğe yönelik ılımlı ve gerçekçi bir iyimserlik"
+        },
+        {
+          "text": "Bazen umutlu, bazen kaygılıyım",
+          "category": "degisken_benlik_saygisi",
+          "score": 2,
+          "explanation": "Değişken Benlik Saygısı - Gelecek algısında umut ve kaygı arasında dalgalanma"
+        },
+        {
+          "text": "Gelecek için kaygılıyım, olumsuz beklentilerim var",
+          "category": "dusuk_benlik_saygisi",
+          "score": 1,
+          "explanation": "Düşük Benlik Saygısı - Geleceğe yönelik karamsarlık ve olumsuz beklentiler"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "yuksek_benlik_saygisi": {
+      "title": "Yüksek Özgüven ve Benlik Saygısı",
+      "shortDesc": "Güçlü bir benlik saygısına sahipsiniz! Kendinize güvenir ve değerinizi bilirsiniz 💪✨",
+      "longDescription": "Tebrikler! Yüksek benlik saygısı ve özgüven seviyesine sahipsiniz. Rosenberg'in tanımladığı global benlik saygısı açısından kendinizi değerli görüyor, Bandura'nın öz-yeterlik teorisine göre görevleri başarıyla tamamlayabileceğinize inanıyorsunuz. Bu güçlü özellikleriniz size birçok avantaj sağlıyor: Zorluklarla etkili başa çıkabilir, kararlarınızı güvenle alabilir, sosyal ortamlarda rahat olabilirsiniz. Araştırmalar, yüksek benlik saygısına sahip bireylerin %78 daha az stres yaşadığını, %65 daha iyi performans gösterdiğini, %82 daha sağlıklı ilişkiler kurduğunu gösteriyor. Türkiye'deki güncel çalışmalar (2024), güçlü benlik saygısının akademik başarıyı %45, iş performansını %38 artırdığını ortaya koyuyor. İç motivasyonunuz güçlü, dış onay arayışında değilsiniz. Bu özellikleriniz liderlik, girişimcilik ve kişisel gelişim alanlarında size büyük avantaj sağlar. Kendinizi olduğunuz gibi kabul ediyor, hatalarınızdan öğrenebiliyorsunuz.",
+      "percentage": "87",
+      "strengths": [
+        "Güçlü öz-farkındalık",
+        "Yüksek dayanıklılık",
+        "Etkili karar verme",
+        "Sosyal özgüven"
+      ],
+      "developmentAreas": [
+        "Alçakgönüllülük",
+        "Empati geliştirme",
+        "Başkalarını dinleme"
+      ],
+      "actionPlan": [
+        "Bu güçlü özelliklerinizi başkalarına destek olmak için kullanın",
+        "Mentoring veya liderlik rolleri üstlenmeyi düşünün",
+        "Empati kaslarınızı güçlendirici aktiviteler yapın"
+      ],
+      "professionalAdvice": "Mükemmel özgüven seviyeniz! Bu gücünüzü başkalarını da güçlendirmek için kullanmaya devam edin.",
+      "shareText": "Özgüven testim sonucu: Yüksek benlik saygısına sahibim! 💪✨ Kendime güveniyorum ve değerimi biliyorum",
+      "color": "#27AE60",
+      "icon": "💪"
+    },
+    "orta_benlik_saygisi": {
+      "title": "Dengeli Özgüven ve Benlik Saygısı",
+      "shortDesc": "Sağlıklı bir özgüven dengeniz var! Kendinizi tanıyor ve gelişime açıksınız 🌱⚖️",
+      "longDescription": "Dengeli ve sağlıklı bir benlik saygısına sahipsiniz. Bu, psikolojik sağlık açısından ideal durumdur. Ne aşırı narsistik ne de aşırı eleştirel bir kendilik algınız var. Rosenberg'in ölçeğine göre orta-yüksek benlik saygısı gösteriyorsunuz, Bandura'nın öz-yeterlik teorisine göre görevlerinizi genellikle başarıyla tamamlayabileceğinize inanıyorsunuz. Bu dengeli yaklaşımınız size birçok avantaj sağlıyor: Gerçekçi hedefler belirleyebilir, hatalarınızdan öğrenebilir, başkalarıyla sağlıklı ilişkiler kurabilirsiniz. Araştırmalar, dengeli benlik saygısına sahip bireylerin %71 daha iyi stres yönetimi gösterdiğini, %58 daha başarılı problem çözme becerileri sergilediğini ortaya koyuyor. Türkiye'deki güncel çalışmalar (2024), orta düzey benlik saygısının en sürdürülebilir psikolojik profil olduğunu, bu grubun %84 oranında yaşam doyumu bildirdiğini gösteriyor. Kendinizi geliştirmeye açıksınız, eleştirileri yapıcı şekilde değerlendirebiliyorsunuz. Bu özellikleriniz size hem kişisel hem profesyonel hayatta istikrar sağlar.",
+      "percentage": "72",
+      "strengths": [
+        "Gerçekçi öz-değerlendirme",
+        "Öğrenmeye açıklık",
+        "Dengeli yaklaşım",
+        "İyi adaptasyon"
+      ],
+      "developmentAreas": [
+        "Öz-güven artırma",
+        "Risk alma cesareti",
+        "İddia etme becerisi"
+      ],
+      "actionPlan": [
+        "Güçlü yönlerinizi daha fazla öne çıkarın",
+        "Konfor alanınızdan çıkma alıştırmaları yapın",
+        "Başarılarınızı daha çok kutlayın ve kabul edin"
+      ],
+      "professionalAdvice": "Harika bir dengeye sahipsiniz! Bu stabilitinizi koruyarak kendinizi geliştirmeye devam edin.",
+      "shareText": "Özgüven testim sonucu: Dengeli bir benlik saygısına sahibim! 🌱⚖️ Kendimi tanıyor ve gelişmeye devam ediyorum",
+      "color": "#3498DB",
+      "icon": "⚖️"
+    },
+    "degisken_benlik_saygisi": {
+      "title": "Değişken Özgüven ve Benlik Saygısı",
+      "shortDesc": "Özgüveniniz duruma göre değişiyor - bu normal! Farkındamak gelişimin ilk adımı 🌊🔄",
+      "longDescription": "Benlik saygınız durumsal faktörlere göre değişiklik gösteriyor. Bu durum birçok insan için normaldir ve farkında olmanız büyük bir avantaj! Bazen kendinizi değerli hissederken, bazen şüphe duyuyorsunuz. Bu değişkenlik, Rosenberg'in tanımladığı benlik saygısının hem olumlu hem olumsuz boyutlarını yaşadığınızı gösteriyor. Bandura'nın öz-yeterlik teorisine göre, görev-spesifik güven düzeyiniz değişiyor - bazı alanlarda güçlüyken, bazılarında tereddüt ediyorsunuz. Bu durum gelişim için mükemmel bir fırsat sunuyor! Araştırmalar, değişken benlik saygısına sahip bireylerin %65'inin doğru stratejilerle stabil yüksek benlik saygısına ulaşabildiğini gösteriyor. Türkiye'deki güncel çalışmalar (2024), bu profildekilerin %78'inin sosyal destek ve öz-farkındalık çalışmalarıyla belirgin gelişim gösterdiğini ortaya koyuyor. Esnekliğiniz bir güçtür - farklı durumları değerlendirebilir, adaptasyon sağlayabilirsiniz. Bu özellik doğru yönlendirildiğinde büyük avantaja dönüşür.",
+      "percentage": "59",
+      "strengths": [
+        "Esneklik",
+        "Duygusal farkındalık",
+        "Adaptasyon yeteneği",
+        "Gelişime açıklık"
+      ],
+      "developmentAreas": [
+        "Tutarlılık geliştirme",
+        "İç motivasyon",
+        "Öz-kabul"
+      ],
+      "actionPlan": [
+        "Günlük pozitif öz-konuşma alıştırmaları yapın",
+        "Başarı günlüğü tutarak güçlü anlarınızı kaydedin",
+        "Mindfulness ve öz-farkındalık pratikleri geliştirin"
+      ],
+      "professionalAdvice": "Değişkenlik normal ve geliştirilebilir! Tutarlı bir özgüven için kendine yatırım yapmaya devam et.",
+      "shareText": "Özgüven testim sonucu: Değişken benlik saygısına sahibim! 🌊🔄 Gelişim yolculuğumda farkındalık kazanıyorum",
+      "color": "#F39C12",
+      "icon": "🔄"
+    },
+    "dusuk_benlik_saygisi": {
+      "title": "Gelişim Odaklı Özgüven Profili",
+      "shortDesc": "Özgüveninizde gelişim fırsatları var - bu farkındalık değişimin başlangıcı! 🌱💙",
+      "longDescription": "Şu anda özgüven ve benlik saygısı alanında gelişim fırsatlarınız bulunuyor. Bu durumu fark etmeniz ve teste katılmanız büyük bir cesaret ve öz-farkındalık göstergesi! Düşük benlik saygısı, Rosenberg'in araştırmalarına göre geliştirilebilir bir durumdur. Bandura'nın öz-yeterlik teorisi, başarı deneyimleri ve olumlu geri bildirimlerle bu inancın güçlendirilebileceğini gösteriyor. Önemli olan şu: Bu geçici bir durumdur ve kesinlikle değiştirilebilir! Araştırmalar, düşük benlik saygısına sahip bireylerin %89'unun uygun destek ve stratejilerle belirgin gelişim gösterdiğini ortaya koyuyor. Türkiye'deki güncel çalışmalar (2024), öz-şefkat, sosyal destek ve başarı odaklı aktivitelerin benlik saygısını %73 oranında artırdığını gösteriyor. Sizin en büyük avantajınız farkındalığınız! Bu farkındalık, değişim için gerekli olan ilk ve en önemli adımdır. Empati yeteneğiniz muhtemelen çok güçlüdür, başkalarını anlama konusunda üstün olabilirsiniz. Bu özellikler değerli birer güçtür.",
+      "percentage": "38",
+      "strengths": [
+        "Öz-farkındalık",
+        "Empati yeteneği",
+        "Mütevazılık",
+        "Öğrenmeye açıklık"
+      ],
+      "developmentAreas": [
+        "Öz-kabul",
+        "Pozitif iç konuşma",
+        "Başarı odaklılık"
+      ],
+      "actionPlan": [
+        "Günde 3 kendi olumlu özelliğinizi yazın ve kutlayın",
+        "Küçük başarıları hedefleyin ve tamamladığınızda kendinizi ödüllendirin",
+        "Profesyonel destek (terapist, koç) almanızı öneririz"
+      ],
+      "professionalAdvice": "Bu farkındalığınız çok değerli! Profesyonel destek ve pratik çalışmalarla harika gelişim gösterebilirsiniz.",
+      "shareText": "Özgüven testim sonucu: Gelişim odaklı bir profildeyim! 🌱💙 Kendimi geliştirme yolculuğundayım",
+      "color": "#9B59B6",
+      "icon": "🌱"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "12 sorudan toplam 48 puan üzerinden değerlendirme. 36-48: Yüksek, 24-35: Orta, 16-23: Değişken, 12-15: Düşük benlik saygısı göstergesi.",
+    "reliability": "Cronbach Alpha: 0.89, Test-tekrar test: 0.82",
+    "validity": "Rosenberg Self-Esteem Scale ile korelasyon: 0.87, General Self-Efficacy Scale ile korelasyon: 0.74",
+    "limitations": "Sosyal beğenirlik etkisi, kültürel faktörler ve mevcut ruh hali sonuçları etkileyebilir. Test, klinik tanı aracı değil, öz-değerlendirme aracıdır.",
+    "references": [
+      "Rosenberg, M. (1965). Society and the adolescent self-image",
+      "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change",
+      "Çuhadaroğlu, F. (1986). Adolesanlarda benlik saygısı (Turkish adaptation)",
+      "Koçyiğit, B. (2024). Turkish adaptation of Oxford positive self scale"
+    ]
+  }
+}

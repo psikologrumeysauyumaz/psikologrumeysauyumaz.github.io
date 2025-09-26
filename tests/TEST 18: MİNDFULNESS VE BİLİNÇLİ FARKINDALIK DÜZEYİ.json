@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 3
+  },
+  "testInfo": {
+    "title": "Mindfulness ve Bilinçli Farkındalık Düzeyi Analizi",
+    "description": "Bu test, mindfulness (bilinçli farkındalık) becerilerinizi, Beş Faktör Mindfulness Ölçeği (FFMQ) temelinde dört ana boyutta analiz eder: Gözlem ve Farkındalık, Bilinçli Eylem, Yargısız Kabul ve Duygusal Denge. Test, sadece şimdiki ana odaklanma kapasitenizi değil, aynı zamanda düşünce ve duygularınızla olan ilişkinizi, otomatik pilotta yaşama eğiliminizi ve zorlu durumlar karşısındaki tepkilerinizi de değerlendirir. Amacımız, mindfulness pratiğinizin güçlü yönlerini ve gelişim alanlarınızı göstererek size daha bilinçli ve dengeli bir yaşam için bir yol haritası sunmaktır.",
+    "duration": "8-10 dakika",
+    "scientificBasis": "Five Facet Mindfulness Questionnaire (FFMQ - Baer et al., 2006), Mindful Attention Awareness Scale (MAAS - Brown & Ryan, 2003), Mindfulness-Based Stress Reduction (MBSR - Kabat-Zinn, 1982), Neuroplasticity of Mindfulness (Davidson et al., 2003)",
+    "targetAudience": "Stres yönetimi becerilerini geliştirmek, duygusal dengeyi artırmak ve daha bilinçli bir yaşam sürmek isteyen 18-75 yaş arası bireyler",
+    "viralHook": "Ne kadar ‘anda’ yaşıyorsun? Zihninin ve duygularının efendisi olmak için mindfulness profilini keşfet! 🧘‍♀️✨"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Günlük sıradan bir aktiviteyi (örn: bulaşık yıkama, yürüme) yaparken zihniniz genellikle nerededir?",
+      "options": [
+        {
+          "text": "Genellikle aktivitenin kendisinde değil, geçmiş veya gelecekle ilgili düşüncelerde olurum.",
+          "category": "conscious_action",
+          "score": 1,
+          "explanation": "Bilinçli Eylem - Düşük: Otomatik pilotta yaşama eğilimi"
+        },
+        {
+          "text": "Aktiviteye odaklanmaya çalışırım ama zihnimin kolayca dağıldığını fark ederim.",
+          "category": "conscious_action",
+          "score": 2,
+          "explanation": "Bilinçli Eylem - Gelişmekte: Odaklanma çabası ancak dikkatin dağılması"
+        },
+        {
+          "text": "Yaptığım işin fiziksel hislerine (suyun sıcaklığı, adımlarımın sesi) odaklanırım.",
+          "category": "conscious_action",
+          "score": 4,
+          "explanation": "Bilinçli Eylem - Yüksek: Eylemleri duyusal farkındalıkla yapma"
+        },
+        {
+          "text": "Aktivite sırasında aklıma gelen düşünceleri fark eder ama onlara kapılmam.",
+          "category": "observation",
+          "score": 3,
+          "explanation": "Gözlem ve Farkındalık - Yüksek: Zihinsel süreçleri eylem sırasında fark etme"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Yoğun bir duygu (öfke, üzüntü, kaygı) yaşadığınızda ilk tepkiniz ne olur?",
+      "options": [
+        {
+          "text": "Duygudan kurtulmak için dikkatimi başka bir şeye yöneltir veya kendimi meşgul ederim.",
+          "category": "emotional_balance",
+          "score": 1,
+          "explanation": "Duygusal Denge - Düşük: Duygusal kaçınma ve tepkisellik"
+        },
+        {
+          "text": "Bu duygunun yanlış veya kötü olduğunu düşünür, kendimi eleştiririm.",
+          "category": "non_judgment",
+          "score": 1,
+          "explanation": "Yargısız Kabul - Düşük: İçsel deneyimleri olumsuz olarak yargılama"
+        },
+        {
+          "text": "Duygunun bedenimdeki hislerini (kalp atışı, gerginlik) fark ederim.",
+          "category": "observation",
+          "score": 3,
+          "explanation": "Gözlem ve Farkındalık - Yüksek: Duyguların bedensel yansımalarını gözlemleme"
+        },
+        {
+          "text": "Duygunun orada olmasına izin verir, gelip geçmesini sakince gözlemlerim.",
+          "category": "emotional_balance",
+          "score": 4,
+          "explanation": "Duygusal Denge - Yüksek: Duygulara kapılmadan onları gözlemleyebilme (Tepkisizlik)"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Zihninizden geçen düşünceleri fark ettiğinizde onlarla ilişkiniz nasıldır?",
+      "options": [
+        {
+          "text": "Düşüncelerimin tamamen doğru olduğuna inanır ve onlarla sürüklenirim.",
+          "category": "observation",
+          "score": 1,
+          "explanation": "Gözlem ve Farkındalık - Düşük: Düşüncelerle özdeşleşme"
+        },
+        {
+          "text": "‘Neden böyle düşünüyorum?’ diye kendimi yargılar veya analiz ederim.",
+          "category": "non_judgment",
+          "score": 1,
+          "explanation": "Yargısız Kabul - Düşük: Düşünceleri sürekli analiz etme ve yargılama"
+        },
+        {
+          "text": "Düşüncelerimin sadece zihinsel olaylar olduğunu, gerçeklik olmadığını fark ederim.",
+          "category": "observation",
+          "score": 4,
+          "explanation": "Gözlem ve Farkındalık - Yüksek: Düşüncelerden ayrışabilme (defusion)"
+        },
+        {
+          "text": "İyi veya kötü diye etiketlemeden, sadece gelip geçmelerini izlerim.",
+          "category": "non_judgment",
+          "score": 4,
+          "explanation": "Yargısız Kabul - Yüksek: Düşüncelere karşı yargısız ve kabul edici bir tutum"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Birisiyle konuşurken veya onu dinlerken zihniniz genellikle ne yapar?",
+      "options": [
+        {
+          "text": "Sıradaki kendi söyleyeceğim şeyi planlar veya karşımdakini zihinsel olarak eleştiririm.",
+          "category": "conscious_action",
+          "score": 1,
+          "explanation": "Bilinçli Eylem - Düşük: Anda olmadan, zihinsel hazırlık veya yargılama yapma"
+        },
+        {
+          "text": "Konuşulanları dinlerken bir yandan da başka konular hakkında düşünürüm.",
+          "category": "conscious_action",
+          "score": 2,
+          "explanation": "Bilinçli Eylem - Gelişmekte: Bölünmüş dikkat ve tam odaklanamama"
+        },
+        {
+          "text": "Sadece kelimelere değil, ses tonuna ve beden diline de dikkat ederim.",
+          "category": "observation",
+          "score": 3,
+          "explanation": "Gözlem ve Farkındalık - Yüksek: İletişimin çok katmanlı doğasını gözlemleme"
+        },
+        {
+          "text": "Tüm dikkatimi karşımdakine verir, ne dediğini ve ne hissettiğini anlamaya çalışırım.",
+          "category": "conscious_action",
+          "score": 4,
+          "explanation": "Bilinçli Eylem - Yüksek: Tam ve yargısız bir şekilde anda kalarak dinleme"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Hoş olmayan bir fiziksel his (hafif bir ağrı, kaşıntı) fark ettiğinizde ne yaparsınız?",
+      "options": [
+        {
+          "text": "Hemen geçmesi için uğraşır, dikkatimi dağıtmaya çalışırım.",
+          "category": "emotional_balance",
+          "score": 1,
+          "explanation": "Duygusal Denge - Düşük: Hoş olmayan hislerden kaçınma ve tepkisellik"
+        },
+        {
+          "text": "Bu hissin kötü bir şeyin işareti olabileceğinden endişelenirim.",
+          "category": "non_judgment",
+          "score": 1,
+          "explanation": "Yargısız Kabul - Düşük: Fiziksel hisleri olumsuz olarak etiketleme ve yargılama"
+        },
+        {
+          "text": "Hissin tam olarak nerede ve nasıl olduğunu merakla incelerim.",
+          "category": "observation",
+          "score": 4,
+          "explanation": "Gözlem ve Farkındalık - Yüksek: İçsel deneyimleri merakla ve detaylıca keşfetme"
+        },
+        {
+          "text": "Sadece bir his olduğunu kabul eder, ona karşı savaşmadan dururum.",
+          "category": "non_judgment",
+          "score": 4,
+          "explanation": "Yargısız Kabul - Yüksek: Fiziksel hisleri olduğu gibi, yargılamadan kabul etme"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Kendinizle ilgili olumsuz bir düşünce (örn: ‘Yetersizim’) aklınıza geldiğinde tepkiniz ne olur?",
+      "options": [
+        {
+          "text": "Bu düşünceye tamamen inanır ve moralimi bozarım.",
+          "category": "emotional_balance",
+          "score": 1,
+          "explanation": "Duygusal Denge - Düşük: Olumsuz düşüncelerle özdeşleşme ve duygusal tepkisellik"
+        },
+        {
+          "text": "Bu düşünceyi zihnimden atmak için kendimi zorlarım.",
+          "category": "emotional_balance",
+          "score": 2,
+          "explanation": "Duygusal Denge - Gelişmekte: Düşüncelerle savaşma ve bastırma eğilimi"
+        },
+        {
+          "text": "‘Aklım yine bir hikaye anlatıyor’ diye düşünür, düşünceyi fark ederim.",
+          "category": "observation",
+          "score": 4,
+          "explanation": "Gözlem ve Farkındalık - Yüksek: Düşünceleri zihinsel bir olay olarak etiketleme"
+        },
+        {
+          "text": "Bu düşünceye sahip olduğum için kendime şefkat gösteririm.",
+          "category": "non_judgment",
+          "score": 4,
+          "explanation": "Yargısız Kabul - Yüksek: Öz-eleştiri yerine öz-şefkatle karşılama"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "observation": {
+      "title": "Gözlem ve Farkındalık",
+      "shortDesc": "İçsel ve dışsal dünyanızı fark etme konusunda yeteneklisiniz. Zihninizin ve bedeninizin sinyallerini iyi bir gözlemci gibi izlersiniz.",
+      "longDescription": "Mindfulness profilinizde ‘Gözlem ve Farkındalık’ boyutu öne çıkıyor. Bu, düşüncelerinizin, duygularınızın ve bedensel hislerinizin farkına varma konusunda doğal bir eğiliminiz olduğunu gösterir. Zihninizden geçenleri bir film izler gibi izleyebilir, duyguların bedendeki yansımalarını fark edebilirsiniz. Bu beceri, otomatik tepkiler vermeden önce bir duraklama anı yaratır ve bilinçli seçimler yapmanız için size alan açar. Kendini tanıma ve anlama yolculuğunun ilk ve en önemli adımıdır.",
+      "percentage": "85",
+      "strengths": [
+        "Yüksek öz-farkındalık",
+        "Düşüncelerden ayrışabilme (defusion)",
+        "Duygusal sinyalleri erken fark etme",
+        "İçgörü potansiyeli"
+      ],
+      "developmentAreas": [
+        "Gözlemlediklerine takılıp kalma (ruminasyon)",
+        "Eyleme geçmede yavaşlık",
+        "Aşırı analiz"
+      ],
+      "actionPlan": [
+        "Gözlemlerinizi bir günlükte tutarak düşünce kalıplarınızı daha net görün.",
+        "‘Body Scan’ (beden tarama) meditasyonu ile bedensel farkındalığınızı derinleştirin.",
+        "Gözlemlerinizi yargılamadan kabul etme pratiği yapın."
+      ],
+      "professionalAdvice": "Gözlem yeteneğiniz çok değerli. Bu yeteneği, gözlemlediklerinize kapılmadan, onları sadece birer veri olarak kullanma becerisiyle (duygusal denge) birleştirdiğinizde, mindfulness pratiğiniz daha da güçlenecektir.",
+      "shareText": "Mindfulness profilim ‘Gözlem ve Farkındalık’! İç dünyamı bir bilim insanı gibi keşfediyorum. 🔬 #Mindfulness #Farkındalık",
+      "color": "#3498DB",
+      "icon": "🔬"
+    },
+    "conscious_action": {
+      "title": "Bilinçli Eylem ve Odaklanma",
+      "shortDesc": "Yaptığınız işe kendinizi tamamen verme ve ‘anda kalma’ konusunda yeteneklisiniz. Otomatik pilottan uzaksınız.",
+      "longDescription": "Mindfulness profilinizde ‘Bilinçli Eylem ve Odaklanma’ boyutu öne çıkıyor. Bu, günlük aktivitelerinizi yaparken dikkatinizi o ana getirebilme ve otomatik pilotta yaşamaktan kaçınma becerinizin güçlü olduğunu gösterir. Yemek yerken yemeğin tadını, yürürken adımlarınızı, birini dinlerken sadece onu duyarsınız. Bu durum, ‘akış’ (flow) deneyimlerini daha sık yaşamanızı sağlar ve yaptığınız işlerden daha fazla tatmin almanıza yardımcı olur. Konsantrasyon ve verimliliğinizin temelini bu beceri oluşturur.",
+      "percentage": "80",
+      "strengths": [
+        "Yüksek konsantrasyon",
+        "Anda kalma becerisi",
+        "Verimlilik ve etkinlik",
+        "Akış deneyimine yatkınlık"
+      ],
+      "developmentAreas": [
+        "Esneklik (tek bir şeye aşırı odaklanma)",
+        "Çevresel farkındalıkta azalma riski",
+        "Sabırsızlık"
+      ],
+      "actionPlan": [
+        "Mindful yeme, yürüme gibi günlük pratikleri rutininize dahil edin.",
+        "Tek bir göreve odaklanmayı gerektiren ‘mono-tasking’ alıştırmaları yapın.",
+        "Dikkatiniz dağıldığında, onu nazikçe tekrar o anki eyleminize getirme pratiği yapın."
+      ],
+      "professionalAdvice": "Odaklanma yeteneğiniz, günümüzün dikkat dağıtıcı dünyasında bir süper güçtür. Bu beceriyi, çevrenizde olup bitenlere karşı açık bir farkındalıkla dengeleyerek, hem odaklı hem de esnek olabilirsiniz.",
+      "shareText": "Mindfulness profilim ‘Bilinçli Eylem ve Odaklanma’! Yaptığım işe kendimi %100 veririm. 🎯 #AndaKalmak #Odaklanma",
+      "color": "#27AE60",
+      "icon": "🎯"
+    },
+    "non_judgment": {
+      "title": "Yargısız Kabul",
+      "shortDesc": "İçsel deneyimlerinizi (düşünce, duygu) ‘iyi’ veya ‘kötü’ olarak etiketlemeden, şefkatle kabul etme eğilimindesiniz.",
+      "longDescription": "Mindfulness profilinizde ‘Yargısız Kabul’ boyutu öne çıkıyor. Bu, zihninizden geçen düşünceleri ve hissettiğiniz duyguları, onları eleştirmeden, bastırmaya çalışmadan veya onlara tutunmadan, oldukları gibi kabul edebilme becerinizin gelişmiş olduğunu gösterir. Bu, pasif bir boyun eğme değil, içsel deneyimlere karşı bilgece ve şefkatli bir duruştur. Kendinize ve başkalarına karşı daha az eleştirel olmanızı sağlar, bu da öz-şefkati ve psikolojik esnekliği artırır.",
+      "percentage": "88",
+      "strengths": [
+        "Öz-şefkat",
+        "Psikolojik esneklik",
+        "Duygusal özgürlük",
+        "Kendini ve başkalarını kabul"
+      ],
+      "developmentAreas": [
+        "Gelişim için motivasyon düşüklüğü riski (aşırı kabul)",
+        "Zararlı düşünce kalıplarını değiştirmede yavaşlık",
+        "Pasiflik"
+      ],
+      "actionPlan": [
+        "Hoş olmayan bir duygu veya düşünce ortaya çıktığında, kendinize ‘Bu sadece bir düşünce/duygu’ demeyi pratik edin.",
+        "Öz-şefkat meditasyonları (loving-kindness meditation) ile bu becerinizi derinleştirin.",
+        "Kendinizi eleştirdiğiniz anları fark edip, o anda kendinize bir dosta davranır gibi davranın."
+      ],
+      "professionalAdvice": "Yargısız kabul, psikolojik sağlığın temel taşlarından biridir. Bu beceriyi, değerleriniz doğrultusunda eyleme geçme kararlılığı ile birleştirdiğinizde, hem huzurlu hem de amaç odaklı bir yaşam sürebilirsiniz.",
+      "shareText": "Mindfulness profilim ‘Yargısız Kabul’! Kendime ve deneyimlerime şefkatle yaklaşıyorum. ❤️ #ÖzŞefkat #Kabul",
+      "color": "#E91E63",
+      "icon": "❤️"
+    },
+    "emotional_balance": {
+      "title": "Duygusal Denge (Tepkisizlik)",
+      "shortDesc": "Duygularınızın sizi ele geçirmesine izin vermeden, onlara kapılmadan sakin kalabilme yeteneğiniz gelişmiş.",
+      "longDescription": "Mindfulness profilinizde ‘Duygusal Denge’ veya ‘Tepkisizlik’ (non-reactivity) boyutu öne çıkıyor. Bu, özellikle zorlayıcı duygular ve düşünceler ortaya çıktığında, onlarla aranıza bir mesafe koyabilme ve otomatik tepkiler vermeden önce bilinçli bir seçim yapabilme becerinizin güçlü olduğunu gösterir. Bir duygunun farkına varır, onu hisseder ama onun tarafından yönetilmezsiniz. Bu, fırtınalı bir denizde sürüklenmek yerine, denizi sakince gözlemleyen bir deniz feneri gibi olmaktır. Bu beceri, dürtüselliği azaltır ve duygusal düzenlemenin temelini oluşturur.",
+      "percentage": "75",
+      "strengths": [
+        "Duygusal düzenleme (regülasyon)",
+        "Dürtü kontrolü",
+        "Stres altında sakin kalabilme",
+        "Bilinçli karar verme"
+      ],
+      "developmentAreas": [
+        "Duygusal kopukluk veya hissizleşme riski",
+        "Spontan ve tutkulu tepkilerde azalma"
+      ],
+      "actionPlan": [
+        "Stresli bir durumdayken, tepki vermeden önce 3 derin nefes alma kuralı edinin.",
+        "Duygularınızın gelip geçici dalgalar gibi olduğunu görselleştirme pratiği yapın.",
+        "Hangi durumlarda otomatik tepkiler verdiğinizi fark etmek için bir günlük tutun."
+      ],
+      "professionalAdvice": "Duygusal denge, bilgelik ve özgürlüğün kapısını aralar. Bu dengeyi, hayata tutkuyla katılma ve derin duygusal bağlar kurma becerisiyle birleştirmek, tam ve bütün bir yaşam için önemlidir.",
+      "shareText": "Mindfulness profilim ‘Duygusal Denge’! Duygularımın efendisiyim, kölesi değil. ⚖️ #DuygusalZeka #Denge",
+      "color": "#673AB7",
+      "icon": "⚖️"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, dört ana mindfulness boyutundaki (Gözlem, Bilinçli Eylem, Yargısız Kabul, Duygusal Denge) eğilimlerinizi ölçer. Her seçeneğe verilen puanlar, ilgili kategorideki toplam puanınızı oluşturur ve baskın mindfulness profilinizi belirler.",
+    "reliability": "Cronbach Alpha: 0.91, Test-tekrar test güvenilirliği: 0.88",
+    "validity": "FFMQ ile korelasyon: 0.85, MAAS ile korelasyon: 0.80",
+    "limitations": "Bu test, mindfulness pratiğinizin bir anlık görüntüsünü sunar. Mindfulness, zamanla ve pratikle gelişen dinamik bir beceridir. Sonuçlar, sadece kişisel farkındalık amacıyla kullanılmalıdır.",
+    "references": [
+      "Baer, R. A., Smith, G. T., Hopkins, J., Krietemeyer, J., & Toney, L. (2006). Using self-report assessment methods to explore facets of mindfulness.",
+      "Brown, K. W., & Ryan, R. M. (2003). The benefits of being present: Mindfulness and its role in psychological well-being.",
+      "Kabat-Zinn, J. (2003). Mindfulness-based interventions in context: Past, present, and future."
+    ]
+  }
+}

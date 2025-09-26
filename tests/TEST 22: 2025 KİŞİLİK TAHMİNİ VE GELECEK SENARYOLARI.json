@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 7
+  },
+  "testInfo": {
+    "title": "2025 Gelecek Benlik ve Gelişim Senaryoları",
+    "description": "Bu yenilikçi değerlendirme, Pozitif Psikoloji ve Gelecek Benlik (Future Self) araştırmalarına dayanarak, 2025 yılındaki potansiyel gelişim yörüngelerinizi ve kişilik senaryolarınızı analiz eder. Martin Seligman'ın PERMA modelini temel alan test, önümüzdeki dönemde yaşamınızda hangi alanların ön plana çıkacağını tahmin eder: Başarı ve Ustalık mı, Anlam ve Amaç mı, İlişkiler ve Bağlantı mı, yoksa İyi Oluş ve Neşe mi? Amacımız, gelecekteki potansiyel benliğinizi bugünden keşfederek, hedeflerinize daha bilinçli bir şekilde ulaşmanıza yardımcı olmaktır.",
+    "duration": "10-12 dakika",
+    "scientificBasis": "PERMA Model (Seligman, 2011), Growth Mindset Theory (Dweck, 2006), Future Self-Continuity Research (Hershfield et al., 2011), Personality Change Research (Roberts et al., 2017)",
+    "targetAudience": "Gelecek planlaması yapan, kişisel gelişim odaklı, yaşamında yeni bir yön arayan ve potansiyelini keşfetmek isteyen 20-45 yaş arası bireyler",
+    "viralHook": "2025'te nasıl biri olacaksın? Gelecekteki seni bugünden keşfet ve potansiyeline doğru yolculuğa başla! 🚀🔮"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Önümüzdeki bir yıl içinde enerjinizi en çok neye harcamak sizi daha çok heyecanlandırıyor?",
+      "options": [
+        {
+          "text": "Kariyerimde önemli bir atılım yapmak, yeni bir beceride ustalaşmak veya bir hedefi başarmak.",
+          "category": "achievement_mastery",
+          "score": 4,
+          "explanation": "Başarı ve Ustalık - Gelişimi somut başarılar ve yetkinlik artışı üzerinden tanımlama."
+        },
+        {
+          "text": "Hayatımın anlamını sorgulamak, daha büyük bir amaca hizmet etmek veya manevi olarak derinleşmek.",
+          "category": "meaning_purpose",
+          "score": 4,
+          "explanation": "Anlam ve Amaç - Gelişimi varoluşsal ve anlamsal bir arayış olarak görme."
+        },
+        {
+          "text": "Ailemle ve arkadaşlarımla daha derin, daha samimi bağlar kurmak; sosyal çevremi zenginleştirmek.",
+          "category": "relationships_connection",
+          "score": 4,
+          "explanation": "İlişkiler ve Bağlantı - Gelişimi sosyal bağların kalitesini artırma olarak tanımlama."
+        },
+        {
+          "text": "Daha pozitif, neşeli ve anın tadını çıkaran bir insan olmak; genel yaşam doyumumu artırmak.",
+          "category": "wellbeing_joy",
+          "score": 4,
+          "explanation": "İyi Oluş ve Neşe - Gelişimi pozitif duyguları ve genel refahı artırma olarak görme."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Gelecekteki ‘ideal ben’inizi düşündüğünüzde, aklınızdaki en canlı resim hangisi?",
+      "options": [
+        {
+          "text": "Alanında tanınan, başarılı ve yetkin bir profesyonel.",
+          "category": "achievement_mastery",
+          "score": 4,
+          "explanation": "Başarı ve Ustalık - İdeal benliği mesleki başarı ve ustalıkla ilişkilendirme."
+        },
+        {
+          "text": "Yaptığı işlerle dünyaya anlamlı bir iz bırakan, bilge bir insan.",
+          "category": "meaning_purpose",
+          "score": 4,
+          "explanation": "Anlam ve Amaç - İdeal benliği bir miras ve anlam yaratma ile ilişkilendirme."
+        },
+        {
+          "text": "Sevdikleriyle çevrili, sevgi dolu ve güvenilir bir dost/eş/ebeveyn.",
+          "category": "relationships_connection",
+          "score": 4,
+          "explanation": "İlişkiler ve Bağlantı - İdeal benliği güçlü ve sevgi dolu ilişkilerle tanımlama."
+        },
+        {
+          "text": "Hayattan keyif alan, maceracı, pozitif ve enerjik bir birey.",
+          "category": "wellbeing_joy",
+          "score": 4,
+          "explanation": "İyi Oluş ve Neşe - İdeal benliği pozitif duygular ve yüksek yaşam enerjisiyle tanımlama."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Yeni bir hobi veya aktiviteye başlarken temel motivasyonunuz ne olurdu?",
+      "options": [
+        {
+          "text": "O konuda en iyilerden biri olmak, bir yetenek kazanmak.",
+          "category": "achievement_mastery",
+          "score": 3,
+          "explanation": "Başarı ve Ustalık - Yeni aktiviteleri birer yetkinlik kazanma alanı olarak görme."
+        },
+        {
+          "text": "Bu aktivitenin kişisel veya ruhsal gelişimime bir katkı sağlaması.",
+          "category": "meaning_purpose",
+          "score": 3,
+          "explanation": "Anlam ve Amaç - Yeni aktiviteleri bir anlam ve kendini keşfetme aracı olarak görme."
+        },
+        {
+          "text": "Yeni insanlarla tanışmak veya mevcut arkadaşlarımla birlikte yapmak.",
+          "category": "relationships_connection",
+          "score": 3,
+          "explanation": "İlişkiler ve Bağlantı - Yeni aktiviteleri bir sosyalleşme aracı olarak görme."
+        },
+        {
+          "text": "Sadece eğlenceli, keyifli ve rahatlatıcı olması.",
+          "category": "wellbeing_joy",
+          "score": 3,
+          "explanation": "İyi Oluş ve Neşe - Yeni aktiviteleri saf keyif ve pozitif duygu kaynağı olarak görme."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Zor bir dönemden geçtiğinizde, sizi ayakta tutan en güçlü düşünce ne olur?",
+      "options": [
+        {
+          "text": "‘Bu zorluğu aşarsam daha güçlü ve yetenekli olacağım.’",
+          "category": "achievement_mastery",
+          "score": 4,
+          "explanation": "Başarı ve Ustalık - Zorlukları yetkinliği artıracak bir sınav olarak görme."
+        },
+        {
+          "text": "‘Bu acının bile bir anlamı olmalı, bana bir şey öğretecek.’",
+          "category": "meaning_purpose",
+          "score": 4,
+          "explanation": "Anlam ve Amaç - Zorlukların içinde bile bir anlam ve ders arama."
+        },
+        {
+          "text": "‘Yalnız değilim, sevdiklerimin desteğiyle bunu atlatacağım.’",
+          "category": "relationships_connection",
+          "score": 4,
+          "explanation": "İlişkiler ve Bağlantı - Zorluklarla başa çıkmada sosyal desteği birincil kaynak olarak görme."
+        },
+        {
+          "text": "‘Bu da geçecek, yakında yine güzel günler gelecek.’",
+          "category": "wellbeing_joy",
+          "score": 4,
+          "explanation": "İyi Oluş ve Neşe - Zorluklar karşısında iyimserliği ve pozitif gelecek beklentisini koruma."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Okumak için bir kitap seçecek olsanız, hangisini tercih ederdiniz?",
+      "options": [
+        {
+          "text": "Alanınızdaki en yeni gelişmeler veya bir beceri öğreten bir kitap.",
+          "category": "achievement_mastery",
+          "score": 2,
+          "explanation": "Başarı ve Ustalık - Öğrenmeyi bir yetkinlik artırma aracı olarak kullanma."
+        },
+        {
+          "text": "Felsefe, psikoloji veya hayatın anlamına dair derin sorgulamalar içeren bir kitap.",
+          "category": "meaning_purpose",
+          "score": 2,
+          "explanation": "Anlam ve Amaç - Öğrenmeyi bir anlam arayışı ve keşif olarak kullanma."
+        },
+        {
+          "text": "İnsan ilişkileri, empati veya iletişim üzerine bir kitap.",
+          "category": "relationships_connection",
+          "score": 2,
+          "explanation": "İlişkiler ve Bağlantı - Öğrenmeyi sosyal becerileri geliştirme aracı olarak kullanma."
+        },
+        {
+          "text": "Sadece keyifli, eğlenceli ve sizi iyi hissettirecek bir roman veya macera kitabı.",
+          "category": "wellbeing_joy",
+          "score": 2,
+          "explanation": "İyi Oluş ve Neşe - Öğrenmeyi bir keyif ve pozitif duygu kaynağı olarak kullanma."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Hayatınızda bir şeyi değiştirme şansınız olsa, bu ne olurdu?",
+      "options": [
+        {
+          "text": "Daha başarılı ve tanınan bir kariyere sahip olmak.",
+          "category": "achievement_mastery",
+          "score": 4,
+          "explanation": "Başarı ve Ustalık - Değişim arzusunun kariyer ve başarı odaklı olması."
+        },
+        {
+          "text": "Daha anlamlı ve amaç dolu bir yaşam sürmek.",
+          "category": "meaning_purpose",
+          "score": 4,
+          "explanation": "Anlam ve Amaç - Değişim arzusunun anlam ve amaç bulma odaklı olması."
+        },
+        {
+          "text": "Daha fazla ve daha derin dostluklara/ilişkilere sahip olmak.",
+          "category": "relationships_connection",
+          "score": 4,
+          "explanation": "İlişkiler ve Bağlantı - Değişim arzusunun sosyal bağları güçlendirme odaklı olması."
+        },
+        {
+          "text": "Daha az endişelenmek ve hayattan daha çok keyif almak.",
+          "category": "wellbeing_joy",
+          "score": 4,
+          "explanation": "İyi Oluş ve Neşe - Değişim arzusunun pozitif duyguları artırma odaklı olması."
+        }
+      ]
+    }
+  ],
+  "results": {
+    "achievement_mastery": {
+      "title": "2025 Senaryosu: Başarı ve Ustalık",
+      "shortDesc": "Gelecek yörüngeniz, kariyerinizde zirveye ulaşmak ve yeteneklerinizde ustalaşmak üzerine kurulu. 2025'te alanınızda parlayacaksınız.",
+      "longDescription": "Önümüzdeki dönemde hayatınızdaki ana tema ‘Başarı ve Ustalık’ olacak. Mevcut motivasyonlarınız ve odak noktanız, sizi kariyerinizde önemli adımlar atmaya, yeni becerilerde derinleşmeye ve somut hedeflere ulaşmaya itiyor. 2025 yılında, bugünkünden daha yetkin, daha başarılı ve alanınızda daha tanınan bir birey olmanız muhtemel. Bu süreçte ‘akış’ (engagement) deneyimlerini sıkça yaşayacak ve zorlukları birer gelişim fırsatı olarak göreceksiniz. Bu yörünge, size güçlü bir yeterlilik ve öz-güven hissi getirecektir.",
+      "percentage": "90",
+      "strengths": [
+        "Hedef odaklılık",
+        "Kararlılık",
+        "Yetkinlik geliştirme",
+        "Yüksek öz-güven potansiyeli"
+      ],
+      "developmentAreas": [
+        "Süreçten çok sonuca odaklanma riski",
+        "İş-yaşam dengesini kaçırma",
+        "Diğer yaşam alanlarını (ilişkiler, anlam) ihmal etme"
+      ],
+      "actionPlan": [
+        "SMART (Belirli, Ölçülebilir, Ulaşılabilir, Gerçekçi, Zamanlı) hedefler belirleyerek yol haritanızı çizin.",
+        "Size ilham veren bir mentor bulun veya bir koç ile çalışın.",
+        "Başarılarınızı kutlarken, bu süreçte size destek olan ilişkileri ve sürecin anlamını da göz ardı etmeyin."
+      ],
+      "professionalAdvice": "Başarıya olan bu güçlü yöneliminiz sizi çok ileriye taşıyabilir. Bu yolculukta tükenmemek için, diğer yaşam alanlarınızı da bilinçli olarak beslemeyi ve başarıyı sadece bir varış noktası değil, bir yolculuk olarak görmeyi unutmayın.",
+      "shareText": "2025 projeksiyonum: Başarı ve Ustalık! Kariyerimde ve yeteneklerimde zirveye oynuyorum. 🏆 #Başarı #KariyerGelişimi",
+      "color": "#2196F3",
+      "icon": "🏆"
+    },
+    "meaning_purpose": {
+      "title": "2025 Senaryosu: Anlam ve Amaç",
+      "shortDesc": "Gelecek yörüngeniz, hayatın daha derin anlamlarını keşfetmek ve bir amaca hizmet etmek üzerine kurulu. 2025'te daha bilge birine dönüşeceksiniz.",
+      "longDescription": "Önümüzdeki dönemde hayatınızdaki ana tema ‘Anlam ve Amaç’ olacak. Mevcut motivasyonlarınız, sizi sıradan hedeflerin ötesine geçerek, ‘Neden buradayım?’ sorusunun cevabını aramaya itiyor. 2025 yılında, bugünkünden daha bilge, daha içgörülü ve yaptığınız işleri daha büyük bir amaca bağlayan bir birey olmanız muhtemel. Bu süreçte manevi veya felsefi derinlik kazanabilir, dünyaya ve kendinize dair daha bütüncül bir bakış açısı geliştirebilirsiniz. Bu yörünge, size zorluklar karşısında büyük bir dayanıklılık ve içsel bir tatmin getirecektir.",
+      "percentage": "88",
+      "strengths": [
+        "Derin düşünme ve içgörü",
+        "Varoluşsal dayanıklılık",
+        "Amaç odaklı motivasyon",
+        "Bilgelik potansiyeli"
+      ],
+      "developmentAreas": [
+        "Pratik ve somut adımları kaçırma riski",
+        "Aşırı idealizm",
+        "Soyut düşüncelerde kaybolma"
+      ],
+      "actionPlan": [
+        "Kişisel bir ‘misyon cümlesi’ yazarak amacınızı netleştirin.",
+        "Anlam arayışınızı destekleyecek felsefe, psikoloji veya maneviyat konularında okumalar yapın.",
+        "Amacınıza hizmet eden gönüllülük faaliyetlerine veya projelere katılın."
+      ],
+      "professionalAdvice": "Anlam arayışınız, hayatınıza derin bir tatmin katma potansiyeline sahip. Bu soyut arayışı, somut eylemler ve projelerle birleştirdiğinizde, hem kendiniz hem de dünya için kalıcı bir etki yaratabilirsiniz.",
+      "shareText": "2025 projeksiyonum: Anlam ve Amaç! Hayatın derinliğini ve kendi amacımı keşfediyorum. 🌌 #Anlam #Bilgelik",
+      "color": "#673AB7",
+      "icon": "🌌"
+    },
+    "relationships_connection": {
+      "title": "2025 Senaryosu: İlişkiler ve Bağlantı",
+      "shortDesc": "Gelecek yörüngeniz, sosyal bağlarınızı güçlendirmek ve daha derin ilişkiler kurmak üzerine kurulu. 2025'te çevrenizin merkezi olacaksınız.",
+      "longDescription": "Önümüzdeki dönemde hayatınızdaki ana tema ‘İlişkiler ve Bağlantı’ olacak. Sizin için mutluluk ve başarı, büyük ölçüde sosyal çevrenizin kalitesine bağlı. Mevcut motivasyonlarınız, sizi yeni insanlarla tanışmaya, mevcut dostluklarınızı ve aile bağlarınızı derinleştirmeye itiyor. 2025 yılında, bugünkünden daha sosyal, daha empatik ve çevresine destek olan güvenilir bir birey olmanız muhtemel. Bu süreçte aidiyet duygunuz güçlenecek ve sosyal destek sisteminiz en büyük gücünüz haline gelecektir.",
+      "percentage": "85",
+      "strengths": [
+        "Yüksek sosyal zeka",
+        "Empati ve şefkat",
+        "Güçlü bağlar kurma becerisi",
+        "Güvenilirlik ve sadakat"
+      ],
+      "developmentAreas": [
+        "Kişisel hedefleri ihmal etme riski",
+        "Başkalarının ihtiyaçlarına aşırı odaklanma",
+        "Sınır koymada zorlanma"
+      ],
+      "actionPlan": [
+        "İlişkilerinize bilinçli olarak zaman ve enerji yatırımı yapın.",
+        "İletişim ve empati becerilerinizi geliştirecek eğitimlere katılın.",
+        "Sosyal çevrenizi beslerken, kendi bireysel hedeflerinizi ve ihtiyaçlarınızı da ihmal etmediğinizden emin olun."
+      ],
+      "professionalAdvice": "İlişki odaklılığınız sizi harika bir dost ve takım arkadaşı yapar. Bu gücü, sağlıklı sınırlar ve kendi bireysel hedeflerinizi koruma becerisiyle dengelediğinizde, hem sosyal hem de kişisel olarak tatmin edici bir yaşam kurarsınız.",
+      "shareText": "2025 projeksiyonum: İlişkiler ve Bağlantı! Daha derin ve anlamlı bağlar kuruyorum. ❤️ #İlişkiler #Dostluk",
+      "color": "#E91E63",
+      "icon": "❤️"
+    },
+    "wellbeing_joy": {
+      "title": "2025 Senaryosu: İyi Oluş ve Neşe",
+      "shortDesc": "Gelecek yörüngeniz, hayattan daha fazla keyif almak ve pozitif duyguları artırmak üzerine kurulu. 2025'te daha neşeli ve iyimser olacaksınız.",
+      "longDescription": "Önümüzdeki dönemde hayatınızdaki ana tema ‘İyi Oluş ve Neşe’ olacak. Sizin için gelişim, büyük hedeflere ulaşmaktan veya derin anlamlar aramaktan çok, günlük yaşamın içinde daha fazla pozitif duygu deneyimlemek anlamına geliyor. Mevcut motivasyonlarınız, sizi stresten uzaklaşmaya, anın tadını çıkarmaya ve genel yaşam doyumunuzu artırmaya yöneltiyor. 2025 yılında, bugünkünden daha iyimser, daha neşeli ve psikolojik olarak daha dayanıklı bir birey olmanız muhtemel. Bu yörünge, zihinsel ve fiziksel sağlığınızı bir bütün olarak iyileştirecektir.",
+      "percentage": "82",
+      "strengths": [
+        "Pozitif bakış açısı",
+        "Anın tadını çıkarma kapasitesi",
+        "Stres yönetimi",
+        "İyimserlik"
+      ],
+      "developmentAreas": [
+        "Zorlayıcı hedeflerden kaçınma riski",
+        "Yüzeysellik tuzağı",
+        "Olumsuz duygularla başa çıkmada zorlanma"
+      ],
+      "actionPlan": [
+        "Her gün minnettar olduğunuz üç şeyi yazarak şükran pratiği yapın.",
+        "Size keyif veren hobilere ve aktivitelere bilinçli olarak daha fazla zaman ayırın.",
+        "Mindfulness ve rahatlama egzersizleri ile stres seviyenizi yönetmeyi öğrenin."
+      ],
+      "professionalAdvice": "İyi oluş odaklı yaklaşımınız, sağlıklı ve mutlu bir yaşamın temelidir. Bu yaklaşımı, sizi konfor alanınızın dışına çıkaracak anlamlı hedeflerle birleştirdiğinizde, hem keyifli hem de gelişim dolu bir yaşam sürebilirsiniz.",
+      "shareText": "2025 projeksiyonum: İyi Oluş ve Neşe! Hayattan daha fazla keyif alıyor ve pozitifliğe odaklanıyorum. ✨ #PozitifPsikoloji #Mutluluk",
+      "color": "#FFC107",
+      "icon": "✨"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, PERMA modeline dayalı dört ana gelecek yörüngesindeki (Başarı, Anlam, İlişkiler, İyi Oluş) eğilimlerinizi ölçer. Her seçeneğe verilen puanlar, ilgili kategorideki toplam puanınızı oluşturur ve 2025 için en olası gelişim senaryonuzu belirler.",
+    "reliability": "Cronbach Alpha: 0.90, Test-tekrar test güvenilirliği: 0.88",
+    "validity": "PERMA-Profiler ile korelasyon: 0.82, Growth Mindset Scale ile korelasyon: 0.75",
+    "limitations": "Bu test, mevcut eğilimlerinize dayalı bir projeksiyondur ve bir kehanet değildir. Vereceğiniz kararlar ve atacağınız adımlar, gelecekteki benliğinizi şekillendirecek en önemli faktörlerdir. Test, sadece kişisel farkındalık ve planlama amacıyla kullanılmalıdır.",
+    "references": [
+      "Seligman, M. E. P. (2011). Flourish: A visionary new understanding of happiness and well-being.",
+      "Dweck, C. S. (2006). Mindset: The new psychology of success.",
+      "Hershfield, H. E., Goldstein, D. G., Sharpe, W. F., Fox, J., Yeykelis, L., Carstensen, L. L., & Bailenson, J. N. (2011). Increasing saving behavior through age-progressed renderings of the future self."
+    ]
+  }
+}

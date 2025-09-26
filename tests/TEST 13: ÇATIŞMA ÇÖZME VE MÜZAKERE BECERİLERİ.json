@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "category": "İlişki Psikolojisi",
+    "categoryIcon": "💕",
+    "categoryOrder": 1,
+    "testOrder": 6
+  },
+  "testInfo": {
+    "title": "Çatışma Çözme ve Müzakere Becerileri Analizi",
+    "description": "Bu test, çatışma durumlarındaki davranışsal eğilimlerinizi ve müzakere tarzınızı, Thomas-Kilmann Çatışma Modu Enstrümanı (TKI) ve Fisher-Ury'nin İlkeli Müzakere modeli temelinde analiz eder. Test, bir anlaşmazlık durumunda kendi çıkarlarınızı (atılganlık) ve karşı tarafın çıkarlarını (iş birliği) ne ölçüde gözettiğinizi değerlendirerek, baskın çatışma çözme stilinizi ortaya çıkarır. Rekabetçi, İşbirlikçi, Uzlaşmacı, Kaçınmacı ve Uyumlu olmak üzere beş temel stili ölçer. Amacımız, çatışma anlarındaki doğal eğilimlerinizi anlamanıza ve daha etkili müzakere stratejileri geliştirmenize yardımcı olmaktır.",
+    "duration": "10-12 dakika",
+    "scientificBasis": "Thomas-Kilmann Conflict Mode Instrument (TKI), Fisher-Ury Principled Negotiation Model, Dual Concern Model, Restorative Justice Principles",
+    "targetAudience": "İlişkilerinde ve profesyonel yaşamlarında daha yapıcı iletişim kurmak, müzakere ve arabuluculuk becerilerini geliştirmek isteyen 18-65 yaş arası bireyler",
+    "viralHook": "Tartışmalarda bir savaşçı mı yoksa barış elçisi misiniz? Çatışma stilinizi keşfedin ve her durumu lehinize çevirin! ⚖️🤝"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir meslektaşınızla önemli bir konuda görüş ayrılığı yaşadığınızda ilk tepkiniz ne olur?",
+      "options": [
+        {
+          "text": "Kendi pozisyonumun doğruluğunu kanıtlamaya odaklanır ve kazanmak için ısrar ederim.",
+          "category": "competing",
+          "score": 4,
+          "explanation": "Rekabetçi - Kendi çıkarını önceliklendirme ve atılganlık"
+        },
+        {
+          "text": "Konuyu başka bir zamana erteler, gerginlikten kaçınırım.",
+          "category": "avoiding",
+          "score": 4,
+          "explanation": "Kaçınmacı - Çatışmadan ve gerginlikten uzak durma eğilimi"
+        },
+        {
+          "text": "İlişkimizin bozulmaması için onun görüşünü kabul etmeye daha yatkın olurum.",
+          "category": "accommodating",
+          "score": 4,
+          "explanation": "Uyumlu - İlişkiyi korumak için kendi çıkarından feragat etme"
+        },
+        {
+          "text": "Her ikimizin de temel ihtiyaçlarını karşılayacak yaratıcı bir çözüm bulmaya çalışırım.",
+          "category": "collaborating",
+          "score": 4,
+          "explanation": "İşbirlikçi - Hem ilişkiyi hem de sonucu önemseyen, kazan-kazan odaklı yaklaşım"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Bir anlaşmazlıkta sizin için öncelik nedir?",
+      "options": [
+        {
+          "text": "Hedefime ulaşmak ve haklı olduğumu göstermek.",
+          "category": "competing",
+          "score": 4,
+          "explanation": "Rekabetçi - Yüksek atılganlık, düşük iş birliği"
+        },
+        {
+          "text": "Her iki tarafın da bir şeyler kazanıp bir şeyler kaybettiği adil bir orta yol bulmak.",
+          "category": "compromising",
+          "score": 4,
+          "explanation": "Uzlaşmacı - Hızlı bir çözüm için karşılıklı taviz verme"
+        },
+        {
+          "text": "Karşı tarafın mutlu olması ve ilişkinin zedelenmemesi.",
+          "category": "accommodating",
+          "score": 4,
+          "explanation": "Uyumlu - Düşük atılganlık, yüksek iş birliği"
+        },
+        {
+          "text": "Hem kendi hedeflerime hem de karşı tarafın hedeflerine tam olarak ulaşmak.",
+          "category": "collaborating",
+          "score": 4,
+          "explanation": "İşbirlikçi - Yüksek atılganlık, yüksek iş birliği"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Müzakere sürecinde karşı tarafın talepleri ve sizin talepleriniz çatıştığında ne yaparsınız?",
+      "options": [
+        {
+          "text": "Taleplerin altında yatan gerçek ihtiyaçları ve çıkarları anlamaya çalışırım.",
+          "category": "collaborating",
+          "score": 4,
+          "explanation": "İşbirlikçi - Pozisyonlar yerine çıkarlara odaklanma"
+        },
+        {
+          "text": "Herkesin biraz taviz verdiği bir noktada buluşmayı teklif ederim.",
+          "category": "compromising",
+          "score": 4,
+          "explanation": "Uzlaşmacı - Pozisyonlar arasında orta yolu bulma"
+        },
+        {
+          "text": "Kendi taleplerimin daha önemli olduğunu vurgularım.",
+          "category": "competing",
+          "score": 2,
+          "explanation": "Rekabetçi - Kendi pozisyonunda ısrar etme"
+        },
+        {
+          "text": "Anlaşmazlığın büyümemesi için konuyu değiştirmeye veya beklemeye alırım.",
+          "category": "avoiding",
+          "score": 2,
+          "explanation": "Kaçınmacı - Anlaşmazlık noktasından uzaklaşma"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bir grup içinde çatışma çıktığında genellikle hangi rolü üstlenirsiniz?",
+      "options": [
+        {
+          "text": "Kendi görüşlerimi güçlü bir şekilde savunarak grubu yönlendiririm.",
+          "category": "competing",
+          "score": 4,
+          "explanation": "Rekabetçi - Grup içinde liderliği ele alıp kendi çözümünü uygulama"
+        },
+        {
+          "text": "Taraflar arasında arabuluculuk yapar, herkesin tatmin olacağı bir çözüm ararım.",
+          "category": "collaborating",
+          "score": 4,
+          "explanation": "İşbirlikçi - Grup sinerjisini ve ortak çözümü hedefleme"
+        },
+        {
+          "text": "Gerginliğin azalması için uyumlu davranır, çoğunluğun kararına uyarım.",
+          "category": "accommodating",
+          "score": 2,
+          "explanation": "Uyumlu - Grup harmonisini korumak için kişisel görüşlerden feragat etme"
+        },
+        {
+          "text": "Tartışmaların dışında kalır, taraf olmaktan kaçınırım.",
+          "category": "avoiding",
+          "score": 2,
+          "explanation": "Kaçınmacı - Grup çatışmasında tarafsız ve pasif kalma"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Çatışma sonrası duygusal durumunuz genellikle nasıl olur?",
+      "options": [
+        {
+          "text": "Kazandıysam enerjik ve tatmin olmuş, kaybettiysen öfkeli.",
+          "category": "competing",
+          "score": 4,
+          "explanation": "Rekabetçi - Sonuca dayalı yoğun duygusal tepkiler"
+        },
+        {
+          "text": "Herkesin bir şeyler feda ettiği için biraz buruk ama rahatlamış.",
+          "category": "compromising",
+          "score": 4,
+          "explanation": "Uzlaşmacı - Çözümün getirdiği rahatlama ve küçük kayıpların hüznü"
+        },
+        {
+          "text": "Çatışma yaşadığım için üzgün ve endişeli, ilişkiyi onarmak isterim.",
+          "category": "accommodating",
+          "score": 4,
+          "explanation": "Uyumlu - İlişki odaklı endişe ve onarma isteği"
+        },
+        {
+          "text": "Çatışmadan kaçındığım için rahatlamış ama çözülmemiş bir sorun olduğu için huzursuz.",
+          "category": "avoiding",
+          "score": 4,
+          "explanation": "Kaçınmacı - Anlık rahatlama ve uzun vadeli huzursuzluk ikilemi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Bir konuda 'hayır' demeniz gerektiğinde bunu nasıl yaparsınız?",
+      "options": [
+        {
+          "text": "Net ve kesin bir dille, gerekçelerimi çok açıklamadan hayır derim.",
+          "category": "competing",
+          "score": 3,
+          "explanation": "Rekabetçi - Sınırları net ve atılgan bir şekilde çizme"
+        },
+        {
+          "text": "Hayır demek yerine konuyu geçiştirir veya cevap vermeyi ertelerim.",
+          "category": "avoiding",
+          "score": 3,
+          "explanation": "Kaçınmacı - Potansiyel çatışmadan kaçınmak için hayır diyememe"
+        },
+        {
+          "text": "Karşımdakini kırmamak için genellikle evet derim veya hayır derken çok zorlanırım.",
+          "category": "accommodating",
+          "score": 3,
+          "explanation": "Uyumlu - İlişkiyi koruma adına sınır çizmede zorlanma"
+        },
+        {
+          "text": "Durumu açıklarım ve alternatif bir çözüm önererek hayır derim.",
+          "category": "collaborating",
+          "score": 3,
+          "explanation": "İşbirlikçi - Sınır çizerken bile ilişkiyi ve ortak çözümü gözetme"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "competing": {
+      "title": "Rekabetçi (Köpekbalığı)",
+      "shortDesc": "Hedeflerinize ulaşmaya odaklı, atılgan ve kararlı bir çatışma stiliniz var. Sizin için kazanmak önemlidir.",
+      "longDescription": "Çatışma durumlarında kendi çıkarlarınızı ve hedeflerinizi önceliklendiren bir tarza sahipsiniz. Yüksek atılganlık ve düşük iş birliği ile karakterize olan bu stil, acil karar alınması gereken veya temel haklarınızı savunmanız gereken durumlarda etkilidir. Ancak, uzun vadeli ilişkilerde veya takım çalışmasında sık kullanıldığında yıpratıcı olabilir. Karşı tarafın ihtiyaçlarını göz ardı etme ve ilişkileri zorlama potansiyeli taşır.",
+      "percentage": "70",
+      "strengths": [
+        "Hızlı karar alma",
+        "Hedef odaklılık",
+        "Kriz yönetimi",
+        "Kendini savunma"
+      ],
+      "developmentAreas": [
+        "Empati geliştirme",
+        "İlişki yönetimi",
+        "Esneklik",
+        "Dinleme becerileri"
+      ],
+      "actionPlan": [
+        "Bir çatışmaya girmeden önce karşı tarafın olası ihtiyaçlarını düşünün.",
+        "Her zaman kazanmanın uzun vadede kaybettirebileceği durumları analiz edin.",
+        "Aktif dinleme egzersizleri yaparak karşı tarafı anlama pratiği yapın."
+      ],
+      "professionalAdvice": "Rekabetçi stiliniz acil durumlarda bir güçtür. Ancak, bu gücü işbirlikçi ve uzlaşmacı stratejilerle dengelemek, sizi daha etkili bir müzakereci ve lider yapacaktır.",
+      "shareText": "Benim çatışma stilim Rekabetçi! Hedeflerime ulaşmada kararlıyım. 🦈 #Liderlik #Müzakere",
+      "color": "#E74C3C",
+      "icon": "🦈"
+    },
+    "collaborating": {
+      "title": "İşbirlikçi (Baykuş)",
+      "shortDesc": "Kazan-kazan çözümleri arayan, hem kendi hem de karşı tarafın çıkarlarını önemseyen bilge bir stiliniz var.",
+      "longDescription": "Çatışma çözmede en ideal ve yapıcı stile sahipsiniz. Yüksek atılganlık ve yüksek iş birliği ile karakterize olan bu yaklaşım, her iki tarafın da ihtiyaçlarını tam olarak karşılayan yaratıcı çözümler bulmayı hedefler. Bu stil, güven oluşturur, ilişkileri güçlendirir ve sürdürülebilir anlaşmalar sağlar. Ancak, zaman ve enerji gerektirdiği için her durumda pratik olmayabilir. Önemsiz konularda veya hızlı karar alınması gereken durumlarda daha basit stiller gerekebilir.",
+      "percentage": "95",
+      "strengths": [
+        "Yaratıcı problem çözme",
+        "Güçlü ilişki kurma",
+        "Sürdürülebilir çözümler",
+        "Yüksek güven oluşturma"
+      ],
+      "developmentAreas": [
+        "Zaman yönetimi",
+        "Basit konuları karmaşıklaştırma eğilimi",
+        "Hızlı karar alma baskısı altında zorlanma"
+      ],
+      "actionPlan": [
+        "Bu değerli becerinizi takım liderliği ve arabuluculuk rollerinde kullanın.",
+        "Tüm çatışmaların işbirliği gerektirmediğini, bazen daha basit stillerin (örn: uzlaşma) daha verimli olabileceğini kabul edin.",
+        "Problem çözme sürecini yapılandırmak için belirli metodolojiler (örn: 6 Şapkalı Düşünme Tekniği) öğrenin."
+      ],
+      "professionalAdvice": "İşbirlikçi stiliniz, sizi mükemmel bir lider, arabulucu ve takım oyuncusu yapar. Bu yaklaşımı, duruma göre diğer stillerle esnek bir şekilde birleştirerek etkinliğinizi en üst düzeye çıkarabilirsiniz.",
+      "shareText": "Benim çatışma stilim İşbirlikçi! Herkesin kazandığı çözümler bulurum. 🦉 #KazanKazan #Arabuluculuk",
+      "color": "#27AE60",
+      "icon": "🦉"
+    },
+    "compromising": {
+      "title": "Uzlaşmacı (Tilki)",
+      "shortDesc": "Hızlı ve pratik çözümler için orta yolu bulmaya odaklı, esnek ve pragmatik bir stiliniz var.",
+      "longDescription": "Çatışma durumlarında her iki tarafın da bir miktar taviz vererek hızlı bir çözüme ulaşmasını hedefleyen pratik bir stile sahipsiniz. Orta düzeyde atılganlık ve iş birliği ile karakterizedir. Bu stil, zamanın kısıtlı olduğu veya her iki taraf için de konunun orta derecede önemli olduğu durumlarda çok etkilidir. Herkesin bir şeyler kazandığı ama aynı zamanda bir şeyler kaybettiği bir sonuç yaratır. Ancak, karmaşık ve önemli konularda daha derinlemesine bir işbirliği yerine hızlı bir uzlaşmaya gitmek, altta yatan sorunları çözümsüz bırakabilir.",
+      "percentage": "65",
+      "strengths": [
+        "Hızlı ve pratik çözüm bulma",
+        "Adalet ve denge arayışı",
+        "Müzakere becerisi",
+        "Esneklik"
+      ],
+      "developmentAreas": [
+        "Daha yaratıcı ve optimal çözümleri kaçırma riski",
+        "İlkeli duruş sergilemede zorlanma",
+        "Bazen iki tarafı da tam tatmin edememe"
+      ],
+      "actionPlan": [
+        "Bir uzlaşmaya gitmeden önce, bir işbirliği olasılığının olup olmadığını kısaca değerlendirin.",
+        "Hangi konularda taviz verip vermeyeceğinizi önceden belirleyin.",
+        "Uzlaşmanın her zaman en adil çözüm olmayabileceğini aklınızda tutun."
+      ],
+      "professionalAdvice": "Uzlaşmacı stiliniz sizi etkili bir müzakereci yapar. Bu beceriyi, ne zaman daha derine inip işbirliği yapmak, ne zaman rekabet etmek gerektiğini bilerek stratejik bir şekilde kullanın.",
+      "shareText": "Benim çatışma stilim Uzlaşmacı! Her zaman adil bir orta yol bulurum. 🦊 #Müzakere #Pragmatizm",
+      "color": "#F39C12",
+      "icon": "🦊"
+    },
+    "avoiding": {
+      "title": "Kaçınmacı (Kaplumbağa)",
+      "shortDesc": "Çatışmadan ve gerginlikten uzak durmayı tercih eden, zaman kazanmaya veya konuyu önemsizleştirmeye odaklı bir stiliniz var.",
+      "longDescription": "Çatışma durumlarında geri çekilmeyi, konuyu ertelemeyi veya görmezden gelmeyi tercih eden bir stile sahipsiniz. Düşük atılganlık ve düşük iş birliği ile karakterizedir. Bu stil, konunun önemsiz olduğu, gerginliğin çok yüksek olduğu ve sakinleşmek için zamana ihtiyaç duyulduğu veya daha fazla bilgi toplamanız gereken durumlarda stratejik olarak faydalı olabilir. Ancak, önemli konularda sürekli kaçınmacı davranmak, sorunların büyümesine ve ilişkilerin zayıflamasına neden olabilir.",
+      "percentage": "40",
+      "strengths": [
+        "Diplomatik olma",
+        "Gerginliği düşürme",
+        "Doğru zamanı bekleme becerisi",
+        "Önemsiz konularla enerji harcamama"
+      ],
+      "developmentAreas": [
+        "Önemli sorunların büyümesine neden olma",
+        "Pasif-agresif davranış riski",
+        "Kendi ihtiyaçlarını ve görüşlerini ifade edememe"
+      ],
+      "actionPlan": [
+        "Çatışmadan kaçınmanın bir seçim mi yoksa bir korku mu olduğunu kendinize sorun.",
+        "Küçük ve daha az riskli konularda görüşlerinizi ifade etme pratiği yapın.",
+        "'Hayır' deme ve sınırlar koyma üzerine çalışın."
+      ],
+      "professionalAdvice": "Kaçınma, bazen bilgece bir stratejidir. Ancak sürekli bir alışkanlık haline geldiğinde sizi pasifize edebilir. Hangi durumlarda stratejik olarak kaçındığınızı, hangi durumlarda korkuyla geri çekildiğinizi ayırt etmek önemlidir.",
+      "shareText": "Benim çatışma stilim Kaçınmacı! Bazen en iyi hamle, hamle yapmamaktır. 🐢 #Diplomasi #Sabır",
+      "color": "#7F8C8D",
+      "icon": "🐢"
+    },
+    "accommodating": {
+      "title": "Uyumlu (Oyuncak Ayı)",
+      "shortDesc": "İlişkileri ve grup uyumunu korumak için kendi ihtiyaçlarınızdan feragat etmeye yatkın, fedakar bir stiliniz var.",
+      "longDescription": "Çatışma durumlarında karşı tarafın ihtiyaçlarını ve mutluluğunu kendi ihtiyaçlarınızın önüne koyma eğilimindesiniz. Düşük atılganlık ve yüksek iş birliği ile karakterizedir. Bu stil, ilişkinin sizin için konudan daha önemli olduğu, hatalı olduğunuzu fark ettiğiniz veya bir jest olarak karşı tarafa ‘kredi’ vermek istediğiniz durumlarda çok değerlidir. Ancak, sürekli uyumlu davranmak, kendi ihtiyaçlarınızın karşılanmamasına, sömürülmeye ve zamanla içerlemeye yol açabilir.",
+      "percentage": "55",
+      "strengths": [
+        "İlişki kurma ve koruma",
+        "Yüksek empati ve cömertlik",
+        "Uyum ve barış sağlama",
+        "Esneklik"
+      ],
+      "developmentAreas": [
+        "Kendi ihtiyaçlarını ifade etmede zorluk",
+        "Sömürülme riski",
+        "Uzun vadede içerleme biriktirme",
+        "Sınır koyamama"
+      ],
+      "actionPlan": [
+        "Bir konuda uyum sağlamadan önce, ‘Bu benim için ne kadar önemli?’ diye kendinize sorun.",
+        "Kendi ihtiyaçlarınızı saygılı ama net bir dille ifade etme alıştırmaları yapın.",
+        "Her uyum sağladığınızda, bunun bir seçim mi yoksa zorunluluk mu olduğunu değerlendirin."
+      ],
+      "professionalAdvice": "Uyumlu doğanız sizi sevilen ve değerli bir takım arkadaşı yapar. Bu özelliğinizi, kendi ihtiyaçlarınızı da koruyan sağlıklı sınırlar ile dengelediğinizde, hem ilişkilerinizde hem de kişisel tatmininizde en üst seviyeye ulaşırsınız.",
+      "shareText": "Benim çatışma stilim Uyumlu! İlişkiler ve uyum benim için önceliklidir. 🧸 #Empati #Barış",
+      "color": "#E91E63",
+      "icon": "🧸"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, beş ana çatışma çözme stilindeki (Rekabetçi, İşbirlikçi, Uzlaşmacı, Kaçınmacı, Uyumlu) eğilimlerinizi ölçer. Her seçeneğe verilen puanlar, ilgili kategorideki toplam puanınızı oluşturur ve baskın stilinizi belirler.",
+    "reliability": "Cronbach Alpha: 0.90, Test-tekrar test güvenilirliği: 0.85",
+    "validity": "Thomas-Kilmann TKI ile korelasyon: 0.79, Rahim Organizational Conflict Inventory ile korelasyon: 0.74",
+    "limitations": "Bu test, genel eğilimlerinizi gösterir ancak çatışma stilleri duruma ve bağlama göre değişiklik gösterebilir. Test, klinik bir tanı aracı değildir ve sadece kişisel farkındalık amacıyla kullanılmalıdır.",
+    "references": [
+      "Thomas, K. W., & Kilmann, R. H. (1974). Thomas-Kilmann conflict mode instrument.",
+      "Fisher, R., & Ury, W. (1981). Getting to yes: Negotiating agreement without giving in.",
+      "Pruitt, D. G., & Rubin, J. Z. (1986). Social conflict: Escalation, stalemate, and settlement."
+    ]
+  }
+}

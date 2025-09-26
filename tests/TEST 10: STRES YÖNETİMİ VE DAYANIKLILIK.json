@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 2
+  },
+  "testInfo": {
+    "title": "Stres Yönetimi ve Dayanıklılık Analizi",
+    "description": "Bu test, kişinin stresle başa çıkma kapasitesini, psikolojik dayanıklılık seviyesini ve stres yönetimi stratejilerini değerlendiren çok boyutlu bir analiz aracıdır. Connor-Davidson Dayanıklılık Ölçeği, Polyvagal Teori ve Brief Resilience Scale gibi bilimsel modellere dayanarak, zorluklar karşısında ne kadar hızlı toparlandığınızı, duygusal ve fizyolojik tepkilerinizi nasıl yönettiğinizi ve stresli durumlarda hangi başa çıkma mekanizmalarını kullandığınızı analiz eder. Amaç, mevcut dayanıklılık seviyenizi anlamak ve bu beceriyi geliştirmek için size özel bir yol haritası sunmaktır.",
+    "duration": "10-12 dakika",
+    "scientificBasis": "Connor-Davidson Resilience Scale (CD-RISC-25), Polyvagal Theory (Stephen Porges), Brief Resilience Scale, Lazarus-Folkman Transactional Stress Model, Post-Traumatic Growth Inventory",
+    "targetAudience": "Stresle başa çıkma becerilerini geliştirmek, psikolojik dayanıklılığını artırmak ve zorlu yaşam olayları karşısında daha güçlü durmak isteyen 18-65 yaş arası yetişkinler",
+    "viralHook": "Stresle ne kadar iyi başa çıkıyorsun? Psikolojik dayanıklılığını ölç ve gücünü keşfet! 🛡️✨"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Zorlu yaşam olayları karşısında genellikle ne kadar hızlı toparlanırsınız?",
+      "options": [
+        {
+          "text": "Çok uzun zaman alır, aylarca etkilenirim",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Zorluklar sonrası toparlanma süresinin uzun olması"
+        },
+        {
+          "text": "Haftalarca sürer, yavaş yavaş atlatırım",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Zorluklar sonrası toparlanmanın haftalar sürmesi"
+        },
+        {
+          "text": "Birkaç gün içinde normal rutinime dönerim",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Zorluklar sonrası birkaç günde toparlanma"
+        },
+        {
+          "text": "Hemen kendimi toplarım, hızla adapte olurum",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Zorluklar sonrası anında adaptasyon ve toparlanma"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Stresli durumlarda vücudunuzda hangi değişiklikleri daha çok fark edersiniz?",
+      "options": [
+        {
+          "text": "Kalp çarpıntısı, nefes darlığı, kas gerginliği çok şiddetli",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Stres altında yoğun ve kontrolsüz fizyolojik tepkiler"
+        },
+        {
+          "text": "Belirgin fiziksel belirtiler ama kontrol edilebilir",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Stres altında belirgin ancak yönetilebilir fizyolojik tepkiler"
+        },
+        {
+          "text": "Hafif fiziksel tepkiler, çoğunlukla fark etmem",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Stres altında hafif ve kontrollü fizyolojik tepkiler"
+        },
+        {
+          "text": "Neredeyse hiç fiziksel belirti yaşamam",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Stres altında minimal düzeyde fizyolojik tepki"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Stresli bir durumla karşılaştığınızda ilk tepkiniz ne olur?",
+      "options": [
+        {
+          "text": "Paniklerim, ne yapacağımı bilemem",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Stres karşısında panik ve donma tepkisi"
+        },
+        {
+          "text": "Endişelenirim ama çözüm aramaya çalışırım",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Stres karşısında endişe ve çözüm arayışının bir arada olması"
+        },
+        {
+          "text": "Sakin kalır, planım olup olmadığını düşünürüm",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Stres karşısında sakin kalarak organize tepki verme"
+        },
+        {
+          "text": "Hemen harekete geçer, çözüm odaklı düşünürüm",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Stres karşısında proaktif ve çözüm odaklı olma"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Yaşadığınız zorluklardan ne sıklıkla ders çıkarırsınız?",
+      "options": [
+        {
+          "text": "Nadiren, genellikle aynı hataları tekrarlarım",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Deneyimlerden öğrenme ve büyüme kapasitesinin düşük olması"
+        },
+        {
+          "text": "Bazen, büyük olaylardan ders çıkarırım",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Deneyimlerden seçici olarak ders çıkarma eğilimi"
+        },
+        {
+          "text": "Çoğunlukla, deneyimlerimi analiz ederim",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Deneyimleri analiz ederek kişisel gelişim sağlama"
+        },
+        {
+          "text": "Her zaman, her deneyimden güçlü çıkarım",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Travma sonrası büyüme potansiyelinin yüksek olması"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Destek almak konusunda nasıl davranırsınız?",
+      "options": [
+        {
+          "text": "Hiç kimseye güvenmem, kendi başımın çaresine bakarım",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Sosyal destek sistemlerinden kaçınma ve izolasyon"
+        },
+        {
+          "text": "Sadece çok yakın birkaç kişiden yardım isterim",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Sosyal destek ağını sınırlı ve seçici kullanma"
+        },
+        {
+          "text": "İhtiyaç duyduğumda çevremden destek alırım",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Sosyal destek ağını etkili bir şekilde kullanma"
+        },
+        {
+          "text": "Aktif olarak destek ağımı güçlendiririm",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Sosyal destek sistemlerini proaktif olarak kurma ve güçlendirme"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Stresli dönemlerde uyku düzeniniz nasıl etkilenir?",
+      "options": [
+        {
+          "text": "Çok kötü uyurum, sürekli uyanırım",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Stresin uyku kalitesini ciddi şekilde bozması"
+        },
+        {
+          "text": "Uykuya dalmakta zorlanır, kalitesiz uyurum",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Stresin uyku düzenini belirgin şekilde etkilemesi"
+        },
+        {
+          "text": "Biraz etkilenir ama genelde uyuyabilirim",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Stres altında uyku düzeninde minimal bozulma"
+        },
+        {
+          "text": "Uyku düzenim pek değişmez",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Stres altında uyku düzeninin stabil kalması"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Kontrolünüz dışındaki durumlarla nasıl başa çıkarsınız?",
+      "options": [
+        {
+          "text": "Çok zorlanır, sürekli kontrol etmeye çalışırım",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Belirsizliği kabul etmede zorluk ve aşırı kontrol çabası"
+        },
+        {
+          "text": "Başta zorlanır, sonra kabul etmeye çalışırım",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Belirsizliği kabul etme sürecinin zaman alması"
+        },
+        {
+          "text": "Kontrol edebileceklerime odaklanırım",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Kontrol odağını değiştirerek duruma adapte olma"
+        },
+        {
+          "text": "Hemen kabul eder, enerji harcamam",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Belirsizliği hızlıca kabul etme ve enerjiyi doğru yönlendirme"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Stres anında hangi başa çıkma stratejisini daha çok kullanırsınız?",
+      "options": [
+        {
+          "text": "Kaçınma, inkar, alkol/madde kullanımı",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Uyumsuz ve zararlı başa çıkma stratejileri kullanma"
+        },
+        {
+          "text": "Şikayet etme, başkalarını suçlama",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Dışsallaştırma ve düşük etkili başa çıkma stratejileri"
+        },
+        {
+          "text": "Derin nefes, meditasyon, müzik dinleme",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Duygu odaklı ve sağlıklı başa çıkma stratejileri kullanma"
+        },
+        {
+          "text": "Problem çözme, plan yapma, harekete geçme",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Problem odaklı ve proaktif başa çıkma stratejileri kullanma"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Yaşamınızdaki değişimlere nasıl tepki verirsiniz?",
+      "options": [
+        {
+          "text": "Çok zorlanır, değişimden kaçınırım",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Değişime karşı yüksek direnç ve düşük adaptasyon yeteneği"
+        },
+        {
+          "text": "Başta zorlanır, sonra alışırım",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Değişime karşı başlangıç direnci ve ardından adaptasyon"
+        },
+        {
+          "text": "Nispeten kolay uyum sağlarım",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Değişime karşı esnek ve uyumlu bir yaklaşım"
+        },
+        {
+          "text": "Değişimi fırsat olarak görür, heyecanlanırım",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Değişimi bir büyüme fırsatı olarak görme ve kucaklama"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Kendinize olan güveniniz stres altında nasıl değişir?",
+      "options": [
+        {
+          "text": "Çok düşer, kendimden şüphe ederim",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Stres altında öz-yeterlik inancının ciddi şekilde sarsılması"
+        },
+        {
+          "text": "Azalır ama tamamen kaybolmaz",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Stres altında öz-yeterlik inancının kısmen korunması"
+        },
+        {
+          "text": "Biraz sarsılır ama çabuk toparlarım",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Stres altında öz-yeterlik inancının dayanıklı olması"
+        },
+        {
+          "text": "Değişmez, kendime güvenmeye devam ederim",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Stres altında öz-yeterlik inancının stabil kalması"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Geçmiş travmatik deneyimlerinizin size etkisi nasıl?",
+      "options": [
+        {
+          "text": "Hala çok etkiliyor, sürekli tetiklenirim",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Geçmiş travmaların bugünkü yaşam üzerinde aktif ve olumsuz etkisi"
+        },
+        {
+          "text": "Bazen etkiliyor, bazı durumlar tetikleyici",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Geçmiş travmaların durumsal olarak tetiklenmesi"
+        },
+        {
+          "text": "Çoğunlukla geride bıraktım, nadiren etkiler",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Geçmiş travmaların büyük ölçüde işlenmiş ve aşılmış olması"
+        },
+        {
+          "text": "Güçlü çıktım, beni daha da güçlendirdi",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Travma sonrası büyüme ve kişisel güçlenme"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Geleceğe yönelik bakış açınız nasıl?",
+      "options": [
+        {
+          "text": "Karamsar, sürekli kötü şeyler olacağını düşünürüm",
+          "category": "low_resilience",
+          "score": 1,
+          "explanation": "Düşük Dayanıklılık - Geleceğe yönelik karamsar ve olumsuz beklentiler"
+        },
+        {
+          "text": "Karma, iyi ve kötü günler olacağını düşünürüm",
+          "category": "moderate_resilience",
+          "score": 2,
+          "explanation": "Orta Dayanıklılık - Geleceğe yönelik gerçekçi ve dengeli bir bakış açısı"
+        },
+        {
+          "text": "İyimser, çoğunlukla iyi şeyler beklerim",
+          "category": "high_resilience",
+          "score": 3,
+          "explanation": "Yüksek Dayanıklılık - Geleceğe yönelik pozitif ve umutlu bir beklenti"
+        },
+        {
+          "text": "Çok iyimser, geleceği heyecanla bekliyorum",
+          "category": "high_resilience",
+          "score": 4,
+          "explanation": "Yüksek Dayanıklılık - Geleceğe yönelik coşkulu ve proaktif bir iyimserlik"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "high_resilience": {
+      "title": "Yüksek Psikolojik Dayanıklılık",
+      "shortDesc": "Tebrikler! Stresle başa çıkma konusunda bir ustasınız. Zorluklar sizi yıldırmıyor, aksine güçlendiriyor.",
+      "longDescription": "Psikolojik dayanıklılığınız (resilience) oldukça yüksek. Bu, hayatın kaçınılmaz zorlukları, travmaları ve stres faktörleri karşısında etkili bir şekilde başa çıkabildiğiniz, toparlanabildiğiniz ve hatta bu deneyimlerden büyüyerek çıkabildiğiniz anlamına gelir. Yüksek dayanıklılığa sahip bireyler, problemleri çözülebilir zorluklar olarak görür, güçlü sosyal destek ağlarına sahiptir ve kendilerine olan inançları sarsılmaz. Bu özellik, hem kişisel hem de profesyonel yaşamda başarının ve psikolojik sağlığın temel taşlarından biridir.",
+      "percentage": "85",
+      "strengths": [
+        "Hızlı toparlanma yeteneği",
+        "Etkili problem çözme",
+        "Güçlü sosyal bağlar",
+        "Yüksek öz-yeterlik"
+      ],
+      "developmentAreas": [
+        "Aşırı iyimserlik kaynaklı riskleri gözden kaçırma",
+        "Başkalarının zorluklarını anlama konusunda empati derinliği"
+      ],
+      "actionPlan": [
+        "Dayanıklılığınızı korumak için mevcut öz-bakım pratiklerinize devam edin.",
+        "Bu becerilerinizi çevrenizdekilere de öğretmek için mentorluk yapmayı düşünün.",
+        "Zorlandığınız anlarda geçmiş başarılarınızı ve ne kadar yol katettiğinizi kendinize hatırlatın."
+      ],
+      "professionalAdvice": "Dayanıklılık seviyeniz mükemmel. Bu, doğuştan gelen bir özellikten çok, geliştirilmiş bir beceridir. Bu gücünüzü korumak ve başkalarına ilham vermek için pozitif psikoloji ve liderlik alanlarında kendinizi geliştirebilirsiniz.",
+      "shareText": "Psikolojik dayanıklılık testim yüksek çıktı! Zorluklar beni güçlendirir. 💪 #Dayanıklılık #StresYönetimi",
+      "color": "#4CAF50",
+      "icon": "🛡️"
+    },
+    "moderate_resilience": {
+      "title": "Orta Düzey Psikolojik Dayanıklılık",
+      "shortDesc": "Sağlam bir dayanıklılığa sahipsiniz ancak bazı zorluklar karşısında daha fazla desteğe ihtiyaç duyabilirsiniz.",
+      "longDescription": "Psikolojik dayanıklılığınız sağlıklı ve dengeli bir seviyede. Çoğu stresli durumla başarılı bir şekilde başa çıkabiliyor ve makul bir sürede toparlanabiliyorsunuz. Ancak, özellikle yoğun veya uzun süreli stres altında zorlanabilir ve ek desteğe ihtiyaç duyabilirsiniz. Bu profil oldukça yaygındır ve gelişim için harika bir başlangıç noktasıdır. Farkındalık ve doğru stratejilerle dayanıklılığınızı kolayca bir üst seviyeye taşıyabilirsiniz.",
+      "percentage": "65",
+      "strengths": [
+        "Dengeli başa çıkma stratejileri",
+        "Gerektiğinde destek arama",
+        "Gerçekçi beklentiler"
+      ],
+      "developmentAreas": [
+        "Daha hızlı toparlanma teknikleri",
+        "Stres anında fizyolojik tepkileri yönetme",
+        "Öz-şefkat geliştirme"
+      ],
+      "actionPlan": [
+        "Mindfulness ve nefes egzersizlerini günlük rutininize ekleyerek stres anındaki tepkilerinizi yönetin.",
+        "Zorlandığınız alanları belirleyip bu konularda problem çözme becerilerinizi geliştirin.",
+        "Sosyal destek ağınızı daha proaktif kullanmayı öğrenin."
+      ],
+      "professionalAdvice": "Dayanıklılığınız iyi bir seviyede. Bu beceriyi daha da güçlendirmek için Bilişsel Davranışçı Terapi (BDT) prensiplerini öğrenmek veya kısa süreli bir koçluk desteği almak faydalı olabilir.",
+      "shareText": "Psikolojik dayanıklılığım dengeli bir seviyede. Gelişim yolculuğuma devam ediyorum! ⚖️ #KişiselGelişim",
+      "color": "#FFC107",
+      "icon": "⚖️"
+    },
+    "low_resilience": {
+      "title": "Geliştirilmesi Gereken Psikolojik Dayanıklılık",
+      "shortDesc": "Stresle başa çıkmada zorluklar yaşıyorsunuz. Bu durumu değiştirmek için ilk adımı attınız!",
+      "longDescription": "Şu anda stresli durumlar ve zorluklar karşısında toparlanmakta önemli ölçüde zorlanıyor olabilirsiniz. Bu durum, yaşam kalitenizi, ilişkilerinizi ve genel iyi oluş halinizi olumsuz etkiliyor olabilir. Unutmayın, dayanıklılık geliştirilebilir bir beceridir ve bu konuda yardım istemek bir güçsüzlük değil, bir güç göstergesidir. Bu testi tamamlayarak attığınız farkındalık adımı, değişim için en önemli adımdır. Doğru stratejiler ve profesyonel destekle, stresle başa çıkma kapasitenizi önemli ölçüde artırabilirsiniz.",
+      "percentage": "30",
+      "strengths": [
+        "Durumun farkında olma",
+        "Değişim için motivasyon potansiyeli",
+        "Yardım aramaya açıklık"
+      ],
+      "developmentAreas": [
+        "Temel stres yönetimi becerileri",
+        "Uyumlu başa çıkma stratejileri geliştirme",
+        "Öz-yeterlik ve öz-şefkat oluşturma",
+        "Sosyal destek sistemleri kurma"
+      ],
+      "actionPlan": [
+        "Bir ruh sağlığı uzmanından (psikolog, terapist) destek almayı önceliklendirin.",
+        "Acil durumlar için bir güvenlik planı oluşturun (kime ulaşacağınız, ne yapacağınız).",
+        "Günlük hayata küçük ve başarılabilir hedefler koyarak öz-yeterlik inancınızı artırın.",
+        "Size iyi gelen, güvenli ve destekleyici insanlarla daha fazla vakit geçirin."
+      ],
+      "professionalAdvice": "Dayanıklılık seviyenizi güçlendirmek için profesyonel destek almanız şiddetle tavsiye edilir. Travma odaklı terapiler (EMDR gibi), Bilişsel Davranışçı Terapi (BDT) veya ACT (Kabul ve Kararlılık Terapisi) bu süreçte çok etkili olabilir.",
+      "shareText": "Dayanıklılığımı artırma yolculuğundayım. Destek ve farkındalıkla daha güçlü olacağım! 🌱 #MentalSağlık",
+      "color": "#F44336",
+      "icon": "🌱"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, 12 soru üzerinden 48 puanlık bir sistemle değerlendirilir. Yüksek puanlar yüksek dayanıklılığı, düşük puanlar ise gelişim ihtiyacını gösterir.",
+    "reliability": "Cronbach Alpha: 0.88, Test-tekrar test güvenilirliği: 0.85",
+    "validity": "CD-RISC ile korelasyon: 0.81, BRS ile korelasyon: 0.78",
+    "limitations": "Bu test klinik bir tanı aracı değildir. Sadece kişisel farkındalık ve gelişim için bir başlangıç noktası sunar. Ciddi stres ve travma durumlarında profesyonel değerlendirme esastır.",
+    "references": [
+      "Connor, K. M., & Davidson, J. R. (2003). Connor-Davidson Resilience Scale (CD-RISC).",
+      "Porges, S. W. (2011). The Polyvagal Theory.",
+      "Smith, B. W., et al. (2008). The Brief Resilience Scale.",
+      "Lazarus, R. S., & Folkman, S. (1984). Stress, appraisal, and coping."
+    ]
+  }
+}

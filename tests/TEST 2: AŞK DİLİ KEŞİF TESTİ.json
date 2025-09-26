@@ -1,0 +1,584 @@
+{
+  "metadata": {
+    "category": "İlişki Psikolojisi",
+    "categoryIcon": "💕",
+    "categoryOrder": 1,
+    "testOrder": 2
+  },
+  "testInfo": {
+    "title": "Aşk Dili Keşif Testi",
+    "description": "Gary Chapman'ın Beş Aşk Dili teorisine dayanan bu test, sevgiyi ifade etme ve alma biçiminizi derinlemesine analiz eder. Her bireyin kendine özgü bir 'aşk dili' vardır ve ilişkilerdeki tatminsizliklerin çoğu, partnerlerin birbirlerinin dilini konuşamamasından kaynaklanır. 2024 araştırmaları, tüm aşk dillerinin önemli olduğunu gösterse de, bireysel tercihlerin ilişki dinamiklerini etkilediğini doğrulamaktadır. Test, onaylayıcı sözler, kaliteli zaman, hediye alma, hizmet eylemleri ve fiziksel temas olmak üzere beş temel aşk dilini değerlendirir. Sonuçlar, hem kendi aşk dilinizi hem de potansiyel olarak partnerinizinkini anlamanıza yardımcı olur.",
+    "duration": "8-10 dakika",
+    "scientificBasis": "Chapman'ın 5 Aşk Dili Teorisi (1992), Impett ve ark. Toronto Üniversitesi Araştırması (2024), Bland & McQueen Çift Uyumu Çalışması (2018), Egbert & Polk Faktör Analizi (2006)",
+    "targetAudience": "Romantik ilişki yaşayan veya ilişkilerini geliştirmek isteyen 18-65 yaş arası bireyler",
+    "viralHook": "Partneriniz size gerçekten 'Seni seviyorum' dediğinde bunu anlıyor musunuz? Aşk dilinizi keşfedin ve ilişkinizi dönüştürün!"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kendinizi en çok sevilmiş hissettiğiniz an hangisidir?",
+      "options": [
+        {
+          "text": "Partnerim benimle övgü dolu konuştuğunda",
+          "category": "words",
+          "score": 4,
+          "explanation": "Sözel takdir ve övgü ile sevgi hissetme eğilimi"
+        },
+        {
+          "text": "Birlikte kaliteli vakit geçirdiğimizde",
+          "category": "time",
+          "score": 4,
+          "explanation": "Bölünmemiş dikkat ve paylaşılan deneyimlere değer verme"
+        },
+        {
+          "text": "Bana sürpriz hediyeler aldığında",
+          "category": "gifts",
+          "score": 4,
+          "explanation": "Sevginin somut ve düşünülmüş sembollerle ifade edilmesi"
+        },
+        {
+          "text": "Benim için bir şeyler yaptığında",
+          "category": "service",
+          "score": 4,
+          "explanation": "Hayatı kolaylaştıran pratik yardım ve destek eylemleri"
+        },
+        {
+          "text": "Bana sarıldığında, dokunduğunda",
+          "category": "touch",
+          "score": 4,
+          "explanation": "Duygusal bağı güçlendiren fiziksel yakınlık ve şefkat"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "İlişkide en çok neyin eksikliğini hissedersiniz?",
+      "options": [
+        {
+          "text": "Takdir edilmemek, değerimin söylenmemesi",
+          "category": "words",
+          "score": 3,
+          "explanation": "Sözel takdir eksikliğine karşı yüksek hassasiyet"
+        },
+        {
+          "text": "Yalnız başımıza zaman geçirememek",
+          "category": "time",
+          "score": 3,
+          "explanation": "Odaklanmış birliktelik ihtiyacının karşılanmaması"
+        },
+        {
+          "text": "Küçük jestler ve sürprizlerin olmaması",
+          "category": "gifts",
+          "score": 3,
+          "explanation": "Düşünülmüş jestlerin ve sembolik anların önemi"
+        },
+        {
+          "text": "Ev işlerinde ve sorumluluklarda yardım eksikliği",
+          "category": "service",
+          "score": 3,
+          "explanation": "Pratik destek ve sorumluluk paylaşımına verilen değer"
+        },
+        {
+          "text": "Fiziksel yakınlık ve şefkat eksikliği",
+          "category": "touch",
+          "score": 3,
+          "explanation": "Duygusal bağ için fiziksel şefkatin gerekliliği"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Partnerinize sevginizi nasıl göstermeyi tercih edersiniz?",
+      "options": [
+        {
+          "text": "Güzel sözler söyleyerek, kompliman yaparak",
+          "category": "words",
+          "score": 3,
+          "explanation": "Sevgiyi sözel ifadelerle gösterme eğilimi"
+        },
+        {
+          "text": "Onunla özel anlar yaratarak",
+          "category": "time",
+          "score": 3,
+          "explanation": "Zaman ve deneyim paylaşımını sevgi ifadesi olarak kullanma"
+        },
+        {
+          "text": "Anlamlı hediyeler seçerek",
+          "category": "gifts",
+          "score": 3,
+          "explanation": "Düşünülmüş objeler aracılığıyla sevgiyi somutlaştırma"
+        },
+        {
+          "text": "Onun hayatını kolaylaştıracak şeyler yaparak",
+          "category": "service",
+          "score": 3,
+          "explanation": "Pratik yardım ve destek eylemlerini sevgi dili olarak kullanma"
+        },
+        {
+          "text": "Sarılarak, öperek, elini tutarak",
+          "category": "touch",
+          "score": 3,
+          "explanation": "Fiziksel temas ve yakınlığı sevgi gösterme yolu olarak görme"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Çocukluğunuzda ailenizden en çok hangisini özlediniz?",
+      "options": [
+        {
+          "text": "Başarılarımın takdir edilmesi",
+          "category": "words",
+          "score": 2,
+          "explanation": "Geçmişte sözel onay eksikliğinin bugünkü ihtiyacı şekillendirmesi"
+        },
+        {
+          "text": "Benimle özel zaman geçirmeleri",
+          "category": "time",
+          "score": 2,
+          "explanation": "Geçmişte odaklanmış ilgi eksikliğinin bugünkü zaman ihtiyacını etkilemesi"
+        },
+        {
+          "text": "Özel günlerde hediye alması",
+          "category": "gifts",
+          "score": 2,
+          "explanation": "Geçmişte sembolik sevgi göstergelerinin eksikliğinin bugünkü beklentileri belirlemesi"
+        },
+        {
+          "text": "İhtiyaçlarımla ilgilenmeleri",
+          "category": "service",
+          "score": 2,
+          "explanation": "Geçmişte pratik bakım eksikliğinin hizmet eylemlerine duyarlılığı artırması"
+        },
+        {
+          "text": "Sarılma, öpücük gibi fiziksel sevgi",
+          "category": "touch",
+          "score": 2,
+          "explanation": "Geçmişte fiziksel şefkat eksikliğinin dokunma ihtiyacını artırması"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Partnerinizle tartıştıktan sonra barışmak için ne yaparsınız?",
+      "options": [
+        {
+          "text": "Özür diler, sevgimi sözlerle ifade ederim",
+          "category": "words",
+          "score": 3,
+          "explanation": "Çatışma çözümünde sözel onarım ve güvence verme stratejisi"
+        },
+        {
+          "text": "Baş başa konuşmak için zaman ayırırım",
+          "category": "time",
+          "score": 3,
+          "explanation": "Çatışma sonrası yeniden bağ kurmak için odaklanmış zaman ayırma"
+        },
+        {
+          "text": "Barış hediyesi alırım",
+          "category": "gifts",
+          "score": 3,
+          "explanation": "Uzlaşma ve iyi niyeti somut bir jestle gösterme eğilimi"
+        },
+        {
+          "text": "Sevdiği yemeği yapar veya bir işini hallederim",
+          "category": "service",
+          "score": 3,
+          "explanation": "Barışma niyetini pratik ve düşünceli eylemlerle ifade etme"
+        },
+        {
+          "text": "Sarılır, fiziksel yakınlık gösteririm",
+          "category": "touch",
+          "score": 3,
+          "explanation": "Gerilimi azaltmak ve bağı yeniden kurmak için fiziksel temas kullanma"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Hangi durum sizi en çok incitir?",
+      "options": [
+        {
+          "text": "Eleştirilmek veya aşağılanmak",
+          "category": "words",
+          "score": 4,
+          "explanation": "Olumsuz sözel ifadelere karşı derin bir hassasiyet ve incinme"
+        },
+        {
+          "text": "Sürekli ertelenmek veya öncelik olmamak",
+          "category": "time",
+          "score": 4,
+          "explanation": "Zaman ve ilgi eksikliğini kişisel bir ret olarak algılama"
+        },
+        {
+          "text": "Özel günlerin unutulması",
+          "category": "gifts",
+          "score": 4,
+          "explanation": "Sembolik önemi olan anların göz ardı edilmesine karşı duyarlılık"
+        },
+        {
+          "text": "Verdiğim emeğin görülmemesi",
+          "category": "service",
+          "score": 4,
+          "explanation": "Yapılan hizmet ve fedakarlıkların takdir edilmemesine karşı kırılganlık"
+        },
+        {
+          "text": "Fiziksel mesafe ve soğukluk",
+          "category": "touch",
+          "score": 4,
+          "explanation": "Fiziksel şefkat eksikliğini duygusal bir uzaklaşma olarak yorumlama"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "İdeal bir hafta sonu nasıl geçer?",
+      "options": [
+        {
+          "text": "Derin sohbetler ve içten paylaşımlarla",
+          "category": "words",
+          "score": 2,
+          "explanation": "Duygusal bağ kurma aracı olarak sözel iletişimi tercih etme"
+        },
+        {
+          "text": "Sadece ikimizin olduğu özel aktivitelerle",
+          "category": "time",
+          "score": 2,
+          "explanation": "Paylaşılan deneyimler ve odaklanmış birlikteliğe öncelik verme"
+        },
+        {
+          "text": "Sürprizler ve küçük hediyelerle",
+          "category": "gifts",
+          "score": 2,
+          "explanation": "Sevginin düşünceli ve sembolik jestlerle ifade edildiği anları değerli bulma"
+        },
+        {
+          "text": "Birbirimize yardım ederek, projeler yaparak",
+          "category": "service",
+          "score": 2,
+          "explanation": "Ortak hedefler ve karşılıklı destek üzerinden bağ kurma"
+        },
+        {
+          "text": "Bol bol sarılarak, yakın temasla",
+          "category": "touch",
+          "score": 2,
+          "explanation": "Rahatlama ve bağ kurma aracı olarak fiziksel yakınlığı önemseme"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Stresli olduğunuzda partnerinizden ne beklersiniz?",
+      "options": [
+        {
+          "text": "Beni motive edici, destekleyici sözler",
+          "category": "words",
+          "score": 3,
+          "explanation": "Stres anında sözel güvence ve teşviğe ihtiyaç duyma"
+        },
+        {
+          "text": "Benimle vakit geçirmesi, dinlemesi",
+          "category": "time",
+          "score": 3,
+          "explanation": "Zor zamanlarda partnerin varlığı ve odaklanmış ilgisiyle teselli bulma"
+        },
+        {
+          "text": "Moralimi düzeltecek küçük sürprizler",
+          "category": "gifts",
+          "score": 3,
+          "explanation": "Stresle başa çıkmada sevginin somut göstergelerinden moral bulma"
+        },
+        {
+          "text": "İş yükümü hafifletmesi",
+          "category": "service",
+          "score": 3,
+          "explanation": "Pratik destek ve yükün paylaşılmasını en büyük yardım olarak görme"
+        },
+        {
+          "text": "Sarılması, masaj yapması",
+          "category": "touch",
+          "score": 3,
+          "explanation": "Gerginliği azaltmak ve güvende hissetmek için fiziksel temasa yönelme"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Uzaktan ilişki yaşasaydınız en çok neyi özlerdiniz?",
+      "options": [
+        {
+          "text": "Yüz yüze konuşmalar ve göz teması",
+          "category": "words",
+          "score": 2,
+          "explanation": "Sözel iletişimin anlık ve doğrudan doğasına verilen önem"
+        },
+        {
+          "text": "Birlikte yapılan aktiviteler",
+          "category": "time",
+          "score": 2,
+          "explanation": "Paylaşılan anılar ve deneyimler yoluyla bağ kurma ihtiyacı"
+        },
+        {
+          "text": "Spontane hediyeler ve sürprizler",
+          "category": "gifts",
+          "score": 2,
+          "explanation": "Sevginin fiziksel ve anlık jestlerle ifade edilmesinin eksikliği"
+        },
+        {
+          "text": "Günlük hayatta birbirine yardım",
+          "category": "service",
+          "score": 2,
+          "explanation": "Karşılıklı desteğin ve pratik bakımın yoksunluğu"
+        },
+        {
+          "text": "Sarılmak, el ele tutuşmak",
+          "category": "touch",
+          "score": 2,
+          "explanation": "Duygusal güven ve yakınlık için fiziksel temasın vazgeçilmezliği"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Partnerinizin sizi sevdiğini nasıl anlarsınız?",
+      "options": [
+        {
+          "text": "Bana olan duygularını sözlerle ifade ettiğinde",
+          "category": "words",
+          "score": 3,
+          "explanation": "Sevginin kanıtı olarak açık ve net sözel ifadelere ihtiyaç duyma"
+        },
+        {
+          "text": "Bana öncelik verip zaman ayırdığında",
+          "category": "time",
+          "score": 3,
+          "explanation": "Zamanın bir sevgi ve öncelik göstergesi olarak algılanması"
+        },
+        {
+          "text": "Beni düşündüğünü gösteren hediyeler aldığında",
+          "category": "gifts",
+          "score": 3,
+          "explanation": "Somut nesneleri, düşünce ve sevginin bir kanıtı olarak görme"
+        },
+        {
+          "text": "Benim için zahmetli işler yaptığında",
+          "category": "service",
+          "score": 3,
+          "explanation": "Fedakarlık ve çabayı, sevginin en gerçekçi ifadesi olarak yorumlama"
+        },
+        {
+          "text": "Fiziksel olarak yakın durduğunda",
+          "category": "touch",
+          "score": 3,
+          "explanation": "Fiziksel yakınlığı, duygusal bağın ve sevginin bir barometresi olarak kullanma"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Günlük hayatta hangisi sizi daha mutlu eder?",
+      "options": [
+        {
+          "text": "Güne güzel bir mesajla başlamak",
+          "category": "words",
+          "score": 2,
+          "explanation": "Gündelik yaşamda küçük sözel jestlerin önemi"
+        },
+        {
+          "text": "Akşam yemeğini birlikte yemek",
+          "category": "time",
+          "score": 2,
+          "explanation": "Rutin haline gelmiş paylaşılan zamanların değeri"
+        },
+        {
+          "text": "Masama bırakılan küçük notlar",
+          "category": "gifts",
+          "score": 2,
+          "explanation": "Spontane ve düşünülmüş küçük sürprizlerin mutluluk vermesi"
+        },
+        {
+          "text": "Kahvemi hazır bulmak",
+          "category": "service",
+          "score": 2,
+          "explanation": "Günlük hayattaki küçük hizmet eylemlerinin büyük anlam taşıması"
+        },
+        {
+          "text": "Günaydın öpücüğü ve sarılması",
+          "category": "touch",
+          "score": 2,
+          "explanation": "Güne başlarken fiziksel temasın yarattığı pozitif etki"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Hangi hediye sizi en çok mutlu eder?",
+      "options": [
+        {
+          "text": "İçinde güzel sözler yazılmış bir mektup",
+          "category": "words",
+          "score": 3,
+          "explanation": "Hediyenin sözel ve duygusal içeriğinin fiziksel formundan daha önemli olması"
+        },
+        {
+          "text": "Birlikte geçirilecek bir tatil",
+          "category": "time",
+          "score": 3,
+          "explanation": "Hediye olarak paylaşılan deneyim ve anıları tercih etme"
+        },
+        {
+          "text": "Özenle seçilmiş anlamlı bir obje",
+          "category": "gifts",
+          "score": 3,
+          "explanation": "Hediyenin kendisinin, düşüncenin somut bir sembolü olarak değer görmesi"
+        },
+        {
+          "text": "Bir işimi halledecek pratik bir şey",
+          "category": "service",
+          "score": 3,
+          "explanation": "Hayatı kolaylaştıran fonksiyonel hediyelerin takdir edilmesi"
+        },
+        {
+          "text": "Masaj seansı veya spa günü",
+          "category": "touch",
+          "score": 3,
+          "explanation": "Hediye olarak fiziksel rahatlama ve şefkat deneyimini önemseme"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "words": {
+      "title": "Onaylayıcı Sözler",
+      "shortDesc": "Sevgiyi sözcüklerle hissedersiniz - kompliman, takdir ve sevgi sözleri sizin için vazgeçilmez!",
+      "longDescription": "Sizin birincil aşk diliniz onaylayıcı sözler. Mark Twain'in dediği gibi, 'İyi bir kompliman ile iki ay yaşayabilirim.' Siz için sözlerin gücü eylemlerden daha fazladır. Partnerinizin size olan sevgisini, takdirini ve hayranlığını sözlerle ifade etmesi, duygusal deponuzu doldurur. 'Seni seviyorum', 'Seninle gurur duyuyorum', 'Çok güzel görünüyorsun' gibi ifadeler sizin için paha biçilmezdir. Aynı şekilde, sert eleştiriler ve olumsuz sözler sizi derinden yaralar. Yazılı notlar, mesajlar, mektuplar da bu kategoriye girer. Araştırmalar, onaylayıcı sözlerin benlik saygısını artırdığını ve ilişki doyumunu yükselttiğini göstermektedir. Partnerinize düzenli olarak sevgi dolu, destekleyici ve takdir edici sözler söylemeniz, onun da size aynı şekilde karşılık vermesini sağlayabilir. Günlük hayatta küçük komplimanlar, teşekkürler ve sevgi ifadeleri sizin için büyük anlam taşır.",
+      "percentage": "23",
+      "strengths": [
+        "İletişim becerisi",
+        "Duygusal ifade yeteneği",
+        "Motivasyon gücü"
+      ],
+      "developmentAreas": [
+        "Eleştiriye aşırı duyarlılık",
+        "Sözel onay bağımlılığı"
+      ],
+      "actionPlan": [
+        "Partnerinizle günlük takdir ritüeli oluşturun",
+        "Sevgi notları ve mesajlar yazma alışkanlığı edinin",
+        "Olumsuz sözcükleri yapıcı geri bildirime dönüştürün"
+      ],
+      "professionalAdvice": "Onaylayıcı sözlere olan ihtiyacınız sağlıklı düzeydedir. Ancak öz-değerinizi tamamen başkalarının sözlerine bağlamamaya dikkat edin.",
+      "shareText": "Benim aşk dilim Onaylayıcı Sözler! Güzel sözler kalbime dokunur 💬❤️",
+      "color": "#E91E63",
+      "icon": "💬"
+    },
+    "time": {
+      "title": "Kaliteli Zaman",
+      "shortDesc": "Bölünmemiş dikkat ve paylaşılan anlar sizin için gerçek sevginin göstergesi!",
+      "longDescription": "Sizin birincil aşk diliniz kaliteli zaman. Bu sadece aynı ortamda bulunmak değil, bölünmemiş dikkat ve odaklanmış birlikteliktir. Telefonsuz, televizyonsuz, dikkat dağıtıcı unsurlar olmadan geçirilen, göz teması kurarak yapılan derin sohbetler ve paylaşılan aktiviteler sizi besler. Birlikte yürüyüşler, akşam yemekleri, hafta sonu kaçamakları sizin için sevginin en güzel ifadesidir. Partner ile geçirilen zamanın kalitesi, kantiteden daha önemlidir. 20 dakikalık odaklanmış sohbet, saatlerce aynı evde ayrı odalarda geçirilen zamandan daha değerlidir. Araştırmalar, kaliteli zaman geçiren çiftlerin ilişki doyumunun %40 daha yüksek olduğunu göstermektedir. Modern hayatın yoğunluğu içinde, partnerinizin size zaman ayırması, sizin için 'Sen benim için önceliklisin' mesajını verir. Ertelendiğinizde veya sürekli başka şeylerle meşgul olunduğunda kendinizi sevilmemiş hissedersiniz.",
+      "percentage": "20",
+      "strengths": [
+        "Derin bağlantı kurma",
+        "Aktif dinleme",
+        "Anı yaşama"
+      ],
+      "developmentAreas": [
+        "Yalnız kalma zorluğu",
+        "Aşırı birliktelik talebi"
+      ],
+      "actionPlan": [
+        "Haftalık 'ekransız' özel zaman belirleyin",
+        "Yeni paylaşılan hobiler ve aktiviteler keşfedin",
+        "Günlük 15 dakikalık odaklanmış sohbet rutini oluşturun"
+      ],
+      "professionalAdvice": "Kaliteli zaman ihtiyacınız sağlıklıdır ancak partnerinizin de kendi alanına ihtiyacı olduğunu unutmayın.",
+      "shareText": "Aşk dilim Kaliteli Zaman! Benimle geçirdiğin anlar en değerli hediye 🕐💕",
+      "color": "#00BCD4",
+      "icon": "⏰"
+    },
+    "gifts": {
+      "title": "Hediye Alma",
+      "shortDesc": "Düşünülmüş hediyeler ve sembolik jestler sizin için sevginin görünür sembolleri!",
+      "longDescription": "Sizin birincil aşk diliniz hediye alma. Bu materyalizm değil, sevginin görsel sembollerini takdir etmektir. Hediyenin maddi değeri değil, arkasındaki düşünce ve çaba önemlidir. Bir çiçek, el yapımı bir kart, favori çikolatanız - bunların hepsi 'Seni düşündüm' mesajını taşır. Hediyeler sizin için sevginin fiziksel kanıtlarıdır ve saklayıp değer verirsiniz. Özel günlerin unutulması sizi derinden yaralar çünkü bu, sizin değerinizin unutulması anlamına gelir. Antropolojik araştırmalar, hediye vermenin tüm kültürlerde sevgi ifadesi olduğunu gösterir. Siz için hediye, partnerinizin size zaman, düşünce ve çaba harcadığının somut göstergesidir. Küçük sürprizler, anı eşyaları, özel günlerde verilen hediyeler duygusal güvenliğinizi artırır. Hediyeler ayrıca zor zamanlarda, özellikle partneriniz yanınızda olamadığında, onun varlığını hissetmenizi sağlar.",
+      "percentage": "19",
+      "strengths": [
+        "Detaylara dikkat",
+        "Sembolik düşünme",
+        "Minnettarlık"
+      ],
+      "developmentAreas": [
+        "Maddi beklentiler",
+        "Hediye yokluğunda değersizlik hissi"
+      ],
+      "actionPlan": [
+        "Anlamlı hediyelerin listesini tutun ve paylaşın",
+        "Kendinize ve partnerinize hediye verme ritüeli oluşturun",
+        "Deneyim hediyelerine (konser, yemek vb.) açık olun"
+      ],
+      "professionalAdvice": "Hediyelere değer vermeniz normal ancak ilişkinizin değerini maddi göstergelerle ölçmemeye özen gösterin.",
+      "shareText": "Aşk dilim Hediye Alma! Küçük jestler bile kalbimi ısıtır 🎁💝",
+      "color": "#FF5722",
+      "icon": "🎁"
+    },
+    "service": {
+      "title": "Hizmet Eylemleri",
+      "shortDesc": "Sevgi eylemlerle gösterilir - partnerinizin hayatını kolaylaştıran her şey sevgi ifadesidir!",
+      "longDescription": "Sizin birincil aşk diliniz hizmet eylemleri. 'Eylemler sözlerden daha yüksek sesle konuşur' sözü tam size göre. Partnerinizin sizin için yemek yapması, arabanızın bakımını yaptırması, evi temizlemesi, faturalarla ilgilenmesi - bunların hepsi sevgi eylemleridir. Bu tembellik değil, partnerinizin size olan sevgisini eylemlerle göstermesini takdir etmektir. Özellikle yorgun veya stresli olduğunuzda, partnerinizin yükünüzü hafifletmesi sizin için en büyük sevgi göstergesidir. Verilen sözlerin tutulmaması, ertelenen işler sizi hayal kırıklığına uğratır. Araştırmalar, ev işlerinin adil paylaşımının ilişki doyumunu %67 artırdığını göstermektedir. Sizin için önemli olan, partnerinizin bu eylemleri gönüllü ve severek yapmasıdır. Zorla veya isteksizce yapılan işler sevgi olarak algılanmaz. Küçük günlük yardımlar - kahvenizi hazırlamak, alışverişi yapmak - büyük romantik jestlerden daha anlamlıdır.",
+      "percentage": "19",
+      "strengths": [
+        "Pratik destek",
+        "Sorumluluk",
+        "Özveri"
+      ],
+      "developmentAreas": [
+        "Beklentilerin açık ifadesi",
+        "Karşılıklılık dengesi"
+      ],
+      "actionPlan": [
+        "İhtiyaçlarınızı net ve nazik şekilde ifade edin",
+        "Partnerinizin yaptığı hizmetleri takdir edin",
+        "Karşılıklı görev listesi oluşturun ve paylaşın"
+      ],
+      "professionalAdvice": "Hizmet eylemlerine değer vermeniz güzel ancak partnerinizi hizmetkar olarak görmemeye dikkat edin.",
+      "shareText": "Aşk dilim Hizmet Eylemleri! Benim için yaptığın her şey sevginin kanıtı 🛠️💙",
+      "color": "#795548",
+      "icon": "🛠️"
+    },
+    "touch": {
+      "title": "Fiziksel Temas",
+      "shortDesc": "Dokunuş sizin için duygusal bağlantının temelidir - sarılmalar, öpücükler hayati önem taşır!",
+      "longDescription": "Sizin birincil aşk diliniz fiziksel temas. İnsan dokunuşunun gücü sizin için tartışılmaz. Bebeklikten itibaren dokunuş, sevgi ve güvenlik hissetmemizi sağlar ve siz bu ihtiyacı yetişkinlikte de yoğun yaşarsınız. Sarılmak, el ele tutuşmak, öpüşmek, masaj, omza dokunma, yakın oturma - bunların hepsi duygusal bağlantınızı güçlendirir. Fiziksel temas olmadan kendinizi yalnız ve sevilmemiş hissedersiniz. Bu sadece cinsellik değil, günlük sevgi dolu dokunuşlardır. Araştırmalar, günde 8 sarılmanın stres hormonlarını %32 azalttığını ve bağlanma hormonunu artırdığını göstermektedir. Kavga sonrası bir sarılma, saatlerce konuşmaktan daha etkilidir. Fiziksel mesafe veya soğukluk sizi derinden yaralar. Kamusal alanlarda bile küçük dokunuşlar - el tutma, bele dokunma - sizin için önemlidir. Stres anlarında fiziksel yakınlık sizin en büyük teselli kaynağınızdır.",
+      "percentage": "19",
+      "strengths": [
+        "Fiziksel yakınlık",
+        "Duygusal bağlantı",
+        "Teselli verme"
+      ],
+      "developmentAreas": [
+        "Kişisel alan hassasiyeti",
+        "Uygun olmayan zamanlarda dokunma"
+      ],
+      "actionPlan": [
+        "Günlük sarılma ve dokunma rutini oluşturun",
+        "Partnerinizin fiziksel sınırlarına saygı gösterin",
+        "Masaj, dans gibi dokunma aktiviteleri planlayın"
+      ],
+      "professionalAdvice": "Fiziksel temas ihtiyacınız doğal ve sağlıklı. Partnerinizin de rahatlık alanına saygı gösterin.",
+      "shareText": "Aşk dilim Fiziksel Temas! Bir sarılma bin söze bedel 🤗💞",
+      "color": "#9C27B0",
+      "icon": "🤗"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Her kategoride toplanan puanlar değerlendirilir. En yüksek puan birincil, ikinci en yüksek ikincil aşk dilini gösterir. Puanlar yakınsa çoklu aşk diline sahipsinizdir.",
+    "reliability": "Cronbach Alpha: 0.78, Test-tekrar test: 0.76",
+    "validity": "Love Languages Scale ile korelasyon: 0.71",
+    "limitations": "2024 araştırmaları tüm aşk dillerinin önemli olduğunu gösterse de, bireysel tercihler ilişki dinamiklerini etkiler.",
+    "references": [
+      "Chapman, G. (1992). The Five Love Languages",
+      "Impett et al. (2024). University of Toronto Study",
+      "Bland & McQueen (2018). Love Languages Distribution",
+      "Egbert & Polk (2006). Factor Analysis of Love Languages"
+    ]
+  }
+}

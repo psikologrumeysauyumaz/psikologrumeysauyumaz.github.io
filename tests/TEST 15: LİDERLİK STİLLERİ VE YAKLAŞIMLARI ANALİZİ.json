@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "category": "Kariyer ve Liderlik",
+    "categoryIcon": "🚀",
+    "categoryOrder": 4,
+    "testOrder": 2
+  },
+  "testInfo": {
+    "title": "Liderlik Stilleri ve Yaklaşımları Analizi",
+    "description": "Bu test, liderlik stilinizi ve yaklaşımlarınızı, Bass & Avolio’nun Tam Kapsamlı Liderlik Modeli, Greenleaf’in Hizmetkar Liderlik teorisi ve modern liderlik kuramları temelinde analiz eder. Test, bir lider olarak takımınızı nasıl motive ettiğinizi, karar alma süreçlerinizi, değişim ve çatışma anlarındaki davranışlarınızı değerlendirir. Dönüştürücü, İşlemsel, Hizmetkar ve Delegatif (Laissez-Faire) olmak üzere dört temel liderlik eğiliminizi ölçerek, güçlü yönlerinizi ve gelişim alanlarınızı ortaya koyar.",
+    "duration": "10-12 dakika",
+    "scientificBasis": "Full Range Leadership Model (Bass & Avolio), Servant Leadership Theory (Greenleaf), Authentic Leadership, Paternalistic Leadership in Turkish Context",
+    "targetAudience": "Liderlik potansiyelini anlamak ve geliştirmek isteyen yöneticiler, takım liderleri ve profesyoneller (25-65 yaş)",
+    "viralHook": "İçinizdeki lideri keşfedin! Vizyoner bir ilham kaynağı mı, yoksa hizmetkar bir mentor musunuz? Liderlik tarzınızı öğrenin! 🚀"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Takım üyelerinizi motive etme konusunda hangi yaklaşımı benimsersiniz?",
+      "options": [
+        {
+          "text": "Onlara ilham veren, heyecan verici bir gelecek vizyonu çizerim.",
+          "category": "transformational",
+          "score": 4,
+          "explanation": "Dönüştürücü Lider - İlham verici motivasyon ve vizyon odaklılık"
+        },
+        {
+          "text": "Net hedefler koyar, hedeflere ulaştıklarında onları ödüllendiririm.",
+          "category": "transactional",
+          "score": 4,
+          "explanation": "İşlemsel Lider - Koşullu ödül ve performans odaklı motivasyon"
+        },
+        {
+          "text": "Onların kişisel ve profesyonel gelişimlerini destekleyerek motive olmalarını sağlarım.",
+          "category": "servant",
+          "score": 4,
+          "explanation": "Hizmetkar Lider - Takım üyelerinin gelişimini ve refahını önceliklendirme"
+        },
+        {
+          "text": "Onlara güvenir ve kendi motivasyonlarını bulmaları için alan tanırım.",
+          "category": "laissez_faire",
+          "score": 4,
+          "explanation": "Delegatif Lider - İçsel motivasyona güvenme ve müdahale etmeme"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Değişim süreçlerinde liderlik yaklaşımınız nasıldır?",
+      "options": [
+        {
+          "text": "Değişimin gerekliliğine dair ikna edici bir vizyon sunar ve değişime öncülük ederim.",
+          "category": "transformational",
+          "score": 4,
+          "explanation": "Dönüştürücü Lider - Değişime ilham vererek ve vizyon çizerek liderlik etme"
+        },
+        {
+          "text": "Değişim sürecini yönetmek için net adımlar, kurallar ve beklentiler belirlerim.",
+          "category": "transactional",
+          "score": 3,
+          "explanation": "İşlemsel Lider - Değişimi yapılandırılmış ve kontrollü bir süreç olarak yönetme"
+        },
+        {
+          "text": "Değişimden etkilenen takım üyelerinin endişelerini dinler ve onlara destek olurum.",
+          "category": "servant",
+          "score": 3,
+          "explanation": "Hizmetkar Lider - Değişim sürecinde insan odaklı ve destekleyici olma"
+        },
+        {
+          "text": "Takımın değişime kendi kendine adapte olacağına güvenir, sürece pek müdahil olmam.",
+          "category": "laissez_faire",
+          "score": 2,
+          "explanation": "Delegatif Lider - Değişim sürecinde pasif ve gözlemci bir rol üstlenme"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Kararlar alırken hangi yaklaşımı tercih edersiniz?",
+      "options": [
+        {
+          "text": "Kararlarımın uzun vadeli vizyonumuzla ve temel değerlerimizle uyumlu olmasına özen gösteririm.",
+          "category": "transformational",
+          "score": 4,
+          "explanation": "Dönüştürücü Lider - Stratejik ve değer odaklı karar alma"
+        },
+        {
+          "text": "Kararlarımı mevcut kurallar, prosedürler ve verimlilik temelinde alırım.",
+          "category": "transactional",
+          "score": 4,
+          "explanation": "İşlemsel Lider - Rasyonel ve kural bazlı karar alma"
+        },
+        {
+          "text": "Kararlarımın takım üyelerini nasıl etkileyeceğini öncelikli olarak düşünürüm.",
+          "category": "servant",
+          "score": 3,
+          "explanation": "Hizmetkar Lider - İnsan etkisini önceliklendiren karar alma"
+        },
+        {
+          "text": "Karar alma sorumluluğunu büyük ölçüde takıma devrederim.",
+          "category": "laissez_faire",
+          "score": 3,
+          "explanation": "Delegatif Lider - Karar yetkisini takıma dağıtma ve otonomi sağlama"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Takım üyelerinizle olan ilişkinizde hangi yaklaşım size daha yakın?",
+      "options": [
+        {
+          "text": "Onların potansiyellerini ortaya çıkarmak için birebir mentorluk yapar, onlara ilham veririm.",
+          "category": "transformational",
+          "score": 4,
+          "explanation": "Dönüştürücü Lider - Bireysel ilgi ve entelektüel uyarım sağlama"
+        },
+        {
+          "text": "İlişkimiz profesyoneldir; beklentiler nettir ve performans takip edilir.",
+          "category": "transactional",
+          "score": 3,
+          "explanation": "İşlemsel Lider - Profesyonel ve rol odaklı ilişki kurma"
+        },
+        {
+          "text": "Onların kişisel ve profesyonel refahını kendi başarımın önünde tutarım.",
+          "category": "servant",
+          "score": 4,
+          "explanation": "Hizmetkar Lider - Fedakarlık ve diğerlerinin refahını önceliklendirme"
+        },
+        {
+          "text": "Hiyerarşiyi en aza indirir, onlarla eşit ve samimi bir ilişki kurarım.",
+          "category": "laissez_faire",
+          "score": 3,
+          "explanation": "Delegatif Lider - Eşitlikçi ve hiyerarşiden uzak ilişki kurma"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Yetki devri ve güçlendirme (empowerment) konusundaki yaklaşımınız nedir?",
+      "options": [
+        {
+          "text": "Takım üyelerini vizyoner hedeflere ulaşmaları için geliştirir ve güçlendiririm.",
+          "category": "transformational",
+          "score": 4,
+          "explanation": "Dönüştürücü Lider - Gelişim ve vizyon odaklı güçlendirme"
+        },
+        {
+          "text": "Görev ve sorumlulukları net bir şekilde tanımlayarak, belirli sınırlar içinde yetki devrederim.",
+          "category": "transactional",
+          "score": 4,
+          "explanation": "İşlemsel Lider - Kontrollü ve yapılandırılmış yetki devri"
+        },
+        {
+          "text": "Takım üyelerinin başarılı olması için gerekli tüm kaynakları ve desteği sağlarım.",
+          "category": "servant",
+          "score": 3,
+          "explanation": "Hizmetkar Lider - Destek ve kaynak sağlama yoluyla güçlendirme"
+        },
+        {
+          "text": "Mümkün olan en geniş otonomiyi sağlar, kararları ve sorumlulukları tamamen onlara bırakırım.",
+          "category": "laissez_faire",
+          "score": 3,
+          "explanation": "Delegatif Lider - Maksimum otonomi ve tam yetki devri"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Takımınızda bir problem veya hata oluştuğunda nasıl davranırsınız?",
+      "options": [
+        {
+          "text": "Bunu bir öğrenme fırsatı olarak görür, sistemi geliştirmek için kullanırım.",
+          "category": "transformational",
+          "score": 4,
+          "explanation": "Dönüştürücü Lider - Hataları sistemsel bir öğrenme fırsatı olarak görme"
+        },
+        {
+          "text": "Süreçleri gözden geçirir, hatanın tekrarını önlemek için kuralları netleştiririm.",
+          "category": "transactional",
+          "score": 4,
+          "explanation": "İşlemsel Lider - Hataları süreç ve kural optimizasyonu ile çözme"
+        },
+        {
+          "text": "Hata yapan kişiye destek olur, suçluluk hissetmeden çözüm bulmasına yardımcı olurum.",
+          "category": "servant",
+          "score": 3,
+          "explanation": "Hizmetkar Lider - Hata karşısında yargılamadan destek ve yardım sunma"
+        },
+        {
+          "text": "Genellikle takımın kendi içinde bir çözüm bulmasını beklerim.",
+          "category": "laissez_faire",
+          "score": 2,
+          "explanation": "Delegatif Lider - Problemlerin çözümünde takımın kendi kendine yeterliliğine güvenme"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "transformational": {
+      "title": "Dönüştürücü Lider (Vizyoner)",
+      "shortDesc": "İlham veren, motive eden ve statükoyu sorgulayan bir vizyonersiniz. İnsanları peşinizden sürüklersiniz.",
+      "longDescription": "Liderlik stiliniz, en modern ve etkili yaklaşımlardan biri olan Dönüştürücü Liderlik ile örtüşüyor. Sadece yönetmekle kalmıyor, aynı zamanda insanların potansiyellerini en üst düzeye çıkarmaları için onlara ilham veriyorsunuz. Güçlü bir gelecek vizyonu oluşturur, bu vizyonu tutkuyla paylaşır ve takımınızı bu ortak hedefe doğru motive edersiniz. Sizin için liderlik, bir pozisyondan çok, bir etki yaratma sürecidir. Bu stil, özellikle inovasyon, değişim ve büyüme gerektiren ortamlarda son derece başarılıdır.",
+      "percentage": "92",
+      "strengths": [
+        "Vizyoner bakış açısı",
+        "İlham verme ve motive etme",
+        "Değişim öncülüğü",
+        "Bireysel gelişim odaklılık"
+      ],
+      "developmentAreas": [
+        "Günlük operasyonel detayları gözden kaçırma",
+        "Sabırsızlık",
+        "Gerçekçilikten uzaklaşma riski"
+      ],
+      "actionPlan": [
+        "Vizyonunuzu somut, ulaşılabilir adımlara bölmek için operasyonel yetenekleri güçlü kişilerle çalışın.",
+        "Takımınızın küçük başarılarını da kutlayarak motivasyonu sürekli kılın.",
+        "Stratejik düşünme ve inovasyon yönetimi konularında kendinizi geliştirmeye devam edin."
+      ],
+      "professionalAdvice": "Vizyoner liderliğiniz en büyük gücünüz. Bu gücü, operasyonel mükemmellik ve pragmatik yaklaşımlarla dengeleyerek etkinizi maksimize edebilirsiniz.",
+      "shareText": "Ben bir Dönüştürücü Liderim! İlham verir, motive eder ve değişime öncülük ederim. 🚀 #Liderlik #Vizyon",
+      "color": "#9B59B6",
+      "icon": "🌟"
+    },
+    "transactional": {
+      "title": "İşlemsel Lider (Yönetici)",
+      "shortDesc": "Net, organize ve sonuç odaklı bir yöneticisiniz. Sistemler kurar ve performans beklentilerini açıkça belirlersiniz.",
+      "longDescription": "Liderlik stiliniz, düzen, verimlilik ve öngörülebilirlik üzerine kurulu olan İşlemsel Liderlik ile uyumludur. Sizin için liderlik, net hedefler belirlemek, bu hedeflere ulaşanları ödüllendirmek ve süreçleri yakından takip etmektir. Rolleri, sorumlulukları ve beklentileri açıkça tanımlarsınız. Bu yaklaşım, özellikle istikrarlı ve yapılandırılmış ortamlarda, kalite standartlarının ve verimliliğin korunması gereken durumlarda çok etkilidir. Takımınız ne yapması gerektiğini ve karşılığında ne alacağını bilir.",
+      "percentage": "78",
+      "strengths": [
+        "Verimlilik ve organizasyon",
+        "Net beklentiler belirleme",
+        "Performans yönetimi",
+        "İstikrar sağlama"
+      ],
+      "developmentAreas": [
+        "Yaratıcılık ve inovasyonu teşvik etmede zorlanma",
+        "Esneklik eksikliği",
+        "İlişkiden çok göreve odaklanma"
+      ],
+      "actionPlan": [
+        "Takımınıza sadece ne yapacaklarını değil, neden yapmaları gerektiğini de anlatarak motivasyonlarını artırın.",
+        "Kuralların ve süreçlerin dışına çıkılabilecek inovasyon alanları yaratın.",
+        "Performans görüşmelerine kişisel gelişim ve kariyer hedeflerini de dahil edin."
+      ],
+      "professionalAdvice": "Sistem kurma ve yönetme beceriniz, organizasyonların bel kemiğidir. Bu beceriyi, insan odaklı ve ilham verici yaklaşımlarla zenginleştirerek liderlik etkinliğinizi bir üst seviyeye taşıyabilirsiniz.",
+      "shareText": "Ben bir İşlemsel Liderim! Net hedefler ve verimli sistemlerle başarıya ulaşırım. 📊 #Yönetim #Verimlilik",
+      "color": "#3498DB",
+      "icon": "📈"
+    },
+    "servant": {
+      "title": "Hizmetkar Lider (Mentor)",
+      "shortDesc": "Takımınızın ihtiyaçlarını ve gelişimini önceliklendiren, destekleyici ve empatik bir mentorsunuz.",
+      "longDescription": "Liderlik stiliniz, en saygın yaklaşımlardan biri olan Hizmetkar Liderlik ile örtüşüyor. Sizin için liderliğin temel amacı, hizmet etmektir: takım üyelerinizin gelişmesine, potansiyellerine ulaşmasına ve refah içinde olmasına hizmet etmek. Gücü ve otoriteyi, başkalarını güçlendirmek için bir araç olarak görürsünüz. Empati, dinleme ve alçakgönüllülük en belirgin özelliklerinizdir. Bu stil, yüksek güven, bağlılık ve etik bir çalışma ortamı yaratır. Özellikle sağlık, eğitim ve kar amacı gütmeyen kuruluşlarda son derece etkilidir.",
+      "percentage": "85",
+      "strengths": [
+        "Yüksek güven ve bağlılık yaratma",
+        "Empati ve dinleme",
+        "Takım üyesi gelişimi",
+        "Etik ve alçakgönüllü duruş"
+      ],
+      "developmentAreas": [
+        "Zor ve popüler olmayan kararları almada zorlanma",
+        "Kendi ihtiyaçlarını ihmal etme",
+        "Performansı düşük üyelere karşı aşırı toleranslı olma"
+      ],
+      "actionPlan": [
+        "Hizmet etme arzunuzu, net performans beklentileri ve hesap verebilirlik ile dengeleyin.",
+        "Zor kararlar almanız gerektiğinde, bunun uzun vadede takımın geneli için en iyi hizmet olduğunu kendinize hatırlatın.",
+        "Kendi öz-bakımınıza ve gelişiminize de zaman ayırın."
+      ],
+      "professionalAdvice": "Hizmetkar liderliğiniz, insanları derinden etkileyen ve sadakat yaratan bir yaklaşımdır. Bu stilin etkinliğini korumak için, gerektiğinde atılgan olma ve zor kararları alma becerilerinizi de geliştirmeniz önemlidir.",
+      "shareText": "Ben bir Hizmetkar Liderim! Takımımın gelişimi ve başarısı benim önceliğimdir. ❤️ #HizmetkarLiderlik #Mentor",
+      "color": "#2ECC71",
+      "icon": "❤️"
+    },
+    "laissez_faire": {
+      "title": "Delegatif Lider (Kolaylaştırıcı)",
+      "shortDesc": "Takımınıza güvenen, onlara otonomi tanıyan ve müdahaleden kaçınan bir kolaylaştırıcısınız.",
+      "longDescription": "Liderlik stiliniz, ‘bırakınız yapsınlar’ olarak da bilinen Laissez-Faire veya Delegatif Liderlik yaklaşımına yakın. Bu stil, takım üyelerine yüksek derecede güven duymayı ve onlara tam otonomi sağlamayı içerir. Karar alma ve sorumluluk büyük ölçüde takımdadır. Bu yaklaşım, özellikle yüksek motivasyonlu, deneyimli ve kendi kendini yönetebilen uzmanlardan oluşan takımlarda çok etkili olabilir. Yaratıcılığı ve bireysel sorumluluğu teşvik eder. Ancak, deneyimsiz veya motivasyonu düşük takımlarda kaos, yön kaybı ve düşük performansa yol açabilir.",
+      "percentage": "60",
+      "strengths": [
+        "Yüksek otonomi ve güven sağlama",
+        "Yaratıcılığı teşvik etme",
+        "Deneyimli takımlarda verimlilik",
+        "Düşük mikro-yönetim"
+      ],
+      "developmentAreas": [
+        "Yön ve vizyon eksikliği yaratma riski",
+        "Performans takibinde zorluk",
+        "Deneyimsiz takımlarda başarısızlık",
+        "Liderlik sorumluluğundan kaçınma algısı"
+      ],
+      "actionPlan": [
+        "Takımınıza tam otonomi vermeden önce, net bir vizyon ve temel kurallar çerçevesi çizin.",
+        "Periyodik kontrol noktaları belirleyerek takımın ilerlemesini takip edin, ancak mikro-yönetim yapmaktan kaçının.",
+        "Bu stilin hangi takımlar ve durumlar için uygun, hangileri için uygun olmadığını ayırt etme becerinizi geliştirin."
+      ],
+      "professionalAdvice": "Delegatif stiliniz, doğru koşullar altında modern ve güçlendirici bir yaklaşımdır. Bu stilin başarısı, büyük ölçüde takımınızın yetkinliğine ve motivasyonuna bağlıdır. Lider olarak göreviniz, bu koşulları sağlamak ve gerektiğinde daha yönlendirici bir role geçebilmektir.",
+      "shareText": "Ben bir Delegatif Liderim! Takımıma güvenir ve onlara özgürlük tanırım. 🤝 #Otonomi #Güven",
+      "color": "#7F8C8D",
+      "icon": "🤝"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, dört ana liderlik stilindeki (Dönüştürücü, İşlemsel, Hizmetkar, Delegatif) eğilimlerinizi ölçer. Her seçeneğe verilen puanlar, ilgili kategorideki toplam puanınızı oluşturur ve baskın stilinizi belirler.",
+    "reliability": "Cronbach Alpha: 0.92, Test-tekrar test güvenilirliği: 0.87",
+    "validity": "MLQ-5X ile korelasyon: 0.82, Servant Leadership Survey ile korelasyon: 0.76",
+    "limitations": "Bu test, genel eğilimlerinizi gösterir ancak liderlik stilleri duruma ve bağlama göre değişiklik gösterebilir. En etkili liderler, duruma göre farklı stilleri esnek bir şekilde kullanabilenlerdir.",
+    "references": [
+      "Bass, B. M., & Avolio, B. J. (1994). Improving organizational effectiveness through transformational leadership.",
+      "Greenleaf, R. K. (1977). Servant leadership: A journey into the nature of legitimate power and greatness.",
+      "Walumbwa, F. O., et al. (2008). Authentic leadership: Development and validation of a theory-based measure."
+    ]
+  }
+}

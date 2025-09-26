@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 1
+  },
+  "testInfo": {
+    "title": "Kaygı Düzeyi Değerlendirme Testi",
+    "description": "Hamilton Kaygı Derecelendirme Ölçeği (HAM-A) ve GAD-7 Yaygın Anksiyete Bozukluğu ölçeğine dayanan bu test, kaygı düzeyinizi kapsamlı şekilde değerlendirir. Kaygı, doğal bir duygusal tepki olmasına rağmen, aşırı ve kontrolsüz hale geldiğinde günlük yaşamı olumsuz etkileyebilir. Test, hem psikolojik kaygıyı (zihinsel ajitasyon ve psikolojik sıkıntı) hem de somatik kaygıyı (kaygıya bağlı fiziksel şikayetler) ölçerek, kaygı belirtilerinizin şiddetini ve türünü analiz eder. Güncel araştırmalar, erken tanı ve uygun müdahalenin kaygı bozukluklarında %80'e varan başarı oranları gösterdiğini ortaya koymaktadır. Test sonuçları, kaygı yönetimi stratejileri ve gerektiğinde profesyonel destek için yol gösterici niteliktedir.",
+    "duration": "6-8 dakika",
+    "scientificBasis": "Hamilton Kaygı Derecelendirme Ölçeği (HAM-A, 1959), GAD-7 Yaygın Anksiyete Bozukluğu Ölçeği (Spitzer et al., 2006), Beck Anksiyete Envanteri (BAI, 1988), DSM-5 Anksiyete Bozuklukları Kriterleri, NICE Kaygı Bozuklukları Kılavuzu (2011-2024)",
+    "targetAudience": "Kaygı belirtileri yaşayan, stres düzeyi yüksek olan veya mental sağlığını değerlendirmek isteyen 16-75 yaş arası bireyler",
+    "viralHook": "Kafanızda sürekli dönen endişeli düşünceler var mı? Kaygı düzeyinizi ölçün ve kontrol altına alın! 🧠💚"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Son bir hafta içinde ne sıklıkla endişeli, gergin veya sinirli hissedersiniz?",
+      "options": [
+        {
+          "text": "Hiç ya da çok nadiren",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Duygusal durumun normal ve sağlıklı aralıkta olması"
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Geçici ve yönetilebilir düzeyde kaygı belirtileri"
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Belirgin ve sık yaşanan kaygı hissi"
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Sürekli ve yoğun yaşanan kaygı durumu"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Endişelerinizi kontrol etme veya durdurmada ne kadar zorlanıyorsunuz?",
+      "options": [
+        {
+          "text": "Kolayca kontrol edebiliyorum",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Endişeleri kontrol etmede yüksek öz-yeterlik"
+        },
+        {
+          "text": "Çoğu zaman kontrol edebiliyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Endişeleri yönetmede genel başarı ancak ara sıra zorlanma"
+        },
+        {
+          "text": "Bazen zorlanıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Endişeleri kontrol etmede belirgin zorluk yaşama"
+        },
+        {
+          "text": "Çok zor ya da hiç kontrol edemiyorum",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Endişeler üzerinde kontrol hissinin kaybı"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Farklı şeyler hakkında çok fazla endişelenerek ne kadar rahatsız oluyorsunuz?",
+      "options": [
+        {
+          "text": "Hiç rahatsız olmuyorum",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Ruminatif (tekrarlayan) endişe döngülerinin olmaması"
+        },
+        {
+          "text": "Biraz rahatsız oluyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Yönetilebilir düzeyde ve geçici endişe hali"
+        },
+        {
+          "text": "Orta düzeyde rahatsız oluyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Günlük yaşamı etkileyen belirgin endişe durumu"
+        },
+        {
+          "text": "Çok fazla rahatsız oluyorum",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Yaşam kalitesini düşüren yoğun ve sürekli endişe"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Rahat oturmada veya hareketsiz kalmada ne kadar zorlanıyorsunuz?",
+      "options": [
+        {
+          "text": "Hiç zorlanmıyorum",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Psikomotor ajitasyon (huzursuzluk) belirtisi yok"
+        },
+        {
+          "text": "Biraz zorlanıyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Hafif düzeyde bedensel huzursuzluk hissi"
+        },
+        {
+          "text": "Orta düzeyde zorlanıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Belirgin motor huzursuzluk ve yerinde duramama"
+        },
+        {
+          "text": "Çok zorlanıyorum, sürekli hareket etme ihtiyacı duyuyorum",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Yoğun psikomotor ajitasyon ve sürekli hareket ihtiyacı"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Son zamanlarda ne kadar yorgun hissediyorsunuz veya enerjiniz ne kadar düşük?",
+      "options": [
+        {
+          "text": "Enerjim normal seviyede",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Kaygıya bağlı somatik (bedensel) yorgunluk yok"
+        },
+        {
+          "text": "Biraz yorgun hissediyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Hafif düzeyde ve geçici enerji düşüklüğü"
+        },
+        {
+          "text": "Orta düzeyde yorgun ve enerjisizim",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Günlük aktiviteleri etkileyen belirgin enerji kaybı"
+        },
+        {
+          "text": "Çok yorgun, enerji seviyem çok düşük",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Şiddetli yorgunluk ve kronik enerji eksikliği"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Konsantre olmada veya bir şeye odaklanmada ne kadar zorlanıyorsunuz?",
+      "options": [
+        {
+          "text": "Konsantrasyonum normal",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Bilişsel fonksiyonlarda kaygıya bağlı bozulma yok"
+        },
+        {
+          "text": "Bazen dikkati toplamakta zorlanıyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Geçici ve hafif konsantrasyon güçlükleri"
+        },
+        {
+          "text": "Sık sık konsantre olamıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Görevleri tamamlamayı zorlaştıran belirgin dikkat sorunları"
+        },
+        {
+          "text": "Konsantrasyon çok zor, sürekli dağınığım",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Bilişsel işlevselliği ciddi şekilde etkileyen konsantrasyon bozukluğu"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Ne kadar sıklıkla kalp çarpıntısı, nefes darlığı veya terleme yaşıyorsunuz?",
+      "options": [
+        {
+          "text": "Hiç yaşamıyorum",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Belirgin otonomik sinir sistemi uyarılması yok"
+        },
+        {
+          "text": "Nadiren yaşıyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Hafif ve nadir görülen somatik (bedensel) kaygı belirtileri"
+        },
+        {
+          "text": "Sık sık yaşıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Belirgin ve tekrarlayan fiziksel kaygı semptomları"
+        },
+        {
+          "text": "Çok sık, günlük yaşamımı etkiliyor",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Yaşam kalitesini düşüren şiddetli ve sık fiziksel kaygı belirtileri"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Uykuya dalmada veya uyku sürekliliğinde sorun yaşıyor musunuz?",
+      "options": [
+        {
+          "text": "Uykum çok iyi",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Kaygıya bağlı uyku bozukluğu belirtisi yok"
+        },
+        {
+          "text": "Bazen uyku sorunları yaşıyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Geçici ve hafif düzeyde uyku sorunları"
+        },
+        {
+          "text": "Sık sık uyku problemi yaşıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Uyku kalitesini belirgin şekilde düşüren problemler"
+        },
+        {
+          "text": "Ciddi uyku sorunlarım var",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Kronik insomnia (uykusuzluk) ve ciddi uyku bozuklukları"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Kas gerginliği, baş ağrısı veya vücut ağrıları ne kadar sıklıkla yaşıyorsunuz?",
+      "options": [
+        {
+          "text": "Hiç yaşamıyorum",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Kaygıya bağlı kas-iskelet sistemi belirtileri yok"
+        },
+        {
+          "text": "Nadiren yaşıyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Hafif ve geçici fiziksel gerginlik belirtileri"
+        },
+        {
+          "text": "Düzenli olarak yaşıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Tekrarlayan ve rahatsız edici somatik şikayetler"
+        },
+        {
+          "text": "Sürekli ağrı veya gerginlik hissediyorum",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Kronikleşmiş ve yaşam kalitesini etkileyen fiziksel ağrılar"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Gelecekle ilgili endişeleriniz günlük yaşamınızı ne kadar etkiliyor?",
+      "options": [
+        {
+          "text": "Hiç etkilemiyor",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Endişelerin günlük işlevsellik üzerinde etkisi yok"
+        },
+        {
+          "text": "Biraz etkiliyor",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Endişelerin günlük yaşam üzerinde hafif ve yönetilebilir etkisi"
+        },
+        {
+          "text": "Orta düzeyde etkiliyor",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Endişelerin yaşam kalitesinde belirgin bir düşüşe neden olması"
+        },
+        {
+          "text": "Günlük yaşamımı ciddi şekilde engelliyor",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Endişelerin günlük işlevselliği ciddi şekilde bozması"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Sosyal durumlarda veya insanların önünde ne kadar kaygı yaşıyorsunuz?",
+      "options": [
+        {
+          "text": "Hiç kaygı yaşamıyorum",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Sosyal ortamlarda kaygı belirtisi olmaması"
+        },
+        {
+          "text": "Hafif kaygı yaşıyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Sosyal durumlarda hafif ve yönetilebilir kaygı"
+        },
+        {
+          "text": "Orta düzeyde kaygı yaşıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Sosyal etkileşimleri zorlaştıran belirgin kaygı (Sosyal Fobi eğilimi)"
+        },
+        {
+          "text": "Çok yoğun kaygı, sosyal durumlardan kaçınıyorum",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Sosyal durumlardan kaçınmaya neden olan yoğun kaygı (Sosyal Anksiyete Bozukluğu belirtileri)"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Ani korku atakları veya panik hissi yaşadığınız oluyor mu?",
+      "options": [
+        {
+          "text": "Hiç yaşamıyorum",
+          "category": "low",
+          "score": 0,
+          "explanation": "Düşük Kaygı - Panik atak belirtilerinin olmaması"
+        },
+        {
+          "text": "Çok nadiren yaşıyorum",
+          "category": "mild",
+          "score": 1,
+          "explanation": "Hafif Kaygı - Nadir ve hafif panik benzeri belirtiler"
+        },
+        {
+          "text": "Zaman zaman yaşıyorum",
+          "category": "moderate",
+          "score": 2,
+          "explanation": "Orta Düzey Kaygı - Belirgin ve tekrarlayan panik atakları"
+        },
+        {
+          "text": "Sık sık yaşıyorum, hayatımı etkiliyor",
+          "category": "severe",
+          "score": 3,
+          "explanation": "Yüksek Kaygı - Günlük yaşamı etkileyen, sık ve yoğun panik ataklar (Panik Bozukluk belirtileri)"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "low": {
+      "title": "Düşük Kaygı Düzeyi",
+      "shortDesc": "Kaygı düzeyiniz normal aralıkta. Mental sağlığınız iyi durumda görünüyor.",
+      "longDescription": "Değerlendirme sonuçlarınız, kaygı düzeyinizin normal ve sağlıklı aralıkta olduğunu gösteriyor. Yaşadığınız kaygı, günlük yaşamın doğal parçası olan normal endişe düzeyinde. Stresli durumlarla başa çıkma beceriniz gelişmiş ve duygusal dengeniz iyi. Bu durum, sağlıklı bir psikolojik dayanıklılığa sahip olduğunuzu ve yaşam zorluklarıyla etkili şekilde başa çıkabildiğinizi gösterir. Kaygı yönetimi konusunda doğal yetenekleriniz var ve bu durumu korumaya devam etmelisiniz.",
+      "percentage": "15",
+      "strengths": [
+        "Etkili kaygı yönetimi",
+        "Duygusal denge",
+        "Stresle başa çıkma becerisi",
+        "Olumlu bakış açısı"
+      ],
+      "developmentAreas": [
+        "Kaygı yönetimi tekniklerini öğrenmek",
+        "Önleyici mental sağlık stratejileri"
+      ],
+      "actionPlan": [
+        "Mevcut sağlıklı alışkanlıklarınızı sürdürün",
+        "Düzenli egzersiz ve meditasyon rutini oluşturun",
+        "Sosyal destek ağınızı güçlendirin",
+        "Stres yönetimi tekniklerini öğrenin"
+      ],
+      "professionalAdvice": "Kaygı düzeyiniz normal aralıkta. Mevcut mental sağlığınızı korumak için önleyici yaklaşımları benimseyin.",
+      "shareText": "Kaygı düzeyim normal aralıkta! Mental sağlığımı korumaya devam ediyorum 🌱",
+      "color": "#4CAF50",
+      "icon": "😌"
+    },
+    "mild": {
+      "title": "Hafif Kaygı Düzeyi",
+      "shortDesc": "Hafif düzeyde kaygı yaşıyorsunuz. Bu durum yönetilebilir ve normal sayılabilir.",
+      "longDescription": "Değerlendirme sonuçlarınız hafif düzeyde kaygı yaşadığınızı gösteriyor. Bu düzey, günlük yaşamınızı ciddi şekilde etkilemese de, zaman zaman rahatsızlık yaratabilir. Yaşadığınız kaygı, stresli dönemler veya yaşam değişiklikleri sırasında artabilir. Bu seviyedeki kaygı oldukça yaygındır ve uygun yönetim teknikleriyle kolayca kontrol altına alınabilir. Erken müdahale ile kaygı düzeyinizi daha da azaltabilir ve yaşam kalitenizi artırabilirsiniz. Kaygı yönetimi becerilerinizi geliştirmek, bu durumun ilerlemesini önleyebilir.",
+      "percentage": "35",
+      "strengths": [
+        "Kaygıyı fark etme yetisi",
+        "Günlük işlevselliği koruma",
+        "Sosyal ilişkileri sürdürme"
+      ],
+      "developmentAreas": [
+        "Kaygı yönetimi teknikleri",
+        "Rahatlatıcı aktiviteler",
+        "Stres azaltma yöntemleri"
+      ],
+      "actionPlan": [
+        "Nefes teknikleri ve mindfulness pratik edin",
+        "Düzenli fiziksel aktivite yapın",
+        "Kaygı tetikleyicilerinizi belirleyin",
+        "Rahatlatıcı aktiviteler bulun",
+        "Uyku hijyenine dikkat edin"
+      ],
+      "professionalAdvice": "Hafif kaygı düzeyiniz normal aralıkta. Kaygı yönetimi teknikleri öğrenerek durumu iyileştirebilirsiniz.",
+      "shareText": "Hafif kaygı yaşıyorum ama yönetilebilir düzeyde. Kendimi geliştirmeye devam ediyorum 💪",
+      "color": "#FFC107",
+      "icon": "😐"
+    },
+    "moderate": {
+      "title": "Orta Düzey Kaygı",
+      "shortDesc": "Orta düzeyde kaygı yaşıyorsunuz. Bu durum günlük yaşamınızı etkilemeye başlamış olabilir.",
+      "longDescription": "Değerlendirme sonuçlarınız orta düzeyde kaygı yaşadığınızı gösteriyor. Bu seviyedeki kaygı, günlük yaşamınızı, iş performansınızı ve ilişkilerinizi etkileyebilir. Konsantrasyon güçlükleri, uyku sorunları ve fiziksel belirtiler yaşıyor olabilirsiniz. Bu düzeydeki kaygı ciddi bir durumdur ve müdahale gerektirir. Ancak uygun tedavi ve destek ile tamamen yönetilebilir bir durumdur. Kaygı yönetimi teknikleri, yaşam tarzı değişiklikleri ve gerektiğinde profesyonel destek ile belirgin iyileşme sağlanabilir. Erken müdahale, durumun daha da kötüleşmesini önleyecektir.",
+      "percentage": "55",
+      "strengths": [
+        "Yardım arama farkındalığı",
+        "Değişim motivasyonu",
+        "Kişisel güçlü yönlerin varlığı"
+      ],
+      "developmentAreas": [
+        "Kaygı yönetimi becerileri",
+        "Stres azaltma teknikleri",
+        "Yaşam tarzı değişiklikleri",
+        "Destek sistemi oluşturma"
+      ],
+      "actionPlan": [
+        "Profesyonel psikolojik destek almanızı öneriyoruz",
+        "Günlük kaygı ve ruh hali takibi yapın",
+        "Progresif kas gevşeme tekniklerini öğrenin",
+        "Kaygı tetikleyicilerini minimize edin",
+        "Sosyal destek ağınızı aktifleştirin",
+        "Yaşam tarzı değişiklikleri (egzersiz, beslenme, uyku) yapın"
+      ],
+      "professionalAdvice": "Orta düzey kaygınız için profesyonel destek almanızı öneriyoruz. Bilişsel davranışçı terapi (BDT) oldukça etkili olabilir.",
+      "shareText": "Kaygı düzeyim biraz yüksek ama çözüm odaklı yaklaşıyorum. Destek alıyorum 🌈",
+      "color": "#FF9800",
+      "icon": "😰"
+    },
+    "severe": {
+      "title": "Yüksek Kaygı Düzeyi",
+      "shortDesc": "Yüksek düzeyde kaygı yaşıyorsunuz. Bu durum acil profesyonel destek gerektirir.",
+      "longDescription": "Değerlendirme sonuçlarınız yüksek düzeyde kaygı yaşadığınızı gösteriyor. Bu seviyedeki kaygı, günlük yaşamınızı ciddi şekilde etkilemekte ve önemli fonksiyon kaybına neden olmaktadır. İş, okul, sosyal ilişkiler ve kişisel bakım alanlarında zorluklar yaşıyor olabilirsiniz. Fiziksel belirtiler (kalp çarpıntısı, nefes darlığı, uyku sorunları) ve psikolojik belirtiler (sürekli endişe, konsantrasyon problemi) yaşam kalitenizi düşürmüş durumda. Bu durum tedavi edilebilir ve iyileşme mümkündür. Ancak profesyonel destek şarttır. Terapi, ilaç tedavisi ve yaşam tarzı değişiklikleri kombinasyonu ile belirgin iyileşme sağlanabilir.",
+      "percentage": "80",
+      "strengths": [
+        "Yardım arama cesareti",
+        "İyileşme potansiyeli",
+        "Destek almaya açıklık"
+      ],
+      "developmentAreas": [
+        "Acil profesyonel destek",
+        "Kapsamlı tedavi planı",
+        "Yaşam becerilerini yeniden kazanma",
+        "Sosyal destek sistemini güçlendirme"
+      ],
+      "actionPlan": [
+        "ACIL: Derhal bir ruh sağlığı uzmanından destek alın",
+        "Psikiyatrist ve psikoloğa başvurun",
+        "Güvenlik planı oluşturun (kriz anında kimle iletişime geçeceğiniz)",
+        "Aile ve yakın çevreden destek alın",
+        "Günlük yaşam rutinlerinizi basitleştirin",
+        "Kriz hattı numaralarını not edin: 182 (Alo Psikiyatri)",
+        "İlaç tedavisi için psikiyatrist değerlendirmesi yaptırın"
+      ],
+      "professionalAdvice": "Yüksek kaygı düzeyiniz acil profesyonel müdahale gerektiriyor. Lütfen derhal bir ruh sağlığı uzmanından destek alın. Bu durum tedavi edilebilir.",
+      "shareText": "Yüksek kaygı yaşıyorum ama profesyonel destek alarak iyileşme yolundayım 💚",
+      "color": "#f44336",
+      "icon": "😵"
+    }
+  }
+}

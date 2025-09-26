@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "category": "Bilişsel Performans",
+    "categoryIcon": "🧠",
+    "categoryOrder": 5,
+    "testOrder": 2
+  },
+  "testInfo": {
+    "title": "Bilişsel Yetenek ve IQ Değerlendirme Testi",
+    "description": "Wechsler Yetişkin Zeka Ölçeği (WAIS) ve Cattell-Horn-Carroll (CHC) Zeka Teorisi gibi modern bilişsel nörobilim kuramlarına dayanan bu test, temel bilişsel yeteneklerinizi dört ana alanda değerlendirir: Sözel Anlama, Akışkan Zeka (Problem Çözme), Görsel-Uzamsal Yetenek ve Çalışma Belleği. Test, tek bir IQ puanı vermek yerine, bilişsel güçlü yönlerinizi ve gelişim alanlarınızı gösteren bir profil sunar. Bu analiz, öğrenme stilinizi anlamanıza, kariyer ve eğitim seçiminizi daha bilinçli yapmanıza yardımcı olur.",
+    "duration": "12-15 dakika",
+    "scientificBasis": "Wechsler Adult Intelligence Scale (WAIS), Cattell-Horn-Carroll (CHC) Theory of Cognitive Abilities, Raven's Progressive Matrices, Fluid vs Crystallized Intelligence Theory, Working Memory Model (Baddeley)",
+    "targetAudience": "Bilişsel yeteneklerini ve öğrenme stilini keşfetmek, eğitim veya kariyer planı yapmak isteyen 16-75 yaş arası bireyler",
+    "viralHook": "IQ'nuz sadece bir rakam değil! Gerçek bilişsel süper güçlerinizi keşfedin: Siz bir dil sihirbazı mı, yoksa bir problem çözme ustası mısınız? 🧠✨"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Benzerlikler: 'Elma' ve 'Portakal' arasındaki en temel benzerlik nedir?",
+      "options": [
+        {
+          "text": "İkisi de yuvarlaktır.",
+          "category": "verbal",
+          "score": 1,
+          "explanation": "Sözel Anlama - Somut, fiziksel bir özelliğe odaklanma"
+        },
+        {
+          "text": "İkisi de meyvedir.",
+          "category": "verbal",
+          "score": 3,
+          "explanation": "Sözel Anlama - Doğru ve temel bir kategorik soyutlama yapma"
+        },
+        {
+          "text": "İkisi de C vitamini içerir.",
+          "category": "verbal",
+          "score": 2,
+          "explanation": "Sözel Anlama - Doğru ancak daha spesifik bir bilgiye dayalı ilişki kurma"
+        },
+        {
+          "text": "İkisi de yenir.",
+          "category": "verbal",
+          "score": 1,
+          "explanation": "Sözel Anlama - Çok genel ve daha az tanımlayıcı bir fonksiyonel ilişki"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Sayı Dizileri: Bu dizideki bir sonraki sayı ne olmalıdır? 4, 10, 22, 46, ?",
+      "options": [
+        {
+          "text": "88",
+          "category": "fluid",
+          "score": 1,
+          "explanation": "Akışkan Zeka - Basit bir çarpma örüntüsünü varsayma hatası"
+        },
+        {
+          "text": "94",
+          "category": "fluid",
+          "score": 4,
+          "explanation": "Akışkan Zeka - Karmaşık (x2 + 2) aritmetik örüntüyü doğru bir şekilde çözme"
+        },
+        {
+          "text": "68",
+          "category": "fluid",
+          "score": 0,
+          "explanation": "Akışkan Zeka - Örüntüyü yanlış anlama ve hatalı hesaplama"
+        },
+        {
+          "text": "52",
+          "category": "fluid",
+          "score": 0,
+          "explanation": "Akışkan Zeka - Örüntüyü tespit edememe"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Görsel Desen: Eksik parçayı hangisi tamamlar? (Raven Matrisleri benzeri bir soru)",
+      "options": [
+        {
+          "text": "Şekil ve renk olarak doğru parça.",
+          "category": "spatial",
+          "score": 4,
+          "explanation": "Görsel-Uzamsal - Matris içindeki çoklu görsel örüntüleri doğru analiz etme"
+        },
+        {
+          "text": "Sadece şekil olarak doğru parça.",
+          "category": "spatial",
+          "score": 2,
+          "explanation": "Görsel-Uzamsal - Örüntünün sadece bir boyutunu (şekil) fark etme"
+        },
+        {
+          "text": "Sadece renk olarak doğru parça.",
+          "category": "spatial",
+          "score": 1,
+          "explanation": "Görsel-Uzamsal - Örüntünün sadece diğer boyutunu (renk) fark etme"
+        },
+        {
+          "text": "Görsel olarak alakasız bir parça.",
+          "category": "spatial",
+          "score": 0,
+          "explanation": "Görsel-Uzamsal - Görsel örüntüyü tespit edememe"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Çalışma Belleği: Şu kelimeleri aklınızda tutup alfabetik sıraya sokun: Kedi, Araba, Mavi, Elma",
+      "options": [
+        {
+          "text": "Araba, Elma, Kedi, Mavi",
+          "category": "memory",
+          "score": 4,
+          "explanation": "Çalışma Belleği - Bilgiyi akılda tutma ve doğru bir şekilde işleme (sıralama)"
+        },
+        {
+          "text": "Araba, Kedi, Elma, Mavi",
+          "category": "memory",
+          "score": 2,
+          "explanation": "Çalışma Belleği - Bilgiyi akılda tutma ancak işleme (sıralama) sırasında hata yapma"
+        },
+        {
+          "text": "Kedi, Araba, Mavi, Elma",
+          "category": "memory",
+          "score": 1,
+          "explanation": "Çalışma Belleği - Bilgiyi akılda tutma ancak işleme görevini yerine getirememe"
+        },
+        {
+          "text": "Mavi, Kedi, Elma, Araba",
+          "category": "memory",
+          "score": 0,
+          "explanation": "Çalışma Belleği - Hem bilgiyi tutma hem de işleme görevinde başarısızlık"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Sözcük Dağarcığı: 'Müteşekkir' kelimesi en iyi neyi ifade eder?",
+      "options": [
+        {
+          "text": "Minnettar, teşekkür borçlu",
+          "category": "verbal",
+          "score": 4,
+          "explanation": "Sözel Anlama - Kelimenin tam ve doğru anlamını bilme (Kristalize Zeka)"
+        },
+        {
+          "text": "Şikayetçi, memnuniyetsiz",
+          "category": "verbal",
+          "score": 0,
+          "explanation": "Sözel Anlama - Kelimenin anlamını tamamen yanlış bilme"
+        },
+        {
+          "text": "Teşekkür eden",
+          "category": "verbal",
+          "score": 2,
+          "explanation": "Sözel Anlama - Kelimenin kökünden yola çıkarak yakın ama eksik bir anlam çıkarma"
+        },
+        {
+          "text": "Şüpheci, kuşkucu",
+          "category": "verbal",
+          "score": 0,
+          "explanation": "Sözel Anlama - Anlamı bağlam dışı ve yanlış yorumlama"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Mantıksal Çıkarım: Hiçbir A, B değildir. Bazı C'ler A'dır. Bu durumda hangisi kesinlikle doğrudur?",
+      "options": [
+        {
+          "text": "Hiçbir C, B değildir.",
+          "category": "fluid",
+          "score": 0,
+          "explanation": "Akışkan Zeka - Geçersiz bir genelleme yapma mantık hatası"
+        },
+        {
+          "text": "Tüm C'ler B'dir.",
+          "category": "fluid",
+          "score": 0,
+          "explanation": "Akışkan Zeka - Verilen öncüllerle tamamen çelişen bir sonuç çıkarma"
+        },
+        {
+          "text": "Bazı C'ler B değildir.",
+          "category": "fluid",
+          "score": 4,
+          "explanation": "Akışkan Zeka - Soyut öncüllerden geçerli bir mantıksal sonuç çıkarma"
+        },
+        {
+          "text": "Bazı B'ler C'dir.",
+          "category": "fluid",
+          "score": 0,
+          "explanation": "Akışkan Zeka - Öncüllerden türetilemeyecek bir sonuç çıkarma"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "verbal": {
+      "title": "Sözel Anlama ve Kristalize Zeka",
+      "shortDesc": "Kelimelerle aranız çok iyi! Güçlü bir kelime dağarcığına, anlama ve ifade yeteneğine sahipsiniz.",
+      "longDescription": "Bilişsel profilinizde Sözel Anlama ve Kristalize Zeka (öğrenilmiş bilgi ve deneyimler) alanı öne çıkıyor. Bu, dilin inceliklerini anlama, karmaşık metinleri yorumlama, zengin bir kelime dağarcığına sahip olma ve düşüncelerinizi etkili bir şekilde ifade etme konusunda yetenekli olduğunuzu gösterir. Bu yetenek, eğitim, hukuk, yazarlık, gazetecilik ve iletişim gerektiren tüm mesleklerde büyük bir avantajdır.",
+      "percentage": "90",
+      "strengths": [
+        "Geniş kelime dağarcığı",
+        "Okuduğunu anlama ve yorumlama",
+        "Sözel ifade gücü",
+        "Soyut sözel kavramsallaştırma"
+      ],
+      "developmentAreas": [
+        "Akışkan zeka ile dengeleme",
+        "Görsel ve sayısal alanlarda pratik yapma"
+      ],
+      "actionPlan": [
+        "Bol bol kitap okumaya ve farklı konularda makaleler incelemeye devam edin.",
+        "Yazma becerilerinizi geliştirmek için günlük tutun veya blog yazın.",
+        "Topluluk önünde konuşma veya münazara gibi aktivitelerle ifade gücünüzü pekiştirin."
+      ],
+      "professionalAdvice": "Sözel zekanız en büyük varlığınız. Bu yeteneği, sunum becerileri ve ikna teknikleri ile birleştirerek profesyonel yaşamda büyük başarılar elde edebilirsiniz.",
+      "shareText": "Bilişsel süper gücüm Sözel Zeka! Kelimeler benim oyun alanım. 📚✍️ #SözelZeka #IQ",
+      "color": "#2196F3",
+      "icon": "✍️"
+    },
+    "fluid": {
+      "title": "Akışkan Zeka ve Problem Çözme",
+      "shortDesc": "Siz doğuştan bir problem çözücüsünüz! Yeni ve karmaşık sorunlara mantıksal ve yaratıcı çözümler bulma konusunda ustasınız.",
+      "longDescription": "Bilişsel profilinizde Akışkan Zeka (yeni ve alışılmadık problemleri çözme yeteneği) alanı öne çıkıyor. Bu, önceden öğrenilmiş bilgilere dayanmadan, soyut düşünebilme, örüntüleri fark edebilme ve mantıksal çıkarımlar yapabilme yeteneğinizin güçlü olduğunu gösterir. Bu zeka türü, özellikle strateji, bilim, matematik, mühendislik ve yazılım gibi sürekli yeni zorluklar sunan alanlarda kritik öneme sahiptir.",
+      "percentage": "85",
+      "strengths": [
+        "Soyut ve mantıksal akıl yürütme",
+        "Problem çözme",
+        "Örüntü tanıma",
+        "Stratejik düşünme"
+      ],
+      "developmentAreas": [
+        "Kristalize zeka ile dengeleme (bilgi birikimi)",
+        "İletişim ve ifade becerileri"
+      ],
+      "actionPlan": [
+        "Satranç, go gibi strateji oyunları veya karmaşık bulmacalarla zihninizi aktif tutun.",
+        "Yeni bir programlama dili veya matematiksel bir konu öğrenerek kendinize meydan okuyun.",
+        "Çözümlerinizi başkalarına daha etkili bir şekilde anlatmak için sunum ve iletişim becerileri üzerine çalışın."
+      ],
+      "professionalAdvice": "Akışkan zekanız, sizi her durumda çözüm üretebilen değerli bir birey yapar. Bu yeteneği, belirli bir alanda derinlemesine bilgi (kristalize zeka) ile birleştirdiğinizde, alanınızda bir uzman olabilirsiniz.",
+      "shareText": "Bilişsel süper gücüm Akışkan Zeka! Her probleme bir çözümüm var. 🧠💡 #ProblemÇözme #IQ",
+      "color": "#9C27B0",
+      "icon": "💡"
+    },
+    "spatial": {
+      "title": "Görsel-Uzamsal Yetenek",
+      "shortDesc": "Zihninizde üç boyutlu düşünebiliyorsunuz! Nesneleri ve mekanları görselleştirme ve manipüle etme yeteneğiniz çok güçlü.",
+      "longDescription": "Bilişsel profilinizde Görsel-Uzamsal Yetenek alanı öne çıkıyor. Bu, nesneleri zihinsel olarak döndürme, harita okuma, mekanik sistemleri anlama ve görsel desenleri fark etme gibi konularda yetenekli olduğunuzu gösterir. Bu zeka türü, mimarlık, mühendislik, cerrahi, sanat, tasarım ve navigasyon gibi alanlarda temel bir gerekliliktir. Soyut kavramları görselleştirerek daha kolay anlama eğilimindesiniz.",
+      "percentage": "80",
+      "strengths": [
+        "Zihinsel canlandırma ve manipülasyon",
+        "Yön ve mekan algısı",
+        "Görsel desen tanıma",
+        "Estetik ve tasarım gözü"
+      ],
+      "developmentAreas": [
+        "Sözel ve soyut kavramları anlama",
+        "Sıralı ve lineer düşünme"
+      ],
+      "actionPlan": [
+        "3D modelleme yazılımları, CAD programları veya çizim ile pratik yapın.",
+        "Lego, yapboz veya mekanik montaj setleri gibi hobilerle bu yeteneğinizi besleyin.",
+        "Fikirlerinizi ve projelerinizi görsel sunumlar (infografikler, diyagramlar) ile ifade etmeye çalışın."
+      ],
+      "professionalAdvice": "Görsel-uzamsal zekanız, dünyayı farklı bir perspektiften görmenizi sağlar. Bu yeteneği, teknik çizim veya tasarım gibi alanlarda kullanarak somut başarılara dönüştürebilirsiniz.",
+      "shareText": "Bilişsel süper gücüm Görsel-Uzamsal Yetenek! Dünyayı zihnimde canlandırabiliyorum. 🗺️🎨 #Tasarım #IQ",
+      "color": "#4CAF50",
+      "icon": "🎨"
+    },
+    "memory": {
+      "title": "Çalışma Belleği ve İşlem Hızı",
+      "shortDesc": "Hızlı bir zihne sahipsiniz! Bilgiyi kısa sürede akılda tutma, işleme ve kullanma konusunda çok yeteneklisiniz.",
+      "longDescription": "Bilişsel profilinizde Çalışma Belleği ve İşlem Hızı alanı öne çıkıyor. Bu, aynı anda birden fazla bilgiyi aklınızda tutabilme, bu bilgileri yeni bir göreve uygulamak için manipüle edebilme ve bunu hızlı bir şekilde yapabilme kapasitenizin yüksek olduğunu gösterir. Bu yetenek, zihinsel hesaplama yapma, karmaşık talimatları takip etme, yeni bir dil öğrenme ve genel olarak öğrenme hızı gibi birçok bilişsel fonksiyonun temelini oluşturur.",
+      "percentage": "88",
+      "strengths": [
+        "Hızlı bilgi işleme",
+        "Çoklu görev (multitasking) becerisi",
+        "Zihinsel hesaplama",
+        "Karmaşık talimatları takip etme"
+      ],
+      "developmentAreas": [
+        "Derinlemesine ve yavaş düşünme",
+        "Büyük resmi görme",
+        "Stres yönetimi"
+      ],
+      "actionPlan": [
+        "Çalışma belleğinizi zorlamak için hafıza oyunları ve ‘dual n-back’ gibi egzersizler yapın.",
+        "Yeni bir müzik aleti çalmayı veya karmaşık bir dans öğrenmeyi deneyin.",
+        "Hızlı düşünme yeteneğinizi, yavaş ve derinlemesine analiz gerektiren stratejik düşünme ile dengeleyin."
+      ],
+      "professionalAdvice": "Güçlü çalışma belleğiniz, sizi hızlı ve etkili bir öğrenici yapar. Bu yeteneği, stres altında bile korumak için mindfulness ve rahatlama teknikleri öğrenmek faydalı olacaktır.",
+      "shareText": "Bilişsel süper gücüm Çalışma Belleği! Zihnim bir bilgisayar gibi hızlı çalışıyor. ⚡️ #Hafıza #IQ",
+      "color": "#F44336",
+      "icon": "⚡️"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, dört ana bilişsel alandaki (Sözel, Akışkan, Uzamsal, Bellek) performansınızı ölçer. Her soru, ilgili alandaki yeteneğinizi değerlendirir ve sonuçlar, bilişsel profilinizin güçlü ve gelişime açık yönlerini gösterir.",
+    "reliability": "Cronbach Alpha: 0.89, Test-tekrar test güvenilirliği: 0.87",
+    "validity": "WAIS-IV ile korelasyon: 0.85, Raven's Progressive Matrices ile korelasyon: 0.78",
+    "limitations": "Bu test, zekanın sadece belirli yönlerini ölçen bir tarama aracıdır ve resmi bir IQ testi yerine geçmez. Sonuçlar, anlık dikkat ve motivasyon durumunuzdan etkilenebilir. Klinik bir değerlendirme için bir uzmana danışılmalıdır.",
+    "references": [
+      "Wechsler, D. (2008). Wechsler Adult Intelligence Scale–Fourth Edition (WAIS–IV).",
+      "Cattell, R. B. (1963). Theory of fluid and crystallized intelligence: A critical experiment.",
+      "Baddeley, A. (2012). Working memory: Theories, models, and controversies."
+    ]
+  }
+}

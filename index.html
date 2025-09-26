@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Psikolog Rümeysa Uyumaz - İçsel Denge ve Kişisel Gelişim</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333333;
+            background-color: #FFFFFF;
+            line-height: 1.6;
+            width: 100%;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.3;
+        }
+        .floating-nav {
+            backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(200, 200, 200, 0.3);
+        }
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* iOS Safari için CSS-only parallax fix */
+            -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0);
+        }
+
+        /* Mobile Portrait - İPhone */
+        @media (max-width: 480px) and (orientation: portrait) {
+            .parallax-bg {
+                background-position: center 90% !important;
+            }
+        }
+
+        /* Mobile Landscape - iPhone */
+        @media (max-width: 896px) and (orientation: landscape) {
+            .parallax-bg {
+                background-position: center 85% !important;
+            }
+        }
+
+        /* Tablet Portrait */
+        @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+            .parallax-bg {
+                background-position: center 70% !important;
+            }
+        }
+
+        /* Tablet Landscape */
+        @media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+            .parallax-bg {
+                background-position: center 80% !important;
+            }
+        }
+
+        /* Sadece iOS Safari'de scroll */
+        @supports (-webkit-overflow-scrolling: touch) {
+            .parallax-bg {
+                background-attachment: scroll;
+            }
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #166534, #14532D);
+            color: white;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 8px rgba(22, 101, 52, 0.2);
+        }
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #14532D, #16A34A);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(22, 101, 52, 0.3);
+        }
+        .form-step {
+            transition: all 0.3s ease-in-out;
+        }
+        .form-step.active {
+            display: block;
+        }
+        .form-step.hidden {
+            display: none;
+        }
+        .step-indicator {
+            transition: all 0.3s ease;
+        }
+        .step-indicator.active {
+            transform: scale(1.2);
+            background-color: #166534;
+        }
+        .btn-secondary {
+            background-color: #F8F8F8;
+            color: #333333;
+            border: 1px solid #166534;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+        .btn-secondary:hover {
+            background-color: #EDEDED;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .form-input:focus {
+            border-color: #166534;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(22, 101, 52, 0.1);
+        }
+        .form-radio:checked,
+        .form-checkbox:checked {
+            background-color: #166534;
+            border-color: #166534;
+        }
+        .quote {
+            border-left: 3px solid #166534;
+            padding-left: 1.5rem;
+            font-style: italic;
+            margin: 2rem 0;
+            color: #555555;
+        }
+        .section-bg {
+            background-color: #F9FCFF;
+        }
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.7));
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Floating Navigation -->
+    <nav class="floating-nav fixed top-4 left-4 right-4 mx-auto max-w-7xl rounded-lg shadow-lg z-50 py-3 px-6 flex justify-between items-center transition-all duration-500" style="max-width: 1200px;" id="mainNav">
+        <div class="text-xl font-semibold" style="color: #333333; font-family: 'Playfair Display', serif;">Psk. Rümeysa Uyumaz</div>
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="hover:text-[#16A34A] transition-colors">Ana Sayfa</a>
+            <a href="#about" class="hover:text-[#16A34A] transition-colors">Hakkımda</a>
+            <a href="#experience" class="hover:text-[#16A34A] transition-colors">Deneyim</a>
+            <a href="testler.html" class="hover:text-[#16A34A] transition-colors">Testler</a>
+            <a href="#contact" class="hover:text-[#16A34A] transition-colors">İletişim</a>
+        </div>
+        <div class="md:hidden cursor-pointer" onclick="toggleDrawer()">
+            <i data-feather="menu"></i>
+        </div>
+    </nav>
+    <!-- Mobile Drawer -->
+    <div id="mobileDrawer" class="fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 opacity-0 pointer-events-none">
+        <div class="absolute right-0 top-0 h-full w-64 bg-white transform transition-transform duration-300 translate-x-full">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-8">
+                    <div class="text-xl font-semibold" style="color: #333333; font-family: 'Playfair Display', serif;">Menü</div>
+                    <button onclick="toggleDrawer()" class="p-2">
+                        <i data-feather="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+                <div class="space-y-6">
+                    <a href="#home" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">Ana Sayfa</a>
+                    <a href="#about" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">Hakkımda</a>
+                    <a href="#experience" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">Deneyim</a>
+                    <a href="testler.html" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">Testler</a>
+                    <a href="#contact" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
+        <div class="parallax-bg absolute inset-0 z-0" style="background-image: url('https://images.squarespace-cdn.com/content/v1/5c3f2d2af407b4b4ccaa0ee3/1620744844250-I0INUENSZY5OV01TR7JH/modern+desk+and+chair+in+therapy+office');"></div>
+        <div class="hero-overlay absolute inset-0 z-5"></div>
+        <div class="text-center z-10 px-4 max-w-3xl" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6" style="color: #333333;">Psikolojik Destek ve Gelişim Yolculuğunuz</h1>
+            <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto text-gray-700">Klinik ve hastane deneyimlerim, psikanaliz odaklı süpervizyon programım ve bütüncül yaklaşımımla çocuk, ergen ve yetişkinlerin dönüşüm süreçlerine güvenli ve empatik bir alan sunarak eşlik ediyorum.</p>
+            <div class="flex flex-col items-center gap-4">
+                
+                <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
+                    <a href="testler.html" class="btn-secondary w-full sm:w-64 px-10 py-4 rounded-lg font-medium text-center">Psikoloji Testleri</a>
+                    <a href="https://www.linkedin.com/in/r%C3%BCmeysa-uyumaz-527744233/" target="_blank" rel="noopener" class="btn-secondary w-full sm:w-64 px-10 py-4 rounded-lg font-medium flex justify-center items-center gap-2">
+                        <i data-feather="linkedin" class="w-5 h-5"></i>
+                        LinkedIn
+                    </a>
+                </div><a href="#contact" class="btn-primary w-full sm:w-64 px-10 py-4 rounded-lg text-white font-medium text-center">Ücretsiz Ön Görüşme</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 md:px-8 section-bg">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="400" class="flex justify-center">
+                <img src="assets/me.jpeg" alt="Psikolog Rümeysa Uyumaz" class="rounded-full shadow-md w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="400" data-aos-delay="200" class="text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ben Kimim?</h2>
+                <div class="space-y-4 max-w-xl">
+                    <p>Merhaba, ben Psikolog Rümeysa Uyumaz. Samsun Üniversitesi Psikoloji lisans eğitimimi, klinik ve hastane ortamlarında yürüttüğüm yoğun uygulama ve süpervizyon süreçleriyle güçlendiriyorum.</p>
+                    <div class="quote">
+                        "Danışanlarımın içsel kaynaklarını keşfetmelerine eşlik ederken, her biri için güvenli ve şefkatli bir alan yaratmayı önemsiyorum."
+                    </div>
+                    <p>Klinik değerlendirmeler, terapi süreçleri ve arabuluculuk çalışmalarında aktif rol alıyor; vaka formülasyonundan raporlamaya kadar uzanan bütüncül bir bakış açısı benimsiyorum.</p>
+                    <p class="font-semibold">Uzmanlık Odaklarım:</p>
+                    <ul class="list-disc pl-5 space-y-1 text-left">
+                        <li>Psikanaliz odaklı bütüncül psikoterapi</li>
+                        <li>Çatışma çözme ve arabuluculuk</li>
+                        <li>Klinik değerlendirme ve test uygulamaları</li>
+                        <li>Empatik iletişim ve takım çalışması</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Experience & Education Section -->
+        <section id="experience" class="py-24 px-4 md:px-8">
+            <div class="max-w-6xl mx-auto space-y-16">
+                <div class="text-center" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Deneyim ve Yetkinlikler</h2>
+                    <p class="text-lg max-w-3xl mx-auto text-gray-700">Psikanaliz odaklı süpervizyon programım, klinik ve hastane iş birliklerim ile arabuluculuk geçmişimi birleştirerek her danışan için stratejik ve sürdürülebilir psikolojik destek planları oluşturuyorum.</p>
+                </div>
+                <div class="grid gap-10 md:grid-cols-2">
+                    <div class="bg-white rounded-2xl shadow-md p-8" data-aos="fade-right" data-aos-delay="100">
+                        <h3 class="text-2xl font-semibold mb-4">Klinik Uygulamalar</h3>
+                        <ul class="space-y-5 text-gray-700">
+                            <li>
+                                <div class="flex items-start justify-between">
+                                    <p class="font-semibold">Rölatif Psikoloji Kliniği</p>
+                                    <span class="text-sm text-gray-500">Kasım 2024 – Ocak 2025</span>
+                                </div>
+                                <p class="text-sm text-gray-500">Samsun, Türkiye</p>
+                                <p class="mt-2 text-sm">Psikanalitik vaka toplantılarına katılarak formülasyonlar geliştirdim, danışan süreçlerinde süpervizyon altında aktif rol aldım ve klinik iletişim ağını yönettim.</p>
+                            </li>
+                            <li>
+                                <div class="flex items-start justify-between">
+                                    <p class="font-semibold">Kırıkkale Yüksek İhtisas Hastanesi</p>
+                                    <span class="text-sm text-gray-500">Temmuz 2024 – Ağustos 2024</span>
+                                </div>
+                                <p class="text-sm text-gray-500">Kırıkkale, Türkiye</p>
+                                <p class="mt-2 text-sm">Multidisipliner ekiple poliklinik süreçlerini yönettim, klinik görüşmelere destek verdim ve MMPI, SCL-90, Mini Mental gibi testlerin uygulama-raporlama adımlarına katkıda bulundum.</p>
+                            </li>
+                            <li>
+                                <div class="flex items-start justify-between">
+                                    <p class="font-semibold">Akran Arabuluculuk Programı</p>
+                                    <span class="text-sm text-gray-500">2023</span>
+                                </div>
+                                <p class="text-sm text-gray-500">Türkiye</p>
+                                <p class="mt-2 text-sm">Eğitim kurumlarında anlaşmazlıkları yapılandırılmış arabuluculuk teknikleriyle çözüme taşıdım; sertifikalı program kapsamında çatışma yönetimi becerilerimi geliştirdim.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-md p-8" data-aos="fade-left" data-aos-delay="150">
+                        <h3 class="text-2xl font-semibold mb-4">Sürekli Gelişim</h3>
+                        <div class="space-y-4 text-gray-700">
+                            <div>
+                                <p class="font-semibold">Psikanaliz Odaklı Bütüncül Psikoterapi Eğitimi</p>
+                                <p class="text-sm text-gray-500">Rölatif Psikoloji Kliniği · Samsun</p>
+                                <p class="text-sm mt-2">1 yıllık yüz yüze teorik-pratik süpervizyon programında vaka formülasyonu, terapötik ilişki ve klinik etik üzerine çalışıyorum.</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold">Profesyonel ilgi alanları</p>
+                                <ul class="list-disc pl-5 text-sm space-y-2">
+                                    <li>Psikanalitik perspektif ile derinlemesine psikoterapi</li>
+                                    <li>Çocuk, ergen ve yetişkin danışanlarda bütüncül yaklaşım</li>
+                                    <li>Çatışma çözümü ve arabuluculuk stratejileri</li>
+                                    <li>Test uygulamaları ve klinik raporlama</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid gap-10 lg:grid-cols-2">
+                    <div class="bg-white rounded-2xl shadow-md p-8" data-aos="fade-right" data-aos-delay="200">
+                        <h3 class="text-2xl font-semibold mb-4">Akademik Temel</h3>
+                        <div class="space-y-3 text-gray-700">
+                            <div>
+                                <p class="font-semibold">Psikoloji Lisansı</p>
+                                <p class="text-sm text-gray-500">Samsun Üniversitesi · İnsan ve Toplum Bilimleri Fakültesi</p>
+                                <p class="text-sm">Bilimsel araştırmalar, psikopatoloji, psikolojik testler ve etik çerçevede kapsamlı bir eğitim.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-md p-8" data-aos="fade-left" data-aos-delay="250">
+                        <h3 class="text-2xl font-semibold mb-4">Beceriler</h3>
+                        <div class="space-y-5 text-gray-700">
+                            <div>
+                                <p class="font-semibold mb-2">Psikolojik Değerlendirme</p>
+                                <p class="text-sm">MMPI, Mini Mental, SCL-90 uygulama ve raporlama; WISC-R ve Kent EGY gözlem ve analiz.</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold mb-2">Araçlar</p>
+                                <p class="text-sm">SPSS (başlangıç düzeyi), Microsoft Word, PowerPoint, Excel.</p>
+                            </div>
+                            <div>
+                                <p class="font-semibold mb-2">İletişim ve Liderlik</p>
+                                <p class="text-sm">Empatik iletişim, takım çalışması, eleştirel düşünme, sunum, raporlama, zaman yönetimi ve arabuluculuk.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Contact Section (Stepli Form) -->
+    <section id="contact" class="py-24 px-4 md:px-8" style="background-color: #F0F4F8;">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Birlikte Çalışalım</h2>
+            <p class="text-lg text-center mb-16 max-w-2xl mx-auto text-gray-700">İçsel yolculuğunuzda ilk adımı atmaya hazır mısınız? Aşağıdaki formu doldurarak ücretsiz ön görüşme randevusu alabilirsiniz.</p>
+            <div class="grid gap-6 mb-12 md:grid-cols-3">
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="50">
+                    <i data-feather="map-pin" class="w-6 h-6 text-[#166534] mb-3"></i>
+                    <p class="font-semibold text-sm">Samsun, Türkiye</p>
+                    <p class="text-xs text-gray-600">Yüz yüze ve online görüşme seçenekleri</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="100">
+                    <i data-feather="mail" class="w-6 h-6 text-[#166534] mb-3"></i>
+                    <a href="mailto:psikologrumeysauyumaz@gmail.com" class="font-semibold text-sm hover:text-[#166534] transition-colors">psikologrumeysauyumaz@gmail.com</a>
+                    <p class="text-xs text-gray-600">Ön görüşme ve danışan talepleri</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="150">
+                    <i data-feather="phone" class="w-6 h-6 text-[#166534] mb-3"></i>
+                    <a href="tel:+905433468871" class="font-semibold text-sm hover:text-[#166534] transition-colors">+90 543 346 88 71</a>
+                    <p class="text-xs text-gray-600">Mesai saatleri içinde ulaşabilirsiniz</p>
+                </div>
+            </div>
+            <!-- Multi-Step Form Container -->
+            <div class="bg-white p-8 md:p-12 rounded-2xl shadow-md">
+                <!-- Step 1: Tanışalım -->
+                <div class="form-step active" data-step="1">
+                    <h3 class="text-2xl font-semibold mb-8 text-center">Tanışalım</h3>
+                    <form id="step1Form" class="space-y-6">
+                        <div>
+                            <label for="name" class="block mb-2 text-sm font-medium">İsminiz</label>
+                            <input type="text" id="name" name="name" class="form-input w-full px-4 py-3 rounded-xl text-base border-2" placeholder="Size nasıl hitap etmemi istersiniz?" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2 text-sm font-medium">E-posta adresiniz</label>
+                            <input type="email" id="email" name="email" class="form-input w-full px-4 py-3 rounded-xl text-base border-2" placeholder="Size ulaşabileceğim e-posta" required>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium">Tercih ettiğiniz görüşme şekli</label>
+                            <div class="flex items-center">
+                                <input type="radio" name="meeting_type" value="online" class="form-radio h-5 w-5 accent-[#166534]" required checked>
+                                <span class="ml-2">Online Görüşme</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-sm font-medium">Size uygun zaman dilimleri</label>
+                            <div class="space-y-4">
+                                <label class="inline-flex items-center">
+                                    <input type="checkbox" name="time_preference" value="daytime" class="form-checkbox h-5 w-5 accent-[#166534]">
+                                    <span class="ml-2">Gündüz saatleri (09:00-17:00)</span>
+                                </label>
+                                <label class="inline-flex items-center">
+                                    <input type="checkbox" name="time_preference" value="evening" class="form-checkbox h-5 w-5 accent-[#166534]">
+                                    <span class="ml-2">Akşam saatleri (17:00-21:00)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="flex justify-end mt-8">
+                            <button type="button" class="btn-primary inline-block px-6 py-3 md:px-10 md:py-4 rounded-lg text-sm md:text-base font-medium next-step">Devam Et</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Step 2: Size Nasıl Yardımcı Olabilirim -->
+                <div class="form-step hidden" data-step="2">
+                    <h3 class="text-2xl font-semibold mb-8 text-center">Size Nasıl Yardımcı Olabilirim?</h3>
+                    <form id="step2Form" class="space-y-6">
+                        <div>
+                            <label for="current_focus" class="block mb-2 text-sm font-medium">Şu anda üzerinde çalışmak istediğiniz konu nedir?</label>
+                            <textarea id="current_focus" name="current_focus" rows="5" class="form-input w-full px-4 py-3 rounded-xl text-base border-2 resize-none" placeholder="Kendinizi kısaca tanıtabilir ve paylaşmak istediğiniz konuyu anlatabilirsiniz..."></textarea>
+                        </div>
+                        <div>
+                            <label for="future_hope" class="block mb-2 text-sm font-medium">Bu sürecin sonunda ulaşmak istediğiniz hedefler nelerdir?</label>
+                            <textarea id="future_hope" name="future_hope" rows="5" class="form-input w-full px-4 py-3 rounded-xl text-base border-2 resize-none" placeholder="Kendinizde veya hayatınızda neyin değişmesini istiyorsunuz?"></textarea>
+                        </div>
+                        <div class="flex justify-between mt-8">
+                            <button type="button" class="btn-secondary inline-block px-6 py-3 md:px-10 md:py-4 rounded-lg text-sm md:text-base font-medium prev-step">Geri</button>
+                            <button type="button" class="btn-primary inline-block px-6 py-3 md:px-10 md:py-4 rounded-lg text-sm md:text-base font-medium next-step">Devam Et</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Step 3: Görüşme Talebinizi Onaylayın -->
+                <div class="form-step hidden" data-step="3">
+                    <h3 class="text-2xl font-semibold mb-8 text-center">Görüşme Talebinizi Onaylayın</h3>
+                    <form id="step3Form" class="space-y-6">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="text-sm text-gray-600 mb-2">Verdiğiniz bilgiler doğrultusunda sizinle en uygun randevu zamanını belirleyeceğim. En kısa sürede e-posta yoluyla size dönüş yapacağım.</p>
+                        </div>
+                        <div class="flex items-start">
+                            <input type="checkbox" id="privacy_consent" name="privacy_consent" class="form-checkbox h-5 w-5 accent-[#166534] mt-1" required>
+                            <label for="privacy_consent" class="ml-3 block text-sm">
+                                <a href="#" class="text-[#166534] hover:underline">Gizlilik Politikası</a>'nı okudum ve kişisel verilerimin işlenmesini kabul ediyorum.
+                            </label>
+                        </div>
+                        <div class="flex flex-col gap-3 mt-8">
+                            <button type="submit" class="btn-primary w-full py-3 rounded-lg text-base font-medium">Görüşme Talebini Gönder</button>
+                            <button type="button" class="btn-secondary w-full py-3 rounded-lg text-base font-medium prev-step">Geri</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-8 px-4 border-t border-gray-200">
+        <div class="max-w-6xl mx-auto text-center text-sm" style="color: #333333;">
+            <div class="mb-2">
+                <a href="mailto:psikologrumeysauyumaz@gmail.com" class="hover:text-[#16A34A] transition-colors">psikologrumeysauyumaz@gmail.com</a> •
+                <a href="tel:+905433468871" class="hover:text-[#16A34A] transition-colors">+90 543 346 88 71</a> •
+                <a href="https://www.linkedin.com/in/r%C3%BCmeysa-uyumaz-527744233/" target="_blank" rel="noopener" class="hover:text-[#16A34A] transition-colors">LinkedIn</a>
+            </div>
+            <div>© 2023 Psikolog Rümeysa Uyumaz. Tüm hakları saklıdır.</div>
+        </div>
+    </footer>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 120,
+            easing: 'ease-out-cubic'
+        });
+        feather.replace();
+       
+        // Enhanced nav behavior with throttling
+        let lastScrollTop = 0;
+        let ticking = false;
+        const nav = document.getElementById('mainNav');
+
+        function updateNavOnScroll() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > 50) {
+                nav.style.background = 'rgba(255, 255, 255, 0.98)';
+                nav.style.backdropFilter = 'blur(20px) saturate(180%)';
+            } else {
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
+                nav.style.backdropFilter = 'blur(16px) saturate(180%)';
+            }
+
+            lastScrollTop = scrollTop;
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', function() {
+            if (!ticking) {
+                requestAnimationFrame(updateNavOnScroll);
+                ticking = true;
+            }
+        }, { passive: true });
+
+        // Sadece iOS için Parallax
+        function initIOSParallax() {
+            // Çok sıkı iOS detect - Android'i kesinlikle dahil etme
+            const isAppleDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+            if (isAppleDevice || (isSafari && navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+                const parallaxElement = document.querySelector('.parallax-bg');
+                let parallaxTicking = false;
+
+                function updateIOSParallax() {
+                    const scrolled = window.pageYOffset;
+                    const heroSection = document.getElementById('home');
+                    const heroHeight = heroSection.offsetHeight;
+
+                    if (scrolled < heroHeight) {
+                        const yPos = scrolled * 0.5;
+                        parallaxElement.style.transform = `translateY(${yPos}px)`;
+                    }
+                    parallaxTicking = false;
+                }
+
+                window.addEventListener('scroll', function() {
+                    if (!parallaxTicking) {
+                        requestAnimationFrame(updateIOSParallax);
+                        parallaxTicking = true;
+                    }
+                }, { passive: true });
+            }
+        }
+
+        // iOS parallax başlat
+        window.addEventListener('load', initIOSParallax);
+
+
+        // Mobile drawer functions
+        function toggleDrawer() {
+            const drawer = document.getElementById('mobileDrawer');
+            const drawerContent = drawer.querySelector('div > div');
+            const nav = document.getElementById('mainNav');
+           
+            if (drawer.classList.contains('opacity-0')) {
+                // Açılıyor
+                drawer.classList.remove('opacity-0', 'pointer-events-none');
+                drawer.classList.add('opacity-100', 'pointer-events-auto');
+                drawerContent.classList.remove('translate-x-full');
+                drawerContent.classList.add('translate-x-0');
+                document.body.style.overflow = 'hidden';
+                nav.style.display = 'none';
+            } else {
+                // Kapanıyor
+                drawer.classList.remove('opacity-100', 'pointer-events-auto');
+                drawer.classList.add('opacity-0', 'pointer-events-none');
+                drawerContent.classList.remove('translate-x-0');
+                drawerContent.classList.add('translate-x-full');
+                document.body.style.overflow = '';
+                nav.style.display = 'flex';
+            }
+        }
+        document.getElementById('mobileDrawer').addEventListener('click', function(e) {
+            if (e.target === this) {
+                toggleDrawer();
+            }
+        });
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        // Stepli Form JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            const steps = document.querySelectorAll('.form-step');
+            const indicators = document.querySelectorAll('.step-indicator');
+            const nextButtons = document.querySelectorAll('.next-step');
+            const prevButtons = document.querySelectorAll('.prev-step');
+            const forms = document.querySelectorAll('form[id^="step"]');
+            let currentStep = 1;
+            function showStep(step) {
+                steps.forEach(s => {
+                    s.classList.remove('active');
+                    s.classList.add('hidden');
+                });
+                const targetStep = document.querySelector(`.form-step[data-step="${step}"]`);
+                targetStep.classList.remove('hidden');
+                targetStep.classList.add('active');
+                indicators.forEach(ind => {
+                    const stepNum = parseInt(ind.getAttribute('data-step'));
+                    if (stepNum <= step) {
+                        ind.classList.add('active');
+                        ind.style.backgroundColor = '#166534';
+                    } else {
+                        ind.classList.remove('active');
+                        ind.style.backgroundColor = '#D1D5DB';
+                    }
+                });
+                currentStep = step;
+            }
+            nextButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const currentForm = document.getElementById(`step${currentStep}Form`);
+                    if (currentForm.checkValidity()) {
+                        if (currentStep < 3) {
+                            showStep(currentStep + 1);
+                        }
+                    } else {
+                        currentForm.reportValidity();
+                    }
+                });
+            });
+            prevButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    if (currentStep > 1) {
+                        showStep(currentStep - 1);
+                    }
+                });
+            });
+            // Son form gönderildiğinde
+            document.getElementById('step3Form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                const formData = new FormData();
+                forms.forEach(form => {
+                    const formElements = form.elements;
+                    for (let i = 0; i < formElements.length; i++) {
+                        const element = formElements[i];
+                        if (element.name && element.value) {
+                            if (element.type === 'checkbox' && !element.checked) continue;
+                            if (element.type === 'radio' && !element.checked) continue;
+                            formData.append(element.name, element.value);
+                        }
+                    }
+                });
+                alert('Teşekkürler! Randevu talebiniz başarıyla alındı. En kısa sürede sizinle iletişime geçeceğim.');
+                forms.forEach(form => form.reset());
+                showStep(1);
+            });
+        });
+    </script>
+</body>
+</html>

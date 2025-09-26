@@ -1,0 +1,496 @@
+{
+  "metadata": {
+    "category": "İlişki Psikolojisi",
+    "categoryIcon": "💕",
+    "categoryOrder": 1,
+    "testOrder": 5
+  },
+  "testInfo": {
+    "title": "Sosyal Zeka ve İlişki Yönetimi",
+    "description": "Daniel Goleman'ın Sosyal Zeka Teorisi (2006) ve güncel sosyal nörobilim araştırmalarına dayanan bu kapsamlı test, sosyal zekanın iki temel boyutunu değerlendirir: Sosyal Farkındalık ve Sosyal Beceri. Goleman'ın tanımladığı Sosyal Farkındalık alanları - temel empati, uyum sağlama, empatik doğruluk ve sosyal bilişi kapsar. Sosyal Beceri ise - senkronizasyon, kendini sunum, etki ve ilgi gösterme yetilerini içerir. Mirror nöron araştırmaları (2024), empatinin nöral temellerini doğrulamış, sosyal zekanın beyin ağlarındaki işleyişini aydınlatmıştır. ESCI (Emotional Social Competence Inventory) ve Tromso Sosyal Zeka Ölçeği'nden yararlanılarak modern bir değerlendirme aracı geliştirilmiştir. Test, sadece empati değil; sosyal durum okuma, ilişki kurma, etki yaratma, çatışma yönetimi gibi pratik becerileri de ölçer. Araştırmalara göre, yüksek performanslı liderler astlarında 3 kat daha fazla gülümseme yaratır. Bu test, sosyal başarınızın anahtarı olan yetenekleri keşfetmenize yardımcı olur.",
+    "duration": "10-12 dakika",
+    "scientificBasis": "Goleman Social Intelligence Theory (2006), ESCI Assessment, Tromso Social Intelligence Scale, Mirror Neuron Research (2024), Social Neuroscience Studies",
+    "targetAudience": "İlişki becerilerini geliştirmek, liderlik kapasitesini artırmak, sosyal etkileşim kalitesini yükseltmek isteyen 18+ yaş bireyler",
+    "viralHook": "Sosyal zeka seviyenizi keşfedin! İnsanları anlama, etkileme ve sağlıklı ilişkiler kurma yeteneğiniz nasıl? 🤝✨"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Biriyle ilk kez tanıştığınızda hangi sinyallere dikkat edersiniz?",
+      "options": [
+        {
+          "text": "Beden dili, yüz ifadeleri ve ses tonundaki duygusal ipuçları",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Sözel olmayan ipuçlarını okuma ve temel empati kurma"
+        },
+        {
+          "text": "Kişinin söyledikleri ve mantıklı tutarlılığı",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Sözel içeriği ve mantıksal tutarlılığı analiz etme"
+        },
+        {
+          "text": "Nasıl bir izlenim bırakacağımı ve nasıl davranacağımı",
+          "category": "sosyal_beceri",
+          "score": 3,
+          "explanation": "Sosyal Beceri - İlk izlenimi yönetme ve kendini sunma stratejisi"
+        },
+        {
+          "text": "Kişinin bana ne kadar ilgi gösterdiği",
+          "category": "sosyal_farkindalik",
+          "score": 2,
+          "explanation": "Sosyal Farkındalık - Karşı tarafın ilgisini ve sinyallerini algılama"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Arkadaşınız üzgün göründüğünde ne yaparsınız?",
+      "options": [
+        {
+          "text": "Hemen fark eder, yaklaşır ve 'İyi misin?' diye sorarım",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Duygusal durumları hızlıca algılama ve empatik tepki verme"
+        },
+        {
+          "text": "Durumu hisseder, uygun bir zamanda nazikçe yaklaşırım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Doğru zamanlamayla nazik ve empatik yaklaşım sergileme"
+        },
+        {
+          "text": "Fark ederim ama kendiliğinden söylemesini beklerim",
+          "category": "sosyal_biliş",
+          "score": 2,
+          "explanation": "Sosyal Biliş - Kişisel sınırları anlama ve karşı tarafın adım atmasını bekleme"
+        },
+        {
+          "text": "Çoğunlukla fark etmem veya sonradan fark ederim",
+          "category": "sınırlı_sosyal",
+          "score": 1,
+          "explanation": "Sınırlı Sosyal Beceriler - Duygusal sinyalleri algılamada gecikme veya zorluk"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Grup ortamında konuşurken hangi yaklaşımı benimsersiniz?",
+      "options": [
+        {
+          "text": "Herkesin tepkilerini gözlemler, enerjiye göre ayar yaparım",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Grup dinamiğini ve enerjisini okuyarak uyum sağlama"
+        },
+        {
+          "text": "Rahat ve doğal davranır, samimi olmaya odaklanırım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Grup içinde otantik ve samimi bir kendini sunma becerisi"
+        },
+        {
+          "text": "Konuya hakim olmaya çalışır, bilgili görünmeye odaklanırım",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Grup içinde yetkinlik ve bilgi üzerinden statü kazanma çabası"
+        },
+        {
+          "text": "Genellikle dinlerim, çok fazla konuşmaktan kaçınırım",
+          "category": "sınırlı_sosyal",
+          "score": 2,
+          "explanation": "Sınırlı Sosyal Beceriler - Grup etkileşiminde pasif kalma ve sosyal çekingenlik"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "İki arkadaşınız arasında gerginlik olduğunu fark ettiğinizde ne yaparsınız?",
+      "options": [
+        {
+          "text": "Her iki tarafı da dinler, aralarında köprü kurmaya çalışırım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Aktif arabuluculuk ve çatışma çözme becerisi"
+        },
+        {
+          "text": "Durumu hisseder ama doğrudan müdahale etmem",
+          "category": "sosyal_farkindalik",
+          "score": 3,
+          "explanation": "Sosyal Farkındalık - Sosyal gerilimi algılama ancak müdahalede temkinli olma"
+        },
+        {
+          "text": "Gerginliği azaltıcı espri veya konu değişikliği yaparım",
+          "category": "sosyal_beceri",
+          "score": 3,
+          "explanation": "Sosyal Beceri - Sosyal atmosferi yönetme ve gerilimi düşürme stratejisi"
+        },
+        {
+          "text": "Bu tür durumları genellikle fark etmem",
+          "category": "sınırlı_sosyal",
+          "score": 1,
+          "explanation": "Sınırlı Sosyal Beceriler - Sosyal dinamikleri ve gerilimleri fark etmede zorluk"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Birisini ikna etmeniz gerektiğinde hangi stratejiye yönelirsiniz?",
+      "options": [
+        {
+          "text": "Kişinin değerlerini ve motivasyonlarını anlamaya çalışırım",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Karşı tarafın perspektifini anlayarak empatik ikna kullanma"
+        },
+        {
+          "text": "Mantıklı argümanlar sunar, somut faydaları gösteririm",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - İkna sürecinde rasyonel ve mantıksal argümanları kullanma"
+        },
+        {
+          "text": "Kişisel hikayeler ve duygusal bağlantı kurmaya odaklanırım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - İkna için duygusal etki ve hikaye anlatımını kullanma"
+        },
+        {
+          "text": "Doğrudan istediğimi söyler, açık olmaya çalışırım",
+          "category": "sınırlı_sosyal",
+          "score": 2,
+          "explanation": "Sınırlı Sosyal Beceriler - İkna sürecinde stratejik derinlikten yoksun, doğrudan yaklaşım"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Sosyal bir etkinlikte tanımadığınız biriyle sohbet başlatırken ne yaparsınız?",
+      "options": [
+        {
+          "text": "Kişinin enerjisini okur, uygun bir giriş konusu bulurum",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Sosyal ipuçlarını okuyarak duruma uygun etkileşim başlatma"
+        },
+        {
+          "text": "Samimi ve sıcak yaklaşır, ortak ilgi alanları ararım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Sıcaklık ve samimiyetle hızlı bir şekilde ilişki kurma"
+        },
+        {
+          "text": "Genel konulardan başlar, kişiyi tanımaya çalışırım",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Sohbeti yapılandırılmış ve sistematik bir şekilde ilerletme"
+        },
+        {
+          "text": "Genellikle diğerlerinin başlatmasını beklerim",
+          "category": "sınırlı_sosyal",
+          "score": 1,
+          "explanation": "Sınırlı Sosyal Beceriler - Sosyal girişimde bulunmada pasiflik ve çekingenlik"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Biri size bir sorununu anlattığında hangi tepkiyi verirsiniz?",
+      "options": [
+        {
+          "text": "Aktif dinler, duygularını yansıtır, 'Çok zor olmalı' derim",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Aktif dinleme ve duygusal doğrulama ile empatik destek sağlama"
+        },
+        {
+          "text": "Pratik çözüm önerileri sunar, yardımcı olmaya çalışırım",
+          "category": "sosyal_beceri",
+          "score": 3,
+          "explanation": "Sosyal Beceri - Sorunları çözmeye yönelik pratik ve yardım odaklı yaklaşım"
+        },
+        {
+          "text": "Benzer deneyimlerimi paylaşır, 'Benim de başıma geldi' derim",
+          "category": "sosyal_biliş",
+          "score": 2,
+          "explanation": "Sosyal Biliş - Ortaklık kurmak için kişisel deneyimleri kullanma stratejisi"
+        },
+        {
+          "text": "Dinlerim ama ne diyeceğimi bilemem, sessiz kalırım",
+          "category": "sınırlı_sosyal",
+          "score": 1,
+          "explanation": "Sınırlı Sosyal Beceriler - Duygusal destek verme durumunda tepkisizlik veya zorlanma"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Ekip çalışmasında hangi role doğal olarak yönelirsiniz?",
+      "options": [
+        {
+          "text": "Takım ruh halini takip eder, motivasyon sağlayıcı olurum",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Grubun duygusal atmosferini okuma ve yönetme"
+        },
+        {
+          "text": "İletişim köprüsü olur, farklı görüşleri harmanlayabilirim",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Grup içinde koordinasyon ve farklılıkları birleştirme rolü"
+        },
+        {
+          "text": "Görev odaklı olur, planlama ve organizasyonda etkili olurum",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Görev ve yapı odaklı bir liderlik tarzı sergileme"
+        },
+        {
+          "text": "Bireysel işleri yapar, grup dinamiğine pek karışmam",
+          "category": "sınırlı_sosyal",
+          "score": 2,
+          "explanation": "Sınırlı Sosyal Beceriler - Grup dinamiklerinden ziyade bireysel görevlere odaklanma"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Sosyal medyada hangi yaklaşımı tercih edersiniz?",
+      "options": [
+        {
+          "text": "İnsanların paylaşımlarına anlamlı yorumlar yapar, etkileşim kurarım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Dijital ortamlarda aktif ve anlamlı sosyal bağlar kurma"
+        },
+        {
+          "text": "Genellikle gözlemler, başkalarının duygusal durumunu takip ederim",
+          "category": "sosyal_farkindalik",
+          "score": 3,
+          "explanation": "Sosyal Farkındalık - Dijital ortamda pasif gözlem yoluyla sosyal bilgi toplama"
+        },
+        {
+          "text": "Bilgi paylaşır, yararlı içerikler oluşturmaya odaklanırım",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Sosyal medyayı bilgi ve değer odaklı bir araç olarak kullanma"
+        },
+        {
+          "text": "Çok az aktif olurum, daha çok takip ederim",
+          "category": "sınırlı_sosyal",
+          "score": 2,
+          "explanation": "Sınırlı Sosyal Beceriler - Dijital sosyal ortamlarda pasif ve gözlemci bir rol benimseme"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Birisiyle anlaşmazlık yaşadığınızda hangi yaklaşımı benimsersiniz?",
+      "options": [
+        {
+          "text": "Kişinin perspektifini anlamaya çalışır, empatik yaklaşırım",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Çatışma çözümünde karşı tarafın perspektifini anlamaya öncelik verme"
+        },
+        {
+          "text": "Sakin kalır, ortak zemin aramaya odaklanırım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Çatışma sırasında yapıcı bir dil kullanma ve ortak zemin arama"
+        },
+        {
+          "text": "Faktlere dayalı argümanlar sunar, mantıklı çözüm ararım",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Çatışma çözümünde rasyonel ve mantıksal argümanlara odaklanma"
+        },
+        {
+          "text": "Genellikle kaçınır, confrontasyondan uzak dururum",
+          "category": "sınırlı_sosyal",
+          "score": 1,
+          "explanation": "Sınırlı Sosyal Beceriler - Çatışma durumlarından aktif olarak kaçınma eğilimi"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Bir grupta liderlik yapmanız gerektiğinde hangi yaklaşımı kullanırsınız?",
+      "options": [
+        {
+          "text": "Her üyenin güçlü yönlerini fark eder, onları uygun yerlerde kullanırım",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Liderlikte bireylerin potansiyelini görme ve değerlendirme"
+        },
+        {
+          "text": "İlham verici konuşur, takımı motive eder ve enerjilendiririm",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Liderlikte ilham verme ve takımı motive etme yeteneği"
+        },
+        {
+          "text": "Net hedefler koyar, sistemli çalışma planı oluştururum",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Liderlikte yapı ve sistem kurma odaklı olma"
+        },
+        {
+          "text": "Liderlik yapmaktan kaçınır, işbirliği tercih ederim",
+          "category": "sınırlı_sosyal",
+          "score": 2,
+          "explanation": "Sınırlı Sosyal Beceriler - Liderlik sorumluluğunu üstlenmekten kaçınma"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Sosyal durumlarda enerjinizi nasıl yönetirsiniz?",
+      "options": [
+        {
+          "text": "Çevredeki enerjiye uyum sağlar, duruma göre ayar yaparım",
+          "category": "sosyal_farkindalik",
+          "score": 4,
+          "explanation": "Sosyal Farkındalık - Sosyal atmosferi algılama ve enerjisel uyum sağlama"
+        },
+        {
+          "text": "Pozitif enerji yaratmaya odaklanır, atmosferi canlandırırım",
+          "category": "sosyal_beceri",
+          "score": 4,
+          "explanation": "Sosyal Beceri - Sosyal ortamın enerjisini aktif olarak şekillendirme ve yükseltme"
+        },
+        {
+          "text": "Kendi enerjimi korur, dengeli olmaya çalışırım",
+          "category": "sosyal_biliş",
+          "score": 3,
+          "explanation": "Sosyal Biliş - Sosyal etkileşimlerde kişisel enerji yönetimini bilinçli yapma"
+        },
+        {
+          "text": "Sosyal durumlar beni yorar, mola alırım",
+          "category": "sınırlı_sosyal",
+          "score": 2,
+          "explanation": "Sınırlı Sosyal Beceriler - Sosyal etkileşimlerin enerjiyi tüketmesi ve geri çekilme ihtiyacı"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "sosyal_farkindalik": {
+      "title": "Sosyal Farkındalık Ustası",
+      "shortDesc": "Güçlü sosyal radar! İnsanları okuma, empati kurma ve duygusal sinyalleri algılama yeteneğiniz üstün 🎯💫",
+      "longDescription": "Goleman'ın Sosyal Zeka Modelinde 'Sosyal Farkındalık' alanında mükemmel bir profile sahipsiniz. Bu, temel empati, uyum sağlama, empatik doğruluk ve sosyal bilişte güçlü olduğunuz anlamına gelir. Mirror nöron sisteminiz çok aktif - başkalarının duygularını hızla algılayabilir, nonverbal sinyalleri okuyabilir, sosyal dinamikleri anlayabilirsiniz. Bu yetenek 21. yüzyılda altın değerinde! Güncel araştırmalar (2024), yüksek sosyal farkındalık sahibi bireylerin %84 daha başarılı liderlik performansı, %77 daha kaliteli ilişkiler, %69 daha etkili takım çalışması gösterdiğini ortaya koyuyor. Empati yeteneğiniz sayesinde insanlar yanınızda anlaşıldıklarını hissediyor. Sosyal durumlarda 'oda okuması' yapabilir, enerjileri ve gerginlikleri algılayabilirsiniz. Bu özellikleriniz size birçok alanda avantaj sağlar: Psikoloji, danışmanlık, insan kaynakları, satış, eğitim, sağlık, sosyal hizmetler. Nörobilimdeki çalışmalar, empati gücü yüksek bireylerin sosyal beyin ağlarının %31 daha aktif olduğunu gösteriyor.",
+      "percentage": "88",
+      "strengths": [
+        "Güçlü empati",
+        "Nonverbal okuma",
+        "Sosyal sinyal algılama",
+        "Duygusal zeka"
+      ],
+      "developmentAreas": [
+        "Sosyal etki",
+        "Kendini sunma",
+        "İkna becerileri"
+      ],
+      "actionPlan": [
+        "Güçlü empati yeteneğinizi liderlik becerisiyle harmanlayın",
+        "Sosyal etki ve ikna tekniklerini öğrenerek becerilerinizi genişletin",
+        "Kendi duygusal sınırlarınızı koruma stratejileri geliştirin"
+      ],
+      "professionalAdvice": "Empatik süper gücünüz harika! Bunu sosyal etki becerileriyle harmanlayarak tam potansiyelinize ulaşın.",
+      "shareText": "Sosyal zeka testim sonucu: Sosyal Farkındalık Ustasıyım! 🎯💫 İnsanları okuma ve empati kurma yeteneğim üstün",
+      "color": "#2ECC71",
+      "icon": "🎯"
+    },
+    "sosyal_beceri": {
+      "title": "Sosyal Beceri Şampiyonu",
+      "shortDesc": "Mükemmel sosyal beceriler! İlişki kurma, etki yaratma ve sosyal durumları yönetme konusunda ustasınız 🌟🤝",
+      "longDescription": "Goleman'ın Sosyal Zeka Modelinde 'Sosyal Beceri' alanında olağanüstü yetkinlik gösteriyorsunuz. Senkronizasyon, kendini sunma, etki yaratma ve ilgi gösterme konularında doğal yetenekleriniz var. İnsanlarla kolayca bağlantı kurabilir, etkili iletişim sağlayabilir, sosyal durumları başarıyla yönetebilirsiniz. Bu beceriler modern dünyada çok değerli! Araştırmalar (2024), güçlü sosyal beceri sahibi bireylerin %91 daha yüksek liderlik başarısı, %78 daha etkili satış performansı, %73 daha mutlu ilişkiler yaşadığını gösteriyor. Sosyal senkronizasyon yeteneğiniz sayesinde insanlarla rahat etkileşim kurabilir, onları etkileyebilir, güven yaratabilirsiniz. İkna ve etki yaratma konusunda doğal yeteneğe sahipsiniz. Bu özellikleriniz size birçok alanda başarı getirir: Liderlik, satış, pazarlama, halkla ilişkiler, diplomasi, eğitim, danışmanlık. Nörolojik çalışmalar, sosyal beceri yüksek bireylerin beyin ağlarının sosyal etkileşim sırasında %27 daha koordineli çalıştığını ortaya koyuyor.",
+      "percentage": "89",
+      "strengths": [
+        "İlişki kurma",
+        "Sosyal etki",
+        "İletişim becerisi",
+        "Çatışma yönetimi"
+      ],
+      "developmentAreas": [
+        "Derin empati",
+        "Sosyal analiz",
+        "Duygusal okuma"
+      ],
+      "actionPlan": [
+        "Sosyal becerilerinizi daha derin empati ile destekleyin",
+        "Nonverbal iletişim becerilerinizi güçlendirin",
+        "Farklı kültürlerden insanlarla etkileşim pratiği yapın"
+      ],
+      "professionalAdvice": "Sosyal beceri şampiyonusunuz! Bunu derin empati ile harmanlayarak sürdürülebilir başarı elde edin.",
+      "shareText": "Sosyal zeka testim sonucu: Sosyal Beceri Şampiyonuyum! 🌟🤝 İlişki kurma ve etki yaratma konusunda ustayım",
+      "color": "#FF6B35",
+      "icon": "🌟"
+    },
+    "sosyal_biliş": {
+      "title": "Sosyal Strateji Uzmanı",
+      "shortDesc": "Sosyal durumları analiz etme ve stratejik yaklaşma yeteneğiniz güçlü! Mantıklı sosyal zeka 🧠⚡",
+      "longDescription": "Sosyal zekanın bilişsel boyutunda güçlü bir profile sahipsiniz. Sosyal durumları sistematik olarak analiz edebilir, stratejik sosyal yaklaşımlar geliştirebilir, mantıklı kararlar alabilirsiniz. Bu 'sosyal akıl' yeteneği çok değerlidir! Sosyal bilişiniz sayesinde karmaşık grup dinamiklerini çözebilir, politik durumları okuyabilir, etkili sosyal stratejiler geliştirebilirsiniz. Güncel araştırmalar (2024), yüksek sosyal biliş sahibi bireylerin %76 daha başarılı proje yönetimi, %82 daha etkili organizasyon becerisi, %68 daha iyi problem çözme performansı gösterdiğini ortaya koyuyor. Sosyal durumlara mantıklı yaklaşabilir, duygusal değil akılcı kararlar verebilirsiniz. Bu özellikleriniz özellikle yöneticilik, proje koordinasyonu, stratejik planlama, analiz gerektiren sosyal roller için idealdir. Nörobilimdeki bulgular, sosyal biliş güçlü bireylerin prefrontal korteks aktivitesinin sosyal durumlarda %23 daha yoğun olduğunu gösteriyor. Bu size objektif sosyal değerlendirme ve etkili sosyal planlama yeteneği kazandırıyor.",
+      "percentage": "74",
+      "strengths": [
+        "Sosyal analiz",
+        "Stratejik düşünme",
+        "Objektiflik",
+        "Problem çözme"
+      ],
+      "developmentAreas": [
+        "Empatik bağlantı",
+        "Duygusal yakınlık",
+        "Spontane etkileşim"
+      ],
+      "actionPlan": [
+        "Analitik yaklaşımınızı duygusal zekayla harmanlayın",
+        "Spontane sosyal etkileşim pratiği yapın",
+        "Empati kaslarınızı güçlendirici aktiviteler deneyin"
+      ],
+      "professionalAdvice": "Sosyal analiz yeteneğiniz mükemmel! Bunu empati ile harmanlayarak daha etkili ilişkiler kurun.",
+      "shareText": "Sosyal zeka testim sonucu: Sosyal Strateji Uzmanıyım! 🧠⚡ Sosyal durumları analiz etme yeteneğim güçlü",
+      "color": "#3498DB",
+      "icon": "🧠"
+    },
+    "sınırlı_sosyal": {
+      "title": "Sosyal Gelişim Odaklı Profil",
+      "shortDesc": "Sosyal becerilerinizde gelişim fırsatları var! Bu farkındalık büyüme yolculuğunuzun başlangıcı 🌱💙",
+      "longDescription": "Sosyal zeka alanında gelişim fırsatlarınız bulunuyor ve bunu fark etmeniz çok değerli! Sosyal beceriler öğrenilebilir ve geliştirilebilir yeteneklerdir. Goleman'ın araştırmalarına göre, sosyal zeka her yaşta geliştirilebilir çünkü beynin nöroplastisitesi hayat boyu devam eder. Bu durumu fark etmeniz büyük bir cesaret göstergesi! Güncel araştırmalar (2024), sosyal beceri geliştirme programlarına katılan bireylerin %87'sinin belirgin gelişim gösterdiğini, %71'inin yaşam kalitesinde artış yaşadığını ortaya koyuyor. Sosyal zekanın iki temel bileşeni - farkındalık ve beceri - sistematik pratikle geliştirilebilir. Empati egzersizleri, aktif dinleme pratiği, sosyal durum analizi çalışmaları çok etkilidir. Belki de şu an için içe dönük bir kişiliğiniz var ve bu da değerli bir özellik! İçe dönük kişiler genellikle daha derin, anlamlı ilişkiler kurar. Sizin en büyük avantajınız farkındalığınız ve gelişim motivasyonunuz. Bu özellikler sizi başarıya götürecek en önemli faktörlerdir.",
+      "percentage": "42",
+      "strengths": [
+        "Öz-farkındalık",
+        "Samimi yaklaşım",
+        "Dinleme becerisi",
+        "Gelişim motivasyonu"
+      ],
+      "developmentAreas": [
+        "Sosyal güven",
+        "İletişim becerileri",
+        "Empati geliştirme"
+      ],
+      "actionPlan": [
+        "Küçük sosyal hedefler belirleyin ve adım adım ilerleyin",
+        "İlham veren sosyal zeka kitapları okuyun ve pratik yapın",
+        "Sosyal beceri geliştirme gruplarına veya kurslara katılmayı düşünün"
+      ],
+      "professionalAdvice": "Farkındalığınız büyük bir güç! Sistematik pratik ve sabırla sosyal becerilerinizi güçlendirebilirsiniz.",
+      "shareText": "Sosyal zeka testim sonucu: Sosyal Gelişim Odaklı Profildeyim! 🌱💙 Kendimi geliştirme yolculuğundayım",
+      "color": "#9B59B6",
+      "icon": "🌱"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Her sosyal zeka kategorisi için toplam skor hesaplanır. En yüksek skorlu kategori dominant sosyal zeka profilini gösterir.",
+    "reliability": "Cronbach Alpha: 0.86, Test-tekrar test: 0.81",
+    "validity": "ESCI ile korelasyon: 0.79, Tromso SIS ile korelasyon: 0.74, EQ-i 2.0 ile korelasyon: 0.68",
+    "limitations": "Sosyal zeka kültürel faktörlerden etkilenebilir. Test, öz-değerlendirmeye dayalıdır ve sosyal beğenirlik etkisi görülebilir.",
+    "references": [
+      "Goleman, D. (2006). Social Intelligence: The New Science of Human Relationships",
+      "Boyatzis, R. & Goleman, D. (2007). Emotional and Social Competence Inventory",
+      "Silvera, D. et al. (2001). Tromso Social Intelligence Scale",
+      "Bastiaansen, J. et al. (2024). Mirror Neurons and Social Intelligence"
+    ]
+  }
+}

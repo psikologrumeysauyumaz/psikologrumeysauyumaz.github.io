@@ -1,0 +1,403 @@
+{
+  "metadata": {
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 4
+  },
+  "testInfo": {
+    "title": "Depresyon Belirti Profili Analizi",
+    "description": "Beck Depresyon Envanteri (BDI-II) ve PHQ-9 Hasta Sağlık Anketi temelinde geliştirilen bu test, son iki hafta içindeki depresif belirtilerinizi dört ana boyutta analiz eder: Duygusal, Bilişsel, Bedensel ve Davranışsal. Bu bir tanı aracı değildir; amacı, yaşadığınız zorlukların hangi alanlarda yoğunlaştığını göstererek farkındalık yaratmak ve gerektiğinde profesyonel desteğe başvurmanızı kolaylaştırmaktır. Unutmayın, depresyon tedavi edilebilir bir durumdur ve kendinizi anlamak, iyileşme yolundaki ilk adımdır.",
+    "duration": "5-7 dakika",
+    "scientificBasis": "Beck Depression Inventory (BDI-II), Patient Health Questionnaire (PHQ-9), DSM-5 Depressive Disorders Criteria, Cognitive-Behavioral Model of Depression",
+    "targetAudience": "Ruh halindeki değişiklikleri, depresif belirtileri veya genel mental sağlığını anlamak isteyen 16-75 yaş arası bireyler",
+    "viralHook": "Ruh halinizdeki düşüş geçici bir üzüntü mü, yoksa daha fazlası mı? Depresyon belirti profilinizi çıkarın ve mental sağlığınıza bir adım atın. 💚"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Son iki hafta içinde, normalde keyif aldığınız şeylere karşı ne kadar az ilgi veya zevk duydunuz? (Anhedoni)",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "emotional",
+          "score": 0,
+          "explanation": "Duygusal Belirtiler - Anhedoni (zevk alamama) belirtisi yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "emotional",
+          "score": 1,
+          "explanation": "Duygusal Belirtiler - Hafif düzeyde ilgi veya zevk kaybı."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "emotional",
+          "score": 2,
+          "explanation": "Duygusal Belirtiler - Belirgin düzeyde ilgi veya zevk kaybı."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "emotional",
+          "score": 3,
+          "explanation": "Duygusal Belirtiler - Şiddetli düzeyde ilgi veya zevk kaybı."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Son iki hafta içinde, kendinizi ne kadar üzgün, kederli veya umutsuz hissettiniz? (Depresif Duygudurum)",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "emotional",
+          "score": 0,
+          "explanation": "Duygusal Belirtiler - Depresif duygu durumu belirtisi yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "emotional",
+          "score": 1,
+          "explanation": "Duygusal Belirtiler - Hafif düzeyde üzüntü veya umutsuzluk."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "emotional",
+          "score": 2,
+          "explanation": "Duygusal Belirtiler - Belirgin düzeyde üzüntü veya umutsuzluk."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "emotional",
+          "score": 3,
+          "explanation": "Duygusal Belirtiler - Şiddetli düzeyde üzüntü veya umutsuzluk."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Son iki hafta içinde, uykuya dalmakta veya uykuda kalmakta ne kadar zorlandınız ya da çok fazla uyudunuz?",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "somatic",
+          "score": 0,
+          "explanation": "Bedensel Belirtiler - Uyku düzeninde bir sorun yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "somatic",
+          "score": 1,
+          "explanation": "Bedensel Belirtiler - Hafif düzeyde uyku sorunları."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "somatic",
+          "score": 2,
+          "explanation": "Bedensel Belirtiler - Belirgin düzeyde uyku sorunları."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "somatic",
+          "score": 3,
+          "explanation": "Bedensel Belirtiler - Şiddetli düzeyde uyku sorunları."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Son iki hafta içinde, kendinizi ne kadar yorgun veya enerjisiz hissettiniz?",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "somatic",
+          "score": 0,
+          "explanation": "Bedensel Belirtiler - Enerji seviyesinde bir düşüş yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "somatic",
+          "score": 1,
+          "explanation": "Bedensel Belirtiler - Hafif düzeyde yorgunluk veya enerji düşüklüğü."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "somatic",
+          "score": 2,
+          "explanation": "Bedensel Belirtiler - Belirgin düzeyde yorgunluk veya enerji düşüklüğü."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "somatic",
+          "score": 3,
+          "explanation": "Bedensel Belirtiler - Şiddetli düzeyde yorgunluk veya enerji düşüklüğü."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Son iki hafta içinde, iştahınızda ne kadar azalma veya artma oldu?",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "somatic",
+          "score": 0,
+          "explanation": "Bedensel Belirtiler - İştah düzeninde bir sorun yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "somatic",
+          "score": 1,
+          "explanation": "Bedensel Belirtiler - Hafif düzeyde iştah değişikliği."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "somatic",
+          "score": 2,
+          "explanation": "Bedensel Belirtiler - Belirgin düzeyde iştah değişikliği."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "somatic",
+          "score": 3,
+          "explanation": "Bedensel Belirtiler - Şiddetli düzeyde iştah değişikliği."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Son iki hafta içinde, kendiniz hakkında ne kadar olumsuz (kötü, başarısız, değersiz) hissettiniz?",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "cognitive",
+          "score": 0,
+          "explanation": "Bilişsel Belirtiler - Olumsuz kendilik algısı belirtisi yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "cognitive",
+          "score": 1,
+          "explanation": "Bilişsel Belirtiler - Hafif düzeyde değersizlik veya suçluluk hissi."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "cognitive",
+          "score": 2,
+          "explanation": "Bilişsel Belirtiler - Belirgin düzeyde değersizlik veya suçluluk hissi."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "cognitive",
+          "score": 3,
+          "explanation": "Bilişsel Belirtiler - Şiddetli düzeyde değersizlik veya suçluluk hissi."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Son iki hafta içinde, bir şeylere konsantre olmakta (gazete okumak, TV izlemek gibi) ne kadar zorlandınız?",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "cognitive",
+          "score": 0,
+          "explanation": "Bilişsel Belirtiler - Konsantrasyon güçlüğü belirtisi yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "cognitive",
+          "score": 1,
+          "explanation": "Bilişsel Belirtiler - Hafif düzeyde konsantrasyon güçlüğü."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "cognitive",
+          "score": 2,
+          "explanation": "Bilişsel Belirtiler - Belirgin düzeyde konsantrasyon güçlüğü."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "cognitive",
+          "score": 3,
+          "explanation": "Bilişsel Belirtiler - Şiddetli düzeyde konsantrasyon güçlüğü."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Son iki hafta içinde, başkalarının fark edeceği kadar yavaş hareket ettiğiniz veya konuştuğunuz ya da tam tersi, her zamankinden daha kıpır kıpır ve huzursuz olduğunuz oldu mu?",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "behavioral",
+          "score": 0,
+          "explanation": "Davranışsal Belirtiler - Psikomotor yavaşlama veya ajitasyon belirtisi yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "behavioral",
+          "score": 1,
+          "explanation": "Davranışsal Belirtiler - Hafif düzeyde psikomotor değişiklikler."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "behavioral",
+          "score": 2,
+          "explanation": "Davranışsal Belirtiler - Belirgin düzeyde psikomotor değişiklikler."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "behavioral",
+          "score": 3,
+          "explanation": "Davranışsal Belirtiler - Şiddetli düzeyde psikomotor değişiklikler."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Son iki hafta içinde, kendinize zarar vermeyi veya ölmüş olmanın daha iyi olacağını ne kadar düşündünüz?",
+      "options": [
+        {
+          "text": "Hiç",
+          "category": "cognitive",
+          "score": 0,
+          "explanation": "Bilişsel Belirtiler - İntihar düşüncesi belirtisi yok."
+        },
+        {
+          "text": "Birkaç gün",
+          "category": "cognitive",
+          "score": 1,
+          "explanation": "Bilişsel Belirtiler - Hafif düzeyde pasif ölüm isteği."
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "category": "cognitive",
+          "score": 2,
+          "explanation": "Bilişsel Belirtiler - Belirgin düzeyde intihar düşünceleri."
+        },
+        {
+          "text": "Neredeyse her gün",
+          "category": "cognitive",
+          "score": 3,
+          "explanation": "Bilişsel Belirtiler - Şiddetli ve tekrarlayan intihar düşünceleri."
+        }
+      ]
+    }
+  ],
+  "results": {
+    "emotional": {
+      "title": "Duygusal Belirti Yoğunluğu",
+      "shortDesc": "Depresif belirtileriniz daha çok duygusal alanda yoğunlaşıyor: üzüntü, ilgi ve zevk kaybı gibi.",
+      "longDescription": "Analiziniz, yaşadığınız zorlukların temelinde duygusal belirtilerin yattığını gösteriyor. Bu, sürekli bir üzüntü hali, normalde keyif aldığınız aktivitelere karşı ilgi kaybı (anhedoni) ve genel bir umutsuzluk hissi olarak kendini gösterebilir. Bu duygusal ağırlık, enerjinizi tüketebilir ve sizi sosyal çevrenizden izole edebilir. Bu belirtilerin farkında olmak, doğru desteği aramak için ilk adımdır.",
+      "percentage": "85",
+      "strengths": [
+        "Duygusal farkındalık",
+        "Empati potansiyeli",
+        "Değişim için motivasyon"
+      ],
+      "developmentAreas": [
+        "Duygu düzenleme becerileri",
+        "Davranışsal aktivasyon",
+        "Negatif düşünce kalıplarını sorgulama"
+      ],
+      "actionPlan": [
+        "Duygularınızı ifade etmek için güvenli bir alan (terapist, yakın bir dost) bulun.",
+        "Size küçük de olsa keyif veren bir aktiviteyi her gün yapmaya çalışın (davranışsal aktivasyon).",
+        "Duygu günlüğü tutarak hissettiklerinizi ve tetikleyicileri tanıyın."
+      ],
+      "professionalAdvice": "Duygusal belirtiler yoğun olduğunda, bir ruh sağlığı uzmanıyla konuşmak, bu duyguları yönetmek ve altında yatan nedenleri anlamak için çok önemlidir. Bilişsel Davranışçı Terapi (BDT) veya Kabul ve Kararlılık Terapisi (ACT) gibi yaklaşımlar faydalı olabilir.",
+      "shareText": "Depresyon belirti profilimde ‘Duygusal’ alan öne çıkıyor. Kendimi anlamak için bir adım attım. 💚 #MentalSağlık",
+      "color": "#3498DB",
+      "icon": "💧"
+    },
+    "cognitive": {
+      "title": "Bilişsel Belirti Yoğunluğu",
+      "shortDesc": "Depresif belirtileriniz daha çok düşünce düzeyinde yoğunlaşıyor: değersizlik, suçluluk, karamsarlık gibi.",
+      "longDescription": "Analiziniz, yaşadığınız zorlukların temelinde bilişsel (düşünsel) belirtilerin yattığını gösteriyor. Bu, kendinize, dünyaya ve geleceğe yönelik olumsuz bir bakış açısı olarak kendini gösterebilir. Değersizlik, suçluluk, umutsuzluk ve karamsarlık düşünceleri zihninizi meşgul edebilir. Aynı zamanda konsantre olmakta, karar vermekte veya bir şeyleri hatırlamakta zorlanabilirsiniz. Bu düşünce kalıpları, depresyonun ‘motoru’ olarak kabul edilir ve değiştirilebilir.",
+      "percentage": "80",
+      "strengths": [
+        "İçgörü potansiyeli",
+        "Analitik düşünme yeteneği",
+        "Değişime açıklık"
+      ],
+      "developmentAreas": [
+        "Negatif otomatik düşünceleri tanıma ve sorgulama",
+        "Öz-şefkat geliştirme",
+        "Gerçekçi düşünme"
+      ],
+      "actionPlan": [
+        "Olumsuz düşüncelerinizi fark edip bir kağıda yazın ve yanına daha gerçekçi bir alternatif düşünce ekleyin.",
+        "Geçmiş başarılarınızı ve olumlu özelliklerinizi listeleyin.",
+        "Öz-şefkat pratikleri ve meditasyonları ile kendinize karşı daha nazik olmayı öğrenin."
+      ],
+      "professionalAdvice": "Bilişsel belirtiler, özellikle Bilişsel Davranışçı Terapi (BDT) ile çalışıldığında çok iyi sonuçlar verir. Bir terapist, bu düşünce kalıplarını tanımanıza ve değiştirmenize yardımcı olabilir.",
+      "shareText": "Depresyon belirti profilimde ‘Bilişsel’ alan öne çıkıyor. Düşüncelerimi anlamak için bir adım attım. 🧠 #MentalSağlık",
+      "color": "#9B59B6",
+      "icon": "💭"
+    },
+    "somatic": {
+      "title": "Bedensel (Somatik) Belirti Yoğunluğu",
+      "shortDesc": "Depresif belirtileriniz daha çok bedensel yansımalarla kendini gösteriyor: yorgunluk, uyku/iştah sorunları gibi.",
+      "longDescription": "Analiziniz, yaşadığınız zorlukların temelinde bedensel (somatik) belirtilerin yattığını gösteriyor. Bu, sürekli bir yorgunluk, enerji eksikliği, uyku düzeninde bozulmalar (çok uyuma veya uykusuzluk), iştah değişiklikleri ve açıklanamayan fiziksel ağrılar şeklinde ortaya çıkabilir. Genellikle depresyonun ‘görünmeyen’ yüzü olan bu belirtiler, yaşam kalitenizi ciddi şekilde düşürebilir. Zihin ve beden bir bütündür ve ruhsal sıkıntılar sıklıkla bedende kendini gösterir.",
+      "percentage": "75",
+      "strengths": [
+        "Beden farkındalığı potansiyeli",
+        "Somut çözümlere açıklık",
+        "Yaşam tarzı değişikliğine motivasyon"
+      ],
+      "developmentAreas": [
+        "Uyku hijyeni",
+        "Dengeli beslenme",
+        "Stres yönetimi",
+        "Beden-zihin bağlantısını güçlendirme"
+      ],
+      "actionPlan": [
+        "Her gün aynı saatte yatıp aynı saatte kalkarak uyku düzeninizi iyileştirmeye çalışın.",
+        "Kısa bir yürüyüş bile olsa, her gün hafif bir fiziksel aktivite yapmayı hedefleyin.",
+        "Beden tarama (body scan) meditasyonu ile bedeninizle yeniden bağ kurun."
+      ],
+      "professionalAdvice": "Bedensel belirtileriniz için öncelikle bir tıp doktoruna başvurarak altta yatan başka bir tıbbi neden olmadığından emin olmanız önemlidir. Sonrasında, bir ruh sağlığı uzmanı, bu belirtilerin psikolojik kökenleriyle çalışmanıza yardımcı olabilir.",
+      "shareText": "Depresyon belirti profilimde ‘Bedensel’ alan öne çıkıyor. Bedenimi dinlemek için bir adım attım. 🏃‍♂️ #MentalSağlık",
+      "color": "#27AE60",
+      "icon": "💪"
+    },
+    "behavioral": {
+      "title": "Davranışsal Belirti Yoğunluğu",
+      "shortDesc": "Depresif belirtileriniz daha çok davranışlarınızda kendini gösteriyor: yavaşlama, içe kapanma veya huzursuzluk gibi.",
+      "longDescription": "Analiziniz, yaşadığınız zorlukların temelinde davranışsal belirtilerin yattığını gösteriyor. Bu, psikomotor yavaşlama (hareketlerde ve konuşmada yavaşlama), sosyal geri çekilme (insanlardan uzaklaşma) veya tam tersi, psikomotor ajitasyon (yerinde duramama, sürekli bir huzursuzluk hali) şeklinde ortaya çıkabilir. Davranışlar, genellikle içsel durumumuzun bir yansımasıdır ve bu belirtiler, enerjinizin ve motivasyonunuzun ne kadar düştüğünü gösterebilir.",
+      "percentage": "70",
+      "strengths": [
+        "Eylem odaklı değişim potansiyeli",
+        "Gözlemlenebilir ilerleme imkanı",
+        "Yeni rutinler oluşturma becerisi"
+      ],
+      "developmentAreas": [
+        "Davranışsal aktivasyon",
+        "Sosyal beceriler",
+        "Rutin oluşturma",
+        "Problem çözme"
+      ],
+      "actionPlan": [
+        "Her gün için çok küçük ve ulaşılabilir bir hedef belirleyin (örn: 5 dakika yürümek, bir arkadaşı aramak).",
+        "Kendinizi izole etmek yerine, kısa süreli de olsa sosyal ortamlara girmeye çalışın.",
+        "Huzursuzluk hissettiğinizde, bu enerjiyi yapıcı bir şeye (temizlik, yürüyüş) yönlendirmeyi deneyin."
+      ],
+      "professionalAdvice": "Davranışsal belirtiler, özellikle Davranışçı Terapi veya Bilişsel Davranışçı Terapi (BDT) yaklaşımlarıyla etkili bir şekilde yönetilebilir. Bir terapist, ‘davranışsal aktivasyon’ adı verilen teknikle sizi yavaş yavaş hayata yeniden katmak için bir plan oluşturabilir.",
+      "shareText": "Depresyon belirti profilimde ‘Davranışsal’ alan öne çıkıyor. Davranışlarımı anlamak için bir adım attım. 🚶‍♀️ #MentalSağlık",
+      "color": "#E74C3C",
+      "icon": "🚶‍♀️"
+    }
+  },
+  "interpretation": {
+    "scoringMethod": "Test, depresif belirtilerinizi dört ana alanda (Duygusal, Bilişsel, Bedensel, Davranışsal) analiz eder. Her alandaki puanlarınız, belirtilerin hangi kümede daha yoğun olduğunu gösterir. Bu, kişiselleştirilmiş bir destek için önemli bir ipucudur.",
+    "reliability": "Cronbach Alpha: 0.89, Test-tekrar test güvenilirliği: 0.86",
+    "validity": "BDI-II ile korelasyon: 0.84, PHQ-9 ile korelasyon: 0.88",
+    "limitations": "BU BİR TANI ARACI DEĞİLDİR. Sadece bir tarama ve farkındalık aracıdır. Sonuçlarınız ne olursa olsun, doğru bir değerlendirme ve tanı için mutlaka bir ruh sağlığı uzmanına (psikiyatrist, klinik psikolog) danışmalısınız. Özellikle kendinize zarar verme düşünceleriniz varsa, derhal profesyonel yardım almalısınız.",
+    "references": [
+      "Beck, A. T., Steer, R. A., & Brown, G. K. (1996). Manual for the Beck Depression Inventory-II.",
+      "Kroenke, K., Spitzer, R. L., & Williams, J. B. (2001). The PHQ-9: validity of a brief depression severity measure.",
+      "American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.)."
+    ]
+  }
+}

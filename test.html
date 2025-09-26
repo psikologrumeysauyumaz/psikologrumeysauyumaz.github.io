@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psikoloji Testi - Psikolog Rümeysa Uyumaz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333333;
+            background-color: #F9FCFF;
+            line-height: 1.6;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.3;
+        }
+        .floating-nav {
+            backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(200, 200, 200, 0.3);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #166534, #14532D);
+            color: white;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 8px rgba(22, 101, 52, 0.2);
+        }
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #14532D, #16A34A);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(22, 101, 52, 0.3);
+        }
+        .btn-secondary {
+            background-color: #F8F8F8;
+            color: #333333;
+            border: 1px solid #166534;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+        .btn-secondary:hover {
+            background-color: #EDEDED;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .progress-bar {
+            background: linear-gradient(90deg, #166534, #16A34A);
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+        .question-card {
+            background: white;
+            border-radius: 16px;
+            border: 1px solid rgba(200, 200, 200, 0.2);
+            transition: all 0.3s ease;
+        }
+            .chart-container {
+                position: relative;
+                height: 320px;
+            }
+            @media (min-width: 768px) {
+                .chart-container {
+                    height: 360px;
+                }
+            }
+            .chart-container canvas {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        .option-button {
+            background: white;
+            border: 2px solid #E5E7EB;
+            border-radius: 12px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-align: left;
+        }
+        .option-button:hover {
+            border-color: #16A34A;
+            background-color: #F0F9FF;
+        }
+        .option-button.selected {
+            border-color: #166534;
+            background-color: #F0F9FF;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(22, 101, 52, 0.1);
+        }
+        .result-card {
+            background: white;
+            border-radius: 16px;
+            border: 1px solid rgba(200, 200, 200, 0.2);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .share-button {
+            background: linear-gradient(135deg, #166534, #16A34A);
+            color: white;
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .share-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(22, 101, 52, 0.3);
+        }
+        .professional-insight {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            padding: 1.75rem;
+            border-radius: 18px;
+            border: 1px solid rgba(22, 101, 52, 0.12);
+            background: linear-gradient(135deg, rgba(22, 101, 52, 0.08), rgba(13, 148, 136, 0.06));
+            box-shadow: 0 15px 40px rgba(15, 118, 110, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+        .professional-insight::after {
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: -30%;
+            width: 65%;
+            height: 140%;
+            background: radial-gradient(circle at center, rgba(94, 234, 212, 0.18), transparent 70%);
+            pointer-events: none;
+            transform: rotate(12deg);
+        }
+        .professional-insight-icon {
+            flex-shrink: 0;
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: rgba(22, 101, 52, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: #14532D;
+            box-shadow: inset 0 0 0 1px rgba(22, 101, 52, 0.2);
+        }
+        .professional-insight-body {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+        }
+        .professional-insight-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.35rem 0.85rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            background-color: rgba(22, 101, 52, 0.12);
+            color: #166534;
+            margin-bottom: 0.75rem;
+        }
+        .professional-insight-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 0.75rem;
+        }
+        .professional-insight-text {
+            color: #1f2937;
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        .professional-insight-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 600;
+            color: #166534;
+            margin-top: 1.25rem;
+            transition: color 0.2s ease, transform 0.2s ease;
+        }
+        .professional-insight-link:hover {
+            color: #0f766e;
+            transform: translateX(4px);
+        }
+        @media (max-width: 640px) {
+            .professional-insight {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .professional-insight-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Floating Navigation -->
+    <nav class="floating-nav fixed top-4 left-4 right-4 mx-auto max-w-7xl rounded-lg shadow-lg z-50 py-3 px-6 flex justify-between items-center transition-all duration-500" style="max-width: 1200px;" id="mainNav">
+        <div class="text-xl font-semibold" style="color: #333333; font-family: 'Playfair Display', serif;">
+            <a href="index.html">Psk. Rümeysa Uyumaz</a>
+        </div>
+        <div class="hidden md:flex space-x-8">
+            <a href="index.html#home" class="hover:text-[#16A34A] transition-colors">Ana Sayfa</a>
+            <a href="index.html#about" class="hover:text-[#16A34A] transition-colors">Hakkımda</a>
+            <a href="testler.html" class="text-[#16A34A] font-medium">Testler</a>
+            <a href="index.html#contact" class="hover:text-[#16A34A] transition-colors">İletişim</a>
+        </div>
+        <div class="md:hidden cursor-pointer" onclick="toggleDrawer()">
+            <i data-feather="menu"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileDrawer" class="fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 opacity-0 pointer-events-none">
+        <div class="absolute right-0 top-0 h-full w-64 bg-white transform transition-transform duration-300 translate-x-full">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-8">
+                    <div class="text-xl font-semibold" style="color: #333333; font-family: 'Playfair Display', serif;">Menü</div>
+                    <button onclick="toggleDrawer()" class="p-2">
+                        <i data-feather="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+                <div class="space-y-6">
+                    <a href="index.html#home" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">Ana Sayfa</a>
+                    <a href="index.html#about" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">Hakkımda</a>
+                    <a href="testler.html" class="block py-2 text-[#16A34A] font-medium" onclick="toggleDrawer()">Testler</a>
+                    <a href="index.html#contact" class="block py-2 hover:text-[#16A34A] transition-colors" onclick="toggleDrawer()">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Container -->
+    <div class="pt-24 pb-16 px-4 md:px-8 min-h-screen">
+        <div class="max-w-4xl mx-auto">
+
+            <!-- Test Header -->
+            <div id="testHeader" class="text-center mb-8">
+                <h1 id="testTitle" class="text-3xl md:text-4xl font-bold mb-4"></h1>
+                <p id="testDescription" class="text-lg text-gray-600 mb-6"></p>
+
+                <!-- Progress Bar -->
+                <div class="w-full bg-gray-200 rounded-full h-3 mb-6">
+                    <div id="progressBar" class="progress-bar h-3 rounded-full" style="width: 0%"></div>
+                </div>
+                <div class="text-sm text-gray-500">
+                    <span id="currentQuestion">1</span> / <span id="totalQuestions">10</span> soru
+                </div>
+            </div>
+
+            <!-- Question Card -->
+            <div id="questionContainer" class="question-card p-8 shadow-lg mb-8">
+                <h3 id="questionText" class="text-xl font-semibold mb-6"></h3>
+                <div id="optionsContainer" class="space-y-4"></div>
+
+                <div class="flex justify-between mt-8">
+                    <button id="prevButton" class="btn-secondary px-6 py-3 rounded-lg font-medium" onclick="previousQuestion()" style="display: none;">Geri</button>
+                    <button id="nextButton" class="btn-primary px-6 py-3 rounded-lg font-medium ml-auto" onclick="nextQuestion()" disabled>Devam Et</button>
+                </div>
+            </div>
+
+            <!-- Results Container -->
+            <div id="resultsContainer" class="hidden">
+                <div class="result-card p-8 shadow-lg mb-8">
+                    <h2 class="text-3xl font-bold mb-6 text-center">Test Sonucunuz</h2>
+
+                    <!-- Chart Container -->
+                    <div id="resultChartWrapper" class="chart-container mb-8">
+                        <canvas id="resultChart"></canvas>
+                    </div>
+
+                    <div id="resultContent" class="mb-8"></div>
+
+                    <!-- Professional Note -->
+                    <div class="professional-insight mb-8">
+                        <div class="professional-insight-icon">💡</div>
+                        <div class="professional-insight-body">
+                            <h4 class="professional-insight-title">Uzman Görüşü</h4>
+                            <p id="professionalNote" class="professional-insight-text"></p>
+                            <a href="index.html#contact" class="professional-insight-link">
+                                Bu sonuçlar hakkında detaylı görüşmek ister misiniz? →
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Social Share -->
+                    <div class="text-center">
+                        <h4 class="text-lg font-semibold mb-4">Sonuçlarını Paylaş</h4>
+                        <div class="flex justify-center gap-4 flex-wrap">
+                            <button onclick="shareToWhatsApp()" class="share-button">
+                                <i data-feather="message-circle" class="w-5 h-5 inline mr-2"></i>WhatsApp
+                            </button>
+                            <button onclick="shareToTwitter()" class="share-button">
+                                <i data-feather="twitter" class="w-5 h-5 inline mr-2"></i>Twitter
+                            </button>
+                            <button onclick="shareToInstagram()" class="share-button">
+                                <i data-feather="instagram" class="w-5 h-5 inline mr-2"></i>Instagram
+                            </button>
+                            <button onclick="downloadResult()" class="share-button">
+                                <i data-feather="download" class="w-5 h-5 inline mr-2"></i>PDF İndir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Tests -->
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold mb-6">Diğer Testler</h3>
+                    <a href="testler.html" class="btn-secondary inline-block px-8 py-3 rounded-lg font-medium">Tüm Testleri Gör</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+
+        const testMapping = {
+            'baglanma-stili': 'TEST 1: BAĞLANMA STİLİ PROFİL ANALİZİ.json',
+            'ask-dili': 'TEST 2: AŞK DİLİ KEŞİF TESTİ.json',
+            'iletisim-stili': 'TEST 3: İLETİŞİM STİLİ DEĞERLENDİRMESİ.json',
+            'cift-uyumluluk': 'TEST 4: ÇİFT UYUMLULUK VE DİNAMİK ANALİZİ.json',
+            'duygusal-zeka': 'TEST 5: DUYGUSAL ZEKA YETKİNLİK TESTİ.json',
+            'dark-triad': 'TEST 6: DARK TRIAD KİŞİLİK SPEKTRUMU.json',
+            'ozguven': 'TEST 7: ÖZGÜVEN VE BENLİK SAYGISI ANALİZİ.json',
+            'kaygi-duzeyi': 'TEST 8: KAYGI DÜZEYİ DEĞERLENDİRME.json',
+            'sosyal-zeka': 'TEST 9: SOSYAL ZEKA VE İLİŞKİ YÖNETİMİ.json',
+            'stres-yonetimi': 'TEST 10: STRES YÖNETİMİ VE DAYANIKLILIK.json',
+            'motivasyon': 'TEST 11: MOTİVASYON VE HEDEF YÖNELİMİ.json',
+            'yaraticilik': 'TEST 12: YARATICILIK VE İNOVASYON POTANSİYELİ.json',
+            'catisma-cozme': 'TEST 13: ÇATIŞMA ÇÖZME VE MÜZAKERE BECERİLERİ.json',
+            'karar-verme': 'TEST 14: KARAR VERME SÜRECİ VE BİLİŞSEL STİL ANALİZİ.json',
+            'liderlik': 'TEST 15: LİDERLİK STİLLERİ VE YAKLAŞIMLARI ANALİZİ.json',
+            'degerler': 'TEST 16: DEĞERLER, İNANÇLAR VE DÜNYA GÖRÜŞÜ ANALİZİ.json',
+            'iq-testi': 'TEST 17: BİLİŞSEL YETENEĞİ VE IQ DEĞERLENDİRME.json',
+            'mindfulness': 'TEST 18: MİNDFULNESS VE BİLİNÇLİ FARKINDALIK DÜZEYİ.json',
+            'depresyon-riski': 'TEST 19: DEPRESYON RİSK DEĞERLENDİRME.json',
+            'is-yasam-dengesi': 'TEST 20: İŞ-YAŞAM DENGESİ VE UYUM DEĞERLENDİRMESİ.json',
+            'sosyal-medya-kisiligi': 'TEST 21: SOSYAL MEDYA KİŞİLİĞİ VE DİJİTAL ANALİZİ.json',
+            '2025-kisilik-tahmini': 'TEST 22: 2025 KİŞİLİK TAHMİNİ VE GELECEK SENARYOLARI.json'
+        };
+
+        const CHART_COLOR_PALETTE = ['#166534', '#0ea5e9', '#a855f7', '#f97316', '#14b8a6', '#facc15', '#ec4899'];
+
+        function hexToRgba(hex, alpha = 1) {
+            if (!hex) {
+                return `rgba(22, 101, 52, ${alpha})`;
+            }
+
+            let sanitized = hex.replace('#', '').trim();
+            if (sanitized.length === 3) {
+                sanitized = sanitized.split('').map(char => char + char).join('');
+            }
+
+            const int = parseInt(sanitized, 16);
+            if (Number.isNaN(int)) {
+                return `rgba(22, 101, 52, ${alpha})`;
+            }
+
+            const r = (int >> 16) & 255;
+            const g = (int >> 8) & 255;
+            const b = int & 255;
+            return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+        }
+
+        function slugFromFilename(filename) {
+            const testName = filename
+                .replace('.json', '')
+                .replace(/^TEST \d+: /i, '');
+
+            return testName
+                .toLowerCase()
+                .replace(/ğ/g, 'g')
+                .replace(/ü/g, 'u')
+                .replace(/ş/g, 's')
+                .replace(/ı/g, 'i')
+                .replace(/ö/g, 'o')
+                .replace(/ç/g, 'c')
+                .replace(/[^a-z0-9\s-]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/-+/g, '-')
+                .trim();
+        }
+
+        async function loadTestData(fileName) {
+            try {
+                const response = await fetch(`tests/${fileName}`);
+                if (!response.ok) throw new Error(`Test dosyası yüklenemedi: ${response.statusText}`);
+                return await response.json();
+            } catch (error) {
+                console.error('Test yükleme hatası:', error);
+                document.body.innerHTML = `<div class="text-center p-8"><h1 class="text-2xl font-bold">Hata</h1><p>Test verileri yüklenemedi. Lütfen internet bağlantınızı kontrol edin ve sayfayı yenileyin.</p></div>`;
+                return null;
+            }
+        }
+
+    let currentTest = null;
+    let currentQuestionIndex = 0;
+    let answers = [];
+    let testType = '';
+    let currentTestFile = '';
+    let resultChartInstance = null;
+
+        window.addEventListener('DOMContentLoaded', async function() {
+            console.log("Sayfa yüklendi, test başlatılıyor...");
+            const urlParams = new URLSearchParams(window.location.search);
+            const fileParam = urlParams.get('file');
+            const typeParam = urlParams.get('type');
+
+            if (fileParam) {
+                currentTestFile = decodeURIComponent(fileParam);
+                testType = slugFromFilename(currentTestFile);
+            } else if (typeParam && testMapping[typeParam]) {
+                testType = typeParam;
+                currentTestFile = testMapping[typeParam];
+            }
+
+            if (!currentTestFile) {
+                alert('Geçersiz test tipi!');
+                window.location.href = 'testler.html';
+                return;
+            }
+
+            console.log(`Test dosyası: ${currentTestFile} (slug: ${testType || 'belirsiz'})`);
+            currentTest = await loadTestData(currentTestFile);
+            if (currentTest) {
+                console.log("Test verisi başarıyla yüklendi:", currentTest);
+                initializeTest();
+            }
+        });
+
+        function initializeTest() {
+            console.log("Test başlatılıyor...");
+            document.getElementById('testTitle').textContent = currentTest.testInfo.title;
+            document.getElementById('testDescription').textContent = currentTest.testInfo.description;
+            document.getElementById('totalQuestions').textContent = currentTest.questions.length;
+            answers = new Array(currentTest.questions.length).fill(null);
+            showQuestion(0);
+        }
+
+        function showQuestion(index) {
+            console.log(`Soru ${index + 1} gösteriliyor...`);
+            const question = currentTest.questions[index];
+            document.getElementById('questionText').textContent = question.text;
+            document.getElementById('currentQuestion').textContent = index + 1;
+
+            const progress = ((index + 1) / currentTest.questions.length) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+
+            question.options.forEach((option, optionIndex) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option-button';
+                optionDiv.innerHTML = `<div class="flex items-center"><span class="font-medium">${option.text}</span></div>`;
+                optionDiv.onclick = () => selectOption(optionIndex, optionDiv);
+                optionsContainer.appendChild(optionDiv);
+            });
+
+            document.getElementById('prevButton').style.display = index > 0 ? 'block' : 'none';
+            document.getElementById('nextButton').disabled = answers[index] === null;
+            document.getElementById('nextButton').textContent = index === currentTest.questions.length - 1 ? 'Sonuçları Gör' : 'Devam Et';
+        }
+
+        function selectOption(optionIndex, optionElement) {
+            document.querySelectorAll('.option-button').forEach(btn => btn.classList.remove('selected'));
+            optionElement.classList.add('selected');
+
+            const selectedOption = currentTest.questions[currentQuestionIndex].options[optionIndex];
+            answers[currentQuestionIndex] = {
+                questionIndex: currentQuestionIndex,
+                optionIndex: optionIndex,
+                category: selectedOption.category,
+                score: selectedOption.score
+            };
+
+            document.getElementById('nextButton').disabled = false;
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentTest.questions.length - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            } else {
+                showResults();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+
+                if (answers[currentQuestionIndex] !== null) {
+                    const optionButtons = document.querySelectorAll('.option-button');
+                    optionButtons[answers[currentQuestionIndex].optionIndex].classList.add('selected');
+                    document.getElementById('nextButton').disabled = false;
+                }
+            }
+        }
+
+        function showResults() {
+            console.log("Sonuçlar hesaplanıyor...");
+            const scores = {};
+            const categoryCounts = {};
+            answers.forEach(answer => {
+                if (answer && answer.category && answer.score !== undefined) {
+                    if (!scores[answer.category]) {
+                        scores[answer.category] = 0;
+                    }
+                    scores[answer.category] += answer.score;
+
+                    if (!categoryCounts[answer.category]) {
+                        categoryCounts[answer.category] = 0;
+                    }
+                    categoryCounts[answer.category] += 1;
+                }
+            });
+
+            if (Object.keys(scores).length === 0) {
+                console.error("Hesaplanacak skor bulunamadı.");
+                document.getElementById('resultContent').innerHTML = `<div class="text-center p-8"><h3 class="text-2xl font-bold">Hesaplama Hatası</h3><p>Sonuçları hesaplamak için yeterli cevap bulunamadı. Lütfen testi tekrar deneyin.</p></div>`;
+                return;
+            }
+
+            let resultType = Object.keys(scores).reduce((a, b) => scores[a] > scores[b] ? a : b);
+            let result = currentTest.results[resultType];
+
+            document.getElementById('questionContainer').style.display = 'none';
+            document.getElementById('testHeader').style.display = 'none';
+            document.getElementById('resultsContainer').classList.remove('hidden');
+
+            if (!result) {
+                console.error(`Sonuç profili bulunamadı: ${resultType}`);
+                document.getElementById('resultContent').innerHTML = `<div class="text-center p-8"><h3 class="text-2xl font-bold">Sonuç Bulunamadı</h3><p>Profilinize uygun sonuç bulunamadı. Bu beklenmedik bir durumdur.</p></div>`;
+                return;
+            }
+            
+            document.getElementById('resultContent').innerHTML = `
+                <div class="text-center mb-8">
+                    <div class="text-4xl mb-4">${result.icon || '🎯'}</div>
+                    <h3 class="text-2xl font-bold mb-4" style="color: ${result.color || '#333'}">${result.title}</h3>
+                    <p class="text-lg text-gray-700 mb-6">${result.shortDesc}</p>
+                    <div class="text-left max-w-2xl mx-auto">
+                        <p class="text-gray-600 mb-4">${result.longDescription}</p>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-green-700 mb-2">Güçlü Yönleriniz:</h4>
+                            <ul class="list-disc list-inside text-sm text-gray-600">
+                                ${(result.strengths || []).map(s => `<li>${s}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-amber-700 mb-2">Gelişim Alanlarınız:</h4>
+                            <ul class="list-disc list-inside text-sm text-gray-600">
+                                ${(result.developmentAreas || []).map(a => `<li>${a}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-blue-700 mb-2">Eylem Planı:</h4>
+                            <ol class="list-decimal list-inside text-sm text-gray-600">
+                                ${(result.actionPlan || []).map(p => `<li>${p}</li>`).join('')}
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('professionalNote').textContent = result.professionalAdvice;
+
+            if (document.getElementById('resultChart')) {
+                createResultChart(scores, categoryCounts);
+            }
+        }
+
+        function createResultChart(scores = {}, categoryCounts = {}) {
+            const canvas = document.getElementById('resultChart');
+            if (!canvas) {
+                return;
+            }
+
+            if (resultChartInstance) {
+                resultChartInstance.destroy();
+                resultChartInstance = null;
+            }
+
+            const ctx = canvas.getContext('2d');
+            const scoreEntries = Object.entries(scores || {})
+                .filter(([category]) => currentTest?.results?.[category])
+                .sort((a, b) => b[1] - a[1]);
+
+            let entries = scoreEntries;
+            let datasetLabel = 'Skor';
+            const totalScore = entries.reduce((sum, [, value]) => sum + (typeof value === 'number' ? value : 0), 0);
+
+            if (!entries.length || totalScore === 0) {
+                entries = Object.entries(categoryCounts || {})
+                    .filter(([category]) => currentTest?.results?.[category])
+                    .sort((a, b) => b[1] - a[1]);
+                datasetLabel = 'Yanıt Sayısı';
+            }
+
+            const labels = [];
+            const values = [];
+            const colors = [];
+
+            entries.forEach(([category, value], index) => {
+                const resultProfile = currentTest.results[category];
+                const baseColor = resultProfile?.color || CHART_COLOR_PALETTE[index % CHART_COLOR_PALETTE.length];
+                labels.push(resultProfile.title || category);
+                values.push(value ?? 0);
+                colors.push(baseColor);
+            });
+
+            if (!labels.length) {
+                console.warn('Grafik için kullanılabilir veri bulunamadı.');
+                return;
+            }
+
+            const bars = colors.map(color => hexToRgba(color, 0.78));
+            const borderColors = colors.map(color => hexToRgba(color, 1));
+            const dynamicBarThickness = Math.max(28, Math.min(48, 320 / labels.length));
+
+            resultChartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels,
+                    datasets: [{
+                        label: datasetLabel,
+                        data: values,
+                        backgroundColor: bars,
+                        borderColor: borderColors,
+                        borderWidth: 1,
+                        borderRadius: 12,
+                        borderSkipped: false,
+                        barThickness: dynamicBarThickness,
+                        categoryPercentage: 0.6,
+                        barPercentage: 0.7
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(148, 163, 184, 0.2)',
+                                drawBorder: false
+                            },
+                            ticks: {
+                                display: false
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false,
+                                drawBorder: false
+                            },
+                            ticks: {
+                                color: '#334155',
+                                font: {
+                                    family: 'Inter',
+                                    size: 12,
+                                    weight: 600
+                                },
+                                padding: 8
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            enabled: true,
+                            backgroundColor: '#0f172a',
+                            titleFont: {
+                                family: 'Inter',
+                                size: 13,
+                                weight: 600
+                            },
+                            bodyFont: {
+                                family: 'Inter',
+                                size: 12,
+                                weight: 500
+                            },
+                            padding: 12,
+                            displayColors: false,
+                            callbacks: {
+                                label: () => null
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function shareToWhatsApp() {
+            const text = `${currentTest.testInfo.title} sonucumu gördüm! Testi çözmek için: ${window.location.href}`;
+            window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        function shareToTwitter() {
+            const text = `${currentTest.testInfo.title} sonucumu gördüm! #PsikolojiTesti`;
+            window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(window.location.href)}`, '_blank');
+        }
+
+        function shareToInstagram() {
+            navigator.clipboard.writeText(`${currentTest.testInfo.title} sonucumu gördüm! Testi çözmek için: ${window.location.href}`);
+            alert(`Sonuç metni kopyalandı! Instagram'da paylaşabilirsiniz.`);
+        }
+
+        function downloadResult() {
+            alert('PDF indirme özelliği yakında eklenecek!');
+        }
+
+        function toggleDrawer() {
+            const drawer = document.getElementById('mobileDrawer');
+            const drawerContent = drawer.querySelector('div > div');
+            const nav = document.getElementById('mainNav');
+
+            if (drawer.classList.contains('opacity-0')) {
+                drawer.classList.remove('opacity-0', 'pointer-events-none');
+                drawer.classList.add('opacity-100', 'pointer-events-auto');
+                drawerContent.classList.remove('translate-x-full');
+                drawerContent.classList.add('translate-x-0');
+                document.body.style.overflow = 'hidden';
+                nav.style.display = 'none';
+            } else {
+                drawer.classList.remove('opacity-100', 'pointer-events-auto');
+                drawer.classList.add('opacity-0', 'pointer-events-none');
+                drawerContent.classList.remove('translate-x-0');
+                drawerContent.classList.add('translate-x-full');
+                document.body.style.overflow = '';
+                nav.style.display = 'flex';
+            }
+        }
+
+        document.getElementById('mobileDrawer').addEventListener('click', function(e) {
+            if (e.target === this) {
+                toggleDrawer();
+            }
+        });
+
+        let lastScrollTop = 0;
+        let ticking = false;
+        const nav = document.getElementById('mainNav');
+
+        function updateNavOnScroll() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > 50) {
+                nav.style.background = 'rgba(255, 255, 255, 0.98)';
+                nav.style.backdropFilter = 'blur(20px) saturate(180%)';
+            } else {
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
+                nav.style.backdropFilter = 'blur(16px) saturate(180%)';
+            }
+            lastScrollTop = scrollTop;
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', function() {
+            if (!ticking) {
+                requestAnimationFrame(updateNavOnScroll);
+                ticking = true;
+            }
+        }, { passive: true });
+    </script>
+</body>
+</html>
