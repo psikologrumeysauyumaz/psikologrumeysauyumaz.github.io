@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Bilişsel Performans",
+    "categoryIcon": "🧠",
+    "categoryOrder": 5,
+    "testOrder": 1,
+    "title": "Karar Verme Süreci ve Bilişsel Stil Analizi",
+    "description": "Bu test, karar verme süreçlerinizi, bilişsel stillerinizi ve problem çözme yaklaşımlarınızı değerlendiren kapsamlı bir analiz aracıdır. Herbert Simon'un Sınırlı Rasyonellik, Daniel Kahneman'ın Çift Süreç Teorisi (Sistem 1 ve Sistem 2) ve kültürel karar verme stilleri gibi temel kuramları temel alır. Test, bilgiyi nasıl işlediğinizi, sezgilerinize ne kadar güvendiğinizi, en iyi seçeneği mi yoksa yeterince iyi olanı mı aradığınızı ve kararlarınızda sosyal çevrenin etkisini analiz eder.",
+    "author": "Herbert Simon & Daniel Kahneman",
+    "references": [
+      "Simon, H. A. (1956). Rational choice and the structure of the environment.",
+      "Kahneman, D. (2011). Thinking, fast and slow.",
+      "Schwartz, B., et al. (2002). Maximizing versus satisficing."
+    ],
+    "estimatedTime": "10-12 dakika",
+    "recommendedFrequency": "Önemli bir karar öncesinde veya kariyer planlaması yaparken"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "analytical",
+        "title": "Analitik Karar Verici (Mükemmeliyetçi)"
+      },
+      {
+        "name": "pragmatic",
+        "title": "Pragmatist Karar Verici (Yeterliyle Yetinen)"
+      },
+      {
+        "name": "intuitive",
+        "title": "Sezgisel Karar Verici (Deneyimsel)"
+      },
+      {
+        "name": "collective",
+        "title": "Kolektif Karar Verici (İlişki Odaklı)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Önemli bir satın alma kararı verirken (örneğin, laptop, ev) yaklaşımınız nasıldır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Tüm seçenekleri, tüm özellikleri ve tüm yorumları inceler, en iyi olanı bulana kadar araştırırım.",
+          "category": "analytical"
+        },
+        {
+          "text": "Temel kriterlerimi karşılayan ilk birkaç seçenekten birini seçer, fazla zaman harcamam.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Genellikle ilk başta içime sinen, bana doğru hissettiren seçeneğe yönelirim.",
+          "category": "intuitive"
+        },
+        {
+          "text": "Güvendiğim arkadaşlarıma, aileme veya uzmanlara danışır, onların tavsiyelerine uyarım.",
+          "category": "collective"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Zaman baskısı altında hızlı bir karar vermeniz gerektiğinde ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Panik yapmam, mevcut en önemli verilere odaklanır ve mantıksal bir sonuca varırım.",
+          "category": "analytical"
+        },
+        {
+          "text": "En az riskli ve en güvenli görünen seçeneği tercih ederim.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Genellikle ilk aklıma gelen ve doğru hissettiren şeyi yaparım.",
+          "category": "intuitive"
+        },
+        {
+          "text": "Hemen en deneyimli veya yetkili kişiyi bulup ona danışırım.",
+          "category": "collective"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Karmaşık bir problemle karşılaştığınızda ilk adımınız ne olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Problemi tüm detaylarıyla analiz etmek için bir sistem veya tablo oluştururum.",
+          "category": "analytical"
+        },
+        {
+          "text": "Problemi daha küçük, yönetilebilir parçalara ayırır ve ilk adımı atarım.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Problem üzerinde bir süre düşünür, aklıma bir çözüm gelmesini beklerim.",
+          "category": "intuitive"
+        },
+        {
+          "text": "Bu problemi daha önce çözmüş olabilecek kişileri veya kaynakları araştırırım.",
+          "category": "collective"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bir karar verdikten sonra ne sıklıkla ‘acaba diğer seçeneği seçseydim daha mı iyi olurdu?’ diye düşünürsünüz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok sık. Verdiğim kararı sürekli diğer alternatiflerle karşılaştırırım.",
+          "category": "analytical"
+        },
+        {
+          "text": "Nadiren. Kararım yeterince iyiyse, diğer seçenekleri düşünmem.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Eğer sonuç kötü olursa düşünürüm, iyi olursa hiç aklıma gelmez.",
+          "category": "intuitive"
+        },
+        {
+          "text": "Çevremdekiler kararımı sorgularsa düşünürüm.",
+          "category": "collective"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Belirsizlik içeren bir durumda nasıl hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Rahatsız olurum ve belirsizliği ortadan kaldırmak için hemen bilgi toplamaya başlarım.",
+          "category": "analytical"
+        },
+        {
+          "text": "Belirsizlik hayatın bir parçasıdır, en olası senaryoya göre hareket ederim.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Belirsizlik bazen heyecan vericidir, yeni olasılıklar yaratabilir.",
+          "category": "intuitive"
+        },
+        {
+          "text": "Endişelenirim ve güvendiğim insanların ne yaptığını gözlemlerim.",
+          "category": "collective"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Bir kararınızın başkaları tarafından eleştirilmesi sizi ne kadar etkiler?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Verilerim ve mantığım sağlamsa eleştirileri pek umursamam.",
+          "category": "analytical"
+        },
+        {
+          "text": "Eleştirinin mantıklı olup olmadığına bakarım, işime yararsa dikkate alırım.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Kararımın arkasında dururum ama eleştirilmek hoşuma gitmez.",
+          "category": "intuitive"
+        },
+        {
+          "text": "Çok etkiler, kararımı sorgulamaya başlarım ve kendimi kötü hissederim.",
+          "category": "collective"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "analytical": {
+      "title": "Analitik Karar Verici (Mükemmeliyetçi)",
+      "shortDesc": "Kararlarınızı veri, mantık ve detaylı analizle alan, en iyi sonucu bulmaya odaklı birisiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Karar verme stiliniz, Kahneman'ın tanımıyla yavaş ve analitik olan 'Sistem 2' düşünme biçimini yoğun olarak kullanıyor. Bir karar almadan önce tüm alternatifleri değerlendirme, artı ve eksileri listeleme ve en optimal sonucu bulma eğilimindesiniz (Maximizer). Bu yaklaşım, özellikle yüksek riskli ve önemli kararlarda hata payını en aza indirir ve genellikle yüksek kaliteli sonuçlar üretir. Ancak, bu stilin bir bedeli vardır: karar süreci uzayabilir, küçük kararlarda bile aşırı zihinsel enerji harcanabilir ve karar sonrası ‘daha iyisini kaçırma’ pişmanlığı yaşanabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Analitik gücünüz, sizi özellikle strateji, mühendislik ve finans gibi alanlarda başarılı kılar. Bu gücü, sezgisel ve pragmatik stillerle dengeleyerek karar verme hızınızı ve esnekliğinizi artırabilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Önemsiz kararlar için zaman sınırı koyarak ‘yeterince iyi’ olanı seçme pratiği yapın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Tüm bilgileri toplamak yerine, en kritik 3-5 bilgiye odaklanmayı deneyin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Karar verdikten sonra, seçiminizi kutlayın ve diğer alternatifleri düşünmeyi bilinçli olarak bırakın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "pragmatic": {
+      "title": "Pragmatist Karar Verici (Yeterliyle Yetinen)",
+      "shortDesc": "Hızlı, verimli ve pratik çözümlere odaklanan, ‘yeterince iyi’ olanı bulup ilerleyen bir stiliniz var.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Karar verme stiliniz, Herbert Simon'un ‘Sınırlı Rasyonellik’ ve Barry Schwartz'ın ‘Satisficer’ (Yeterliyle Yetinen) kavramlarıyla örtüşüyor. Mükemmel olanın peşinde koşarak zaman ve enerji kaybetmek yerine, belirlediğiniz temel kriterleri karşılayan ilk makul seçeneği tercih edersiniz. Bu yaklaşım sizi son derece verimli ve etkili kılar. Karar sonrası pişmanlık yaşama olasılığınız düşüktür ve enerjinizi uygulamaya odaklayabilirsiniz. Ancak, bu stil bazen daha iyi fırsatları veya potansiyel riskleri gözden kaçırmanıza neden olabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Pragmatik stiliniz, sizi özellikle hızlı hareket edilmesi gereken dinamik ortamlarda ve yöneticilik rollerinde başarılı kılar. Bu verimliliği, yüksek riskli kararlarda analitik stile daha fazla alan açarak dengeleyebilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Çok önemli kararlar için (örn: evlilik, kariyer değişikliği) bilinçli olarak daha fazla araştırma süresi ayırın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Karar vermeden önce bir ‘şeytanın avukatı’ belirleyip potansiyel riskleri sorgulayın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Temel kriterlerinizi periyodik olarak gözden geçirerek standartlarınızı güncel tutun.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "intuitive": {
+      "title": "Sezgisel Karar Verici (Deneyimsel)",
+      "shortDesc": "Kararlarınızı içgüdülerinize, duygularınıza ve geçmiş deneyimlerinize dayanarak hızlı bir şekilde alırsınız.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Karar verme stiliniz, Kahneman'ın tanımıyla hızlı ve otomatik olan 'Sistem 1' düşünme biçimini yoğun olarak kullanıyor. Detaylı analizler yerine, durumun yarattığı hisse, içgüdülerinize ve geçmiş deneyimlerinizden edindiğiniz ‘bilgeliğe’ güvenirsiniz. Bu yaklaşım, özellikle uzmanı olduğunuz konularda ve zaman baskısı altında son derece hızlı ve isabetli kararlar almanızı sağlar. Yaratıcılık, inovasyon ve insan odaklı rollerde bu yeteneğiniz parlar. Ancak, yeni ve karmaşık durumlarda veya bilişsel önyargıların (cognitive bias) devrede olduğu anlarda sezgileriniz sizi yanıltabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Sezgisel gücünüz, özellikle deneyimli olduğunuz alanlarda size rekabet avantajı sağlar. Bu gücü, kritik anlarda yavaşlayıp analitik düşünceyle kontrol ederek birleştirdiğinizde, hem hızlı hem de bilgece kararlar alabilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Önemli kararlardan önce, sezgilerinizi destekleyen en az 1-2 somut veri bulmaya çalışın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Yaygın bilişsel önyargılar hakkında bilgi edinin ve kendi düşünce süreçlerinizde bunları yakalamaya çalışın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sezgisel bir karar aldıktan sonra, bu kararı mantıksal adımlarla bir başkasına anlatma pratiği yapın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "collective": {
+      "title": "Kolektif Karar Verici (İlişki Odaklı)",
+      "shortDesc": "Kararlarınızı alırken sosyal çevrenizin görüşlerine, tavsiyelerine ve ortak uyuma büyük önem verirsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Karar verme stiliniz, kolektivist kültürlerin özelliklerini yansıtıyor. Bireysel bir karardan çok, grubun (aile, arkadaşlar, iş ekibi) ortak aklına ve uyumuna değer verirsiniz. Bir karar almadan önce başkalarına danışmak, onların onayını almak ve kararın ilişkileri nasıl etkileyeceğini düşünmek sizin için önceliklidir. Bu yaklaşım, sosyal destek ağınızı güçlendirir, aidiyet hissini artırır ve kararların uygulanmasında kolaylık sağlar. Ancak, sürekli dışsal onaya bağımlı olmak, bireysel sorumluluktan kaçınmaya, grup baskısına (groupthink) boyun eğmeye ve kişisel değerlerinizle çelişen kararlar almanıza neden olabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İnsanlara danışma ve uyum arama beceriniz, sizi değerli bir takım oyuncusu yapar. Bu beceriyi, kendi bireysel analiz ve sezgilerinizle birleştirdiğinizde, hem sosyal olarak desteklenen hem de kişisel olarak otantik kararlar alabilirsiniz.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Başkalarına danışmadan önce, ‘Ben tek başıma olsaydım ne karar verirdim?’ diye düşünün.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Küçük ve kişisel konularda bağımsız kararlar alarak pratik yapın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Danıştığınız kişilerin görüşlerini bir ‘veri’ olarak kabul edin, nihai kararın size ait olduğunu unutmayın.",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "İlişki Psikolojisi",
+    "categoryIcon": "💕",
+    "categoryOrder": 1,
+    "testOrder": 1,
+    "title": "Bağlanma Stili Profil Analizi",
+    "description": "Bowlby ve Ainsworth'ün bağlanma teorisine dayanan bu test, yetişkin bağlanma stilinizi kapsamlı şekilde değerlendirir. Erken dönem yaşantılarınızın bugünkü ilişkilerinizi nasıl şekillendirdiğini, duygusal yakınlık kurma biçiminizi ve stres anlarında başvurduğunuz bağlanma stratejilerini analiz eder. Test, güvenli, kaygılı, kaçıngan ve dezorganize bağlanma stillerini değerlendirerek, ilişkilerinizde yaşadığınız zorlukların kökenlerini anlamanıza ve daha sağlıklı bağlar kurmanıza yardımcı olur. Güncel araştırmalar, bağlanma stilinin sadece romantik ilişkileri değil, arkadaşlıkları, iş ilişkilerini ve ebeveynlik stilini de etkilediğini göstermektedir.",
+    "author": "John Bowlby, Mary Ainsworth, Mary Main, Phillip Shaver",
+    "references": [
+      "Bowlby, J. (1969). Attachment and Loss",
+      "Ainsworth, M. (1978). Patterns of Attachment",
+      "Main, M. & Solomon, J. (1990). Disorganized Attachment",
+      "Hazan, C. & Shaver, P. (1987). Romantic Love as Attachment",
+      "Mikulincer, M. & Shaver, P. (2016). Attachment in Adulthood"
+    ],
+    "estimatedTime": "10-12 dakika",
+    "recommendedFrequency": "Duruma göre, 6 ayda bir"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "secure",
+        "title": "Güvenli Bağlanma"
+      },
+      {
+        "name": "anxious",
+        "title": "Kaygılı Bağlanma"
+      },
+      {
+        "name": "avoidant",
+        "title": "Kaçıngan Bağlanma"
+      },
+      {
+        "name": "disorganized",
+        "title": "Dezorganize Bağlanma"
+      }
+    ],
+    "interpretation": {
+      "professional_guidance": true,
+      "warning_threshold": "disorganized"
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yakın ilişkilerde duygusal mesafe konusunda kendinizi nasıl hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hem yakınlık hem özerklik dengesi kurabilirim",
+          "category": "secure"
+        },
+        {
+          "text": "Çok yakınlaşmak beni bunaltır, mesafeye ihtiyacım var",
+          "category": "avoidant"
+        },
+        {
+          "text": "Sürekli daha fazla yakınlık isterim, asla yeterli gelmez",
+          "category": "anxious"
+        },
+        {
+          "text": "Bazen çok yakın, bazen çok uzak olmak isterim",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Partneriniz sizden uzakta zaman geçirdiğinde ne hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Normal karşılarım, herkesin kendi alanına ihtiyacı vardır",
+          "category": "secure"
+        },
+        {
+          "text": "Rahatlarım, yalnız kalmayı severim",
+          "category": "avoidant"
+        },
+        {
+          "text": "Endişelenirim, terk edileceğimi düşünürüm",
+          "category": "anxious"
+        },
+        {
+          "text": "Hem rahatlarım hem de panik olurum",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Duygularınızı ifade etme konusunda kendinizi nasıl tanımlarsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Duygularımı rahatça ve uygun şekilde ifade ederim",
+          "category": "secure"
+        },
+        {
+          "text": "Duygularımı kendime saklarım, göstermem",
+          "category": "avoidant"
+        },
+        {
+          "text": "Duygularım çok yoğun, kontrol edemem",
+          "category": "anxious"
+        },
+        {
+          "text": "Bazen aşırı duygusal, bazen tamamen kapalıyım",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Çocukluğunuzda ebeveynlerinizle ilişkinizi nasıl tanımlarsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Güvenli ve destekleyici bir ortamda büyüdüm",
+          "category": "secure"
+        },
+        {
+          "text": "Duygusal olarak mesafeli, bağımsızlığım önemliydi",
+          "category": "avoidant"
+        },
+        {
+          "text": "Tutarsız ilgi ve sevgi gördüm, bazen var bazen yoktular",
+          "category": "anxious"
+        },
+        {
+          "text": "Kaotik, öngörülemez ve korkutucu anlar yaşadım",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Yeni biriyle tanıştığınızda güven konusunda nasıl yaklaşırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Zamanla, karşılıklı olarak güven inşa ederiz",
+          "category": "secure"
+        },
+        {
+          "text": "Çok zor güvenirim, kendime yeterim",
+          "category": "avoidant"
+        },
+        {
+          "text": "Çok çabuk güvenir, sonra hayal kırıklığı yaşarım",
+          "category": "anxious"
+        },
+        {
+          "text": "Güven konusunda net değilim, değişkenlik gösterir",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "İlişkide çatışma yaşadığınızda tipik tepkiniz nedir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Sakin kalır, çözüm odaklı konuşurum",
+          "category": "secure"
+        },
+        {
+          "text": "Geri çekilir, tartışmadan kaçınırım",
+          "category": "avoidant"
+        },
+        {
+          "text": "Panikler, ilişkinin biteceğinden korkarım",
+          "category": "anxious"
+        },
+        {
+          "text": "Öfke patlamaları ve pişmanlık arasında gidip gelirim",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Partnerinizden destek almak konusunda kendinizi nasıl hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Gerektiğinde rahatça destek isterim",
+          "category": "secure"
+        },
+        {
+          "text": "Destek istemekte zorlanırım, yük olmak istemem",
+          "category": "avoidant"
+        },
+        {
+          "text": "Sürekli destek isterim ama yeterli gelmez",
+          "category": "anxious"
+        },
+        {
+          "text": "Hem isterim hem reddederim, kararsızım",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "İlişkilerinizde kendinizi ne kadar değerli hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Değerli olduğumu bilir ve hissederim",
+          "category": "secure"
+        },
+        {
+          "text": "Değerim ilişkiden bağımsızdır",
+          "category": "avoidant"
+        },
+        {
+          "text": "Sürekli onay ve sevgi gösterisi beklerim",
+          "category": "anxious"
+        },
+        {
+          "text": "Bazen çok değerli, bazen değersiz hissederim",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Partnerinizin geçmiş ilişkileri hakkında ne düşünürsünüz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Normal karşılarım, herkesin bir geçmişi vardır",
+          "category": "secure"
+        },
+        {
+          "text": "İlgilenmem, beni ilgilendirmez",
+          "category": "avoidant"
+        },
+        {
+          "text": "Kıskançlık yapar, karşılaştırma yaparım",
+          "category": "anxious"
+        },
+        {
+          "text": "Hem merak ederim hem öfkelenirim",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Yakınlarınız sizi nasıl tanımlar?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Güvenilir, dengeli ve sevecen",
+          "category": "secure"
+        },
+        {
+          "text": "Bağımsız, güçlü ve mesafeli",
+          "category": "avoidant"
+        },
+        {
+          "text": "Duygusal, hassas ve ilgi isteyen",
+          "category": "anxious"
+        },
+        {
+          "text": "Öngörülemez, karmaşık ve yoğun",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Uzun süreli ilişkilere bakışınız nasıldır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Emek ve sevgiyle büyüyen güzel bir yolculuk",
+          "category": "secure"
+        },
+        {
+          "text": "Özgürlüğümü kısıtlayan bir durum",
+          "category": "avoidant"
+        },
+        {
+          "text": "Sürekli çaba gerektiren, yorucu bir süreç",
+          "category": "anxious"
+        },
+        {
+          "text": "Hem isterim hem korkarım",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Stresli dönemlerde partnerinizle ilişkiniz nasıl etkilenir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Birbirimize destek olur, güçleniriz",
+          "category": "secure"
+        },
+        {
+          "text": "Kendi başıma halletmeyi tercih ederim",
+          "category": "avoidant"
+        },
+        {
+          "text": "Daha yapışkan ve talepkar olurum",
+          "category": "anxious"
+        },
+        {
+          "text": "İlişkim tamamen kaosa döner",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Partnerinizin size olan sevgisinden emin olmak için ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Özel bir şey yapmam, sevgisini hissederim",
+          "category": "secure"
+        },
+        {
+          "text": "Sevgi gösterilerine ihtiyaç duymam",
+          "category": "avoidant"
+        },
+        {
+          "text": "Sürekli sözel ve fiziksel onay ararım",
+          "category": "anxious"
+        },
+        {
+          "text": "Test ederim, oyunlar oynarım",
+          "category": "disorganized"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "İlişkinizde özerklik ve bağlılık dengesini nasıl kurarsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Her ikisine de yer veren sağlıklı bir denge kurarım",
+          "category": "secure"
+        },
+        {
+          "text": "Özerkliğim her zaman önceliklidir",
+          "category": "avoidant"
+        },
+        {
+          "text": "Tamamen bağlanırım, kendimi kaybederim",
+          "category": "anxious"
+        },
+        {
+          "text": "Denge kuramam, uç noktalarda yaşarım",
+          "category": "disorganized"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "secure": {
+      "title": "Güvenli Bağlanma Stili",
+      "shortDesc": "Sağlıklı ilişkiler kurabilen, dengeli ve güvenli bağlanma stiline sahipsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Güvenli bağlanma stiline sahip bireyler, ilişkilerinde hem yakınlık hem de özerklik konusunda rahat hissederler. Erken dönem yaşantılarınız, size tutarlı sevgi ve destek sağlamış, bu da sağlıklı bir benlik algısı ve başkalarına güven duygusu geliştirmenize yardımcı olmuş. İlişkilerinizde duygularınızı açıkça ifade edebilir, çatışmaları yapıcı şekilde çözebilir ve partnerinizin ihtiyaçlarına duyarlı olabilirsiniz. Stres anlarında ilişkinizi bir güvenli liman olarak görür, hem destek alabilir hem de destek verebilirsiniz. Araştırmalar, güvenli bağlanma stiline sahip bireylerin daha tatmin edici ilişkiler yaşadığını, daha iyi ebeveynlik becerilerine sahip olduğunu ve genel yaşam doyumlarının daha yüksek olduğunu göstermektedir. Bu stil, yaklaşık %60 oranında görülür ve en sağlıklı bağlanma biçimi olarak kabul edilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Güvenli bağlanma stiline sahipsiniz ancak yaşamsal krizler veya travmatik olaylar bu dengeyi bozabilir. Böyle durumlarda profesyonel destek almaktan çekinmeyin.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Güvenli bağlanma stilinizi korumak için öz-bakım rutinlerinizi sürdürün",
+          "type": "recommendation"
+        },
+        {
+          "text": "İlişkilerinizde açık iletişimi ve duygusal paylaşımı devam ettirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Stresli dönemlerde ilişkilerinizi güçlendirici aktivitelere yönelin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "anxious": {
+      "title": "Kaygılı Bağlanma Stili",
+      "shortDesc": "İlişkilerde yoğun duygular yaşayan, onay ve güvence arayan bağlanma stiline sahipsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Kaygılı bağlanma stili, erken dönemde tutarsız bakım ve sevgi deneyimleriyle şekillenir. Bu stil, ilişkilerde sürekli bir terk edilme korkusu ve yetersizlik hissi yaratır. Partnerinizden sürekli sevgi kanıtları bekler, küçük işaretleri büyük anlamlarla yorumlarsınız. Duygularınız yoğun ve taşkındır, bu da bazen partnerinizi bunaltabilir. Kıskançlık, sürekli mesaj atma, aşırı analiz etme gibi davranışlar gösterebilirsiniz. Kendinizi partnerinizin gözünde değerli hissetmek için sürekli çaba sarf edersiniz. Araştırmalar, kaygılı bağlanma stilinin depresyon ve kaygı bozukluklarıyla ilişkili olduğunu göstermektedir. Ancak, farkındalık ve uygun müdahalelerle bu stil değiştirilebilir. Yaklaşık %20 oranında görülen bu stil, 'ön-kaygılı' (preoccupied) bağlanma olarak da bilinir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Kaygılı bağlanma stili, terapiyle değiştirilebilir. Özellikle Duygu Odaklı Terapi (EFT) ve Bağlanma Temelli Terapi faydalı olabilir. İlişki kaygınız günlük yaşamınızı etkiliyorsa mutlaka profesyonel destek alın.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Mindfulness ve meditasyon pratikleriyle duygusal regülasyonunuzu geliştirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kendinize yönelik şefkat egzersizleri yaparak öz-değerinizi artırın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Bağımsız aktiviteler ve hobiler edinerek kendinize alan yaratın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "avoidant": {
+      "title": "Kaçıngan Bağlanma Stili",
+      "shortDesc": "Duygusal mesafe ve bağımsızlığı tercih eden bağlanma stiline sahipsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Kaçıngan bağlanma stili, genellikle duygusal olarak ulaşılamaz veya reddedici ebeveynlerle büyümenin sonucudur. Bu deneyim, size başkalarına güvenmektense kendinize güvenmenin daha güvenli olduğunu öğretmiştir. İlişkilerinizde duygusal mesafeyi korur, fazla yakınlaşmaktan kaçınırsınız. Duygularınızı ifade etmekte zorlanır, partnerinizin duygusal ihtiyaçlarını görmezden gelebilirsiniz. Bağımsızlığınız sizin için çok değerlidir ve ilişkilerin bu özgürlüğü tehdit ettiğini düşünebilirsiniz. Yüzeysel ilişkiler kurma, bağlanmaktan kaçınma, duygusal kopukluk yaşama eğilimindesinizdir. Araştırmalar, kaçıngan bağlanmanın aleksitimi (duyguları tanıma ve ifade etme güçlüğü) ile ilişkili olduğunu göstermektedir. Yaklaşık %15 oranında görülen bu stil, tedaviyle değiştirilebilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Kaçıngan bağlanma, sizi yalnızlığa itebilir. Özellikle Şema Terapi ve Psikanalitik terapi yaklaşımları faydalı olabilir. İlişkilerinizde sürekli sorunlar yaşıyorsanız destek alın.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Duygularınızı tanıma ve isimlendirme pratiği yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Güven inşa etmek için küçük adımlarla yakınlık riskini alın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Partnerinizin duygusal ihtiyaçlarına duyarlılık geliştirin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "disorganized": {
+      "title": "Dezorganize Bağlanma Stili",
+      "shortDesc": "Karmaşık ve tutarsız bağlanma örüntülerine sahipsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Dezorganize bağlanma stili, genellikle travmatik veya kaotik erken dönem deneyimlerin sonucudur. Bakım verenler hem güvenlik kaynağı hem de korku kaynağı olmuş olabilir. Bu durum, tutarlı bir bağlanma stratejisi geliştirmenizi engellemiştir. İlişkilerinizde hem yakınlık ister hem de bundan korkarsınız. Duygularınız ve davranışlarınız öngörülemezdir. Bir an çok yakın, bir an çok uzak olabilirsiniz. Benlik algınız ve başkalarına güveniniz sürekli dalgalanır. Dissosiyasyon, düzensiz duygular, kimlik karmaşası yaşayabilirsiniz. Araştırmalar, bu stilin sınırda kişilik bozukluğu, travma sonrası stres bozukluğu ve diğer ruh sağlığı sorunlarıyla ilişkili olduğunu göstermektedir. Yaklaşık %5-10 oranında görülür. Ancak travma odaklı terapilerle iyileşme mümkündür."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Dezorganize bağlanma ciddi bir destek gerektirir. EMDR, Somatik Terapi veya Travma Odaklı CBT gibi yaklaşımlar çok faydalı olabilir. Mutlaka uzman desteği alın.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Travma odaklı terapi desteği alın",
+          "type": "urgent"
+        },
+        {
+          "text": "Güvenli ilişkiler içinde yavaş yavaş güven inşa edin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Düzenli öz-bakım ve topraklama egzersizleri yapın",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

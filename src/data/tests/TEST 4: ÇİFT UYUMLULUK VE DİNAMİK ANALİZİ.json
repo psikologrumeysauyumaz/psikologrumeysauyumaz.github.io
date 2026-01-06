@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "İlişki Psikolojisi",
+    "categoryIcon": "💕",
+    "categoryOrder": 1,
+    "testOrder": 4,
+    "title": "Çift Uyumluluk ve Dinamik Analizi",
+    "description": "Dr. John ve Julie Gottman'ın 40 yıllık araştırmalarına dayanan bu test, ilişkinizin güçlü ve zayıf yönlerini Sound Relationship House teorisi çerçevesinde analiz eder. Test, Love Maps (Aşk Haritaları), Fondness & Admiration (Sevgi ve Takdir), Turning Towards (Birbirine Yönelme) ve Positive Perspective (Pozitif Bakış Açısı) gibi temel ilişki bileşenlerini değerlendirir. Ayrıca Four Horsemen (Dört Atlı) olarak bilinen zararlı iletişim kalıplarını - eleştiri, savunmacılık, küçümseme ve kaçınma - tespit eder. Gottman'ın araştırmaları, bu değerlendirme kriterlerinin ilişkilerdeki başarı ve boşanma riskini %90 doğrulukla tahmin edebildiğini göstermiştir. Modern çiftlerin %69'u aynı konularda sürekli tartıştığını, ancak %94'ü ilişki dinamiklerini anlayarak bu döngüyü kırabildiklerini bildirmiştir. Bu test, ilişkinizin hangi aşamada olduğunu, güçlü yanlarınızı ve gelişim alanlarınızı objektif şekilde ortaya koyar.",
+    "author": "Dr. John & Julie Gottman",
+    "references": [
+      "Gottman, J. & Gottman, J. (2018). Sound Relationship House Theory",
+      "Gottman, J. (1999). Divorce Prediction Research - 90% Accuracy",
+      "Four Horsemen Research (1986-2024)",
+      "Love Lab Studies - University of Washington"
+    ],
+    "estimatedTime": "10-12 dakika",
+    "recommendedFrequency": "6 ayda bir veya ihtiyaç duyulduğunda"
+  },
+  "scoring": {
+    "method": "criterion_referenced",
+    "categories": [
+      {
+        "name": "love_maps",
+        "maxScore": 4
+      },
+      {
+        "name": "fondness",
+        "maxScore": 8
+      },
+      {
+        "name": "turning_towards",
+        "maxScore": 4
+      },
+      {
+        "name": "positive_perspective",
+        "maxScore": 11
+      },
+       {
+        "name": "conflict_management",
+        "maxScore": 8
+      },
+      {
+        "name": "shared_meaning",
+        "maxScore": 9
+      },
+      {
+        "name": "trust",
+        "maxScore": 4
+      },
+      {
+        "name": "stress_support",
+        "maxScore": 4
+      },
+      {
+        "name": "acceptance",
+        "maxScore": 7
+      },
+      {
+        "name": "relationship_optimism",
+        "maxScore": 4
+      },
+      {
+        "name": "criticism",
+        "maxScore": 8,
+        "type": "negative"
+      },
+      {
+        "name": "contempt",
+        "maxScore": 7,
+        "type": "negative"
+      },
+      {
+        "name": "defensiveness",
+        "maxScore": 4,
+        "type": "negative"
+      },
+      {
+        "name": "stonewalling",
+        "maxScore": 10,
+        "type": "negative"
+      },
+      {
+        "name": "turning_away",
+        "maxScore": 2,
+        "type": "negative"
+      },
+      {
+        "name": "turning_against",
+        "maxScore": 3,
+        "type": "negative"
+      },
+      {
+        "name": "negative_perspective",
+        "maxScore": 3,
+        "type": "negative"
+      }
+    ],
+    "result_ranges": [
+        {
+            "level": "masters",
+            "minPositiveScore": 40,
+            "maxNegativeScore": 5
+        },
+        {
+            "level": "good_enough",
+            "minPositiveScore": 30,
+            "maxNegativeScore": 10
+        },
+        {
+            "level": "at_risk",
+            "minPositiveScore": 20,
+            "maxNegativeScore": 15
+        },
+        {
+            "level": "disaster",
+            "minPositiveScore": 0,
+            "maxNegativeScore": 40
+        }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Partnerinizin en büyük hayalleri ve hedefleri hakkında ne kadar bilginiz var?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok detaylı biliyorum, düzenli olarak konuşuyoruz",
+          "category": "love_maps",
+          "score": 4
+        },
+        {
+          "text": "Genel olarak biliyorum ama detaylara hakim değilim",
+          "category": "love_maps",
+          "score": 2
+        },
+        {
+          "text": "Bazı şeylerini biliyorum ama çoğunu tahmin ediyorum",
+          "category": "love_maps",
+          "score": 1
+        },
+        {
+          "text": "Pek konuşmuyoruz, bilmiyorum",
+          "category": "love_maps",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Partner hakkında konuşurken genellikle nasıl bir dil kullanırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Sevgi dolu, takdir edici ve olumlu ifadeler kullanırım",
+          "category": "fondness",
+          "score": 4
+        },
+        {
+          "text": "Genellikle olumlu ama bazen eleştirel olabilirim",
+          "category": "fondness",
+          "score": 2
+        },
+        {
+          "text": "Nötr, çok fazla övgü ya da eleştiri yapmam",
+          "category": "fondness",
+          "score": 1
+        },
+        {
+          "text": "Çoğunlukla şikayet eder, olumsuz yönlerini vurgularım",
+          "category": "criticism",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Partneriniz size küçük bir jest yaptığında (sarılmak, şaka yapmak, sohbet başlatmak) nasıl tepki verirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Olumlu karşılık veririm, etkileşimi sürdürürüm",
+          "category": "turning_towards",
+          "score": 4
+        },
+        {
+          "text": "Bazen karşılık veririm, bazen fark etmem",
+          "category": "turning_towards",
+          "score": 2
+        },
+        {
+          "text": "Çoğunlukla kendi işimle meşgul olurum",
+          "category": "turning_away",
+          "score": 2
+        },
+        {
+          "text": "Genellikle reddeder veya rahatsız olurum",
+          "category": "turning_against",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bir tartışma sırasında partneriniz sizi eleştirdiğinde ilk tepkiniz ne olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Sakin kalır, onun bakış açısını anlamaya çalışırım",
+          "category": "positive_perspective",
+          "score": 4
+        },
+        {
+          "text": "Kendi hatalarımı kabul eder, çözüm ararım",
+          "category": "positive_perspective",
+          "score": 3
+        },
+        {
+          "text": "Hemen kendimi savunur, karşı argümanlar sunarım",
+          "category": "defensiveness",
+          "score": 4
+        },
+        {
+          "text": "Susarım ve konuşmadan kaçarım",
+          "category": "stonewalling",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "İlişkinizde yaşadığınız sorunları çözerken hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Birlikte oturup sakinçe konuşur, çözüm ararız",
+          "category": "conflict_management",
+          "score": 4
+        },
+        {
+          "text": "Her ikimiz de dinler, uzlaşmaya çalışırız",
+          "category": "conflict_management",
+          "score": 3
+        },
+        {
+          "text": "Genellikle aynı konularda tartışırız, çözüm bulamayız",
+          "category": "conflict_management",
+          "score": 1
+        },
+        {
+          "text": "Tartışmaktan kaçınır, sorunları görmezden geliriz",
+          "category": "stonewalling",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Partnerinizin davranışları sizi kızdırdığında hangi ifadeyi kullanırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "'Bu durumda kendimi... hissediyorum' şeklinde ifade ederim",
+          "category": "positive_perspective",
+          "score": 4
+        },
+        {
+          "text": "Önce sakinleşir, sonra konuşurım",
+          "category": "positive_perspective",
+          "score": 3
+        },
+        {
+          "text": "'Sen hep böyle yapıyorsun' diye başlarım",
+          "category": "criticism",
+          "score": 4
+        },
+        {
+          "text": "Alaycı bir tavırla, küçümseyici konuşurum",
+          "category": "contempt",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "İlişkinizde yaşadığınız mutlu anları ne sıklıkla hatırlayıp paylaşırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Sık sık hatırlar ve birlikte gülümseriz",
+          "category": "fondness",
+          "score": 4
+        },
+        {
+          "text": "Zaman zaman güzel anıları konuşuruz",
+          "category": "fondness",
+          "score": 2
+        },
+        {
+          "text": "Pek konuşmayız, geçmişte kalmış şeyler",
+          "category": "fondness",
+          "score": 1
+        },
+        {
+          "text": "Daha çok sorunları ve kötü anları hatırlarız",
+          "category": "negative_perspective",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Partnerinizle gelecek planları yaparken hangi durum daha çok yaşanır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Ortak hayallerimizi coşkuyla planlarız",
+          "category": "shared_meaning",
+          "score": 4
+        },
+        {
+          "text": "Çoğunlukla anlaşır, birlikte karar veririz",
+          "category": "shared_meaning",
+          "score": 3
+        },
+        {
+          "text": "Farklı hayallerimiz var, uzlaşmaya çalışırız",
+          "category": "shared_meaning",
+          "score": 2
+        },
+        {
+          "text": "Genellikle anlaşamaz, çatışma yaşarız",
+          "category": "conflict_management",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "İlişkinizde güven konusunda nasıl hissediyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Tam güven duyuyorum, ona her şeyi anlatırım",
+          "category": "trust",
+          "score": 4
+        },
+        {
+          "text": "Genel olarak güveniyorum ama bazen tereddüt ederim",
+          "category": "trust",
+          "score": 2
+        },
+        {
+          "text": "Bazı konularda tereddütlerim var",
+          "category": "trust",
+          "score": 1
+        },
+        {
+          "text": "Çoğu konuda tereddütlü ve temkinliyim",
+          "category": "trust",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Stresli dönemlerde partnerinizle iletişiminiz nasıl olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Birbirimize daha fazla destek olur, yakınlaşırız",
+          "category": "stress_support",
+          "score": 4
+        },
+        {
+          "text": "Normal iletişimimizi sürdürmeye çalışırız",
+          "category": "stress_support",
+          "score": 2
+        },
+        {
+          "text": "Daha gergin olur, tartışmalar artar",
+          "category": "stress_support",
+          "score": 1
+        },
+        {
+          "text": "Birbirimizden uzaklaşır, kabuğumuza çekiliriz",
+          "category": "stonewalling",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Partnerinizin sizden farklı görüşlere sahip olması durumunda ne hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Merak ederim, farklı bakış açısını öğrenmek isterim",
+          "category": "acceptance",
+          "score": 4
+        },
+        {
+          "text": "Normal karşılarım, tartışmayı severim",
+          "category": "acceptance",
+          "score": 3
+        },
+        {
+          "text": "Rahatsız olurum, ikna etmeye çalışırım",
+          "category": "acceptance",
+          "score": 1
+        },
+        {
+          "text": "Çok sinirlenür, haklı olduğumu göstermeye çalışırım",
+          "category": "contempt",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "İlişkinizin 5 yıl sonraki halini hayal ettiğinizde hangi duygu ağır basar?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Heyecan ve umut, güzel şeyler bekliyor",
+          "category": "relationship_optimism",
+          "score": 4
+        },
+        {
+          "text": "Genel olarak olumlu, bazı endişelerim var",
+          "category": "relationship_optimism",
+          "score": 2
+        },
+        {
+          "text": "Karışık duygular, belirsizlik hissi",
+          "category": "relationship_optimism",
+          "score": 1
+        },
+        {
+          "text": "Endişe ve karamsar düşünceler",
+          "category": "relationship_optimism",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "results": {
+    "masters": {
+      "title": "İlişki Ustaları",
+      "shortDesc": "Tebrikler! Güçlü temelli, uyumlu ve mutlu bir ilişkiniz var - gerçek bir 'Master' çiftsiniz! 👑💕",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Gottman'ın araştırmalarına göre, siz gerçek bir 'Master' çiftsiniz! İlişkiniz Sound Relationship House'un tüm temel taşlarına sahip. Love Maps (Aşk Haritaları) sisteminiz güçlü - birbirinizi derinden tanıyor, hayallerinizden korkularınıza kadar her şeyden haberdar oluyorsunuz. Fondness & Admiration (Sevgi ve Takdir) duygunuz canlı - birbirinizden bahsederken gözleriniz parlıyor, pozitif anılarınız negatiflerinden çok daha güçlü. Birbirinizin duygusal bağlantı çabalarına (bids) %86 oranında olumlu yanıt veriyorsunuz. Bu, ilişkinizin duygusal banka hesabının sürekli dolu olduğu anlamına gelir. Çatışma anlarında bile birbirinizi küçümsemiyor, savunmaya geçmiyor ya da susmuyorsunuz. Bunun yerine empati kuruyor, çözüm arıyorsunuz. Paylaşılan değerleriniz ve gelecek vizyonunuz var. Araştırmalar, sizin gibi Master çiftlerin %96 oranında uzun süreli mutlu ilişkiler yaşadığını gösteriyor. Devam edin, ilişkiniz diğer çiftler için ilham kaynağı!"
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İlişkiniz örnek teşkil ediyor. Bu güzel durumu korumak için küçük ritual ve alışkanlıklarınızı sürdürün.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Günlük 6 dakikalık partner ritueli uygulayın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Aylık 'ilişki değerlendirme' toplantıları yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Yeni paylaşılan hobiler ve aktiviteler keşfedin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "good_enough": {
+      "title": "İyi Seviyede Çiftler",
+      "shortDesc": "Sağlam temelli bir ilişkiniz var! Birkaç alanda geliştirme ile mükemmel uyuma ulaşabilirsiniz! 💫",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "İlişkiniz güçlü bir temele sahip ve birçok konuda uyum içindesiniz. Gottman'ın kategorisine göre 'Good Enough' seviyesindesiniz, bu da çok pozitif bir durum. Birbirinizi tanıyor, çoğunlukla destekliyor ve güven duyuyorsunuz. Love Maps sisteminiz orta-iyi seviyede - partnerinizin temel özelliklerini biliyorsunuz ama daha derin keşfedilecek alanlar var. Fondness & Admiration duygunuz mevcut ancak bazen günlük stres içinde kaybolabiliyor. Çatışma yönetimi konusunda genellikle başarılısınız ama Four Horsemen'dan (Dört Atlı) birine zaman zaman kapılabiliyorsunuz. Bu tamamen normal ve düzeltilebilir. Birbirinizin duygusal bağlantı çabalarına %65-75 oranında olumlu yanıt veriyorsunuz, bu da iyi bir oran. Paylaşılan değerleriniz var ama gelecek planlarınızda daha fazla senkronizasyon gerekebilir. Araştırmalar, sizin seviyenizde çiftlerin %78'inin bilinçli çalışmayla Master seviyesine çıkabildiğini gösteriyor. Küçük ayarlamalarla harika bir ilişkiye sahip olabilirsiniz!"
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İlişkiniz çok sağlıklı. Küçük geliştirmelerle mükemmelliğe ulaşabilirsiniz. Çift danışmanlığı faydalı olabilir.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Haftada 3 kez 'takdir ifade etme' alışkanlığı edinin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Çatışma sırasında 20 saniyelik duraklama tekniği uygulayın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Aylık 'birbirimizi daha iyi tanıma' konuşmaları yapın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "at_risk": {
+      "title": "Risk Altındaki Çiftler",
+      "shortDesc": "İlişkinizde bazı zorluklar var ama umut var! Doğru adımlarla güçlü bir bağ kurabilirsiniz! ⚠️💪",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "İlişkiniz şu anda bazı zorluklarla karşı karşıya ve Gottman'ın sınıflandırmasına göre 'At Risk' kategorisinde. Bu durum endişe verici olabilir ama kesinlikle umutsuz değil! Birçok çift bu aşamadan başarıyla çıkmış ve güçlü ilişkiler kurmuştur. Love Maps sisteminizde boşluklar var - birbirinizi eskisi kadar tanımıyor ya da güncel gelişmelerden haberdar olmuyorsunuz. Fondness & Admiration duygunuz zayıflamış, partnerinizin olumlu özelliklerini görmek zorlaşmış. Four Horsemen'dan (Dört Atlı) en az biri düzenli olarak ilişkinizde görünüyor - eleştiri, savunmacılık, küçümseme ya da susma. Birbirinizin duygusal bağlantı çabalarına yanıt verme oranınız %50'nin altında, bu da duygusal banka hesabınızın düşük olduğu anlamına gelir. Ancak hala birlikte olmanız, bu testi birlikte yapmanız ilişkinizi kurtarmaya olan inancınızı gösteriyor. Araştırmalar, sizin seviyenizdeki çiftlerin %63'ünün profesyonel yardım ve bilinçli çabayla ilişkilerini iyileştirebildiğini gösteriyor."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İlişkiniz için profesyonel destek almanızı öneririz. Çift terapisi bu aşamada çok etkili olabilir.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "İlişki terapistinden profesyonel destek alın",
+          "type": "urgent"
+        },
+        {
+          "text": "Günlük 5 dakika pozitif odaklı konuşma yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Four Horsemen davranışlarını fark etme ve durdurma pratiği yapın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "disaster": {
+      "title": "Kritik Durumda Çiftler",
+      "shortDesc": "İlişkiniz zor durumda ama vazgeçmeyin! Acil profesyonel destek ve kararlı çabayla kurtarılabilir! 🚨❤️",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "İlişkiniz şu anda Gottman'ın 'Disaster' kategorisinde ve acil müdahale gerektiriyor. Bu kategoriyi alması, ilişkinizin bitmiş olduğu anlamına gelmez! Sadece ciddi sorunlarla karşı karşıya olduğunuz ve profesyonel yardıma ihtiyaç duyduğunuz anlamına gelir. Love Maps sisteminiz çok zayıf - sanki yabancılar gibi yaşıyorsunuz. Fondness & Admiration sisteminiz neredeyse çökmüş, birbirinizin olumsuz yönlerine odaklanıyorsunuz. Four Horsemen'ın (Dört Atlı) hepsi ya da çoğu düzenli olarak ilişkinizde görünüyor: eleştiri, küçümseme, savunmacılık ve susma. Duygusal bağlantı girişimlerinize yanıt verme oranınız %30'un altında, bu da ilişkide duygusal açlık olduğunu gösteriyor. Ancak bu testi yapmanız ve sonuçları okumaya devam etmeniz, hala ilişkinizi kurtarma isteğiniz olduğunu gösteriyor. Bu çok değerli! Gottman'ın araştırmalarına göre, Disaster seviyesindeki çiftlerin %40'ı yoğun terapi ve kararlı çabayla ilişkilerini kurtarabiliyor. Geç değil!"
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İlişkiniz acil profesyonel müdahale gerektiriyor. Lütfen vakit kaybetmeden uzman çift terapistinden yardım alın.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Derhal çift terapistine başvurun - bu öncelik",
+          "type": "urgent"
+        },
+        {
+          "text": "Geçici olarak tartışmalardan kaçının, sakin anları artırın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Birbirinize küçük nazik jestler yapmaya başlayın",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

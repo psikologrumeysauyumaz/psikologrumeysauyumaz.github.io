@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 4,
+    "title": "Motivasyon ve Hedef Yönelimi Analizi",
+    "description": "Bu test, motivasyon kaynaklarınızı, hedef belirleme tarzınızı ve güdülenme örüntülerinizi değerlendiren çok boyutlu bir analiz aracıdır. Deci & Ryan'ın Kendi Kaderini Tayin Teorisi (Self-Determination Theory), Locke & Latham'ın Hedef Belirleme Kuramı ve Başarı Hedefi Teorisi gibi öncü araştırmalar temel alınarak geliştirilmiştir. Test, içsel (otonom, ustalık) ve dışsal (sosyal, ödül) motivasyon türlerini analiz ederek, sizi neyin harekete geçirdiğini ve hedeflerinize ulaşmada hangi stratejileri kullandığınızı ortaya çıkarır.",
+    "author": "Edward L. Deci & Richard Ryan",
+    "references": [
+      "Deci, E. L., & Ryan, R. M. (2000). The 'what' and 'why' of goal pursuits: Human needs and the self-determination of behavior.",
+      "Locke, E. A., & Latham, G. P. (2019). The development of goal setting theory: A half century retrospective.",
+      "Elliot, A. J., & McGregor, H. A. (2001). A 2x2 achievement goal framework."
+    ],
+    "estimatedTime": "10-12 dakika",
+    "recommendedFrequency": "Kariyer planlaması yaparken veya motivasyon düşüklüğü yaşandığında"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "ic_otonom",
+        "title": "İçsel ve Otonom Motivasyon"
+      },
+      {
+        "name": "ic_ustalik",
+        "title": "İçsel Ustalık Motivasyonu"
+      },
+      {
+        "name": "dis_sosyal",
+        "title": "Dışsal Sosyal Motivasyon"
+      },
+      {
+        "name": "dis_odul",
+        "title": "Dışsal Ödül Motivasyonu"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yeni bir projeye başlarken sizi en çok ne motive eder?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "İyi yaparsam alabileceğim ödül, prim veya takdir.",
+          "category": "dis_odul"
+        },
+        {
+          "text": "Başkalarının beni başarılı ve yetkin görmesi.",
+          "category": "dis_sosyal"
+        },
+        {
+          "text": "Yeni beceriler öğrenme ve kendimi geliştirme fırsatı.",
+          "category": "ic_ustalik"
+        },
+        {
+          "text": "İçimden gelen saf merak ve konuya olan ilgim.",
+          "category": "ic_otonom"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Hedeflerinizi nasıl belirlersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Genellikle aklımda genel fikirler olur ama net bir plan yapmam.",
+          "category": "dis_odul"
+        },
+        {
+          "text": "Çevremdekilerin veya toplumun benden beklediği hedeflere yönelirim.",
+          "category": "dis_sosyal"
+        },
+        {
+          "text": "Açık, ölçülebilir ve zamanlanmış (SMART) hedefler koyarım.",
+          "category": "ic_ustalik"
+        },
+        {
+          "text": "Değerlerimle uyumlu, bana anlamlı gelen hedefler belirlerim.",
+          "category": "ic_otonom"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Bir işte başarılı olmak sizin için ne anlama gelir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Diğerlerinden daha iyi performans göstermek ve kazanmak.",
+          "category": "dis_sosyal"
+        },
+        {
+          "text": "Mükemmel bir sonuç elde etmek ve hiç hata yapmamak.",
+          "category": "dis_odul"
+        },
+        {
+          "text": "Süreç boyunca yeteneklerimi sonuna kadar kullanmak ve geliştirmek.",
+          "category": "ic_ustalik"
+        },
+        {
+          "text": "Yaptığım işi severek ve anlamlı bularak yapmak.",
+          "category": "ic_otonom"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Zorluklar ve engeller karşısında motivasyonunuz nasıl etkilenir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Motivasyonum çabuk düşer, kolayca pes edebilirim.",
+          "category": "dis_odul"
+        },
+        {
+          "text": "Başkalarının ne düşüneceğinden endişelenir, yetersiz görünmekten korkarım.",
+          "category": "dis_sosyal"
+        },
+        {
+          "text": "Zorluğu bir öğrenme fırsatı olarak görür, çözüm bulmaya odaklanırım.",
+          "category": "ic_ustalik"
+        },
+        {
+          "text": "Daha da hırslanırım, zorluklar beni daha çok motive eder.",
+          "category": "ic_otonom"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "İş yapış şeklinizde ne kadar özgür olmak istersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bana ne yapacağımın net bir şekilde söylenmesini tercih ederim.",
+          "category": "dis_odul"
+        },
+        {
+          "text": "Genel bir rehberlik isterim ama detaylarda esneklik beklerim.",
+          "category": "dis_sosyal"
+        },
+        {
+          "text": "Kendi yöntemlerimi geliştirmeyi ve kararlarımı kendim almayı severim.",
+          "category": "ic_ustalik"
+        },
+        {
+          "text": "Tamamen bağımsız çalışmayı ve kontrolün bende olmasını isterim.",
+          "category": "ic_otonom"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Geri bildirim (feedback) alma konusundaki yaklaşımınız nasıldır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Eleştiriyi kişisel algılarım ve motivasyonum düşer.",
+          "category": "dis_sosyal"
+        },
+        {
+          "text": "Sadece olumlu geri bildirimleri duymak isterim.",
+          "category": "dis_odul"
+        },
+        {
+          "text": "Yapıcı eleştirilere açığım ve kendimi geliştirmek için kullanırım.",
+          "category": "ic_ustalik"
+        },
+        {
+          "text": "Gelişimim için aktif olarak geri bildirim ararım.",
+          "category": "ic_otonom"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Bir görevi tamamlarken hangisi sizin için daha önemlidir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Görevi bir an önce bitirip listemden çıkarmak.",
+          "category": "dis_odul"
+        },
+        {
+          "text": "Görevi beklentilere uygun ve hatasız şekilde tamamlamak.",
+          "category": "dis_sosyal"
+        },
+        {
+          "text": "Görevi yaparken yeni bir şeyler öğrenmek ve süreci anlamak.",
+          "category": "ic_ustalik"
+        },
+        {
+          "text": "Görevin benim için taşıdığı anlam ve bende yarattığı tatmin hissi.",
+          "category": "ic_otonom"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "ic_otonom": {
+      "title": "İçsel ve Otonom Motivasyon",
+      "shortDesc": "Merak, anlam arayışı ve kişisel değerlerinizle hareket eden, en sürdürülebilir motivasyon tipine sahipsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Motivasyonunuzun birincil kaynağı kendi içinizden geliyor. Dışsal ödüller veya başkalarının onayı yerine, kişisel tatmin, öğrenme arzusu ve yaptığınız işin anlamlı olması sizin için çok daha önemli. Bu, 'Otonom Motivasyon' olarak adlandırılır ve en güçlü, en kalıcı motivasyon türüdür. Zorluklar karşısında yılmaz, hedeflerinize tutkuyla bağlanırsınız çünkü bu hedefler sizin kendi değerlerinizle uyumludur. Bu durum, yaratıcılığınızı, problem çözme becerilerinizi ve genel yaşam doyumunuzu artırır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İçsel motivasyonunuz en büyük gücünüz. Bu gücü korumak için, hayatınızın her alanında 'Neden?' sorusunu sormaya ve anlam aramaya devam edin. Tükenmişlik hissettiğinizde, genellikle değerlerinizle çatışan bir durumda olduğunuzu unutmayın.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Değerlerinizle uyumlu kariyer ve hobi alanlarına yönelin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Yaratıcılığınızı kullanabileceğiniz projelerde liderlik rolü üstlenin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Size ilham veren kişilerle ve topluluklarla bağ kurun.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "ic_ustalik": {
+      "title": "İçsel Ustalık Motivasyonu",
+      "shortDesc": "Kendinizi geliştirmeye, yeni beceriler öğrenmeye ve yetkinliğinizi artırmaya odaklı bir motivasyon yapınız var.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sizi motive eden temel unsur, bir konuda 'ustalaşma' arzusudur. Süreç, sonuç kadar sizin için önemlidir. Yeni bir beceri öğrenmek, bir yeteneğinizi geliştirmek veya bir konunun derinliklerine inmek sizi heyecanlandırır. Bu 'Ustalık Yönelimli' motivasyon, sizi hayat boyu öğrenen, yetenekli ve bilgili bir birey yapar. Başkalarıyla rekabet etmek yerine, kendi potansiyelinizin en iyisine ulaşmaya çalışırsınız. Zorlukları, gelişmek için birer fırsat olarak görürsünüz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Ustalık motivasyonunuz, sizi her alanda yetkin kılabilir. Ancak, bazen 'yeterince iyi' olanla yetinmeyi ve pratik sonuçlara odaklanmayı öğrenmek, enerjinizi daha verimli kullanmanıza yardımcı olabilir.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Uzmanlaşmak istediğiniz alanlarda derinlemesine eğitimler alın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Karmaşık ve zorlayıcı projelerde yer alarak kendinizi test edin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Bilgi ve becerilerinizi başkalarına öğreterek (mentorluk gibi) ustalığınızı pekiştirin.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "dis_sosyal": {
+      "title": "Dışsal Sosyal Motivasyon",
+      "shortDesc": "Başkalarının onayı, takdiri ve sosyal statü gibi faktörlerle motive oluyorsunuz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Motivasyonunuz, sosyal çevrenizle olan ilişkinize önemli ölçüde bağlıdır. Başkaları tarafından beğenilmek, takdir edilmek, başarılı ve yetkin olarak görülmek sizin için önemli bir itici güçtür. Bu 'Sosyal Yönelimli' motivasyon, ekip çalışmasında uyumlu olmanızı ve sosyal beklentileri karşılamada başarılı olmanızı sağlar. Ancak, bu motivasyon türü dışa bağımlı olduğu için, eleştiri veya onay eksikliği durumlarında motivasyonunuz kolayca düşebilir ve öz-değeriniz dalgalanabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Sosyal motivasyon, ilişkilerde güçlü bir araçtır. Ancak bunu içsel bir öz-değer hissiyle dengelemek, daha dayanıklı ve otantik bir motivasyon yapısı kurmanıza yardımcı olur. Terapi, bu dengeyi kurmada çok etkili olabilir.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Kendi başarılarınızı ve niteliklerinizi takdir etmek için zaman ayırın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Tüm kararlarınızda 'Ben gerçekten ne istiyorum?' sorusunu kendinize sorun.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Bağımsız olarak keyif aldığınız aktiviteler ve hobiler edinin.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "dis_odul": {
+      "title": "Dışsal Ödül Motivasyonu",
+      "shortDesc": "Somut ödüller, para, statü veya cezalardan kaçınma gibi dışsal faktörlerle motive oluyorsunuz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Motivasyonunuz büyük ölçüde dışsal ve somut sonuçlara bağlıdır. Bir işi tamamladığınızda elde edeceğiniz ödül (para, not, terfi) veya kaçınacağınız ceza, sizin için temel itici güçtür. Bu 'Ödül/Ceza Odaklı' motivasyon, net ve yapılandırılmış hedeflere ulaşmada etkili olabilir. Ancak, bu motivasyon türü genellikle kısa ömürlüdür ve dışsal teşvikler ortadan kalktığında motivasyonunuz da kaybolur. Yaratıcılık ve içsel tatmin gerektiren işlerde zorlanabilirsiniz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Dışsal motivasyon, başlangıçlar için faydalıdır ancak uzun vadede sürdürülebilir değildir. Motivasyonunuzu kalıcı kılmak için, yaptığınız işleri kişisel değerlerinizle ve ilgi alanlarınızla ilişkilendirmeye çalışın. Bu, içsel motivasyonunuzu keşfetmenize yardımcı olacaktır.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Yaptığınız işlerde küçük de olsa anlamlı ve keyifli yönler bulmaya çalışın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kısa vadeli ödülleri, uzun vadeli kişisel gelişim hedefleriyle birleştirin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sadece sonuç için değil, süreçten de keyif alacağınız hobiler edinin.",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 1,
+    "title": "Kaygı Düzeyi Değerlendirme Testi",
+    "description": "Hamilton Kaygı Derecelendirme Ölçeği (HAM-A) ve GAD-7 Yaygın Anksiyete Bozukluğu ölçeğine dayanan bu test, kaygı düzeyinizi kapsamlı şekilde değerlendirir. Kaygı, doğal bir duygusal tepki olmasına rağmen, aşırı ve kontrolsüz hale geldiğinde günlük yaşamı olumsuz etkileyebilir. Test, hem psikolojik kaygıyı (zihinsel ajitasyon ve psikolojik sıkıntı) hem de somatik kaygıyı (kaygıya bağlı fiziksel şikayetler) ölçerek, kaygı belirtilerinizin şiddetini ve türünü analiz eder. Güncel araştırmalar, erken tanı ve uygun müdahalenin kaygı bozukluklarında %80'e varan başarı oranları gösterdiğini ortaya koymaktadır. Test sonuçları, kaygı yönetimi stratejileri ve gerektiğinde profesyonel destek için yol gösterici niteliktedir.",
+    "author": "Max Hamilton & Robert L. Spitzer",
+    "references": [
+      "Hamilton, M. (1959). The assessment of anxiety states by rating",
+      "Spitzer, R. L., et al. (2006). A brief measure for assessing generalized anxiety disorder: the GAD-7",
+      "Beck, A. T., et al. (1988). An inventory for measuring clinical anxiety: psychometric properties",
+      "NICE guidelines (2011, updated 2024). Anxiety disorders"
+    ],
+    "estimatedTime": "6-8 dakika",
+    "recommendedFrequency": "İhtiyaç duyulduğunda veya 3 ayda bir"
+  },
+  "scoring": {
+    "method": "criterion_referenced",
+    "ranges": [
+      {"min": 0, "max": 9, "level": "low"},
+      {"min": 10, "max": 18, "level": "mild"},
+      {"min": 19, "max": 27, "level": "moderate"},
+      {"min": 28, "max": 36, "level": "severe"}
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Son bir hafta içinde ne sıklıkla endişeli, gergin veya sinirli hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç ya da çok nadiren",
+          "score": 0
+        },
+        {
+          "text": "Birkaç gün",
+          "score": 1
+        },
+        {
+          "text": "Yarıdan fazla gün",
+          "score": 2
+        },
+        {
+          "text": "Neredeyse her gün",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Endişelerinizi kontrol etme veya durdurmada ne kadar zorlanıyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kolayca kontrol edebiliyorum",
+          "score": 0
+        },
+        {
+          "text": "Çoğu zaman kontrol edebiliyorum",
+          "score": 1
+        },
+        {
+          "text": "Bazen zorlanıyorum",
+          "score": 2
+        },
+        {
+          "text": "Çok zor ya da hiç kontrol edemiyorum",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Farklı şeyler hakkında çok fazla endişelenerek ne kadar rahatsız oluyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç rahatsız olmuyorum",
+          "score": 0
+        },
+        {
+          "text": "Biraz rahatsız oluyorum",
+          "score": 1
+        },
+        {
+          "text": "Orta düzeyde rahatsız oluyorum",
+          "score": 2
+        },
+        {
+          "text": "Çok fazla rahatsız oluyorum",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Rahat oturmada veya hareketsiz kalmada ne kadar zorlanıyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç zorlanmıyorum",
+          "score": 0
+        },
+        {
+          "text": "Biraz zorlanıyorum",
+          "score": 1
+        },
+        {
+          "text": "Orta düzeyde zorlanıyorum",
+          "score": 2
+        },
+        {
+          "text": "Çok zorlanıyorum, sürekli hareket etme ihtiyacı duyuyorum",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Son zamanlarda ne kadar yorgun hissediyorsunuz veya enerjiniz ne kadar düşük?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Enerjim normal seviyede",
+          "score": 0
+        },
+        {
+          "text": "Biraz yorgun hissediyorum",
+          "score": 1
+        },
+        {
+          "text": "Orta düzeyde yorgun ve enerjisizim",
+          "score": 2
+        },
+        {
+          "text": "Çok yorgun, enerji seviyem çok düşük",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Konsantre olmada veya bir şeye odaklanmada ne kadar zorlanıyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Konsantrasyonum normal",
+          "score": 0
+        },
+        {
+          "text": "Bazen dikkati toplamakta zorlanıyorum",
+          "score": 1
+        },
+        {
+          "text": "Sık sık konsantre olamıyorum",
+          "score": 2
+        },
+        {
+          "text": "Konsantrasyon çok zor, sürekli dağınığım",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Ne kadar sıklıkla kalp çarpıntısı, nefes darlığı veya terleme yaşıyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç yaşamıyorum",
+          "score": 0
+        },
+        {
+          "text": "Nadiren yaşıyorum",
+          "score": 1
+        },
+        {
+          "text": "Sık sık yaşıyorum",
+          "score": 2
+        },
+        {
+          "text": "Çok sık, günlük yaşamımı etkiliyor",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Uykuya dalmada veya uyku sürekliliğinde sorun yaşıyor musunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uykum çok iyi",
+          "score": 0
+        },
+        {
+          "text": "Bazen uyku sorunları yaşıyorum",
+          "score": 1
+        },
+        {
+          "text": "Sık sık uyku problemi yaşıyorum",
+          "score": 2
+        },
+        {
+          "text": "Ciddi uyku sorunlarım var",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Kas gerginliği, baş ağrısı veya vücut ağrıları ne kadar sıklıkla yaşıyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç yaşamıyorum",
+          "score": 0
+        },
+        {
+          "text": "Nadiren yaşıyorum",
+          "score": 1
+        },
+        {
+          "text": "Düzenli olarak yaşıyorum",
+          "score": 2
+        },
+        {
+          "text": "Sürekli ağrı veya gerginlik hissediyorum",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Gelecekle ilgili endişeleriniz günlük yaşamınızı ne kadar etkiliyor?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç etkilemiyor",
+          "score": 0
+        },
+        {
+          "text": "Biraz etkiliyor",
+          "score": 1
+        },
+        {
+          "text": "Orta düzeyde etkiliyor",
+          "score": 2
+        },
+        {
+          "text": "Günlük yaşamımı ciddi şekilde engelliyor",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Sosyal durumlarda veya insanların önünde ne kadar kaygı yaşıyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç kaygı yaşamıyorum",
+          "score": 0
+        },
+        {
+          "text": "Hafif kaygı yaşıyorum",
+          "score": 1
+        },
+        {
+          "text": "Orta düzeyde kaygı yaşıyorum",
+          "score": 2
+        },
+        {
+          "text": "Çok yoğun kaygı, sosyal durumlardan kaçınıyorum",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Ani korku atakları veya panik hissi yaşadığınız oluyor mu?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç yaşamıyorum",
+          "score": 0
+        },
+        {
+          "text": "Çok nadiren yaşıyorum",
+          "score": 1
+        },
+        {
+          "text": "Zaman zaman yaşıyorum",
+          "score": 2
+        },
+        {
+          "text": "Sık sık yaşıyorum, hayatımı etkiliyor",
+          "score": 3
+        }
+      ]
+    }
+  ],
+  "results": {
+    "low": {
+      "title": "Düşük Kaygı Düzeyi",
+      "shortDesc": "Kaygı düzeyiniz normal aralıkta. Mental sağlığınız iyi durumda görünüyor.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Değerlendirme sonuçlarınız, kaygı düzeyinizin normal ve sağlıklı aralıkta olduğunu gösteriyor. Yaşadığınız kaygı, günlük yaşamın doğal parçası olan normal endişe düzeyinde. Stresli durumlarla başa çıkma beceriniz gelişmiş ve duygusal dengeniz iyi. Bu durum, sağlıklı bir psikolojik dayanıklılığa sahip olduğunuzu ve yaşam zorluklarıyla etkili şekilde başa çıkabildiğinizi gösterir. Kaygı yönetimi konusunda doğal yetenekleriniz var ve bu durumu korumaya devam etmelisiniz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Kaygı düzeyiniz normal aralıkta. Mevcut mental sağlığınızı korumak için önleyici yaklaşımları benimseyin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Mevcut sağlıklı alışkanlıklarınızı sürdürün",
+          "type": "recommendation"
+        },
+        {
+          "text": "Düzenli egzersiz ve meditasyon rutini oluşturun",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sosyal destek ağınızı güçlendirin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "mild": {
+      "title": "Hafif Kaygı Düzeyi",
+      "shortDesc": "Hafif düzeyde kaygı yaşıyorsunuz. Bu durum yönetilebilir ve normal sayılabilir.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Değerlendirme sonuçlarınız hafif düzeyde kaygı yaşadığınızı gösteriyor. Bu düzey, günlük yaşamınızı ciddi şekilde etkilemese de, zaman zaman rahatsızlık yaratabilir. Yaşadığınız kaygı, stresli dönemler veya yaşam değişiklikleri sırasında artabilir. Bu seviyedeki kaygı oldukça yaygındır ve uygun yönetim teknikleriyle kolayca kontrol altına alınabilir. Erken müdahale ile kaygı düzeyinizi daha da azaltabilir ve yaşam kalitenizi artırabilirsiniz. Kaygı yönetimi becerilerinizi geliştirmek, bu durumun ilerlemesini önleyebilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Hafif kaygı düzeyiniz normal aralıkta. Kaygı yönetimi teknikleri öğrenerek durumu iyileştirebilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Nefes teknikleri ve mindfulness pratik edin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Düzenli fiziksel aktivite yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kaygı tetikleyicilerinizi belirleyin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "moderate": {
+      "title": "Orta Düzey Kaygı",
+      "shortDesc": "Orta düzeyde kaygı yaşıyorsunuz. Bu durum günlük yaşamınızı etkilemeye başlamış olabilir.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Değerlendirme sonuçlarınız orta düzeyde kaygı yaşadığınızı gösteriyor. Bu seviyedeki kaygı, günlük yaşamınızı, iş performansınızı ve ilişkilerinizi etkileyebilir. Konsantrasyon güçlükleri, uyku sorunları ve fiziksel belirtiler yaşıyor olabilirsiniz. Bu düzeydeki kaygı ciddi bir durumdur ve müdahale gerektirir. Ancak uygun tedavi ve destek ile tamamen yönetilebilir bir durumdur. Kaygı yönetimi teknikleri, yaşam tarzı değişiklikleri ve gerektiğinde profesyonel destek ile belirgin iyileşme sağlanabilir. Erken müdahale, durumun daha da kötüleşmesini önleyecektir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Orta düzey kaygınız için profesyonel destek almanızı öneriyoruz. Bilişsel davranışçı terapi (BDT) oldukça etkili olabilir.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Profesyonel psikolojik destek almanızı öneriyoruz",
+          "type": "urgent"
+        },
+        {
+          "text": "Günlük kaygı ve ruh hali takibi yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Progresif kas gevşeme tekniklerini öğrenin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "severe": {
+      "title": "Yüksek Kaygı Düzeyi",
+      "shortDesc": "Yüksek düzeyde kaygı yaşıyorsunuz. Bu durum acil profesyonel destek gerektirir.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Değerlendirme sonuçlarınız yüksek düzeyde kaygı yaşadığınızı gösteriyor. Bu seviyedeki kaygı, günlük yaşamınızı ciddi şekilde etkilemekte ve önemli fonksiyon kaybına neden olmaktadır. İş, okul, sosyal ilişkiler ve kişisel bakım alanlarında zorluklar yaşıyor olabilirsiniz. Fiziksel belirtiler (kalp çarpıntısı, nefes darlığı, uyku sorunları) ve psikolojik belirtiler (sürekli endişe, konsantrasyon problemi) yaşam kalitenizi düşürmüş durumda. Bu durum tedavi edilebilir ve iyileşme mümkündür. Ancak profesyonel destek şarttır. Terapi, ilaç tedavisi ve yaşam tarzı değişiklikleri kombinasyonu ile belirgin iyileşme sağlanabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Yüksek kaygı düzeyiniz acil profesyonel müdahale gerektiriyor. Lütfen derhal bir ruh sağlığı uzmanından destek alın. Bu durum tedavi edilebilir.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "ACIL: Derhal bir ruh sağlığı uzmanından destek alın",
+          "type": "urgent"
+        },
+        {
+          "text": "Kriz hattı numaralarını not edin: 112",
+          "type": "urgent"
+        },
+        {
+          "text": "Güvenlik planı oluşturun (kriz anında kimle iletişime geçeceğiniz)",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

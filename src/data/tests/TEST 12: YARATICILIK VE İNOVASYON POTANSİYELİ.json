@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Kariyer ve Liderlik",
+    "categoryIcon": "🚀",
+    "categoryOrder": 4,
+    "testOrder": 1,
+    "title": "Yaratıcılık ve İnovasyon Potansiyeli Analizi",
+    "description": "Bu test, yaratıcılık ve inovasyon potansiyelinizi, bilişsel, kişilik ve davranışsal boyutlarda değerlendirir. Torrance Yaratıcı Düşünce Testi, Uzak İlişkiler Testi (RAT) ve Kirton Adaptasyon-İnovasyon Envanteri (KAI) gibi temel kuramlardan esinlenerek, yaratıcı düşünce süreçlerinizi (ıraksak ve yakınsak düşünme) ve yenilikçilik tarzınızı (adaptör ve yenilikçi) analiz eder. Amacımız, içsel yaratıcı potansiyelinizi keşfetmenize ve inovasyon becerilerinizi geliştirmenize yardımcı olmaktır.",
+    "author": "Ellis Paul Torrance & Michael Kirton",
+    "references": [
+      "Torrance, E. P. (1974). Torrance Tests of Creative Thinking.",
+      "Kirton, M. J. (1976). Adaptors and innovators: a description and measure.",
+      "Mednick, S. (1962). The associative basis of the creative process (Remote Associates Test)."
+    ],
+    "estimatedTime": "12-15 dakika",
+    "recommendedFrequency": "Yeni bir projeye başlarken veya kariyer değişikliği düşünürken"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "divergent",
+        "title": "Iraksak Düşünür (Fikir Üretici)"
+      },
+      {
+        "name": "convergent",
+        "title": "Yakınsak Düşünür (Çözüm Odaklı)"
+      },
+      {
+        "name": "innovator",
+        "title": "Yenilikçi (Innovator)"
+      },
+      {
+        "name": "adapter",
+        "title": "Adaptör (İyileştirici)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yeni bir fikir bulmanız gerektiğinde genellikle nasıl bir yol izlersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Aklıma gelen tüm fikirleri, ne kadar çılgınca olursa olsun listelerim.",
+          "category": "divergent"
+        },
+        {
+          "text": "Mevcut bilgiler arasında mantıksal bağlantılar kurarak en doğru çözümü bulurum.",
+          "category": "convergent"
+        },
+        {
+          "text": "Var olan bir sistemi veya fikri daha iyi hale getirmeye çalışırım.",
+          "category": "adapter"
+        },
+        {
+          "text": "Tamamen yeni ve denenmemiş bir yaklaşım getirmeye çalışırım.",
+          "category": "innovator"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Bir problemle karşılaştığınızda ilk tepkiniz ne olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Problemi yeniden tanımlar, kuralları sorgularım.",
+          "category": "innovator"
+        },
+        {
+          "text": "Problemi mevcut sistem içinde en verimli şekilde çözmeye odaklanırım.",
+          "category": "adapter"
+        },
+        {
+          "text": "Problemle ilgili olası tüm çözüm yollarını düşünürüm.",
+          "category": "divergent"
+        },
+        {
+          "text": "Çözüm yolları arasından en mantıklı ve etkili olanı seçerim.",
+          "category": "convergent"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Çalışma tarzınız en iyi nasıl tanımlanır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Yapılandırılmamış, esnek ve beyin fırtınasına dayalı.",
+          "category": "divergent"
+        },
+        {
+          "text": "Sistemli, planlı ve mantıksal ilerlemeye dayalı.",
+          "category": "convergent"
+        },
+        {
+          "text": "Mevcut düzeni ve kuralları sorgulayan, radikal adımlar atan.",
+          "category": "innovator"
+        },
+        {
+          "text": "Mevcut düzen içinde verimliliği ve uyumu artıran.",
+          "category": "adapter"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bir nesneye (örneğin bir tuğla) baktığınızda ne görürsünüz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kapı stoperi, kitap desteği, saksı altlığı gibi onlarca farklı kullanım alanı.",
+          "category": "divergent"
+        },
+        {
+          "text": "İnşaat malzemesi, duvar örme aracı gibi temel fonksiyonları.",
+          "category": "convergent"
+        },
+        {
+          "text": "Bu tuğlayı nasıl daha hafif, daha dayanıklı veya farklı bir malzemeden yapabilirim?",
+          "category": "innovator"
+        },
+        {
+          "text": "Bu tuğlayı mevcut inşaat tekniklerinde nasıl daha verimli kullanabilirim?",
+          "category": "adapter"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Risk alma konusundaki yaklaşımınız nedir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Büyük potansiyel getirecekse, hesaplanmış büyük riskler almayı severim.",
+          "category": "innovator"
+        },
+        {
+          "text": "Riskleri minimize etmeyi, güvenli ve kanıtlanmış yolları tercih ederim.",
+          "category": "adapter"
+        },
+        {
+          "text": "Birçok farklı seçeneği değerlendirir, riskleri dağıtmayı tercih ederim.",
+          "category": "divergent"
+        },
+        {
+          "text": "Risk/fayda analizi yapar, en mantıklı seçeneği belirlerim.",
+          "category": "convergent"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Bir grup projesinde hangi rolü üstlenirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Yeni ve orijinal fikirler üreten beyin fırtınası lideri.",
+          "category": "divergent"
+        },
+        {
+          "text": "Fikirleri değerlendiren, en uygulanabilir olanı seçen karar verici.",
+          "category": "convergent"
+        },
+        {
+          "text": "Projenin mevcut kurallarını ve yapısını sorgulayan, daha iyi bir yol öneren kişi.",
+          "category": "innovator"
+        },
+        {
+          "text": "Projenin mevcut plana uygun ve verimli ilerlemesini sağlayan kişi.",
+          "category": "adapter"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "divergent": {
+      "title": "Iraksak Düşünür (Fikir Üretici)",
+      "shortDesc": "Siz bir fikir makinesiniz! Çok sayıda, çeşitli ve orijinal fikirler üretme konusunda doğal bir yeteneğiniz var.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Yaratıcılığınızın en belirgin yönü ıraksak (divergent) düşünme becerinizdir. Bir problem veya konuyla karşılaştığınızda, zihniniz hızla çok sayıda alternatif, bağlantı ve olasılık üretir. Beyin fırtınası yapmak, kalıpların dışında düşünmek ve alışılmadık çözümler bulmak sizin için doğaldır. Bu yetenek, yaratıcı sürecin başlangıcında, yani olasılıkların keşfedildiği aşamada kritik öneme sahiptir. Sanat, tasarım, reklamcılık ve strateji geliştirme gibi alanlarda bu özelliğinizle parlarsınız."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Fikir üretme yeteneğiniz bir hazine. Bu yeteneği, fikirleri filtreleme ve uygulama becerileriyle birleştirdiğinizde durdurulmaz olursunuz. Projelerin başlangıç aşamalarında liderlik rolü üstlenin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Fikirlerinizi somutlaştırmak için zihin haritaları veya prototipler kullanın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Yakınsak düşünürlerle iş birliği yaparak fikirlerinizi hayata geçirin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Belirli aralıklarla ‘fikir detoksu’ yaparak en iyi fikirlerinize odaklanın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "convergent": {
+      "title": "Yakınsak Düşünür (Çözüm Odaklı)",
+      "shortDesc": "Siz bir çözüm bulucusunuz! Karmaşık bilgiler arasından en mantıklı ve etkili çözümü bulma konusunda ustasınız.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Yaratıcılığınız, yakınsak (convergent) düşünme becerinizde kendini gösteriyor. Çok sayıda seçenek ve karmaşık bilgi yığınıyla karşılaştığınızda, bunları hızla analiz edebilir, mantıksal süzgeçten geçirebilir ve en doğru tek çözüme ulaşabilirsiniz. Problem çözme, karar verme, planlama ve eleştirel düşünme sizin en güçlü yanlarınızdır. Yaratıcı sürecin son aşamalarında, yani fikirlerin değerlendirilip hayata geçirildiği noktada kritik bir rol oynarsınız. Mühendislik, bilim, hukuk ve yöneticilik gibi alanlarda bu yeteneğinizle fark yaratırsınız."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Analitik gücünüz, fikirleri gerçeğe dönüştürmede kritiktir. Bu gücü, yeni ve radikal fikirlere daha açık olmakla birleştirdiğinizde, inovasyonun her aşamasında etkili olursunuz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Iraksak düşünen kişilerle beyin fırtınası yaparak yeni fikirlere maruz kalın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Bilinçli olarak ‘en bariz’ çözümün dışındaki alternatifleri düşünmeye zaman ayırın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Yaratıcılık egzersizleri ile konfor alanınızın dışına çıkın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "innovator": {
+      "title": "Yenilikçi (Innovator)",
+      "shortDesc": "Siz bir kural yıkıcısınız! Mevcut durumu sorgular, radikal değişiklikler yapar ve tamamen yeni yollar keşfedersiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "İnovasyon tarzınız ‘yenilikçi’ (innovator) olarak tanımlanabilir. Kirton’un Adaptasyon-İnovasyon teorisine göre, siz sorunları çözmek için mevcut paradigmanın dışına çıkmayı tercih edersiniz. Kuralları, varsayımları ve sistemin kendisini sorgularsınız. Bu yaklaşım, radikal ve çığır açan inovasyonların temelini oluşturur. Risk almaktan korkmaz, belirsizlikten beslenirsiniz. Girişimcilik, Ar-Ge, stratejik tasarım ve sanat gibi alanlarda devrim niteliğinde işler başarabilirsiniz. Ancak bu tarzınız, mevcut yapıları ve istikrarı seven ortamlarla çatışabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Yenilikçi ruhunuz dünyayı değiştirme potansiyeline sahip. Bu enerjiyi, fikirlerinizi başkalarına kabul ettirme ve uygulama disiplini ile birleştirdiğinizde gerçek bir vizyoner olursunuz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Fikirlerinizi hayata geçirmek için adaptörlerle iş birliği yapın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Radikal fikirlerinizi sunarken iletişim stratejileri geliştirin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Mevcut sistemin neden o şekilde çalıştığını anlamak için zaman ayırın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "adapter": {
+      "title": "Adaptör (İyileştirici)",
+      "shortDesc": "Siz bir sistem ustasısınız! Mevcut sistemleri, süreçleri ve fikirleri daha verimli ve etkili hale getirirsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "İnovasyon tarzınız ‘adaptör’ (adapter) olarak tanımlanabilir. Kirton’un Adaptasyon-İnovasyon teorisine göre, siz sorunları çözmek için mevcut paradigma içinde çalışmayı tercih edersiniz. Mevcut sistemleri, kuralları ve süreçleri daha iyi, daha verimli ve daha etkili hale getirme konusunda ustasınız. Detaylara hakimiyetiniz, metodik yaklaşımınız ve takım içi uyum sağlama yeteneğiniz yüksektir. Bu yaklaşım, sürekli iyileştirme (kaizen) ve operasyonel mükemmellik için hayati öneme sahiptir. Kalite yönetimi, operasyon, mühendislik ve proje yönetimi gibi alanlarda vazgeçilmez bir değere sahipsiniz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Sistemleri iyileştirme yeteneğiniz, şirketlerin ve projelerin bel kemiğidir. Bu yeteneği, yeni fikirlere daha açık olmakla birleştirdiğinizde, hem istikrarı hem de gelişimi aynı anda sağlayabilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Yenilikçilerle iş birliği yaparak yeni perspektifler kazanın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Periyodik olarak temel varsayımları sorgulama egzersizleri yapın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "‘Bu işi neden bu şekilde yapıyoruz?’ sorusunu daha sık sorun.",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

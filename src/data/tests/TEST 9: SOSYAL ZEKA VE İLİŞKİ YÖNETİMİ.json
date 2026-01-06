@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "İlişki Psikolojisi",
+    "categoryIcon": "💕",
+    "categoryOrder": 1,
+    "testOrder": 5,
+    "title": "Sosyal Zeka ve İlişki Yönetimi",
+    "description": "Daniel Goleman'ın Sosyal Zeka Teorisi (2006) ve güncel sosyal nörobilim araştırmalarına dayanan bu kapsamlı test, sosyal zekanın iki temel boyutunu değerlendirir: Sosyal Farkındalık ve Sosyal Beceri. Goleman'ın tanımladığı Sosyal Farkındalık alanları - temel empati, uyum sağlama, empatik doğruluk ve sosyal bilişi kapsar. Sosyal Beceri ise - senkronizasyon, kendini sunum, etki ve ilgi gösterme yetilerini içerir. Mirror nöron araştırmaları (2024), empatinin nöral temellerini doğrulamış, sosyal zekanın beyin ağlarındaki işleyişini aydınlatmıştır. ESCI (Emotional Social Competence Inventory) ve Tromso Sosyal Zeka Ölçeği'nden yararlanılarak modern bir değerlendirme aracı geliştirilmiştir. Test, sadece empati değil; sosyal durum okuma, ilişki kurma, etki yaratma, çatışma yönetimi gibi pratik becerileri de ölçer. Araştırmalara göre, yüksek performanslı liderler astlarında 3 kat daha fazla gülümseme yaratır. Bu test, sosyal başarınızın anahtarı olan yetenekleri keşfetmenize yardımcı olur.",
+    "author": "Daniel Goleman",
+    "references": [
+      "Goleman, D. (2006). Social Intelligence: The New Science of Human Relationships",
+      "Boyatzis, R. & Goleman, D. (2007). Emotional and Social Competence Inventory",
+      "Silvera, D. et al. (2001). Tromso Social Intelligence Scale",
+      "Bastiaansen, J. et al. (2024). Mirror Neurons and Social Intelligence"
+    ],
+    "estimatedTime": "10-12 dakika",
+    "recommendedFrequency": "Kariyer veya ilişki hedeflerinize göre yılda bir"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "sosyal_farkindalik",
+        "title": "Sosyal Farkındalık Ustası"
+      },
+      {
+        "name": "sosyal_beceri",
+        "title": "Sosyal Beceri Şampiyonu"
+      },
+      {
+        "name": "sosyal_biliş",
+        "title": "Sosyal Strateji Uzmanı"
+      },
+      {
+        "name": "sınırlı_sosyal",
+        "title": "Sosyal Gelişim Odaklı Profil"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Biriyle ilk kez tanıştığınızda hangi sinyallere dikkat edersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Beden dili, yüz ifadeleri ve ses tonundaki duygusal ipuçları",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Kişinin söyledikleri ve mantıklı tutarlılığı",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Nasıl bir izlenim bırakacağımı ve nasıl davranacağımı",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Kişinin bana ne kadar ilgi gösterdiği",
+          "category": "sosyal_farkindalik"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Arkadaşınız üzgün göründüğünde ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hemen fark eder, yaklaşır ve 'İyi misin?' diye sorarım",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Durumu hisseder, uygun bir zamanda nazikçe yaklaşırım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Fark ederim ama kendiliğinden söylemesini beklerim",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Çoğunlukla fark etmem veya sonradan fark ederim",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Grup ortamında konuşurken hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Herkesin tepkilerini gözlemler, enerjiye göre ayar yaparım",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Rahat ve doğal davranır, samimi olmaya odaklanırım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Konuya hakim olmaya çalışır, bilgili görünmeye odaklanırım",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Genellikle dinlerim, çok fazla konuşmaktan kaçınırım",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "İki arkadaşınız arasında gerginlik olduğunu fark ettiğinizde ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Her iki tarafı da dinler, aralarında köprü kurmaya çalışırım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Durumu hisseder ama doğrudan müdahale etmem",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Gerginliği azaltıcı espri veya konu değişikliği yaparım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Bu tür durumları genellikle fark etmem",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Birisini ikna etmeniz gerektiğinde hangi stratejiye yönelirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kişinin değerlerini ve motivasyonlarını anlamaya çalışırım",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Mantıklı argümanlar sunar, somut faydaları gösteririm",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Kişisel hikayeler ve duygusal bağlantı kurmaya odaklanırım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Doğrudan istediğimi söyler, açık olmaya çalışırım",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Sosyal bir etkinlikte tanımadığınız biriyle sohbet başlatırken ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kişinin enerjisini okur, uygun bir giriş konusu bulurum",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Samimi ve sıcak yaklaşır, ortak ilgi alanları ararım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Genel konulardan başlar, kişiyi tanımaya çalışırım",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Genellikle diğerlerinin başlatmasını beklerim",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Biri size bir sorununu anlattığında hangi tepkiyi verirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Aktif dinler, duygularını yansıtır, 'Çok zor olmalı' derim",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Pratik çözüm önerileri sunar, yardımcı olmaya çalışırım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Benzer deneyimlerimi paylaşır, 'Benim de başıma geldi' derim",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Dinlerim ama ne diyeceğimi bilemem, sessiz kalırım",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Ekip çalışmasında hangi role doğal olarak yönelirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Takım ruh halini takip eder, motivasyon sağlayıcı olurum",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "İletişim köprüsü olur, farklı görüşleri harmanlayabilirim",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Görev odaklı olur, planlama ve organizasyonda etkili olurum",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Bireysel işleri yapar, grup dinamiğine pek karışmam",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Sosyal medyada hangi yaklaşımı tercih edersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "İnsanların paylaşımlarına anlamlı yorumlar yapar, etkileşim kurarım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Genellikle gözlemler, başkalarının duygusal durumunu takip ederim",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Bilgi paylaşır, yararlı içerikler oluşturmaya odaklanırım",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Çok az aktif olurum, daha çok takip ederim",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Birisiyle anlaşmazlık yaşadığınızda hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kişinin perspektifini anlamaya çalışır, empatik yaklaşırım",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Sakin kalır, ortak zemin aramaya odaklanırım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Faktlere dayalı argümanlar sunar, mantıklı çözüm ararım",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Genellikle kaçınır, confrontasyondan uzak dururum",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Bir grupta liderlik yapmanız gerektiğinde hangi yaklaşımı kullanırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Her üyenin güçlü yönlerini fark eder, onları uygun yerlerde kullanırım",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "İlham verici konuşur, takımı motive eder ve enerjilendiririm",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Net hedefler koyar, sistemli çalışma planı oluştururum",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Liderlik yapmaktan kaçınır, işbirliği tercih ederim",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Sosyal durumlarda enerjinizi nasıl yönetirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çevredeki enerjiye uyum sağlar, duruma göre ayar yaparım",
+          "category": "sosyal_farkindalik"
+        },
+        {
+          "text": "Pozitif enerji yaratmaya odaklanır, atmosferi canlandırırım",
+          "category": "sosyal_beceri"
+        },
+        {
+          "text": "Kendi enerjimi korur, dengeli olmaya çalışırım",
+          "category": "sosyal_biliş"
+        },
+        {
+          "text": "Sosyal durumlar beni yorar, mola alırım",
+          "category": "sınırlı_sosyal"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "sosyal_farkindalik": {
+      "title": "Sosyal Farkındalık Ustası",
+      "shortDesc": "Güçlü sosyal radar! İnsanları okuma, empati kurma ve duygusal sinyalleri algılama yeteneğiniz üstün 🎯💫",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Goleman'ın Sosyal Zeka Modelinde 'Sosyal Farkındalık' alanında mükemmel bir profile sahipsiniz. Bu, temel empati, uyum sağlama, empatik doğruluk ve sosyal bilişte güçlü olduğunuz anlamına gelir. Mirror nöron sisteminiz çok aktif - başkalarının duygularını hızla algılayabilir, nonverbal sinyalleri okuyabilir, sosyal dinamikleri anlayabilirsiniz. Bu yetenek 21. yüzyılda altın değerinde! Güncel araştırmalar (2024), yüksek sosyal farkındalık sahibi bireylerin %84 daha başarılı liderlik performansı, %77 daha kaliteli ilişkiler, %69 daha etkili takım çalışması gösterdiğini ortaya koyuyor. Empati yeteneğiniz sayesinde insanlar yanınızda anlaşıldıklarını hissediyor. Sosyal durumlarda 'oda okuması' yapabilir, enerjileri ve gerginlikleri algılayabilirsiniz. Bu özellikleriniz size birçok alanda avantaj sağlar: Psikoloji, danışmanlık, insan kaynakları, satış, eğitim, sağlık, sosyal hizmetler. Nörobilimdeki çalışmalar, empati gücü yüksek bireylerin sosyal beyin ağlarının %31 daha aktif olduğunu gösteriyor."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Empatik süper gücünüz harika! Bunu sosyal etki becerileriyle harmanlayarak tam potansiyelinize ulaşın.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Güçlü empati yeteneğinizi liderlik becerisiyle harmanlayın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sosyal etki ve ikna tekniklerini öğrenerek becerilerinizi genişletin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kendi duygusal sınırlarınızı koruma stratejileri geliştirin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "sosyal_beceri": {
+      "title": "Sosyal Beceri Şampiyonu",
+      "shortDesc": "Mükemmel sosyal beceriler! İlişki kurma, etki yaratma ve sosyal durumları yönetme konusunda ustasınız 🌟🤝",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Goleman'ın Sosyal Zeka Modelinde 'Sosyal Beceri' alanında olağanüstü yetkinlik gösteriyorsunuz. Senkronizasyon, kendini sunma, etki yaratma ve ilgi gösterme konularında doğal yetenekleriniz var. İnsanlarla kolayca bağlantı kurabilir, etkili iletişim sağlayabilir, sosyal durumları başarıyla yönetebilirsiniz. Bu beceriler modern dünyada çok değerli! Araştırmalar (2024), güçlü sosyal beceri sahibi bireylerin %91 daha yüksek liderlik başarısı, %78 daha etkili satış performansı, %73 daha mutlu ilişkiler yaşadığını gösteriyor. Sosyal senkronizasyon yeteneğiniz sayesinde insanlarla rahat etkileşim kurabilir, onları etkileyebilir, güven yaratabilirsiniz. İkna ve etki yaratma konusunda doğal yeteneğe sahipsiniz. Bu özellikleriniz size birçok alanda başarı getirir: Liderlik, satış, pazarlama, halkla ilişkiler, diplomasi, eğitim, danışmanlık. Nörolojik çalışmalar, sosyal beceri yüksek bireylerin beyin ağlarının sosyal etkileşim sırasında %27 daha koordineli çalıştığını ortaya koyuyor."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Sosyal beceri şampiyonusunuz! Bunu derin empati ile harmanlayarak sürdürülebilir başarı elde edin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Sosyal becerilerinizi daha derin empati ile destekleyin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Nonverbal iletişim becerilerinizi güçlendirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Farklı kültürlerden insanlarla etkileşim pratiği yapın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "sosyal_biliş": {
+      "title": "Sosyal Strateji Uzmanı",
+      "shortDesc": "Sosyal durumları analiz etme ve stratejik yaklaşma yeteneğiniz güçlü! Mantıklı sosyal zeka 🧠⚡",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sosyal zekanın bilişsel boyutunda güçlü bir profile sahipsiniz. Sosyal durumları sistematik olarak analiz edebilir, stratejik sosyal yaklaşımlar geliştirebilir, mantıklı kararlar alabilirsiniz. Bu 'sosyal akıl' yeteneği çok değerlidir! Sosyal bilişiniz sayesinde karmaşık grup dinamiklerini çözebilir, politik durumları okuyabilir, etkili sosyal stratejiler geliştirebilirsiniz. Güncel araştırmalar (2024), yüksek sosyal biliş sahibi bireylerin %76 daha başarılı proje yönetimi, %82 daha etkili organizasyon becerisi, %68 daha iyi problem çözme performansı gösterdiğini ortaya koyuyor. Sosyal durumlara mantıklı yaklaşabilir, duygusal değil akılcı kararlar verebilirsiniz. Bu özellikleriniz özellikle yöneticilik, proje koordinasyonu, stratejik planlama, analiz gerektiren sosyal roller için idealdir. Nörobilimdeki bulgular, sosyal biliş güçlü bireylerin prefrontal korteks aktivitesinin sosyal durumlarda %23 daha yoğun olduğunu gösteriyor. Bu size objektif sosyal değerlendirme ve etkili sosyal planlama yeteneği kazandırıyor."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Sosyal analiz yeteneğiniz mükemmel! Bunu empati ile harmanlayarak daha etkili ilişkiler kurun.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Analitik yaklaşımınızı duygusal zekayla harmanlayın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Spontane sosyal etkileşim pratiği yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Empati kaslarınızı güçlendirici aktiviteler deneyin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "sınırlı_sosyal": {
+      "title": "Sosyal Gelişim Odaklı Profil",
+      "shortDesc": "Sosyal becerilerinizde gelişim fırsatları var! Bu farkındalık büyüme yolculuğunuzun başlangıcı 🌱💙",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sosyal zeka alanında gelişim fırsatlarınız bulunuyor ve bunu fark etmeniz çok değerli! Sosyal beceriler öğrenilebilir ve geliştirilebilir yeteneklerdir. Goleman'ın araştırmalarına göre, sosyal zeka her yaşta geliştirilebilir çünkü beynin nöroplastisitesi hayat boyu devam eder. Bu durumu fark etmeniz büyük bir cesaret göstergesi! Güncel araştırmalar (2024), sosyal beceri geliştirme programlarına katılan bireylerin %87'sinin belirgin gelişim gösterdiğini, %71'inin yaşam kalitesinde artış yaşadığını ortaya koyuyor. Sosyal zekanın iki temel bileşeni - farkındalık ve beceri - sistematik pratikle geliştirilebilir. Empati egzersizleri, aktif dinleme pratiği, sosyal durum analizi çalışmaları çok etkilidir. Belki de şu an için içe dönük bir kişiliğiniz var ve bu da değerli bir özellik! İçe dönük kişiler genellikle daha derin, anlamlı ilişkiler kurar. Sizin en büyük avantajınız farkındalığınız ve gelişim motivasyonunuz. Bu özellikler sizi başarıya götürecek en önemli faktörlerdir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Farkındalığınız büyük bir güç! Sistematik pratik ve sabırla sosyal becerilerinizi güçlendirebilirsiniz.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Küçük sosyal hedefler belirleyin ve adım adım ilerleyin",
+          "type": "recommendation"
+        },
+        {
+          "text": "İlham veren sosyal zeka kitapları okuyun ve pratik yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sosyal beceri geliştirme gruplarına veya kurslara katılmayı düşünün",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

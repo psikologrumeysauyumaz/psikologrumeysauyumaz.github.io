@@ -1,0 +1,395 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 2,
+    "title": "Stres Yönetimi ve Dayanıklılık Analizi",
+    "description": "Bu test, kişinin stresle başa çıkma kapasitesini, psikolojik dayanıklılık seviyesini ve stres yönetimi stratejilerini değerlendiren çok boyutlu bir analiz aracıdır. Connor-Davidson Dayanıklılık Ölçeği, Polyvagal Teori ve Brief Resilience Scale gibi bilimsel modellere dayanarak, zorluklar karşısında ne kadar hızlı toparlandığınızı, duygusal ve fizyolojik tepkilerinizi nasıl yönettiğinizi ve stresli durumlarda hangi başa çıkma mekanizmalarını kullandığınızı analiz eder. Amaç, mevcut dayanıklılık seviyenizi anlamak ve bu beceriyi geliştirmek için size özel bir yol haritası sunmaktır.",
+    "author": "Connor-Davidson, Stephen Porges",
+    "references": [
+      "Connor, K. M., & Davidson, J. R. (2003). Connor-Davidson Resilience Scale (CD-RISC).",
+      "Porges, S. W. (2011). The Polyvagal Theory.",
+      "Smith, B. W., et al. (2008). The Brief Resilience Scale.",
+      "Lazarus, R. S., & Folkman, S. (1984). Stress, appraisal, and coping."
+    ],
+    "estimatedTime": "10-12 dakika",
+    "recommendedFrequency": "İhtiyaç duyulduğunda veya büyük yaşam olaylarından sonra"
+  },
+  "scoring": {
+    "method": "criterion_referenced",
+    "ranges": [
+      {"min": 12, "max": 24, "level": "low_resilience"},
+      {"min": 25, "max": 36, "level": "moderate_resilience"},
+      {"min": 37, "max": 48, "level": "high_resilience"}
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Zorlu yaşam olayları karşısında genellikle ne kadar hızlı toparlanırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok uzun zaman alır, aylarca etkilenirim",
+          "score": 1
+        },
+        {
+          "text": "Haftalarca sürer, yavaş yavaş atlatırım",
+          "score": 2
+        },
+        {
+          "text": "Birkaç gün içinde normal rutinime dönerim",
+          "score": 3
+        },
+        {
+          "text": "Hemen kendimi toplarım, hızla adapte olurum",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Stresli durumlarda vücudunuzda hangi değişiklikleri daha çok fark edersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kalp çarpıntısı, nefes darlığı, kas gerginliği çok şiddetli",
+          "score": 1
+        },
+        {
+          "text": "Belirgin fiziksel belirtiler ama kontrol edilebilir",
+          "score": 2
+        },
+        {
+          "text": "Hafif fiziksel tepkiler, çoğunlukla fark etmem",
+          "score": 3
+        },
+        {
+          "text": "Neredeyse hiç fiziksel belirti yaşamam",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Stresli bir durumla karşılaştığınızda ilk tepkiniz ne olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Paniklerim, ne yapacağımı bilemem",
+          "score": 1
+        },
+        {
+          "text": "Endişelenirim ama çözüm aramaya çalışırım",
+          "score": 2
+        },
+        {
+          "text": "Sakin kalır, planım olup olmadığını düşünürüm",
+          "score": 3
+        },
+        {
+          "text": "Hemen harekete geçer, çözüm odaklı düşünürüm",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Yaşadığınız zorluklardan ne sıklıkla ders çıkarırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Nadiren, genellikle aynı hataları tekrarlarım",
+          "score": 1
+        },
+        {
+          "text": "Bazen, büyük olaylardan ders çıkarırım",
+          "score": 2
+        },
+        {
+          "text": "Çoğunlukla, deneyimlerimi analiz ederim",
+          "score": 3
+        },
+        {
+          "text": "Her zaman, her deneyimden güçlü çıkarım",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Destek almak konusunda nasıl davranırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hiç kimseye güvenmem, kendi başımın çaresine bakarım",
+          "score": 1
+        },
+        {
+          "text": "Sadece çok yakın birkaç kişiden yardım isterim",
+          "score": 2
+        },
+        {
+          "text": "İhtiyaç duyduğumda çevremden destek alırım",
+          "score": 3
+        },
+        {
+          "text": "Aktif olarak destek ağımı güçlendiririm",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Stresli dönemlerde uyku düzeniniz nasıl etkilenir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok kötü uyurum, sürekli uyanırım",
+          "score": 1
+        },
+        {
+          "text": "Uykuya dalmakta zorlanır, kalitesiz uyurum",
+          "score": 2
+        },
+        {
+          "text": "Biraz etkilenir ama genelde uyuyabilirim",
+          "score": 3
+        },
+        {
+          "text": "Uyku düzenim pek değişmez",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Kontrolünüz dışındaki durumlarla nasıl başa çıkarsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok zorlanır, sürekli kontrol etmeye çalışırım",
+          "score": 1
+        },
+        {
+          "text": "Başta zorlanır, sonra kabul etmeye çalışırım",
+          "score": 2
+        },
+        {
+          "text": "Kontrol edebileceklerime odaklanırım",
+          "score": 3
+        },
+        {
+          "text": "Hemen kabul eder, enerji harcamam",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Stres anında hangi başa çıkma stratejisini daha çok kullanırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kaçınma, inkar, alkol/madde kullanımı",
+          "score": 1
+        },
+        {
+          "text": "Şikayet etme, başkalarını suçlama",
+          "score": 2
+        },
+        {
+          "text": "Derin nefes, meditasyon, müzik dinleme",
+          "score": 3
+        },
+        {
+          "text": "Problem çözme, plan yapma, harekete geçme",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Yaşamınızdaki değişimlere nasıl tepki verirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok zorlanır, değişimden kaçınırım",
+          "score": 1
+        },
+        {
+          "text": "Başta zorlanır, sonra alışırım",
+          "score": 2
+        },
+        {
+          "text": "Nispeten kolay uyum sağlarım",
+          "score": 3
+        },
+        {
+          "text": "Değişimi fırsat olarak görür, heyecanlanırım",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Kendinize olan güveniniz stres altında nasıl değişir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok düşer, kendimden şüphe ederim",
+          "score": 1
+        },
+        {
+          "text": "Azalır ama tamamen kaybolmaz",
+          "score": 2
+        },
+        {
+          "text": "Biraz sarsılır ama çabuk toparlarım",
+          "score": 3
+        },
+        {
+          "text": "Değişmez, kendime güvenmeye devam ederim",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Geçmiş travmatik deneyimlerinizin size etkisi nasıl?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hala çok etkiliyor, sürekli tetiklenirim",
+          "score": 1
+        },
+        {
+          "text": "Bazen etkiliyor, bazı durumlar tetikleyici",
+          "score": 2
+        },
+        {
+          "text": "Çoğunlukla geride bıraktım, nadiren etkiler",
+          "score": 3
+        },
+        {
+          "text": "Güçlü çıktım, beni daha da güçlendirdi",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Geleceğe yönelik bakış açınız nasıl?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Karamsar, sürekli kötü şeyler olacağını düşünürüm",
+          "score": 1
+        },
+        {
+          "text": "Karma, iyi ve kötü günler olacağını düşünürüm",
+          "score": 2
+        },
+        {
+          "text": "İyimser, çoğunlukla iyi şeyler beklerim",
+          "score": 3
+        },
+        {
+          "text": "Çok iyimser, geleceği heyecanla bekliyorum",
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "results": {
+    "high_resilience": {
+      "title": "Yüksek Psikolojik Dayanıklılık",
+      "shortDesc": "Tebrikler! Stresle başa çıkma konusunda bir ustasınız. Zorluklar sizi yıldırmıyor, aksine güçlendiriyor.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Psikolojik dayanıklılığınız (resilience) oldukça yüksek. Bu, hayatın kaçınılmaz zorlukları, travmaları ve stres faktörleri karşısında etkili bir şekilde başa çıkabildiğiniz, toparlanabildiğiniz ve hatta bu deneyimlerden büyüyerek çıkabildiğiniz anlamına gelir. Yüksek dayanıklılığa sahip bireyler, problemleri çözülebilir zorluklar olarak görür, güçlü sosyal destek ağlarına sahiptir ve kendilerine olan inançları sarsılmaz. Bu özellik, hem kişisel hem de profesyonel yaşamda başarının ve psikolojik sağlığın temel taşlarından biridir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Dayanıklılık seviyeniz mükemmel. Bu, doğuştan gelen bir özellikten çok, geliştirilmiş bir beceridir. Bu gücünüzü korumak ve başkalarına ilham vermek için pozitif psikoloji ve liderlik alanlarında kendinizi geliştirebilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Dayanıklılığınızı korumak için mevcut öz-bakım pratiklerinize devam edin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Bu becerilerinizi çevrenizdekilere de öğretmek için mentorluk yapmayı düşünün.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Zorlandığınız anlarda geçmiş başarılarınızı ve ne kadar yol katettiğinizi kendinize hatırlatın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "moderate_resilience": {
+      "title": "Orta Düzey Psikolojik Dayanıklılık",
+      "shortDesc": "Sağlam bir dayanıklılığa sahipsiniz ancak bazı zorluklar karşısında daha fazla desteğe ihtiyaç duyabilirsiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Psikolojik dayanıklılığınız sağlıklı ve dengeli bir seviyede. Çoğu stresli durumla başarılı bir şekilde başa çıkabiliyor ve makul bir sürede toparlanabiliyorsunuz. Ancak, özellikle yoğun veya uzun süreli stres altında zorlanabilir ve ek desteğe ihtiyaç duyabilirsiniz. Bu profil oldukça yaygındır ve gelişim için harika bir başlangıç noktasıdır. Farkındalık ve doğru stratejilerle dayanıklılığınızı kolayca bir üst seviyeye taşıyabilirsiniz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Dayanıklılığınız iyi bir seviyede. Bu beceriyi daha da güçlendirmek için Bilişsel Davranışçı Terapi (BDT) prensiplerini öğrenmek veya kısa süreli bir koçluk desteği almak faydalı olabilir.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Mindfulness ve nefes egzersizlerini günlük rutininize ekleyerek stres anındaki tepkilerinizi yönetin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Zorlandığınız alanları belirleyip bu konularda problem çözme becerilerinizi geliştirin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sosyal destek ağınızı daha proaktif kullanmayı öğrenin.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "low_resilience": {
+      "title": "Geliştirilmesi Gereken Psikolojik Dayanıklılık",
+      "shortDesc": "Stresle başa çıkmada zorluklar yaşıyorsunuz. Bu durumu değiştirmek için ilk adımı attınız!",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Şu anda stresli durumlar ve zorluklar karşısında toparlanmakta önemli ölçüde zorlanıyor olabilirsiniz. Bu durum, yaşam kalitenizi, ilişkilerinizi ve genel iyi oluş halinizi olumsuz etkiliyor olabilir. Unutmayın, dayanıklılık geliştirilebilir bir beceridir ve bu konuda yardım istemek bir güçsüzlük değil, bir güç göstergesidir. Bu testi tamamlayarak attığınız farkındalık adımı, değişim için en önemli adımdır. Doğru stratejiler ve profesyonel destekle, stresle başa çıkma kapasitenizi önemli ölçüde artırabilirsiniz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Dayanıklılık seviyenizi güçlendirmek için profesyonel destek almanız şiddetle tavsiye edilir. Travma odaklı terapiler (EMDR gibi), Bilişsel Davranışçı Terapi (BDT) veya ACT (Kabul ve Kararlılık Terapisi) bu süreçte çok etkili olabilir.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Bir ruh sağlığı uzmanından (psikolog, terapist) destek almayı önceliklendirin.",
+          "type": "urgent"
+        },
+        {
+          "text": "Acil durumlar için bir güvenlik planı oluşturun (kime ulaşacağınız, ne yapacağınız).",
+          "type": "recommendation"
+        },
+        {
+          "text": "Günlük hayata küçük ve başarılabilir hedefler koyarak öz-yeterlik inancınızı artırın.",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

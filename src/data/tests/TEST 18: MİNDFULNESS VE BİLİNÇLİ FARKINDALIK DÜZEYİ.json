@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Duygusal Sağlık",
+    "categoryIcon": "🧘",
+    "categoryOrder": 3,
+    "testOrder": 3,
+    "title": "Mindfulness ve Bilinçli Farkındalık Düzeyi Analizi",
+    "description": "Bu test, mindfulness (bilinçli farkındalık) becerilerinizi, Beş Faktör Mindfulness Ölçeği (FFMQ) temelinde dört ana boyutta analiz eder: Gözlem ve Farkındalık, Bilinçli Eylem, Yargısız Kabul ve Duygusal Denge. Test, sadece şimdiki ana odaklanma kapasitenizi değil, aynı zamanda düşünce ve duygularınızla olan ilişkinizi, otomatik pilotta yaşama eğiliminizi ve zorlu durumlar karşısındaki tepkilerinizi de değerlendirir. Amacımız, mindfulness pratiğinizin güçlü yönlerini ve gelişim alanlarınızı göstererek size daha bilinçli ve dengeli bir yaşam için bir yol haritası sunmaktır.",
+    "author": "Ruth A. Baer & Jon Kabat-Zinn",
+    "references": [
+      "Baer, R. A., Smith, G. T., Hopkins, J., Krietemeyer, J., & Toney, L. (2006). Using self-report assessment methods to explore facets of mindfulness.",
+      "Brown, K. W., & Ryan, R. M. (2003). The benefits of being present: Mindfulness and its role in psychological well-being.",
+      "Kabat-Zinn, J. (2003). Mindfulness-based interventions in context: Past, present, and future."
+    ],
+    "estimatedTime": "8-10 dakika",
+    "recommendedFrequency": "Düzenli pratikle birlikte 3 ayda bir"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "observation",
+        "title": "Gözlem ve Farkındalık"
+      },
+      {
+        "name": "conscious_action",
+        "title": "Bilinçli Eylem ve Odaklanma"
+      },
+      {
+        "name": "non_judgment",
+        "title": "Yargısız Kabul"
+      },
+      {
+        "name": "emotional_balance",
+        "title": "Duygusal Denge (Tepkisizlik)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Günlük sıradan bir aktiviteyi (örn: bulaşık yıkama, yürüme) yaparken zihniniz genellikle nerededir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Genellikle aktivitenin kendisinde değil, geçmiş veya gelecekle ilgili düşüncelerde olurum.",
+          "category": "conscious_action"
+        },
+        {
+          "text": "Aktiviteye odaklanmaya çalışırım ama zihnimin kolayca dağıldığını fark ederim.",
+          "category": "conscious_action"
+        },
+        {
+          "text": "Yaptığım işin fiziksel hislerine (suyun sıcaklığı, adımlarımın sesi) odaklanırım.",
+          "category": "conscious_action"
+        },
+        {
+          "text": "Aktivite sırasında aklıma gelen düşünceleri fark eder ama onlara kapılmam.",
+          "category": "observation"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Yoğun bir duygu (öfke, üzüntü, kaygı) yaşadığınızda ilk tepkiniz ne olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Duygudan kurtulmak için dikkatimi başka bir şeye yöneltir veya kendimi meşgul ederim.",
+          "category": "emotional_balance"
+        },
+        {
+          "text": "Bu duygunun yanlış veya kötü olduğunu düşünür, kendimi eleştiririm.",
+          "category": "non_judgment"
+        },
+        {
+          "text": "Duygunun bedenimdeki hislerini (kalp atışı, gerginlik) fark ederim.",
+          "category": "observation"
+        },
+        {
+          "text": "Duygunun orada olmasına izin verir, gelip geçmesini sakince gözlemlerim.",
+          "category": "emotional_balance"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Zihninizden geçen düşünceleri fark ettiğinizde onlarla ilişkiniz nasıldır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Düşüncelerimin tamamen doğru olduğuna inanır ve onlarla sürüklenirim.",
+          "category": "observation"
+        },
+        {
+          "text": "‘Neden böyle düşünüyorum?’ diye kendimi yargılar veya analiz ederim.",
+          "category": "non_judgment"
+        },
+        {
+          "text": "Düşüncelerimin sadece zihinsel olaylar olduğunu, gerçeklik olmadığını fark ederim.",
+          "category": "observation"
+        },
+        {
+          "text": "İyi veya kötü diye etiketlemeden, sadece gelip geçmelerini izlerim.",
+          "category": "non_judgment"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Birisiyle konuşurken veya onu dinlerken zihniniz genellikle ne yapar?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Sıradaki kendi söyleyeceğim şeyi planlar veya karşımdakini zihinsel olarak eleştiririm.",
+          "category": "conscious_action"
+        },
+        {
+          "text": "Konuşulanları dinlerken bir yandan da başka konular hakkında düşünürüm.",
+          "category": "conscious_action"
+        },
+        {
+          "text": "Sadece kelimelere değil, ses tonuna ve beden diline de dikkat ederim.",
+          "category": "observation"
+        },
+        {
+          "text": "Tüm dikkatimi karşımdakine verir, ne dediğini ve ne hissettiğini anlamaya çalışırım.",
+          "category": "conscious_action"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Hoş olmayan bir fiziksel his (hafif bir ağrı, kaşıntı) fark ettiğinizde ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hemen geçmesi için uğraşır, dikkatimi dağıtmaya çalışırım.",
+          "category": "emotional_balance"
+        },
+        {
+          "text": "Bu hissin kötü bir şeyin işareti olabileceğinden endişelenirim.",
+          "category": "non_judgment"
+        },
+        {
+          "text": "Hissin tam olarak nerede ve nasıl olduğunu merakla incelerim.",
+          "category": "observation"
+        },
+        {
+          "text": "Sadece bir his olduğunu kabul eder, ona karşı savaşmadan dururum.",
+          "category": "non_judgment"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Kendinizle ilgili olumsuz bir düşünce (örn: ‘Yetersizim’) aklınıza geldiğinde tepkiniz ne olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bu düşünceye tamamen inanır ve moralimi bozarım.",
+          "category": "emotional_balance"
+        },
+        {
+          "text": "Bu düşünceyi zihnimden atmak için kendimi zorlarım.",
+          "category": "emotional_balance"
+        },
+        {
+          "text": "‘Aklım yine bir hikaye anlatıyor’ diye düşünür, düşünceyi fark ederim.",
+          "category": "observation"
+        },
+        {
+          "text": "Bu düşünceye sahip olduğum için kendime şefkat gösteririm.",
+          "category": "non_judgment"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "observation": {
+      "title": "Gözlem ve Farkındalık",
+      "shortDesc": "İçsel ve dışsal dünyanızı fark etme konusunda yeteneklisiniz. Zihninizin ve bedeninizin sinyallerini iyi bir gözlemci gibi izlersiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Mindfulness profilinizde ‘Gözlem ve Farkındalık’ boyutu öne çıkıyor. Bu, düşüncelerinizin, duygularınızın ve bedensel hislerinizin farkına varma konusunda doğal bir eğiliminiz olduğunu gösterir. Zihninizden geçenleri bir film izler gibi izleyebilir, duyguların bedendeki yansımalarını fark edebilirsiniz. Bu beceri, otomatik tepkiler vermeden önce bir duraklama anı yaratır ve bilinçli seçimler yapmanız için size alan açar. Kendini tanıma ve anlama yolculuğunun ilk ve en önemli adımıdır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Gözlem yeteneğiniz çok değerli. Bu yeteneği, gözlemlediklerinize kapılmadan, onları sadece birer veri olarak kullanma becerisiyle (duygusal denge) birleştirdiğinizde, mindfulness pratiğiniz daha da güçlenecektir.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Gözlemlerinizi bir günlükte tutarak düşünce kalıplarınızı daha net görün.",
+          "type": "recommendation"
+        },
+        {
+          "text": "‘Body Scan’ (beden tarama) meditasyonu ile bedensel farkındalığınızı derinleştirin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Gözlemlerinizi yargılamadan kabul etme pratiği yapın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "conscious_action": {
+      "title": "Bilinçli Eylem ve Odaklanma",
+      "shortDesc": "Yaptığınız işe kendinizi tamamen verme ve ‘anda kalma’ konusunda yeteneklisiniz. Otomatik pilottan uzaksınız.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Mindfulness profilinizde ‘Bilinçli Eylem ve Odaklanma’ boyutu öne çıkıyor. Bu, günlük aktivitelerinizi yaparken dikkatinizi o ana getirebilme ve otomatik pilotta yaşamaktan kaçınma becerinizin güçlü olduğunu gösterir. Yemek yerken yemeğin tadını, yürürken adımlarınızı, birini dinlerken sadece onu duyarsınız. Bu durum, ‘akış’ (flow) deneyimlerini daha sık yaşamanızı sağlar ve yaptığınız işlerden daha fazla tatmin almanıza yardımcı olur. Konsantrasyon ve verimliliğinizin temelini bu beceri oluşturur."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Odaklanma yeteneğiniz, günümüzün dikkat dağıtıcı dünyasında bir süper güçtür. Bu beceriyi, çevrenizde olup bitenlere karşı açık bir farkındalıkla dengeleyerek, hem odaklı hem de esnek olabilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Mindful yeme, yürüme gibi günlük pratikleri rutininize dahil edin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Tek bir göreve odaklanmayı gerektiren ‘mono-tasking’ alıştırmaları yapın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Dikkatiniz dağıldığında, onu nazikçe tekrar o anki eyleminize getirme pratiği yapın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "non_judgment": {
+      "title": "Yargısız Kabul",
+      "shortDesc": "İçsel deneyimlerinizi (düşünce, duygu) ‘iyi’ veya ‘kötü’ olarak etiketlemeden, şefkatle kabul etme eğilimindesiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Mindfulness profilinizde ‘Yargısız Kabul’ boyutu öne çıkıyor. Bu, zihninizden geçen düşünceleri ve hissettiğiniz duyguları, onları eleştirmeden, bastırmaya çalışmadan veya onlara tutunmadan, oldukları gibi kabul edebilme becerinizin gelişmiş olduğunu gösterir. Bu, pasif bir boyun eğme değil, içsel deneyimlere karşı bilgece ve şefkatli bir duruştur. Kendinize ve başkalarına karşı daha az eleştirel olmanızı sağlar, bu da öz-şefkati ve psikolojik esnekliği artırır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Yargısız kabul, psikolojik sağlığın temel taşlarından biridir. Bu beceriyi, değerleriniz doğrultusunda eyleme geçme kararlılığı ile birleştirdiğinizde, hem huzurlu hem de amaç odaklı bir yaşam sürebilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Hoş olmayan bir duygu veya düşünce ortaya çıktığında, kendinize ‘Bu sadece bir düşünce/duygu’ demeyi pratik edin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Öz-şefkat meditasyonları (loving-kindness meditation) ile bu becerinizi derinleştirin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kendinizi eleştirdiğiniz anları fark edip, o anda kendinize bir dosta davranır gibi davranın.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "emotional_balance": {
+      "title": "Duygusal Denge (Tepkisizlik)",
+      "shortDesc": "Duygularınızın sizi ele geçirmesine izin vermeden, onlara kapılmadan sakin kalabilme yeteneğiniz gelişmiş.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Mindfulness profilinizde ‘Duygusal Denge’ veya ‘Tepkisizlik’ (non-reactivity) boyutu öne çıkıyor. Bu, özellikle zorlayıcı duygular ve düşünceler ortaya çıktığında, onlarla aranıza bir mesafe koyabilme ve otomatik tepkiler vermeden önce bilinçli bir seçim yapabilme becerinizin güçlü olduğunu gösterir. Bir duygunun farkına varır, onu hisseder ama onun tarafından yönetilmezsiniz. Bu, fırtınalı bir denizde sürüklenmek yerine, denizi sakince gözlemleyen bir deniz feneri gibi olmaktır. Bu beceri, dürtüselliği azaltır ve duygusal düzenlemenin temelini oluşturur."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Duygusal denge, bilgelik ve özgürlüğün kapısını aralar. Bu dengeyi, hayata tutkuyla katılma ve derin duygusal bağlar kurma becerisiyle birleştirmek, tam ve bütün bir yaşam için önemlidir.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Stresli bir durumdayken, tepki vermeden önce 3 derin nefes alma kuralı edinin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Duygularınızın gelip geçici dalgalar gibi olduğunu görselleştirme pratiği yapın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Hangi durumlarda otomatik tepkiler verdiğinizi fark etmek için bir günlük tutun.",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

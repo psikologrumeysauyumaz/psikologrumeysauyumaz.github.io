@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psikoloji Testleri - Psikolog Rümeysa Uyumaz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333333;
+            background-color: #FFFFFF;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.3;
+        }
+
+        .floating-nav {
+            backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(200, 200, 200, 0.3);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #166534, #14532D);
+            color: white;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 8px rgba(22, 101, 52, 0.2);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #14532D, #16A34A);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(22, 101, 52, 0.3);
+        }
+
+        .test-card {
+            background: white;
+            border-radius: 16px;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(200, 200, 200, 0.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            gap: 1.5rem;
+        }
+
+        .test-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #166534, #16A34A);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .test-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .test-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(22, 101, 52, 0.1);
+        }
+
+        .test-card-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            flex: 1 1 auto;
+        }
+
+        .test-card-content h3 {
+            line-height: 1.35;
+        }
+
+        .test-card button {
+            margin-top: auto;
+        }
+
+        .test-category {
+            background: linear-gradient(135deg, #F0F9FF, #E0F2FE);
+            color: #166534;
+            font-weight: 600;
+            font-size: 0.875rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .test-stats {
+            display: flex;
+            gap: 1.5rem;
+            color: #666;
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+
+        .test-stat {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #F0F9FF, #E0F2FE);
+        }
+
+        .section-bg {
+            background-color: #F9FCFF;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+    <!-- Floating Navigation -->
+    <nav class="floating-nav fixed top-4 left-4 right-4 mx-auto max-w-7xl rounded-lg shadow-lg z-50 py-3 px-6 flex justify-between items-center transition-all duration-500"
+        style="max-width: 1200px;" id="mainNav">
+        <div class="text-xl font-semibold" style="color: #333333; font-family: 'Playfair Display', serif;">
+            <a href="../../index.html">Psk. Rümeysa Uyumaz</a>
+        </div>
+        <div class="hidden md:flex space-x-8">
+            <a href="../../index.html#home" class="hover:text-[#16A34A] transition-colors">Ana Sayfa</a>
+            <a href="../../index.html#about" class="hover:text-[#16A34A] transition-colors">Hakkımda</a>
+            <a href="tests.html" class="text-[#16A34A] font-medium">Testler</a>
+            <a href="../../index.html#contact" class="hover:text-[#16A34A] transition-colors">İletişim</a>
+        </div>
+        <div class="md:hidden cursor-pointer" onclick="toggleDrawer()">
+            <i data-feather="menu"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileDrawer"
+        class="fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 opacity-0 pointer-events-none">
+        <div
+            class="absolute right-0 top-0 h-full w-64 bg-white transform transition-transform duration-300 translate-x-full">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-8">
+                    <div class="text-xl font-semibold" style="color: #333333; font-family: 'Playfair Display', serif;">
+                        Menü</div>
+                    <button onclick="toggleDrawer()" class="p-2">
+                        <i data-feather="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+                <div class="space-y-6">
+                    <a href="../../index.html#home" class="block py-2 hover:text-[#16A34A] transition-colors"
+                        onclick="toggleDrawer()">Ana Sayfa</a>
+                    <a href="../../index.html#about" class="block py-2 hover:text-[#16A34A] transition-colors"
+                        onclick="toggleDrawer()">Hakkımda</a>
+                    <a href="tests.html" class="block py-2 text-[#16A34A] font-medium"
+                        onclick="toggleDrawer()">Testler</a>
+                    <a href="../../index.html#contact" class="block py-2 hover:text-[#16A34A] transition-colors"
+                        onclick="toggleDrawer()">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient pt-32 md:pt-28 pb-16 px-4 md:px-8">
+        <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6" style="color: #333333;">Kendinizi Keşfedin</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-gray-700">
+                Bilimsel temelli psikoloji testleri ile kişiliğinizi, ilişki tarzınızı ve duygusal zekanızı keşfedin.
+                Her test, kişisel gelişiminiz için değerli içgörüler sunar.
+            </p>
+            <div class="bg-white px-6 py-3 rounded-full shadow-sm inline-block border border-gray-100">
+                <p class="text-sm text-gray-700 font-medium">Tamamen ücretsiz • Detaylı analiz • Kişiselleştirilmiş
+                    öneriler</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tests Grid Section -->
+    <section class="py-16 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto" id="tests-container">
+            <!-- Dynamic test categories will be loaded here -->
+            <div class="flex flex-col items-center justify-center py-20">
+                <div class="relative w-16 h-16 mb-6">
+                    <div class="absolute inset-0 border-4 border-[#166534]/10 rounded-full"></div>
+                    <div class="absolute inset-0 border-4 border-t-[#166534] rounded-full animate-spin"></div>
+                </div>
+                <div class="text-xl font-semibold text-gray-800 animate-pulse">Test Kütüphanesi Yükleniyor</div>
+                <p class="text-gray-500 mt-2">En güncel bilimsel testler hazırlanıyor...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-bg py-16 px-4 md:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Test Sonuçlarınızı Derinleştirin</h2>
+            <p class="text-lg mb-8 text-gray-700">
+                Test sonuçlarınız hakkında daha fazla bilgi almak ve kişisel gelişiminiz için
+                profesyonel destek almak ister misiniz?
+            </p>
+            <a href="../../index.html#contact"
+                class="btn-primary inline-block px-10 py-4 rounded-lg text-white font-medium">Ücretsiz Ön Görüşme
+                Alın</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 border-t border-gray-200">
+        <div class="max-w-6xl mx-auto text-center text-sm" style="color: #333333;">
+            <div class="mb-2">
+                <a href="mailto:psikologrumeysauyumaz@gmail.com"
+                    class="hover:text-[#16A34A] transition-colors">psikologrumeysauyumaz@gmail.com</a> •
+                <a href="tel:+905433468871" class="hover:text-[#16A34A] transition-colors">+90 543 346 88 71</a>
+            </div>
+            <div>© 2023 Psikolog Rümeysa Uyumaz. Tüm hakları saklıdır.</div>
+        </div>
+    </footer>
+
+    <script src="../utils/test-loader.js" type="module"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 120,
+            easing: 'ease-out-cubic'
+        });
+        feather.replace();
+
+        // Enhanced nav behavior with throttling
+        let lastScrollTop = 0;
+        let ticking = false;
+        const nav = document.getElementById('mainNav');
+
+        function updateNavOnScroll() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > 50) {
+                nav.style.background = 'rgba(255, 255, 255, 0.98)';
+                nav.style.backdropFilter = 'blur(20px) saturate(180%)';
+            } else {
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
+                nav.style.backdropFilter = 'blur(16px) saturate(180%)';
+            }
+
+            lastScrollTop = scrollTop;
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', function () {
+            if (!ticking) {
+                requestAnimationFrame(updateNavOnScroll);
+                ticking = true;
+            }
+        }, { passive: true });
+
+        // Mobile drawer functions
+        function toggleDrawer() {
+            const drawer = document.getElementById('mobileDrawer');
+            const drawerContent = drawer.querySelector('div > div');
+            const nav = document.getElementById('mainNav');
+
+            if (drawer.classList.contains('opacity-0')) {
+                drawer.classList.remove('opacity-0', 'pointer-events-none');
+                drawer.classList.add('opacity-100', 'pointer-events-auto');
+                drawerContent.classList.remove('translate-x-full');
+                drawerContent.classList.add('translate-x-0');
+                document.body.style.overflow = 'hidden';
+                nav.style.display = 'none';
+            } else {
+                drawer.classList.remove('opacity-100', 'pointer-events-auto');
+                drawer.classList.add('opacity-0', 'pointer-events-none');
+                drawerContent.classList.remove('translate-x-0');
+                drawerContent.classList.add('translate-x-full');
+                document.body.style.overflow = '';
+                nav.style.display = 'flex';
+            }
+        }
+
+        document.getElementById('mobileDrawer').addEventListener('click', function (e) {
+            if (e.target === this) {
+                toggleDrawer();
+            }
+        });
+    </script>
+</body>
+
+</html>

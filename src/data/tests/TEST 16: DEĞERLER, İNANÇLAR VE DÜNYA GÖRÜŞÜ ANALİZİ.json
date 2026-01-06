@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 5,
+    "title": "Değerler, İnançlar ve Dünya Görüşü Analizi",
+    "description": "Bu test, temel değer sistemlerinizi, inanç yapılarınızı, dünya görüşünüzü ve anlam yaratma süreçlerinizi değerlendiren derin bir analiz aracıdır. Rokeach Değerler Teorisi, Viktor Frankl'ın Anlam Terapisi ve Ahlaki Temeller Teorisi gibi kuramları temel alarak, sizi hayatta neyin motive ettiğini, kararlarınızı hangi değerlerin yönlendirdiğini ve dünyaya nasıl bir pencereden baktığınızı ortaya çıkarır. Amacımız, kişisel değerlerinizle daha uyumlu bir yaşam sürmeniz için size bir ayna tutmaktır.",
+    "author": "Milton Rokeach & Viktor Frankl",
+    "references": [
+      "Rokeach, M. (1973). The nature of human values.",
+      "Frankl, V. E. (1984). Man's search for meaning.",
+      "Haidt, J. (2012). The righteous mind: Why good people are divided by politics and religion."
+    ],
+    "estimatedTime": "12-15 dakika",
+    "recommendedFrequency": "Yılda bir veya önemli yaşam olaylarından sonra"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "transcendent",
+        "title": "Aşkın Değerler ve Anlam Arayışı"
+      },
+      {
+        "name": "communal",
+        "title": "Toplumsal Değerler ve Sorumluluk"
+      },
+      {
+        "name": "pragmatic",
+        "title": "Pragmatik Değerler ve Başarı Odaklılık"
+      },
+      {
+        "name": "relational",
+        "title": "İlişkisel Değerler ve Bağ Odaklılık"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yaşamınızda en önemli güdüleyici unsurun ne olduğunu düşünüyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Belirli hedeflere ulaşmak ve başarıyı yakalamak.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Sevdiğim insanlarla anlamlı ilişkiler kurmak ve korumak.",
+          "category": "relational"
+        },
+        {
+          "text": "Yaşamın derin anlamını keşfetmek ve kişisel bir amaç bulmak.",
+          "category": "transcendent"
+        },
+        {
+          "text": "Toplumsal katkı sağlamak ve değerli bir miras bırakmak.",
+          "category": "communal"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Zorlu yaşam durumları ve acılarla karşılaştığınızda hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bu durumları en hızlı şekilde çözmeye ve ortadan kaldırmaya odaklanırım.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Destekleyici insanlarla paylaşır, beraber üstesinden gelmeye çalışırım.",
+          "category": "relational"
+        },
+        {
+          "text": "Bu deneyimlerin bana öğrettiği dersleri ve anlamı aramaya odaklanırım.",
+          "category": "transcendent"
+        },
+        {
+          "text": "Yaşadıklarımın toplumsal bir amaca hizmet ettiğini düşünürüm.",
+          "category": "communal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Kendi değer sisteminizde hangisi daha ön planda yer alır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kişisel başarı, özgürlük, rekabet, bağımsızlık gibi bireysel değerler.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Aile, sadakat, gelenekler, uyum gibi ilişkisel değerler.",
+          "category": "communal"
+        },
+        {
+          "text": "Adalet, dürüstlük, hakikat, bilgelik gibi evrensel değerler.",
+          "category": "transcendent"
+        },
+        {
+          "text": "Sevgi, empati, şefkat gibi duygusal ve insani değerler.",
+          "category": "relational"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Ahlaki bir karar verirken hangi pusula sizi yönlendirir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Sonuçların pratik faydası ve etkinliği.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Kararımın sevdiklerimi ve yakın çevremi nasıl etkileyeceği.",
+          "category": "relational"
+        },
+        {
+          "text": "Evrensel doğru ve yanlış ilkeleri, ne olursa olsun.",
+          "category": "transcendent"
+        },
+        {
+          "text": "Toplumun genel iyiliği ve adalet duygusu.",
+          "category": "communal"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Yaşamınızın sonunda arkanızda nasıl bir miras bırakmak istersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "İnşa ettiğim kariyer, kazandığım başarılar ve maddi varlıklar.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Dokunduğum hayatlar, kurduğum sevgi dolu ilişkiler ve mutlu bir aile.",
+          "category": "relational"
+        },
+        {
+          "text": "Paylaştığım bilgelik, ürettiğim fikirler veya yarattığım sanat.",
+          "category": "transcendent"
+        },
+        {
+          "text": "Toplum için yaptığım hizmetler ve yarattığım pozitif değişim.",
+          "category": "communal"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Dünya görüşünüz hangi cümleye daha yakın?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Dünya, bireylerin hedeflerine ulaştığı bir rekabet alanıdır.",
+          "category": "pragmatic"
+        },
+        {
+          "text": "Dünya, sevgi ve nefretin, bağ kurma ve kopmanın yaşandığı bir ilişkiler ağıdır.",
+          "category": "relational"
+        },
+        {
+          "text": "Dünya, daha derin bir anlamı ve amacı olan, keşfedilmesi gereken gizemli bir yerdir.",
+          "category": "transcendent"
+        },
+        {
+          "text": "Dünya, hepimizin sorumlu olduğu ve daha iyi bir yer haline getirmemiz gereken bir bütündür.",
+          "category": "communal"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "transcendent": {
+      "title": "Aşkın Değerler ve Anlam Arayışı",
+      "shortDesc": "Yaşamı daha derin bir anlam ve amaç perspektifinden yorumlayan, bilgelik ve evrensel ilkelerin peşinde birisiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Dünya görüşünüz, Viktor Frankl'ın 'anlam istenci' kavramıyla derinden rezonansa giriyor. Sizin için hayat, sadece hedeflere ulaşmak veya ilişkiler kurmaktan ibaret değil; aynı zamanda varoluşsal bir anlam bulma ve bu anlama hizmet etme yolculuğudur. Acı ve zorlukları bile birer büyüme fırsatı olarak görebilme potansiyeliniz yüksektir. Değerleriniz genellikle adalet, hakikat, bilgelik gibi evrensel ve soyut ilkelere dayanır. Bu derinlikli bakış açısı, size zor zamanlarda büyük bir içsel güç ve dayanıklılık sağlar."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Anlam arayışınız en büyük gücünüzdür. Bu arayışı, pratik adımlar ve somut hedeflerle birleştirdiğinizde, hem kendiniz hem de çevreniz için ilham verici bir yaşam sürebilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Felsefe, maneviyat veya sanat gibi anlam arayışınızı besleyen alanlarla daha çok ilgilenin.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Anlam arayışınızı somut projelere veya mentorluk ilişkilerine dönüştürün.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Soyut düşüncelerinizi günlük hayata nasıl uygulayabileceğiniz üzerine kafa yorun.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "communal": {
+      "title": "Toplumsal Değerler ve Sorumluluk",
+      "shortDesc": "Kendinizi daha büyük bir bütünün parçası olarak gören, toplumsal uyum, gelenek ve sorumluluk odaklı birisiniz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Dünya görüşünüz, bireyden çok topluluğu merkeze alır. Sizin için anlam, aileye, topluma veya bir davaya hizmet etmekte yatar. Gelenekler, sadakat, otoriteye saygı ve grup içi uyum sizin için önemli değerlerdir. Ahlaki Temeller Teorisi'ne göre, sizin ahlaki pusulanız özellikle ‘sadakat/ihanet’ ve ‘otorite/yıkıcılık’ gibi topluluğu bir arada tutan temellerde güçlüdür. Bu yaklaşım, sizi güvenilir bir takım oyuncusu, sorumlu bir vatandaş ve topluluğun bel kemiği yapar."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Toplumsal bağlılığınız sizi değerli bir lider ve topluluk üyesi yapar. Bu gücü, bireysel farklılıklara ve evrensel insan haklarına saygıyla birleştirdiğinizde, daha kapsayıcı ve etkili bir lider olursunuz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Toplumsal fayda sağlayan derneklerde veya sivil toplum kuruluşlarında aktif rol alın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kültürel değerleri ve gelenekleri yeni nesillere aktarma konusunda mentorluk yapın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Farklı gruplardan ve kültürlerden insanlarla etkileşime girerek bakış açınızı genişletin.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "pragmatic": {
+      "title": "Pragmatik Değerler ve Başarı Odaklılık",
+      "shortDesc": "Hayata pratik, sonuç odaklı ve bireysel başarıyı merkeze alan bir pencereden bakıyorsunuz.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Dünya görüşünüz, hedeflere ulaşma, verimlilik ve somut başarılar üzerine kuruludur. Sizin için bir şeyin değeri, genellikle onun pratik faydasıyla ölçülür. Rokeach'ın Değerler Teorisi'ne göre, sizin için ‘başarılı olmak’, ‘yetenekli olmak’ gibi araçsal değerler ön plandadır. Bu yaklaşım, sizi özellikle rekabetçi ortamlarda, iş dünyasında ve hedefe dayalı projelerde son derece etkili kılar. Ancak, hayatı sadece bir başarı merdiveni olarak görmek, bazen daha derin anlamları ve ilişkisel zenginlikleri gözden kaçırmanıza neden olabilir."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Başarı odaklılığınız sizi ileriye taşıyan bir motordur. Bu motoru, anlam ve ilişki yakıtıyla beslediğinizde, hem başarılı hem de tatmin dolu bir yaşam sürebilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Başarılarınızı kutlarken, bu süreçte size destek olan ilişkileri de onurlandırın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sadece sonuç getirisi olmayan, sırf keyif aldığınız için yapacağınız hobilere zaman ayırın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "‘Bu hedefe ulaştığımda, bu benim için ne anlama gelecek?’ sorusunu kendinize sorun.",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "relational": {
+      "title": "İlişkisel Değerler ve Bağ Odaklılık",
+      "shortDesc": "Sizin için hayatın anlamı, kurulan derin ve sevgi dolu bağlarda gizlidir. Empati ve şefkat pusulanızdır.",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Dünya görüşünüzün merkezinde insan ilişkileri yer alır. Sizin için anlam ve mutluluk, sevmek, sevilmek, ait olmak ve başkalarıyla derin bağlar kurmaktır. Ahlaki Temeller Teorisi'ne göre, sizin ahlaki pusulanız özellikle ‘şefkat/zarar’ temelinde güçlüdür; başkalarının acısına karşı son derece duyarlısınız. Bu yaklaşım sizi harika bir dost, eş, ebeveyn ve takım arkadaşı yapar. Ancak, kendi ihtiyaçlarınızı ihmal etme ve başkalarının mutluluğuna aşırı odaklanma riski taşırsınız."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İlişki kurma yeteneğiniz en değerli varlığınızdır. Bu varlığı, sağlıklı sınırlar ve güçlü bir bireysel kimlik ile koruduğunuzda, hem kendinize hem de sevdiklerinize en büyük faydayı sağlarsınız.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "İlişkilerinizde kendi sınırlarınızı tanıma ve koruma üzerine çalışın.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Başkalarına ‘evet’ derken, kendinize ‘hayır’ demediğinizden emin olun.",
+          "type": "recommendation"
+        },
+        {
+          "text": "Tek başınıza keyif alacağınız ve kişisel gelişiminize odaklanacağınız alanlar yaratın.",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

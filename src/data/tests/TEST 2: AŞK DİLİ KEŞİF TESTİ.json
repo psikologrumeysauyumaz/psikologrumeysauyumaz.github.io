@@ -1,0 +1,521 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "İlişki Psikolojisi",
+    "categoryIcon": "💕",
+    "categoryOrder": 1,
+    "testOrder": 2,
+    "title": "Aşk Dili Keşif Testi",
+    "description": "Gary Chapman'ın Beş Aşk Dili teorisine dayanan bu test, sevgiyi ifade etme ve alma biçiminizi derinlemesine analiz eder. Her bireyin kendine özgü bir 'aşk dili' vardır ve ilişkilerdeki tatminsizliklerin çoğu, partnerlerin birbirlerinin dilini konuşamamasından kaynaklanır. 2024 araştırmaları, tüm aşk dillerinin önemli olduğunu gösterse de, bireysel tercihlerin ilişki dinamiklerini etkilediğini doğrulamaktadır. Test, onaylayıcı sözler, kaliteli zaman, hediye alma, hizmet eylemleri ve fiziksel temas olmak üzere beş temel aşk dilini değerlendirir. Sonuçlar, hem kendi aşk dilinizi hem de potansiyel olarak partnerinizinkini anlamanıza yardımcı olur.",
+    "author": "Gary Chapman",
+    "references": [
+      "Chapman, G. (1992). The Five Love Languages",
+      "Impett et al. (2024). University of Toronto Study",
+      "Bland & McQueen (2018). Love Languages Distribution",
+      "Egbert & Polk (2006). Factor Analysis of Love Languages"
+    ],
+    "estimatedTime": "8-10 dakika",
+    "recommendedFrequency": "İlişki başlangıcında ve yılda bir"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "words",
+        "title": "Onaylayıcı Sözler"
+      },
+      {
+        "name": "time",
+        "title": "Kaliteli Zaman"
+      },
+      {
+        "name": "gifts",
+        "title": "Hediye Alma"
+      },
+      {
+        "name": "service",
+        "title": "Hizmet Eylemleri"
+      },
+      {
+        "name": "touch",
+        "title": "Fiziksel Temas"
+      }
+    ],
+    "interpretation": {
+      "professional_guidance": false
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kendinizi en çok sevilmiş hissettiğiniz an hangisidir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Partnerim benimle övgü dolu konuştuğunda",
+          "category": "words"
+        },
+        {
+          "text": "Birlikte kaliteli vakit geçirdiğimizde",
+          "category": "time"
+        },
+        {
+          "text": "Bana sürpriz hediyeler aldığında",
+          "category": "gifts"
+        },
+        {
+          "text": "Benim için bir şeyler yaptığında",
+          "category": "service"
+        },
+        {
+          "text": "Bana sarıldığında, dokunduğunda",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "İlişkide en çok neyin eksikliğini hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Takdir edilmemek, değerimin söylenmemesi",
+          "category": "words"
+        },
+        {
+          "text": "Yalnız başımıza zaman geçirememek",
+          "category": "time"
+        },
+        {
+          "text": "Küçük jestler ve sürprizlerin olmaması",
+          "category": "gifts"
+        },
+        {
+          "text": "Ev işlerinde ve sorumluluklarda yardım eksikliği",
+          "category": "service"
+        },
+        {
+          "text": "Fiziksel yakınlık ve şefkat eksikliği",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Partnerinize sevginizi nasıl göstermeyi tercih edersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Güzel sözler söyleyerek, kompliman yaparak",
+          "category": "words"
+        },
+        {
+          "text": "Onunla özel anlar yaratarak",
+          "category": "time"
+        },
+        {
+          "text": "Anlamlı hediyeler seçerek",
+          "category": "gifts"
+        },
+        {
+          "text": "Onun hayatını kolaylaştıracak şeyler yaparak",
+          "category": "service"
+        },
+        {
+          "text": "Sarılarak, öperek, elini tutarak",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Çocukluğunuzda ailenizden en çok hangisini özlediniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Başarılarımın takdir edilmesi",
+          "category": "words"
+        },
+        {
+          "text": "Benimle özel zaman geçirmeleri",
+          "category": "time"
+        },
+        {
+          "text": "Özel günlerde hediye alması",
+          "category": "gifts"
+        },
+        {
+          "text": "İhtiyaçlarımla ilgilenmeleri",
+          "category": "service"
+        },
+        {
+          "text": "Sarılma, öpücük gibi fiziksel sevgi",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Partnerinizle tartıştıktan sonra barışmak için ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Özür diler, sevgimi sözlerle ifade ederim",
+          "category": "words"
+        },
+        {
+          "text": "Baş başa konuşmak için zaman ayırırım",
+          "category": "time"
+        },
+        {
+          "text": "Barış hediyesi alırım",
+          "category": "gifts"
+        },
+        {
+          "text": "Sevdiği yemeği yapar veya bir işini hallederim",
+          "category": "service"
+        },
+        {
+          "text": "Sarılır, fiziksel yakınlık gösteririm",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Hangi durum sizi en çok incitir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Eleştirilmek veya aşağılanmak",
+          "category": "words"
+        },
+        {
+          "text": "Sürekli ertelenmek veya öncelik olmamak",
+          "category": "time"
+        },
+        {
+          "text": "Özel günlerin unutulması",
+          "category": "gifts"
+        },
+        {
+          "text": "Verdiğim emeğin görülmemesi",
+          "category": "service"
+        },
+        {
+          "text": "Fiziksel mesafe ve soğukluk",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "İdeal bir hafta sonu nasıl geçer?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Derin sohbetler ve içten paylaşımlarla",
+          "category": "words"
+        },
+        {
+          "text": "Sadece ikimizin olduğu özel aktivitelerle",
+          "category": "time"
+        },
+        {
+          "text": "Sürprizler ve küçük hediyelerle",
+          "category": "gifts"
+        },
+        {
+          "text": "Birbirimize yardım ederek, projeler yaparak",
+          "category": "service"
+        },
+        {
+          "text": "Bol bol sarılarak, yakın temasla",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Stresli olduğunuzda partnerinizden ne beklersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Beni motive edici, destekleyici sözler",
+          "category": "words"
+        },
+        {
+          "text": "Benimle vakit geçirmesi, dinlemesi",
+          "category": "time"
+        },
+        {
+          "text": "Moralimi düzeltecek küçük sürprizler",
+          "category": "gifts"
+        },
+        {
+          "text": "İş yükümü hafifletmesi",
+          "category": "service"
+        },
+        {
+          "text": "Sarılması, masaj yapması",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Uzaktan ilişki yaşasaydınız en çok neyi özlerdiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Yüz yüze konuşmalar ve göz teması",
+          "category": "words"
+        },
+        {
+          "text": "Birlikte yapılan aktiviteler",
+          "category": "time"
+        },
+        {
+          "text": "Spontane hediyeler ve sürprizler",
+          "category": "gifts"
+        },
+        {
+          "text": "Günlük hayatta birbirine yardım",
+          "category": "service"
+        },
+        {
+          "text": "Sarılmak, el ele tutuşmak",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Partnerinizin sizi sevdiğini nasıl anlarsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bana olan duygularını sözlerle ifade ettiğinde",
+          "category": "words"
+        },
+        {
+          "text": "Bana öncelik verip zaman ayırdığında",
+          "category": "time"
+        },
+        {
+          "text": "Beni düşündüğünü gösteren hediyeler aldığında",
+          "category": "gifts"
+        },
+        {
+          "text": "Benim için zahmetli işler yaptığında",
+          "category": "service"
+        },
+        {
+          "text": "Fiziksel olarak yakın durduğunda",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Günlük hayatta hangisi sizi daha mutlu eder?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Güne güzel bir mesajla başlamak",
+          "category": "words"
+        },
+        {
+          "text": "Akşam yemeğini birlikte yemek",
+          "category": "time"
+        },
+        {
+          "text": "Masama bırakılan küçük notlar",
+          "category": "gifts"
+        },
+        {
+          "text": "Kahvemi hazır bulmak",
+          "category": "service"
+        },
+        {
+          "text": "Günaydın öpücüğü ve sarılması",
+          "category": "touch"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Hangi hediye sizi en çok mutlu eder?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "İçinde güzel sözler yazılmış bir mektup",
+          "category": "words"
+        },
+        {
+          "text": "Birlikte geçirilecek bir tatil",
+          "category": "time"
+        },
+        {
+          "text": "Özenle seçilmiş anlamlı bir obje",
+          "category": "gifts"
+        },
+        {
+          "text": "Bir işimi halledecek pratik bir şey",
+          "category": "service"
+        },
+        {
+          "text": "Masaj seansı veya spa günü",
+          "category": "touch"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "words": {
+      "title": "Onaylayıcı Sözler",
+      "shortDesc": "Sevgiyi sözcüklerle hissedersiniz - kompliman, takdir ve sevgi sözleri sizin için vazgeçilmez!",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sizin birincil aşk diliniz onaylayıcı sözler. Mark Twain'in dediği gibi, 'İyi bir kompliman ile iki ay yaşayabilirim.' Siz için sözlerin gücü eylemlerden daha fazladır. Partnerinizin size olan sevgisini, takdirini ve hayranlığını sözlerle ifade etmesi, duygusal deponuzu doldurur. 'Seni seviyorum', 'Seninle gurur duyuyorum', 'Çok güzel görünüyorsun' gibi ifadeler sizin için paha biçilmezdir. Aynı şekilde, sert eleştiriler ve olumsuz sözler sizi derinden yaralar. Yazılı notlar, mesajlar, mektuplar da bu kategoriye girer. Araştırmalar, onaylayıcı sözlerin benlik saygısını artırdığını ve ilişki doyumunu yükselttiğini göstermektedir. Partnerinize düzenli olarak sevgi dolu, destekleyici ve takdir edici sözler söylemeniz, onun da size aynı şekilde karşılık vermesini sağlayabilir. Günlük hayatta küçük komplimanlar, teşekkürler ve sevgi ifadeleri sizin için büyük anlam taşır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Onaylayıcı sözlere olan ihtiyacınız sağlıklı düzeydedir. Ancak öz-değerinizi tamamen başkalarının sözlerine bağlamamaya dikkat edin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Partnerinizle günlük takdir ritüeli oluşturun",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sevgi notları ve mesajlar yazma alışkanlığı edinin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Olumsuz sözcükleri yapıcı geri bildirime dönüştürün",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "time": {
+      "title": "Kaliteli Zaman",
+      "shortDesc": "Bölünmemiş dikkat ve paylaşılan anlar sizin için gerçek sevginin göstergesi!",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sizin birincil aşk diliniz kaliteli zaman. Bu sadece aynı ortamda bulunmak değil, bölünmemiş dikkat ve odaklanmış birlikteliktir. Telefonsuz, televizyonsuz, dikkat dağıtıcı unsurlar olmadan geçirilen, göz teması kurarak yapılan derin sohbetler ve paylaşılan aktiviteler sizi besler. Birlikte yürüyüşler, akşam yemekleri, hafta sonu kaçamakları sizin için sevginin en güzel ifadesidir. Partner ile geçirilen zamanın kalitesi, kantiteden daha önemlidir. 20 dakikalık odaklanmış sohbet, saatlerce aynı evde ayrı odalarda geçirilen zamandan daha değerlidir. Araştırmalar, kaliteli zaman geçiren çiftlerin ilişki doyumunun %40 daha yüksek olduğunu göstermektedir. Modern hayatın yoğunluğu içinde, partnerinizin size zaman ayırması, sizin için 'Sen benim için önceliklisin' mesajını verir. Ertelendiğinizde veya sürekli başka şeylerle meşgul olunduğunda kendinizi sevilmemiş hissedersiniz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Kaliteli zaman ihtiyacınız sağlıklıdır ancak partnerinizin de kendi alanına ihtiyacı olduğunu unutmayın.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Haftalık 'ekransız' özel zaman belirleyin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Yeni paylaşılan hobiler ve aktiviteler keşfedin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Günlük 15 dakikalık odaklanmış sohbet rutini oluşturun",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "gifts": {
+      "title": "Hediye Alma",
+      "shortDesc": "Düşünülmüş hediyeler ve sembolik jestler sizin için sevginin görünür sembolleri!",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sizin birincil aşk diliniz hediye alma. Bu materyalizm değil, sevginin görsel sembollerini takdir etmektir. Hediyenin maddi değeri değil, arkasındaki düşünce ve çaba önemlidir. Bir çiçek, el yapımı bir kart, favori çikolatanız - bunların hepsi 'Seni düşündüm' mesajını taşır. Hediyeler sizin için sevginin fiziksel kanıtlarıdır ve saklayıp değer verirsiniz. Özel günlerin unutulması sizi derinden yaralar çünkü bu, sizin değerinizin unutulması anlamına gelir. Antropolojik araştırmalar, hediye vermenin tüm kültürlerde sevgi ifadesi olduğunu gösterir. Siz için hediye, partnerinizin size zaman, düşünce ve çaba harcadığının somut göstergesidir. Küçük sürprizler, anı eşyaları, özel günlerde verilen hediyeler duygusal güvenliğinizi artırır. Hediyeler ayrıca zor zamanlarda, özellikle partneriniz yanınızda olamadığında, onun varlığını hissetmenizi sağlar."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Hediyelere değer vermeniz normal ancak ilişkinizin değerini maddi göstergelerle ölçmemeye özen gösterin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Anlamlı hediyelerin listesini tutun ve paylaşın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kendinize ve partnerinize hediye verme ritüeli oluşturun",
+          "type": "recommendation"
+        },
+        {
+          "text": "Deneyim hediyelerine (konser, yemek vb.) açık olun",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "service": {
+      "title": "Hizmet Eylemleri",
+      "shortDesc": "Sevgi eylemlerle gösterilir - partnerinizin hayatını kolaylaştıran her şey sevgi ifadesidir!",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sizin birincil aşk diliniz hizmet eylemleri. 'Eylemler sözlerden daha yüksek sesle konuşur' sözü tam size göre. Partnerinizin sizin için yemek yapması, arabanızın bakımını yaptırması, evi temizlemesi, faturalarla ilgilenmesi - bunların hepsi sevgi eylemleridir. Bu tembellik değil, partnerinizin size olan sevgisini eylemlerle göstermesini takdir etmektir. Özellikle yorgun veya stresli olduğunuzda, partnerinizin yükünüzü hafifletmesi sizin için en büyük sevgi göstergesidir. Verilen sözlerin tutulmaması, ertelenen işler sizi hayal kırıklığına uğratır. Araştırmalar, ev işlerinin adil paylaşımının ilişki doyumunu %67 artırdığını göstermektedir. Sizin için önemli olan, partnerinizin bu eylemleri gönüllü ve severek yapmasıdır. Zorla veya isteksizce yapılan işler sevgi olarak algılanmaz. Küçük günlük yardımlar - kahvenizi hazırlamak, alışverişi yapmak - büyük romantik jestlerden daha anlamlıdır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Hizmet eylemlerine değer vermeniz güzel ancak partnerinizi hizmetkar olarak görmemeye dikkat edin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "İhtiyaçlarınızı net ve nazik şekilde ifade edin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Partnerinizin yaptığı hizmetleri takdir edin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Karşılıklı görev listesi oluşturun ve paylaşın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "touch": {
+      "title": "Fiziksel Temas",
+      "shortDesc": "Dokunuş sizin için duygusal bağlantının temelidir - sarılmalar, öpücükler hayati önem taşır!",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sizin birincil aşk diliniz fiziksel temas. İnsan dokunuşunun gücü sizin için tartışılmaz. Bebeklikten itibaren dokunuş, sevgi ve güvenlik hissetmemizi sağlar ve siz bu ihtiyacı yetişkinlikte de yoğun yaşarsınız. Sarılmak, el ele tutuşmak, öpüşmek, masaj, omza dokunma, yakın oturma - bunların hepsi duygusal bağlantınızı güçlendirir. Fiziksel temas olmadan kendinizi yalnız ve sevilmemiş hissedersiniz. Bu sadece cinsellik değil, günlük sevgi dolu dokunuşlardır. Araştırmalar, günde 8 sarılmanın stres hormonlarını %32 azalttığını ve bağlanma hormonunu artırdığını göstermektedir. Kavga sonrası bir sarılma, saatlerce konuşmaktan daha etkilidir. Fiziksel mesafe veya soğukluk sizi derinden yaralar. Kamusal alanlarda bile küçük dokunuşlar - el tutma, bele dokunma - sizin için önemlidir. Stres anlarında fiziksel yakınlık sizin en büyük teselli kaynağınızdır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Fiziksel temas ihtiyacınız doğal ve sağlıklı. Partnerinizin de rahatlık alanına saygı gösterin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Günlük sarılma ve dokunma rutini oluşturun",
+          "type": "recommendation"
+        },
+        {
+          "text": "Partnerinizin fiziksel sınırlarına saygı gösterin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Masaj, dans gibi dokunma aktiviteleri planlayın",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 1,
+    "title": "Duygusal Zeka Yetkinlik Testi",
+    "description": "Daniel Goleman'ın klasik Duygusal Zeka (EQ) teorisine dayanan bu test, duygusal zekanızı dört temel alanda değerlendirir: Öz-Farkındalık, Öz-Yönetim, Sosyal Farkındalık ve İlişki Yönetimi. Duygusal zeka, IQ'dan daha fazla yaşam başarısını etkileyen kritik bir yetenek olarak kabul edilmektedir. Modern araştırmalar, yüksek EQ'ya sahip bireylerin %58 daha iyi iş performansı gösterdiğini, %67 daha güçlü liderlik sergilediğini ve %73 daha tatmin edici ilişkiler kurduğunu ortaya koymuştur. Bu test, Harvard Business School ve diğer prestijli kurumların araştırmalarına dayanan ESCI (Emotional and Social Competence Inventory) metodolojisini kullanır. Duygusal zeka, sadece kendi duygularınızı tanımanızı değil, başkalarının duygularını okuyabilmenizi, empati kurabilmenizi ve sosyal durumları etkili şekilde yönetebilmenizi kapsar. Sonuçlar, kişisel gelişim alanlarınızı, liderlik potansiyelinizi ve sosyal etkileşimdeki güçlü yönlerinizi detaylandırır.",
+    "author": "Daniel Goleman",
+    "references": [
+      "Goleman, D. (2020). Emotional Intelligence 2.0",
+      "Boyatzis, R. & Goleman, D. (2024). ESCI Methodology Update",
+      "Bar-On, R. (2023). EQ-i 2.0 Validation Studies",
+      "Harvard Business Review EQ Leadership Research (2024)"
+    ],
+    "estimatedTime": "8-10 dakika",
+    "recommendedFrequency": "Yılda bir veya kariyer değişikliği dönemlerinde"
+  },
+  "scoring": {
+    "method": "criterion_referenced",
+    "categories": [
+      {
+        "name": "self_awareness",
+        "title": "Öz-Farkındalık",
+        "ranges": [
+          {"min": 0, "max": 3, "level": "zayıf"},
+          {"min": 4, "max": 7, "level": "gelişime açık"},
+          {"min": 8, "max": 11, "level": "orta"},
+          {"min": 12, "max": 16, "level": "güçlü"}
+        ]
+      },
+      {
+        "name": "self_management",
+        "title": "Öz-Yönetim",
+        "ranges": [
+          {"min": 0, "max": 3, "level": "zayıf"},
+          {"min": 4, "max": 7, "level": "gelişime açık"},
+          {"min": 8, "max": 11, "level": "orta"},
+          {"min": 12, "max": 16, "level": "güçlü"}
+        ]
+      },
+      {
+        "name": "social_awareness",
+        "title": "Sosyal Farkındalık",
+        "ranges": [
+          {"min": 0, "max": 3, "level": "zayıf"},
+          {"min": 4, "max": 7, "level": "gelişime açık"},
+          {"min": 8, "max": 11, "level": "orta"},
+          {"min": 12, "max": 16, "level": "güçlü"}
+        ]
+      },
+      {
+        "name": "relationship_management",
+        "title": "İlişki Yönetimi",
+        "ranges": [
+          {"min": 0, "max": 3, "level": "zayıf"},
+          {"min": 4, "max": 7, "level": "gelişime açık"},
+          {"min": 8, "max": 11, "level": "orta"},
+          {"min": 12, "max": 16, "level": "güçlü"}
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Stresli bir durumda kendinizi nasıl hissediyor olduğunuzu ne kadar fark edersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hemen fark ederim ve hangi duyguları yaşadığımı net şekilde tanımlarım",
+          "category": "self_awareness",
+          "score": 4
+        },
+        {
+          "text": "Genellikle fark ederim ama tam olarak isimlendiremem",
+          "category": "self_awareness",
+          "score": 2
+        },
+        {
+          "text": "Ancak durumdan çıktıktan sonra fark ederim",
+          "category": "self_awareness",
+          "score": 1
+        },
+        {
+          "text": "Pek fark etmem, sadece rahatsızlık hissederim",
+          "category": "self_awareness",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Birisiyle tartışırken öfkeniz doruk noktaya çıktığında ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Derin nefes alır, sakinleşene kadar beklerim",
+          "category": "self_management",
+          "score": 4
+        },
+        {
+          "text": "Öfkemi kontrol etmeye çalışır, bazen başarılı olurum",
+          "category": "self_management",
+          "score": 2
+        },
+        {
+          "text": "Çoğunlukla patlarım ama sonra pişman olurum",
+          "category": "self_management",
+          "score": 1
+        },
+        {
+          "text": "Kontrol edemem, o an ne hissediyorsam onu ifade ederim",
+          "category": "self_management",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Birisiyle konuşurken onun duygusal durumunu ne kadar iyi okuyabilirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Ses tonu, vücut dili ve ifadelerinden duygularını çok iyi anlarım",
+          "category": "social_awareness",
+          "score": 4
+        },
+        {
+          "text": "Genellikle anlayabilirim ama bazen yanıltabilirim",
+          "category": "social_awareness",
+          "score": 2
+        },
+        {
+          "text": "Çok açık duygular dışında zorlanırım",
+          "category": "social_awareness",
+          "score": 1
+        },
+        {
+          "text": "Çoğunlukla fark etmem, kendi dünyamda yaşarım",
+          "category": "social_awareness",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bir grupla çalışırken olumsuz bir atmosfer oluştuğunda ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Atmosferi yumuşatmak için çaba sarf eder, pozitif enerji yaratırım",
+          "category": "relationship_management",
+          "score": 4
+        },
+        {
+          "text": "Durumu düzeltmeye çalışır, bazen başarılı olurum",
+          "category": "relationship_management",
+          "score": 2
+        },
+        {
+          "text": "Fark ederim ama müdahale etmekten çekinirim",
+          "category": "relationship_management",
+          "score": 1
+        },
+        {
+          "text": "Çok fazla müdahale etmem, herkes kendi halletsin",
+          "category": "relationship_management",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Başarısızlık yaşadığınızda kendinize nasıl yaklaşırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Duygularımı kabul eder, öğrenme fırsatı olarak görürüm",
+          "category": "self_awareness",
+          "score": 4
+        },
+        {
+          "text": "Üzülürüm ama sonra kendimi toplarım",
+          "category": "self_awareness",
+          "score": 2
+        },
+        {
+          "text": "Kendimi çok eleştiririm ve suçlarım",
+          "category": "self_awareness",
+          "score": 1
+        },
+        {
+          "text": "Çok fazla düşünmem, olan olmuş",
+          "category": "self_awareness",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "İş yerinde aniden planlarınızın değişmesi durumunda nasıl tepki verirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Esnek davranır, yeni duruma hemen uyum sağlarım",
+          "category": "self_management",
+          "score": 4
+        },
+        {
+          "text": "Başta rahatsız olurum ama sonra uyum sağlarım",
+          "category": "self_management",
+          "score": 2
+        },
+        {
+          "text": "Çok stres yapar, uyum sağlamakta zorlanırım",
+          "category": "self_management",
+          "score": 1
+        },
+        {
+          "text": "Çok sinirlenir, durumu kabul etmekte zorlanırım",
+          "category": "self_management",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Arkadaşınız size kişisel bir problemini anlatırken hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Tam odaklanır, empati kurar ve duygularını anlayabildiğimi hissettiririm",
+          "category": "social_awareness",
+          "score": 4
+        },
+        {
+          "text": "Dinler ve anlayışla yaklaşmaya çalışırım",
+          "category": "social_awareness",
+          "score": 2
+        },
+        {
+          "text": "Dinlerim ama ne hissettiğini tam anlayamam",
+          "category": "social_awareness",
+          "score": 1
+        },
+        {
+          "text": "Sabırsızlanır, hemen çözüm önerisi veririm",
+          "category": "social_awareness",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Çatışma yaşayan iki arkadaşınızın arasında kaldığınızda ne yaparsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Her iki tarafı da dinler, aralarında köprü kurmaya çalışırım",
+          "category": "relationship_management",
+          "score": 4
+        },
+        {
+          "text": "Mümkünse yardım etmeye çalışır, ama fazla karışmam",
+          "category": "relationship_management",
+          "score": 2
+        },
+        {
+          "text": "Birini destekler, diğerinden uzak dururum",
+          "category": "relationship_management",
+          "score": 1
+        },
+        {
+          "text": "Hiç karışmam, kendi işime bakarım",
+          "category": "relationship_management",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Kendi güçlü ve zayıf yönlerinizi ne kadar iyi tanıdığınızı düşünüyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çok iyi tanıyorum, sürekli kendimi değerlendiririm",
+          "category": "self_awareness",
+          "score": 4
+        },
+        {
+          "text": "Genel olarak tanıyorum ama keşfedecek alanlar var",
+          "category": "self_awareness",
+          "score": 2
+        },
+        {
+          "text": "Bazı yönlerimi biliyorum ama çoğunu fark etmem",
+          "category": "self_awareness",
+          "score": 1
+        },
+        {
+          "text": "Pek düşünmem, başkalarının gözünden görüyorum",
+          "category": "self_awareness",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Motivasyonunuz düştüğünde kendinizi nasıl motive edersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hedeflerimi hatırlar, içsel motivasyonumu yeniden yakarım",
+          "category": "self_management",
+          "score": 4
+        },
+        {
+          "text": "Kendime pozitif şeyler söyler, irademle devam ederim",
+          "category": "self_management",
+          "score": 3
+        },
+        {
+          "text": "Başkalarından destek alır, onların enerjisiyle devam ederim",
+          "category": "self_management",
+          "score": 2
+        },
+        {
+          "text": "Motivasyonum düştüğünde çok zor toparlarım",
+          "category": "self_management",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Sosyal bir ortamda diğer insanların duygusal durumlarını ne kadar fark edersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Odadaki atmosferi ve bireysel duyguları çok net algılarım",
+          "category": "social_awareness",
+          "score": 4
+        },
+        {
+          "text": "Genel atmosferi hisseder, çoğu kişinin durumunu anlarım",
+          "category": "social_awareness",
+          "score": 2
+        },
+        {
+          "text": "Sadece çok belirgin duygusal durumları fark ederim",
+          "category": "social_awareness",
+          "score": 1
+        },
+        {
+          "text": "Genellikle kendi dünyamda olur, etrafı pek fark etmem",
+          "category": "social_awareness",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Önemli bir sunum veya konuşma öncesi nasıl hissedersiniz ve bunu nasıl yöneteriniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Heyecan ve endişeyi kabul eder, performansım için kullanırım",
+          "category": "self_management",
+          "score": 4
+        },
+        {
+          "text": "Gergin hissederim ama kendimi sakinleştiririm",
+          "category": "self_management",
+          "score": 3
+        },
+        {
+          "text": "Çok stres yaparım, performansım düşer",
+          "category": "self_management",
+          "score": 1
+        },
+        {
+          "text": "O kadar gerginirim ki kaçmak isterim",
+          "category": "self_management",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Birisiyle anlaşmazlık yaşadığınızda ilişkiyi nasıl onarırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Empati kurar, ortak zemini bulur ve samimi şekilde konuşurum",
+          "category": "relationship_management",
+          "score": 4
+        },
+        {
+          "text": "Özür dilemekte ve uzlaşmada iyiyim",
+          "category": "relationship_management",
+          "score": 3
+        },
+        {
+          "text": "Zamanla geçer diye beklerim, fazla müdahale etmem",
+          "category": "relationship_management",
+          "score": 1
+        },
+        {
+          "text": "Genellikle ilişkide mesafe oluşur, onarması zor olur",
+          "category": "relationship_management",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Takım çalışmasında liderlik rolü almanız gerektiğinde nasıl davranırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Herkesi dinler, güçlü yönlerini keşfeder ve etkili koordinasyon sağlarım",
+          "category": "relationship_management",
+          "score": 4
+        },
+        {
+          "text": "İyi organize ederim ve çoğunlukla takımı motive edebilirim",
+          "category": "relationship_management",
+          "score": 3
+        },
+        {
+          "text": "Liderlik yaparım ama herkesin desteğini almakta zorlanırım",
+          "category": "relationship_management",
+          "score": 2
+        },
+        {
+          "text": "Liderlikten kaçınır, başka birinin üstlenmesini tercih ederim",
+          "category": "relationship_management",
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "results": {
+    "self_awareness": {
+      "title": "Öz-Farkındalık Ustası",
+      "shortDesc": "Kendi duygusal dünyanızı çok iyi tanıyorsunuz - güçlü öz-bilinç ve yansıtma yeteneğiniz var! 🪞✨",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Duygusal zekanızın temel taşı olan öz-farkındalık alanında olağanüstü bir seviyedesiniz. Daniel Goleman'ın araştırmalarına göre, öz-farkındalık tüm diğer duygusal zeka becerilerinin temelidir ve siz bu alanda gerçek bir ustasınız. Kendi duygularınızı, düşüncelerinizi, değerlerinizi ve motivasyonlarınızı derinden anlıyorsunuz. Bu, size büyük bir avantaj sağlar çünkü kendi tepkilerinizi önceden tahmin edebilir ve bilinçli seçimler yapabilirsiniz. Güçlü yönlerinizi ve gelişim alanlarınızı objektif şekilde değerlendirebilirsiniz. Bu özellik sizi otantik bir lider yapar çünkü gerçek kendinizle yaşarsınız. Araştırmalar, yüksek öz-farkındalığa sahip bireylerin %73 daha iyi karar verdiklerini, %52 daha az stres yaşadıklarını gösteriyor. İç sesinizi dinleme, değerlerinizle uyumlu davranma ve duygusal tepkilerinizi anlama konusunda üstünsünüz. Bu beceri, hem kişisel yaşamınızda hem de kariyer gelişiminizde size rehberlik eden bir pusula görevi görür."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Öz-farkındalığınız harika. Bunu diğer EQ alanlarını geliştirmek için temel olarak kullanın.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Günlük meditasyon veya mindfulness pratiği yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Haftalık öz-yansıtma seansları düzenleyin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Duygusal tetikleyicilerinizi belirleme alışkanlığı edinin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "self_management": {
+      "title": "Öz-Yönetim Uzmanı",
+      "shortDesc": "Duygularınızı harika yönetiyorsunuz - öz-kontrol ve esneklik konusunda gerçek bir profesyonelsiniz! 🎯💪",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Duygusal zekanızın ikinci sütunu olan öz-yönetim alanında üstün performans gösteriyorsunuz. Bu, sadece duygularınızı bastırmak değil, onları bilinçli şekilde yönlendirmek demektir. Stres altında sakinliğinizi koruyabiliyor, değişikliklere hızla adapte olabiliyor ve zorlukarlarla karşılaştığınızda pes etmiyorsunuz. Goleman'ın araştırmalarına göre, güçlü öz-yönetim becerileri olan bireyler %64 daha yüksek performans sergilerler. Siz duygusal hijyen konusunda disiplinlisiniz - olumsuz duyguları yapıcı şekilde işler, pozitif duyguları beslersiniz. İmpuls kontrolünüz güçlü, bu da ani kararlar verip sonradan pişman olmanızı engeller. Esnekliğiniz sayesinde değişen koşullara hızla uyum sağlarsınız. Motivasyonunuzu içsel kaynaklardan alırsınız, bu da sürdürülebilir başarı için kritiktir. Kendi kendini motive etme, hedeflere odaklanma ve zorluklarla başa çıkma konularında rol modelsiniz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Öz-yönetim beceriniz mükemmel. Bazen kendinize daha fazla spontanlık hakkı tanıyın.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Duygusal düzenleme tekniklerini günlük hayata entegre edin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Esneklik kaslarınızı çalıştıracak yeni deneyimler yaşayın",
+          "type": "recommendation"
+        },
+        {
+          "text": "İçsel motivasyon kaynaklarınızı düzenli olarak gözden geçirin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "social_awareness": {
+      "title": "Sosyal Farkındalık Dehası",
+      "shortDesc": "Başkalarının duygularını okuma konusunda doğal bir yeteneğiniz var - gerçek bir empati ustasısınız! 👁️💝",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Sosyal farkındalık alanında olağanüstü yetenekler sergileyen nadir bireylerdensiniz. Bu alan, başkalarının duygularını, ihtiyaçlarını ve kaygılarını doğru şekilde algılama yeteneğidir. Siz gerçek bir 'duygusal radar'a sahipsiniz - insanların sözel olmayan iletişimlerini, ton değişikliklerini, vücut dilini okuyabilirsiniz. Empati seviyeniz çok yüksek, bu da insanların yanınızda kendilerini anlaşılmış hissetmesini sağlar. Organizasyonel farkındalığınız güçlü - grup dinamiklerini, güç yapılarını ve politik durumları hızla çözümlersiniz. Araştırmalar, yüksek sosyal farkındalığa sahip bireylerin %76 daha başarılı lider olduklarını, %68 daha güçlü ilişkiler kurduklarını gösteriyor. Bu yetenek size büyük bir sosyal avantaj sağlar çünkü başkalarının ihtiyaçlarını öngörebilir ve buna göre davranabilirsiniz. Hizmet odaklı liderlik tarzınız, takım çalışmasındaki başarınız ve çatışmaları erkenden fark etme yeteneğiniz bu güçlü farkındalığınızdan kaynaklanır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Empati yeteneğiniz harika ancak kendinizi duygusal olarak korumayı da öğrenin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Empati kaslarınızı güçlendirirken kendi sınırlarınızı koruyun",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sosyal gözlem becerilerinizi daha da geliştirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Başkalarının duygusal durumunu okuduktan sonra uygun tepki verme pratiği yapın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "relationship_management": {
+      "title": "İlişki Yönetimi Virtüözü",
+      "shortDesc": "İnsan ilişkilerini yönetme konusunda harika bir yeteneğiniz var - gerçek bir sosyal lidersiniz! 🤝🌟",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Duygusal zekanın en karmaşık ve değerli alanı olan ilişki yönetiminde üstün yetenekler gösteriyorsunuz. Bu alan, öz-farkındalık, öz-yönetim ve sosyal farkındalığın bir araya gelerek sosyal durumları etkili şekilde yönetme becerisidir. Siz gerçek bir 'sosyal orkestra şefi'siniz - farklı kişiliklerdeki insanları uyum içinde çalıştırabilirsiniz. Çatışma çözümü, etkileme, koçluk ve değişim liderliği konularında doğal yetenekleriniz var. İnsanlar sizi güvenilir, destekleyici ve ilham verici bulur. Takım çalışmasında atmosfer yaratma, motivasyon sağlama ve ortak vizyon oluşturma konularında başarılısınız. Araştırmalar, güçlü ilişki yönetimi becerileri olan bireylerin %82 daha etkili lider olduklarını, %71 daha başarılı kariyer yaptıklarını gösteriyor. Siz sadece kendi duygularınızı değil, toplulukların duygusal dinamiklerini de yönetebilirsiniz. Bu nadir yetenek sizi doğal bir lider ve değişim ajanı yapar."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "İlişki yönetimi beceriniz olağanüstü. Bu yeteneklerinizi formal liderlik rollerinde kullanın.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Liderlik becerilerinizi daha da geliştirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Mentoring ve koçluk deneyimleri edinin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Kendi ihtiyaçlarınızı da gözetmeyi unutmayın",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

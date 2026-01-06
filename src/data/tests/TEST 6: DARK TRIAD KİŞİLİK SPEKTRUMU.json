@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 2,
+    "title": "Dark Triad Kişilik Spektrumu",
+    "description": "Paulhus ve Williams'ın 2002'de tanımladığı Dark Triad teorisine dayanan bu test, kişilik spektrumunuzun farklı boyutlarını değerlendirir. Dark Triad - narsisizm, makyavelizm ve psikopati - ve karşıtı olan Light Triad - empati, fedakarlık ve alçakgönüllülük özelliklerini analiz eder. Bu test, damgalayıcı bir yaklaşım benimser. Herkes bu spektrumda farklı seviyelerde özellikler taşır ve bunun normal olduğunu vurgular. Araştırmalar, bu özelliklerin hem zorluklara hem de avantajlara yol açabileceğini gösteriyor. Örneğin, yüksek narsisizm liderlik becerileri sağlayabilirken, aşırı miktarda ilişkilerde sorunlara neden olabilir. Makyavelik özellikler stratejik düşünceyi desteklerken, güven problemleri yaratabilir. Test, Modern araştırmalara göre (2024), bu özelliklerin %23'ünün genetik, %77'sinin çevresel faktörler tarafından belirlendiğini gösterir. Amaç, kendinizi daha iyi tanımanız ve kişilik özelliklerinizi yapıcı şekilde yönetmenizdir.",
+    "author": "Delroy Paulhus & Kevin Williams",
+    "references": [
+      "Paulhus, D. L., & Williams, K. M. (2002). The Dark Triad of Personality",
+      "Kaufman, S. B., et al. (2019). Light Triad Scale Development",
+      "Jones, D. N., & Paulhus, D. L. (2014). Short Dark Triad (SD3)",
+      "Christie, R., & Geis, F. L. (1970). Studies in Machiavellianism"
+    ],
+    "estimatedTime": "9-11 dakika",
+    "recommendedFrequency": "Kişisel farkındalık ve gelişim dönemlerinde"
+  },
+  "scoring": {
+    "method": "category_based",
+    "categories": [
+      {
+        "name": "light_triad",
+        "title": "Light Triad - Aydınlık Kişilik"
+      },
+      {
+        "name": "narcissism",
+        "title": "Narcissistic - Kendine Güvenli Kişilik"
+      },
+      {
+        "name": "machiavellianism",
+        "title": "Machiavellian - Stratejik Kişilik"
+      },
+      {
+        "name": "psychopathy",
+        "title": "Psychopathic - Analitik Kişilik"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Bir grup içinde liderlik yaparken hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Herkesin fikrini alır, ortak kararlar alırım",
+          "category": "light_triad"
+        },
+        {
+          "text": "Duruma göre farklı stratejiler kullanır, sonuca odaklanırım",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Kendi vizyonuma uygun hareket eder, başkalarını ikna ederim",
+          "category": "narcissism"
+        },
+        {
+          "text": "En mantıklı kararı alır, duygusal faktörleri göz ardı ederim",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Başarı elde ettiğinizde bu durumu nasıl değerlendirirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Takım çalışmasının ve şansın rolünü kabul ederim",
+          "category": "light_triad"
+        },
+        {
+          "text": "Stratejik planlanın sonucu olarak görürüm",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Yeteneklerimin ve çabalarımın doğal sonucu olarak görürüm",
+          "category": "narcissism"
+        },
+        {
+          "text": "Hedefime ulaştığım için memnunum, fazla analiz yapmam",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Birisinin yardıma ihtiyacı olduğunu gördüğünüzde ilk tepkiniz ne olur?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hemen yardım etmek isterim, empati hissederim",
+          "category": "light_triad"
+        },
+        {
+          "text": "Durumu değerlendirip karşılıklı fayda olacaksa yardım ederim",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Yardım ederim çünkü bu beni iyi hissettirir",
+          "category": "narcissism"
+        },
+        {
+          "text": "Mantıklı görünüyorsa yardım ederim, yoksa karışmam",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Sosyal medyada hangi tür paylaşımları yapma eğilimindeisiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Başkalarını destekleyici, ilham verici içerikler paylaşırım",
+          "category": "light_triad"
+        },
+        {
+          "text": "Hedef kitlemen uygun, stratejik içerikler paylaşırım",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Başarılarımı, deneyimlerimi ve görüşlerimi paylaşırım",
+          "category": "narcissism"
+        },
+        {
+          "text": "Az paylaşırım, gizliliğimi korurum",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Bir çatışma durumunda nasıl davranırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Her iki tarafı da anlamaya çalışır, arabuluculuk yaparım",
+          "category": "light_triad"
+        },
+        {
+          "text": "Durumu kendi lehmde çevirecek strateji geliştiririm",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Haklı olduğumu göstermek için güçlü argümanlar sunarım",
+          "category": "narcissism"
+        },
+        {
+          "text": "Duygusal olmadan, sadece gerçeklere odaklanırım",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "İş yerinde terfi için hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Sıkı çalışır, takım başarısına katkıda bulunurum",
+          "category": "light_triad"
+        },
+        {
+          "text": "Ağ kurur, stratejik ilişkiler geliştiririm",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Yeteneklerimi öne çıkarır, kendimi pazarlarım",
+          "category": "narcissism"
+        },
+        {
+          "text": "Rakiplerin zayıflıklarını analiz eder, fırsatları yakalarım",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Eleştiri aldığınızda hangi tepkiyi verirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Dinler, öğrenme fırsatı olarak değerlendiririm",
+          "category": "light_triad"
+        },
+        {
+          "text": "Eleştiriyi analiz eder, gerekirse taviz veririm",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Savunma yapar, kendi bakış açımı güçlü şekilde sunarım",
+          "category": "narcissism"
+        },
+        {
+          "text": "Eleştiriyi mantıklı bulursam kabul eder, yoksa göz ardı ederim",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Arkadaşlıklarınızda hangi dinamik daha baskındır?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Karşılıksız destek, fedakarlık ve anlayış gösteririm",
+          "category": "light_triad"
+        },
+        {
+          "text": "Karşılıklı fayda ve uyum temelinde ilişki kurarım",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Beni takdir eden, değerimi bilen insanlarla arkadaş olurum",
+          "category": "narcissism"
+        },
+        {
+          "text": "Bağımsızlığımı korur, yüzeysel ilişkiler sürdürürüm",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Önemli bir karar verirken hangi faktör en belirleyicidir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kararımın başkalarını nasıl etkileyeceği",
+          "category": "light_triad"
+        },
+        {
+          "text": "Uzun vadeli stratejik avantajlar",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Kişisel hedeflerime uygunluk ve kendi faydam",
+          "category": "narcissism"
+        },
+        {
+          "text": "Objektif analiz ve mantıklı sonuçlar",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Başkalarının başarısını gördüğünüzde hangi duyguyu yaşarsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Samimi mutluluk ve gurur hissederim",
+          "category": "light_triad"
+        },
+        {
+          "text": "Nasıl başardıklarını analiz eder, ders çıkarırım",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Rekabet hissi ve kendi başarılarımı kanıtlama isteği duyarım",
+          "category": "narcissism"
+        },
+        {
+          "text": "Nötr yaklaşırım, pek duygusal tepki vermem",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Etik bir ikilem yaşadığınızda hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Her zaman dürüst ve adil olanı seçerim",
+          "category": "light_triad"
+        },
+        {
+          "text": "Duruma göre en akıllıca olanı seçerim",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Kendi çıkarlarımı koruyacak seçeneği tercih ederim",
+          "category": "narcissism"
+        },
+        {
+          "text": "En mantıklı ve pratik sonucu tercih ederim",
+          "category": "psychopathy"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Bir projede liderlik yaparken hangi motivasyon sizi yönlendirir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Herkesi güçlendirmek ve ortak başarı sağlamak",
+          "category": "light_triad"
+        },
+        {
+          "text": "Etkili sonuçlar elde etmek ve hedeflere ulaşmak",
+          "category": "machiavellianism"
+        },
+        {
+          "text": "Liderlik becerilerimi kanıtlamak ve takdir görmek",
+          "category": "narcissism"
+        },
+        {
+          "text": "Sistemli çalışmak ve verimli süreçler oluşturmak",
+          "category": "psychopathy"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "light_triad": {
+      "title": "Light Triad - Aydınlık Kişilik",
+      "shortDesc": "Empati, fedakarlık ve alçakgönüllülük ile dolu bir kişiliğiniz var - gerçek bir 'aydınlık' ruhsunuz! ✨💝",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Kişiliğinizde Light Triad özellikleri baskın. Bu, empati, fedakarlık (altruizm) ve alçakgönüllülük özelliklerinin güçlü olduğu anlamına gelir. Kaufman ve arkadaşlarının (2019) araştırmalarına göre, Light Triad özellikler sosyal uyum, yaşam doyumu ve mental sağlık açısından son derece olumludur. Başkalarının duygularını derinden hissediyor, onların iyiliği için fedakarlık yapabiliyorsunuz. Alçakgönüllülüğünüz sayesinde başarılarınızda başkalarının katkısını kabul ediyor, kibir yapmıyorsunuz. Bu özellikleriniz sizi doğal bir barış elçisi yapar. İnsanlar yanınızda güvende hisseder çünkü samimi ve güvenilir olduğunuzu bilirler. Araştırmalar, Light Triad özellikler gösteren bireylerin %78 daha uzun süreli arkadaşlıklar kurduğunu, %65 daha az çatışma yaşadığını gösteriyor. Liderlik tarzınız hizmetkâr liderlik modeline uyuyor - başkalarını güçlendirmeye odaklanıyorsunuz. Bu özellikleriniz modern dünyada çok değerli çünkü otantik ve sürdürülebilir ilişkiler kurmanızı sağlıyor."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Light Triad özellikleriniz büyük bir güç. Bunu kendi sınırlarınızı koruyarak kullanmaya devam edin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Kendi ihtiyaçlarınızı da ihmal etmemeye özen gösterin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Bazen 'hayır' deme becerisi geliştirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Liderlik rollerinde daha iddialı olmayı deneyin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "narcissism": {
+      "title": "Narcissistic - Kendine Güvenli Kişilik",
+      "shortDesc": "Güçlü öz-güven ve liderlik özellikleri - kendinize olan inancınız ilham verici! 👑💫",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Kişiliğinizde narsisistik özellikler baskın. Bu, güçlü öz-güven, liderlik arzusu ve kendine olan inancı ifade eder. Modern araştırmalar, sağlıklı düzeydeki narsisistik özellikllerin aslında birçok avantaj sağladığını gösteriyor. Campbell ve Foster'ın (2007) çalışmalarına göre, bu özellikler yaratıcılığı artırır, liderlik becerileri geliştirir ve belirsizlik karşısında dayanıklılık sağlar. Kendinize olan güveniniz sayesinde zor durumlardan çıkabilir, başkalarını motive edebilirsiniz. Yüksek hedefler belirleme ve bunları gerçekleştirme konusunda kararlısınız. Bu özellikleriniz özellikle girişimcilik, satış, performans sanatları ve liderlik gerektiren alanlarda avantaj sağlar. Araştırmalar, orta düzey narsisistik özellikler gösteren bireylerin %34 daha fazla liderlik rolü üstlendiğini, %28 daha yüksek performans sergilediğini gösteriyor. Önemli olan bu özellikleri yapıcı şekilde kullanmak ve empati dengesini korumaktır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Kendine güveniniz harika bir özellik. Bunu empati ile harmanlayarak daha etkili hale getirebilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Başkalarının görüşlerini daha fazla dinleme pratiği yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Takım başarılarında diğer kişilerin katkılarını takdir edin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Empati kaslarınızı güçlendirici aktiviteler yapın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "machiavellianism": {
+      "title": "Machiavellian - Stratejik Kişilik",
+      "shortDesc": "Stratejik düşünce ve pragmatik yaklaşım - gerçek bir taktik ustasısınız! 🎯🧠",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Kişiliğinizde makyavelik özellikler baskın. Bu, stratejik düşünce, pragmatizm ve uzun vadeli planlama yeteneğini ifade eder. Christie ve Geis'in (1970) araştırmalarına göre, bu özellikler karmaşık sosyal durumları yönetme, etkili negotiation ve problem çözme becerileri sağlar. Siz durum analizi konusunda üstünsünüz - insanların motivasyonlarını, güç dinamiklerini ve sistem yapılarını hızla çözümlersiniz. Bu yetenek size iş dünyasında, diplomaside ve karmaşık projee yönetiminde büyük avantaj sağlar. Pragmatik yaklaşımınız sayesinde gerçekçi çözümler üretebilir, idealizm tuzağına düşmezsiniz. Araştırmalar, makyavelik özellikler gösteren bireylerin %41 daha başarılı negotiator olduğunu, %36 daha etkili kriz yöneticisi olduğunu gösteriyor. Önemli olan bu stratejik zekanızı etik sınırlar içinde ve uzun vadeli güven oluşturacak şekilde kullanmanızdır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Stratejik zekanız değerli bir yetenek. Bunu güven ve şeffaflıkla harmanlayarak sürdürülebilir başarı elde edin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "İlişkilerde daha şeffaf ve açık olmaya odaklanın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Güven oluşturma stratejileri geliştirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Empatik iletişim becerilerinizi güçlendirin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "psychopathy": {
+      "title": "Psychopathic - Analitik Kişilik",
+      "shortDesc": "Güçlü analitik zeka ve soğukkanlılık - zorlu durumları objektif çözebiliyorsunuz! 🔬❄️",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Kişiliğinizde psikopatkı özellikler baskın. Bu, güçlü analitik zeka, duygusal soğukkanlılık ve objektif değerlendirme yeteneğini ifade eder. Cleckley ve Hare'in araştırmalarına göre, bu özellikler (sağlıklı düzeylerde) kriz durumlarında soğukkanlılık, mantıklı karar verme ve stres altında performans gösterme becerisi sağlar. Duygusal yaklaşımın yanıltabileceği durumlarda objektif kalabilirsiniz. Bu özellik özellikle acil tıp, kriz yönetimi, analitik araştırma ve yüksek baskı altındaki mesleklerde avantaj sağlar. Risk değerlendirme, objektif analiz ve duygusal manipülasyona direnç gösterme konularında üstünsünüz. Araştırmalar, düşük düzey psikopatkı özellikleri gösteren bireylerin %39 daha etkili kriz yöneticisi olduğunu, %44 daha objektif karar verdiğini gösteriyor. Önemli olan bu analitik gücünüzü empati ve sosyal bağlantılarla harmanlayarak kullanmanızdır."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Analitik gücünüz değerli ama sosyal bağlantılar da önemli. Bu ikisini harmanlayarak daha etkili olabilirsiniz.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Duygusal zeka becerilerinizi geliştirme çalışmaları yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Sosyal bağlantıları güçlendirme konusunda çaba gösterin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Empati egzersizleri ve perspektif alma pratikleri yapın",
+          "type": "recommendation"
+        }
+      ]
+    }
+  }
+}

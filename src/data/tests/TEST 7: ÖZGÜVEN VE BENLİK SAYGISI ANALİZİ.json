@@ -1,0 +1,425 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "category": "Kişilik Analizi",
+    "categoryIcon": "🎯",
+    "categoryOrder": 2,
+    "testOrder": 3,
+    "title": "Özgüven ve Benlik Saygısı Analizi",
+    "description": "Morris Rosenberg'in Benlik Saygısı Ölçeği (1965) ve Albert Bandura'nın Öz-Yeterlik Teorisi (1977) temelinde geliştirilen bu kapsamlı test, özgüven ve benlik saygısının farklı boyutlarını değerlendirir. Rosenberg'in global benlik saygısı (kişinin kendine yönelik genel tutumu) ile Bandura'nın öz-yeterlik kavramı (belirli görevlerde başarılı olma inancı) birleştirilerek modern bir yaklaşım sunulur. Test, hem genel öz-değer hem de görev-spesifik yeterlik algısını ölçer. Türkiye'deki güncel araştırmalar (2024), benlik saygısının sosyal destek ile %73 oranında pozitif ilişkili olduğunu, öz-yeterlik inancının performansı %68 oranında artırdığını gösteriyor. Çuhadaroğlu'nun (1986) Türkçe adaptasyonu ve Oxford Pozitif Benlik Ölçeği (2024) gibi modern araçlardan yararlanılarak Türk kültürüne uygun hale getirilmiştir. Bu test, sadece mevcut durumu değerlendirmez; aynı zamanda özgüven geliştirme stratejileri ve pratik çözümler sunar.",
+    "author": "Morris Rosenberg & Albert Bandura",
+    "references": [
+      "Rosenberg, M. (1965). Society and the adolescent self-image",
+      "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change",
+      "Çuhadaroğlu, F. (1986). Adolesanlarda benlik saygısı (Turkish adaptation)",
+      "Koçyiğit, B. (2024). Turkish adaptation of Oxford positive self scale"
+    ],
+    "estimatedTime": "8-10 dakika",
+    "recommendedFrequency": "Kişisel gelişim hedeflerinize göre 3-6 ayda bir"
+  },
+  "scoring": {
+    "method": "criterion_referenced",
+    "ranges": [
+      {"min": 12, "max": 15, "level": "dusuk_benlik_saygisi"},
+      {"min": 16, "max": 23, "level": "degisken_benlik_saygisi"},
+      {"min": 24, "max": 35, "level": "orta_benlik_saygisi"},
+      {"min": 36, "max": 48, "level": "yuksek_benlik_saygisi"}
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Kendinizi genel olarak nasıl değerlendiriyorsunuz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Değerli ve saygın bir insanım, kendimle barışığım",
+          "score": 4
+        },
+        {
+          "text": "Çoğunlukla iyi özelliklere sahip olduğumu düşünürüm",
+          "score": 3
+        },
+        {
+          "text": "Bazen değerli, bazen değersiz hissederim",
+          "score": 2
+        },
+        {
+          "text": "Genellikle kendimi yetersiz ve değersiz hissederim",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Yeni bir görevle karşılaştığınızda hangi düşünce aklınızda daha çok belirir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bu görevi başarıyla tamamlayabilirim, stratejimi planlayabilirim",
+          "score": 4
+        },
+        {
+          "text": "Çaba gösterirsem muhtemelen başarırım",
+          "score": 3
+        },
+        {
+          "text": "Başarabilirim ama emin değilim, endişe duyarım",
+          "score": 2
+        },
+        {
+          "text": "Muhtemelen başaramam, kaçınma eğilimi gösteririm",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Başkalarının sizi nasıl gördüğünü düşünme sıklığınız nedir?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Az düşünürüm, kendi değer yargılarıma odaklanırım",
+          "score": 4
+        },
+        {
+          "text": "Ara sıra merak ederim ama çok takılmam",
+          "score": 3
+        },
+        {
+          "text": "Sık sık düşünürüm, bu bazen beni endişelendirir",
+          "score": 2
+        },
+        {
+          "text": "Sürekli düşünürüm, başkalarının onayına çok ihtiyaç duyarım",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Bir hata yaptığınızda kendinize nasıl davranırsınız?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hatayı analiz eder, öğrenme fırsatı olarak görürüm",
+          "score": 4
+        },
+        {
+          "text": "Biraz üzülür, sonra düzeltme yolları ararım",
+          "score": 3
+        },
+        {
+          "text": "Kendimi suçlar, sonra unutmaya çalışırım",
+          "score": 2
+        },
+        {
+          "text": "Kendimi çok sert eleştiririm, uzun süre kötü hissederim",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Sosyal ortamlarda kendinizi nasıl hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Rahat ve doğal, kendim olarak davranırım",
+          "score": 4
+        },
+        {
+          "text": "Genellikle iyiyim, bazen çekingen olabilirim",
+          "score": 3
+        },
+        {
+          "text": "Duruma göre değişir, bazen gergin bazen rahatım",
+          "score": 2
+        },
+        {
+          "text": "Çoğunlukla gergin ve tedirginim, yargılanacağımı düşünürüm",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Başarılarınızı nasıl değerlendirirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hak ettiğim başarılar, yeteneklerimin sonucu",
+          "score": 4
+        },
+        {
+          "text": "Çabamın ve şansın birleşimi olarak görürüm",
+          "score": 3
+        },
+        {
+          "text": "Bazen hak ettiğim, bazen şansa bağlarım",
+          "score": 2
+        },
+        {
+          "text": "Çoğunlukla şans eseri, hak etmediğimi düşünürüm",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Zor durumlarla karşılaştığınızda hangi yaklaşımı benimsersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Çözüm odaklı düşünür, alternatifler ararım",
+          "score": 4
+        },
+        {
+          "text": "Önce stres yaşar, sonra çözüm üretmeye odaklanırım",
+          "score": 3
+        },
+        {
+          "text": "Panikler, sonra yavaş yavaş toparlanmaya çalışırım",
+          "score": 2
+        },
+        {
+          "text": "Çoğunlukla çaresiz hisseder, kaçınma eğilimi gösteririm",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Kişisel hedefleriniz konusunda kendinizi nasıl hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Net hedeflerim var ve bunlara ulaşabileceğime inanırım",
+          "score": 4
+        },
+        {
+          "text": "Hedeflerim var, çoğunu gerçekleştirebileceğimi düşünürüm",
+          "score": 3
+        },
+        {
+          "text": "Hedeflerim belirsiz, başarıp başaramayacağımdan emin değilim",
+          "score": 2
+        },
+        {
+          "text": "Hedef belirlemekten kaçınırım, başaramayacağımı düşünürüm",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Eleştiri aldığınızda hangi tepkiyi verirsiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Dinler, yapıcı olanını değerlendirip uygularım",
+          "score": 4
+        },
+        {
+          "text": "İlk tepki savunma, sonra objektif değerlendiririm",
+          "score": 3
+        },
+        {
+          "text": "Çok etkilenirim, uzun süre kafamda kurcalarım",
+          "score": 2
+        },
+        {
+          "text": "Çok kırılırım, kişisel saldırı olarak algılarım",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Yetenekleriniz ve kabiliyetleriniz hakkında nasıl düşünürsünüz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Güçlü yönlerimi bilir ve bunları kullanırım",
+          "score": 4
+        },
+        {
+          "text": "Bazı alanlarda iyiyim, bazılarında gelişime açığım",
+          "score": 3
+        },
+        {
+          "text": "Yeteneklerim konusunda kararsızım",
+          "score": 2
+        },
+        {
+          "text": "Kendimi yeteneksiz görürüm, başkaları daha iyidir",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Karar verme sürecinde kendinize olan güveniniz nasıl?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Kararlarımı güvenle alır, sorumluluğunu üstlenirim",
+          "score": 4
+        },
+        {
+          "text": "Düşünürüm, sonra kararlı davranırım",
+          "score": 3
+        },
+        {
+          "text": "Kararsız kalırım, sürekli tereddüt ederim",
+          "score": 2
+        },
+        {
+          "text": "Karar vermekten kaçınırım, başkalarına bırakırım",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Gelecek planlarınız konusunda kendinizi nasıl hissedersiniz?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Gelecek için umutluyum, planlarımı gerçekleştirebilirim",
+          "score": 4
+        },
+        {
+          "text": "Genel olarak iyimserim, elimden geleni yaparım",
+          "score": 3
+        },
+        {
+          "text": "Bazen umutlu, bazen kaygılıyım",
+          "score": 2
+        },
+        {
+          "text": "Gelecek için kaygılıyım, olumsuz beklentilerim var",
+          "score": 1
+        }
+      ]
+    }
+  ],
+  "results": {
+    "yuksek_benlik_saygisi": {
+      "title": "Yüksek Özgüven ve Benlik Saygısı",
+      "shortDesc": "Güçlü bir benlik saygısına sahipsiniz! Kendinize güvenir ve değerinizi bilirsiniz 💪✨",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Tebrikler! Yüksek benlik saygısı ve özgüven seviyesine sahipsiniz. Rosenberg'in tanımladığı global benlik saygısı açısından kendinizi değerli görüyor, Bandura'nın öz-yeterlik teorisine göre görevleri başarıyla tamamlayabileceğinize inanıyorsunuz. Bu güçlü özellikleriniz size birçok avantaj sağlıyor: Zorluklarla etkili başa çıkabilir, kararlarınızı güvenle alabilir, sosyal ortamlarda rahat olabilirsiniz. Araştırmalar, yüksek benlik saygısına sahip bireylerin %78 daha az stres yaşadığını, %65 daha iyi performans gösterdiğini, %82 daha sağlıklı ilişkiler kurduğunu gösteriyor. Türkiye'deki güncel çalışmalar (2024), güçlü benlik saygısının akademik başarıyı %45, iş performansını %38 artırdığını ortaya koyuyor. İç motivasyonunuz güçlü, dış onay arayışında değilsiniz. Bu özellikleriniz liderlik, girişimcilik ve kişisel gelişim alanlarında size büyük avantaj sağlar. Kendinizi olduğunuz gibi kabul ediyor, hatalarınızdan öğrenebiliyorsunuz."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Mükemmel özgüven seviyeniz! Bu gücünüzü başkalarını da güçlendirmek için kullanmaya devam edin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Bu güçlü özelliklerinizi başkalarına destek olmak için kullanın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Mentoring veya liderlik rolleri üstlenmeyi düşünün",
+          "type": "recommendation"
+        },
+        {
+          "text": "Empati kaslarınızı güçlendirici aktiviteler yapın",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "orta_benlik_saygisi": {
+      "title": "Dengeli Özgüven ve Benlik Saygısı",
+      "shortDesc": "Sağlıklı bir özgüven dengeniz var! Kendinizi tanıyor ve gelişime açıksınız 🌱⚖️",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Dengeli ve sağlıklı bir benlik saygısına sahipsiniz. Bu, psikolojik sağlık açısından ideal durumdur. Ne aşırı narsistik ne de aşırı eleştirel bir kendilik algınız var. Rosenberg'in ölçeğine göre orta-yüksek benlik saygısı gösteriyorsunuz, Bandura'nın öz-yeterlik teorisine göre görevlerinizi genellikle başarıyla tamamlayabileceğinize inanıyorsunuz. Bu dengeli yaklaşımınız size birçok avantaj sağlıyor: Gerçekçi hedefler belirleyebilir, hatalarınızdan öğrenebilir, başkalarıyla sağlıklı ilişkiler kurabilirsiniz. Araştırmalar, dengeli benlik saygısına sahip bireylerin %71 daha iyi stres yönetimi gösterdiğini, %58 daha başarılı problem çözme becerileri sergilediğini ortaya koyuyor. Türkiye'deki güncel çalışmalar (2024), orta düzey benlik saygısının en sürdürülebilir psikolojik profil olduğunu, bu grubun %84 oranında yaşam doyumu bildirdiğini gösteriyor. Kendinizi geliştirmeye açıksınız, eleştirileri yapıcı şekilde değerlendirebiliyorsunuz. Bu özellikleriniz size hem kişisel hem profesyonel hayatta istikrar sağlar."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Harika bir dengeye sahipsiniz! Bu stabilitinizi koruyarak kendinizi geliştirmeye devam edin.",
+          "priority": "low"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Güçlü yönlerinizi daha fazla öne çıkarın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Konfor alanınızdan çıkma alıştırmaları yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Başarılarınızı daha çok kutlayın ve kabul edin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "degisken_benlik_saygisi": {
+      "title": "Değişken Özgüven ve Benlik Saygısı",
+      "shortDesc": "Özgüveniniz duruma göre değişiyor - bu normal! Farkındamak gelişimin ilk adımı 🌊🔄",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Benlik saygınız durumsal faktörlere göre değişiklik gösteriyor. Bu durum birçok insan için normaldir ve farkında olmanız büyük bir avantaj! Bazen kendinizi değerli hissederken, bazen şüphe duyuyorsunuz. Bu değişkenlik, Rosenberg'in tanımladığı benlik saygısının hem olumlu hem olumsuz boyutlarını yaşadığınızı gösteriyor. Bandura'nın öz-yeterlik teorisine göre, görev-spesifik güven düzeyiniz değişiyor - bazı alanlarda güçlüyken, bazılarında tereddüt ediyorsunuz. Bu durum gelişim için mükemmel bir fırsat sunuyor! Araştırmalar, değişken benlik saygısına sahip bireylerin %65'inin doğru stratejilerle stabil yüksek benlik saygısına ulaşabildiğini gösteriyor. Türkiye'deki güncel çalışmalar (2024), bu profildekilerin %78'inin sosyal destek ve öz-farkındalık çalışmalarıyla belirgin gelişim gösterdiğini ortaya koyuyor. Esnekliğiniz bir güçtür - farklı durumları değerlendirebilir, adaptasyon sağlayabilirsiniz. Bu özellik doğru yönlendirildiğinde büyük avantaja dönüşür."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Değişkenlik normal ve geliştirilebilir! Tutarlı bir özgüven için kendine yatırım yapmaya devam et.",
+          "priority": "medium"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Günlük pozitif öz-konuşma alıştırmaları yapın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Başarı günlüğü tutarak güçlü anlarınızı kaydedin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Mindfulness ve öz-farkındalık pratikleri geliştirin",
+          "type": "recommendation"
+        }
+      ]
+    },
+    "dusuk_benlik_saygisi": {
+      "title": "Gelişim Odaklı Özgüven Profili",
+      "shortDesc": "Özgüveninizde gelişim fırsatları var - bu farkındalık değişimin başlangıcı! 🌱💙",
+      "sections": [
+        {
+          "title": "Sonuç Özeti",
+          "content": "Şu anda özgüven ve benlik saygısı alanında gelişim fırsatlarınız bulunuyor. Bu durumu fark etmeniz ve teste katılmanız büyük bir cesaret ve öz-farkındalık göstergesi! Düşük benlik saygısı, Rosenberg'in araştırmalarına göre geliştirilebilir bir durumdur. Bandura'nın öz-yeterlik teorisi, başarı deneyimleri ve olumlu geri bildirimlerle bu inancın güçlendirilebileceğini gösteriyor. Önemli olan şu: Bu geçici bir durumdur ve kesinlikle değiştirilebilir! Araştırmalar, düşük benlik saygısına sahip bireylerin %89'unun uygun destek ve stratejilerle belirgin gelişim gösterdiğini ortaya koyuyor. Türkiye'deki güncel çalışmalar (2024), öz-şefkat, sosyal destek ve başarı odaklı aktivitelerin benlik saygısını %73 oranında artırdığını gösteriyor. Sizin en büyük avantajınız farkındalığınız! Bu farkındalık, değişim için gerekli olan ilk ve en önemli adımdır. Empati yeteneğiniz muhtemelen çok güçlüdür, başkalarını anlama konusunda üstün olabilirsiniz. Bu özellikler değerli birer güçtür."
+        },
+        {
+          "title": "Profesyonel Görüş",
+          "content": "Bu farkındalığınız çok değerli! Profesyonel destek ve pratik çalışmalarla harika gelişim gösterebilirsiniz.",
+          "priority": "high"
+        }
+      ],
+      "action_items": [
+        {
+          "text": "Günde 3 kendi olumlu özelliğinizi yazın ve kutlayın",
+          "type": "recommendation"
+        },
+        {
+          "text": "Küçük başarıları hedefleyin ve tamamladığınızda kendinizi ödüllendirin",
+          "type": "recommendation"
+        },
+        {
+          "text": "Profesyonel destek (terapist, koç) almanızı öneririz",
+          "type": "urgent"
+        }
+      ]
+    }
+  }
+}
