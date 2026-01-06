@@ -56,17 +56,18 @@ Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hi
 - ASLA "kullanıcı" kelimesini kullanma. Her zaman "siz", "sizin", "cevabınız" gibi doğrudan hitap kullan.
         `;
 
-        // Google modelleri öncelikli - Türkçe'de en stabil performans
-        const freeModels = [
-            'google/gemini-2.0-flash-exp:free',          // Google Gemini 2.0 - En iyi Türkçe desteği
-            'google/gemini-exp-1206:free',               // Google Gemini Experimental
-            'google/gemma-2-9b-it:free',                 // Gemma 2 - Stabil Türkçe
-            'meta-llama/llama-3.3-70b-instruct:free',    // Llama 70B - Yedek
-            'mistralai/mistral-small-3.1-24b-instruct:free' // Mistral - Son çare
+        // Çoklu model fallback - öncelik: DeepSeek v3.1 (en iyi), sonra güçlü alternatifler
+        const models = [
+            'nex-agi/deepseek-v3.1-nex-n1:free',      // En iyi sonuç
+            'deepseek/deepseek-r1-0528:free',         // İyi ve stabil
+            'google/gemma-3-27b-it:free',             // Güçlü Türkçe
+            'google/gemma-3-12b-it:free',             // Orta-güçlü
+            'openai/gpt-oss-20b:free',                // Çalışan ama bazen kısa
+            'meta-llama/llama-3.3-70b-instruct:free', // Yedek                    // Hafif model
         ];
 
         let lastError = null;
-        for (const model of freeModels) {
+        for (const model of models) {
             try {
                 const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
                     method: 'POST',
@@ -76,8 +77,10 @@ Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hi
                         'HTTP-Referer': 'https://psikologrumeysauyumaz.vercel.app',
                     },
                     body: JSON.stringify({
-                        model: model,
+                        model,
+                        max_tokens: 900,
                         messages: [{ role: 'user', content: prompt }],
+                        temperature: 0.7,
                     }),
                 });
 
@@ -91,7 +94,6 @@ Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hi
                 }
 
                 lastError = data.error?.message || 'Model yanıt vermedi';
-                console.warn(`Model ${model} başarısız oldu: ${lastError}`);
                 continue; // Bir sonraki modeli dene
 
             } catch (err) {
@@ -100,7 +102,7 @@ Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hi
             }
         }
 
-        return new Response(JSON.stringify({ error: `Tüm ücretsiz modeller kota limitine ulaştı. Hata: ${lastError}` }), { status: 500 });
+        return new Response(JSON.stringify({ error: `Tüm ücretsiz modeller denendi ancak başarısız oldu. Hata: ${lastError}` }), { status: 500 });
 
     } catch (error) {
         return new Response(JSON.stringify({ error: error.message }), { status: 500 });
