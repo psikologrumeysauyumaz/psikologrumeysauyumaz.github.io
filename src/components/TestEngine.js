@@ -201,30 +201,43 @@ export default class TestEngine {
         `;
 
         const professionalNote = (result.sections || []).find(s => s.priority === 'high' || s.priority === 'medium');
-        if (professionalNote && this.ui.professionalInsightContainer) {
-            this.ui.professionalNote.textContent = professionalNote.content;
-            this.ui.professionalInsightContainer.style.display = 'flex';
-        } else if (this.ui.professionalInsightContainer) {
+        
+        // AI Analizi için önce normal profesyonel notu gizliyoruz.
+        // Eğer AI hata verirse veya çalışmazsa bunu fallback olarak göstereceğiz.
+        this.fallbackProfessionalNote = professionalNote ? professionalNote.content : null;
+        if (this.ui.professionalInsightContainer) {
             this.ui.professionalInsightContainer.style.display = 'none';
         }
 
         if (this.ui.resultChart) this.renderChart(categoryScores);
 
+        // Kullanıcı cevaplarını özetle
+        const userAnswers = this.answers.map(ans => {
+            const question = this.testData.questions[ans.questionIndex];
+            const selectedOption = question.options[ans.optionIndex];
+            return {
+                question: question.text,
+                answer: selectedOption.text,
+                category: ans.category
+            };
+        });
+
         // Auto-start AI analysis
         setTimeout(() => {
-            this.handleAIAnalysis(this.testData.metadata.title, categoryScores, result);
+            this.handleAIAnalysis(this.testData.metadata.title, categoryScores, result, userAnswers);
         }, 800);
 
         // Re-init icons
         if (window.feather) window.feather.replace();
 
         // Attach AI Handler
-        document.getElementById('btnAnalyzeAI').addEventListener('click', () => this.handleAIAnalysis(this.testData.metadata.title, categoryScores, result));
+        document.getElementById('btnAnalyzeAI').addEventListener('click', () => this.handleAIAnalysis(this.testData.metadata.title, categoryScores, result, userAnswers));
     }
 
-    async handleAIAnalysis(testTitle, scores, resultProfile) {
+    async handleAIAnalysis(testTitle, scores, resultProfile, userAnswers) {
         const resultArea = document.getElementById('aiResultArea');
         const btn = document.getElementById('btnAnalyzeAI');
+        const aiSection = document.getElementById('aiSection');
 
         if (btn) {
             btn.disabled = true;
@@ -240,7 +253,7 @@ export default class TestEngine {
             </div>`;
 
         try {
-            const analysis = await this.aiService.analyzeResult(testTitle, scores, resultProfile);
+            const analysis = await this.aiService.analyzeResult(testTitle, scores, resultProfile, userAnswers);
             resultArea.innerHTML = `
                 <div class="prose prose-sm max-w-none">
                     <h5 class="font-bold text-indigo-900 mb-2">Uzman Değerlendirmesi:</h5>
@@ -253,15 +266,27 @@ export default class TestEngine {
                 if (window.feather) feather.replace();
             }
         } catch (error) {
-            resultArea.innerHTML = `
+            console.error("AI Analysis failed:", error);
+            
+            // Hata durumunda AI bölümünü gizle, statik profesyonel notu göster
+            aiSection.style.display = 'none';
+
+            if (this.fallbackProfessionalNote && this.ui.professionalInsightContainer) {
+                this.ui.professionalNote.textContent = this.fallbackProfessionalNote;
+                this.ui.professionalInsightContainer.style.display = 'flex';
+                // Kullanıcıya hissettirmeden geçiş yapıldı, ama isterseniz bir toast mesajı eklenebilir.
+            } else {
+                // Eğer statik not da yoksa hatayı göster
+                aiSection.style.display = 'block';
+                resultArea.innerHTML = `
                 <div class="p-4 bg-red-50 border border-red-100 rounded-xl text-red-600 text-sm">
-                    <strong>Hata:</strong> ${error.message}<br>
-                    <span class="text-xs mt-1 block opacity-75">Lütfen daha sonra tekrar deneyiniz.</span>
+                    <strong>Bağlantı Sorunu:</strong> Analiz şu an yüklenemedi.<br>
                 </div>`;
-            if (btn) {
-                btn.disabled = false;
-                btn.innerHTML = `<i data-feather="refresh-cw"></i> Analizi Tekrarla`;
-                if (window.feather) feather.replace();
+                if (btn) {
+                    btn.disabled = false;
+                    btn.innerHTML = `<i data-feather="refresh-cw"></i> Tekrar Dene`;
+                    if (window.feather) feather.replace();
+                }
             }
         }
     }

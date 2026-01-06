@@ -9,19 +9,30 @@ export default async function handler(req) {
     }
 
     try {
-        const { testTitle, scores, resultProfile } = await req.json();
+        const { testTitle, scores, resultProfile, userAnswers } = await req.json();
         const apiKey = process.env.OPENROUTER_API_KEY;
 
         if (!apiKey) {
             return new Response(JSON.stringify({ error: 'API Key not configured in Vercel' }), { status: 500 });
         }
 
+        // Kullanıcı cevaplarını özetle (İlk 15 cevap, token limitini korumak için)
+        const answersSummary = userAnswers 
+            ? userAnswers.slice(0, 20).map(a => `- Soru: "${a.question}" -> Cevap: "${a.answer}"`).join('\n')
+            : 'Cevap detayları mevcut değil.';
+
         const prompt = `
-        Sen Psikolog Rümeysa Uyumaz'ın dijital asistanısın. Görevin, aşağıdaki test sonucunu analiz ederek kullanıcıya "değer odaklı" bir yaklaşımla profesyonel desteğin hayatına katacağı somut faydayı göstermektir.
+        Sen Psikolog Rümeysa Uyumaz'ın dijital asistanısın. Görevin, aşağıdaki test sonucunu ve kullanıcının verdiği cevapları analiz ederek "değer odaklı" bir yaklaşımla profesyonel desteğin faydasını sunmaktır.
         
         Test: ${testTitle}
         Sonuç Profili: ${resultProfile.title}
         Kısa Tanım: ${resultProfile.shortDesc}
+        
+        Kullanıcının Verdiği Bazı Kritik Cevaplar:
+        ${answersSummary}
+        
+        Yönerge:
+        Kullanıcının özellikle bu cevaplarına referans vererek ("X konusundaki yaklaşımınız..." gibi) analizini kişiselleştir.
         
         Kullanıcının durumunu analiz ederken şu "Satış/İkna" kurgusunu izle:
         1. **Tanımla & Onayla:** Kullanıcının mevcut durumunu ve yaşadığı olası zorluğu, onu yargılamadan, "seni anlıyorum" tonunda özetle. (Örn: "Duygularınızı ifade etmekte zorlanmanız, aslında korunma ihtiyacınızdan kaynaklanıyor olabilir.")
@@ -34,7 +45,7 @@ export default async function handler(req) {
         - Tonun: Bilge, güven verici, çözüm odaklı ve davetkar olsun.
         - Mesajı mutlaka şu cümle ile bitir: "Bu yolculukta yalnız değilsiniz; profesyonel bir ön görüşme planlayarak, kendiniz için en değerli adımı bugün atabilirsiniz."
         
-        Dil: Türkçe. Maksimum 150 kelime.
+        Dil: Türkçe. Maksimum 160 kelime.
         `;
 
         // Modeller (Büyük ve Yetenekli Modeller Öncelikli)

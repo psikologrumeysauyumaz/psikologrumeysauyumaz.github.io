@@ -15,9 +15,10 @@ export class AIService {
      * @param {string} testTitle 
      * @param {Object} scores - Category scores
      * @param {Object} resultProfile - The resulting profile object
+     * @param {Array} userAnswers - Array of {question, answer, category} objects
      * @returns {Promise<string>} The AI interpretation
      */
-    async analyzeResult(testTitle, scores, resultProfile) {
+    async analyzeResult(testTitle, scores, resultProfile, userAnswers) {
         try {
             const response = await fetch('/api/analyze', {
                 method: 'POST',
@@ -27,7 +28,8 @@ export class AIService {
                 body: JSON.stringify({
                     testTitle,
                     scores,
-                    resultProfile
+                    resultProfile,
+                    userAnswers
                 })
             });
 
