@@ -186,14 +186,14 @@ export default class TestEngine {
                 <div id="aiSection" class="mt-8 p-6 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl border border-indigo-100">
                     <div class="flex flex-col items-center">
                         <h4 class="text-xl font-bold text-indigo-900 mb-2 flex items-center gap-2">
-                            <span>🤖</span> Yapay Zeka Yorumu
+                             Size Özel Detaylı Analiz
                         </h4>
-                        <p class="text-indigo-700 mb-4 text-center text-sm">Sonuçlarınızı modern yapay zeka modelleri ile derinlemesine analiz edin.</p>
+                        <p class="text-indigo-700 mb-4 text-center text-sm">Sonuçlarınıza dair kişiselleştirilmiş içgörüleri ve uzman değerlendirmesini görüntüleyin.</p>
                         
                         <div id="aiResultArea" class="hidden w-full bg-white p-4 rounded-xl shadow-inner mb-4 text-gray-700 text-sm leading-relaxed"></div>
                         
                         <button id="btnAnalyzeAI" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-medium transition-all shadow-lg hover:shadow-xl flex items-center gap-2">
-                            <i data-feather="cpu"></i> Detaylı Yapay Zeka Analizi Başlat
+                            <i data-feather="star"></i> Özel Analizi Başlat
                         </button>
                     </div>
                 </div>
@@ -236,16 +236,16 @@ export default class TestEngine {
         resultArea.innerHTML = `
             <div class="flex flex-col items-center py-4">
                 <div class="w-8 h-8 border-2 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mb-3"></div>
-                <div class="animate-pulse text-indigo-600 font-medium">Yapay zeka verileri analiz ediyor...</div>
+                <div class="animate-pulse text-indigo-600 font-medium">Verileriniz analiz ediliyor...</div>
             </div>`;
 
         try {
             const analysis = await this.aiService.analyzeResult(testTitle, scores, resultProfile);
             resultArea.innerHTML = `
                 <div class="prose prose-sm max-w-none">
-                    <h5 class="font-bold text-indigo-900 mb-2">Uzman Yapay Zeka Analizi:</h5>
+                    <h5 class="font-bold text-indigo-900 mb-2">Uzman Değerlendirmesi:</h5>
                     <div class="whitespace-pre-wrap text-gray-700">${analysis}</div>
-                    <div class="mt-4 text-xs text-gray-400 border-t pt-2 italic">Bu analiz modern AI modelleri ile Rümeysa Uyumaz rehberliğinde oluşturulmuştur.</div>
+                    <div class="mt-4 text-xs text-gray-400 border-t pt-2 italic text-right">Analiz Tamamlandı</div>
                 </div>
             `;
             if (btn) {
@@ -255,8 +255,8 @@ export default class TestEngine {
         } catch (error) {
             resultArea.innerHTML = `
                 <div class="p-4 bg-red-50 border border-red-100 rounded-xl text-red-600 text-sm">
-                    <strong>Analiz duraklatıldı:</strong> ${error.message}<br>
-                    <span class="text-xs mt-1 block opacity-75">Bu özellik şu an sadece canlı ortamda aktiftir.</span>
+                    <strong>Hata:</strong> ${error.message}<br>
+                    <span class="text-xs mt-1 block opacity-75">Lütfen daha sonra tekrar deneyiniz.</span>
                 </div>`;
             if (btn) {
                 btn.disabled = false;

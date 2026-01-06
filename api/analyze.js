@@ -17,36 +17,36 @@ export default async function handler(req) {
         }
 
         const prompt = `
-        Sen uzman bir klinik psikolog asistanısın. Rümeysa Uyumaz'ın profesyonel üslubunu yansıtmalısın.
-        Görevin, aşağıdaki test sonucunu analiz ederek kullanıcının farkındalığını artırmak ve profesyonel bir destek alması için Rümeysa Hanım ile iletişime geçmesini sağlamaktır.
+        Sen Psikolog Rümeysa Uyumaz'ın dijital asistanısın. Görevin, aşağıdaki test sonucunu analiz ederek kullanıcıya "değer odaklı" bir yaklaşımla profesyonel desteğin hayatına katacağı somut faydayı göstermektir.
         
         Test: ${testTitle}
         Sonuç Profili: ${resultProfile.title}
         Kısa Tanım: ${resultProfile.shortDesc}
         
-        Yanıtında şunlara dikkat et:
-        1. "Siz" dili kullan, asla "Sen" deme. 
-        2. Bilimsel temelli ama empatik ve anlaşılır bir dil kullan.
-        3. Sonucun ne anlama geldiğine dair 2-3 önemli noktayı vurgula.
-        4. Rümeysa Uyumaz ile yapılacak bir ön görüşmenin neden faydalı olacağını (güven verici şekilde) belirt.
-        5. Cümleyi "Bu yolculukta yalnız değilsiniz, Rümeysa Hanım ile bir ön görüşme planlayarak ilk adımınızı güvenle atabilirsiniz." şeklinde bir çağrı ile bitir.
+        Kullanıcının durumunu analiz ederken şu "Satış/İkna" kurgusunu izle:
+        1. **Tanımla & Onayla:** Kullanıcının mevcut durumunu ve yaşadığı olası zorluğu, onu yargılamadan, "seni anlıyorum" tonunda özetle. (Örn: "Duygularınızı ifade etmekte zorlanmanız, aslında korunma ihtiyacınızdan kaynaklanıyor olabilir.")
+        2. **Farkındalık Yarat (Gap):** Bu durumun hayatında (ilişkilerinde, işinde veya iç dünyasında) nelere mal olabileceğini nazikçe hissettir.
+        3. **Değeri Sun (Value Proposition):** Bizimle yapacağı görüşmenin ona "ne kazandıracağını" net bir şekilde ifade et. Sadece "gelin konuşalım" deme; "Bu görüşme sayesinde X yeteneğinizi kazanacak, Y yükünden kurtulacaksınız" gibi somut bir fayda vaat et.
         
-        Dil: Türkçe. Maksimum 160 kelime. Ton: Profesyonel, destekleyici ve harekete geçirici.
+        Kurallar:
+        - Asla "Sadece bir test sonucudur" gibi basitleştirici ifadeler kullanma.
+        - "Rümeysa Hanım" ismini kullanma; "Uzman desteği", "Profesyonel görüşmemiz" ifadelerini kullan.
+        - Tonun: Bilge, güven verici, çözüm odaklı ve davetkar olsun.
+        - Mesajı mutlaka şu cümle ile bitir: "Bu yolculukta yalnız değilsiniz; profesyonel bir ön görüşme planlayarak, kendiniz için en değerli adımı bugün atabilirsiniz."
+        
+        Dil: Türkçe. Maksimum 150 kelime.
         `;
 
-        // OpenRouter'dan alınan güncel ve doğrulanmış ücretsiz model listesi
+        // Modeller (Büyük ve Yetenekli Modeller Öncelikli)
         const freeModels = [
-            'xiaomi/mimo-v2-flash:free',
-            'mistralai/devstral-2512:free',
-            'tngtech/deepseek-r1t2-chimera:free',
-            'mistralai/mistral-small-3.1-24b-instruct:free',
-            'qwen/qwen3-coder:free',
-            'meta-llama/llama-3.3-70b-instruct:free',
-            'google/gemma-3-27b-it:free',
-            'z-ai/glm-4.5-air:free',
-            'nvidia/nemotron-3-nano-30b-a3b:free',
+            'meta-llama/llama-3.3-70b-instruct:free', // 70B: En iyi mantık yürütme ve dil yeteneği (Genelde en iyisi)
+            'google/gemini-2.0-flash-exp:free',       // Google'ın en yeni ve hızlı modeli
+            'mistralai/mistral-small-3.1-24b-instruct:free', // Mistral'in güçlü ara modeli
+            'google/gemma-2-9b-it:free',              // Google'ın güçlü açık kaynak modeli
             'mistralai/mistral-7b-instruct:free',
-            'google/gemini-2.0-flash-exp:free'
+            'nvidia/nemotron-3-nano-30b-a3b:free',
+            'qwen/qwen3-coder:free',
+            'tngtech/deepseek-r1t2-chimera:free'      // Yedek
         ];
 
         let lastError = null;
