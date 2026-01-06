@@ -17,7 +17,7 @@ export default async function handler(req) {
         }
 
         // Kullanıcı cevaplarını özetle (İlk 15 cevap, token limitini korumak için)
-        const answersSummary = userAnswers 
+        const answersSummary = userAnswers
             ? userAnswers.slice(0, 20).map(a => `- Soru: "${a.question}" -> Cevap: "${a.answer}"`).join('\n')
             : 'Cevap detayları mevcut değil.';
 
@@ -48,16 +48,16 @@ export default async function handler(req) {
         Dil: Türkçe. Maksimum 160 kelime.
         `;
 
-        // Modeller (Büyük ve Yetenekli Modeller Öncelikli)
+        // En İyi Ücretsiz Modeller (Büyük Parametreli ve Türkçe Yeteneği Yüksek Olanlar)
         const freeModels = [
-            'meta-llama/llama-3.3-70b-instruct:free', // 70B: En iyi mantık yürütme ve dil yeteneği (Genelde en iyisi)
-            'google/gemini-2.0-flash-exp:free',       // Google'ın en yeni ve hızlı modeli
-            'mistralai/mistral-small-3.1-24b-instruct:free', // Mistral'in güçlü ara modeli
-            'google/gemma-2-9b-it:free',              // Google'ın güçlü açık kaynak modeli
-            'mistralai/mistral-7b-instruct:free',
+            'meta-llama/llama-3.1-405b-instruct:free',   // 405B: Dünyanın en büyük açık kaynak modeli
+            'meta-llama/llama-3.3-70b-instruct:free',    // 70B: Çok stabil ve Türkçe bilgisi mükemmel
+            'google/gemma-3-27b-it:free',                // Google'ın en yeni 27B modeli (Gemma 3)
+            'google/gemini-2.0-flash-exp:free',          // Google Gemini (Hızlı ve zeki)
+            'google/gemma-3-12b-it:free',                // Orta boy ama kaliteli
+            'mistralai/mistral-small-3.1-24b-instruct:free',
             'nvidia/nemotron-3-nano-30b-a3b:free',
-            'qwen/qwen3-coder:free',
-            'tngtech/deepseek-r1t2-chimera:free'      // Yedek
+            'mistralai/mistral-7b-instruct:free'         // En son çare (Ultra hızlı)
         ];
 
         let lastError = null;
