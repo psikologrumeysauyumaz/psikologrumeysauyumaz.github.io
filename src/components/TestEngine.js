@@ -268,25 +268,33 @@ export default class TestEngine {
         } catch (error) {
             console.error("AI Analysis failed:", error);
             
-            // Hata durumunda AI bölümünü gizle, statik profesyonel notu göster
-            aiSection.style.display = 'none';
+            // Hata olsa bile AI kutusu kalsın ki kullanıcı durumu görsün.
+            // Sadece içeriği hata mesajına çeviriyoruz.
+            resultArea.innerHTML = `
+                <div class="flex flex-col gap-4">
+                    <div class="p-4 bg-red-50 border border-red-100 rounded-xl text-red-600 text-sm flex items-start gap-3">
+                        <i data-feather="alert-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"></i>
+                        <div>
+                            <strong>Analiz Oluşturulamadı:</strong><br/>
+                            ${error.message || 'Sunucuya erişilemedi.'}<br/>
+                            <span class="text-xs opacity-75 mt-1 block">Aşağıda genel uzman notunu inceleyebilirsiniz.</span>
+                        </div>
+                    </div>
+                </div>`;
+            
+            if (btn) {
+                btn.disabled = false;
+                btn.innerHTML = `<i data-feather="refresh-cw"></i> Tekrar Dene`;
+                if (window.feather) feather.replace();
+            }
 
+            // Fallback: Statik notu da gösterelim ki kullanıcı boş kalmasın
             if (this.fallbackProfessionalNote && this.ui.professionalInsightContainer) {
                 this.ui.professionalNote.textContent = this.fallbackProfessionalNote;
                 this.ui.professionalInsightContainer.style.display = 'flex';
-                // Kullanıcıya hissettirmeden geçiş yapıldı, ama isterseniz bir toast mesajı eklenebilir.
-            } else {
-                // Eğer statik not da yoksa hatayı göster
-                aiSection.style.display = 'block';
-                resultArea.innerHTML = `
-                <div class="p-4 bg-red-50 border border-red-100 rounded-xl text-red-600 text-sm">
-                    <strong>Bağlantı Sorunu:</strong> Analiz şu an yüklenemedi.<br>
-                </div>`;
-                if (btn) {
-                    btn.disabled = false;
-                    btn.innerHTML = `<i data-feather="refresh-cw"></i> Tekrar Dene`;
-                    if (window.feather) feather.replace();
-                }
+                
+                // İsterseniz buraya "AI Analizi Yapılamadı, Standart Not Gösteriliyor" gibi bir başlık eklenebilir
+                // ama şu an sadece görünür hale getiriyoruz.
             }
         }
     }
