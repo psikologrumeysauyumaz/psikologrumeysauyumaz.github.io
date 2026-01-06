@@ -56,16 +56,13 @@ Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hi
 - ASLA "kullanıcı" kelimesini kullanma. Her zaman "siz", "sizin", "cevabınız" gibi doğrudan hitap kullan.
         `;
 
-        // En İyi Ücretsiz Modeller (Büyük Parametreli ve Türkçe Yeteneği Yüksek Olanlar)
+        // Google modelleri öncelikli - Türkçe'de en stabil performans
         const freeModels = [
-            'meta-llama/llama-3.1-405b-instruct:free',   // 405B: Dünyanın en büyük açık kaynak modeli
-            'meta-llama/llama-3.3-70b-instruct:free',    // 70B: Çok stabil ve Türkçe bilgisi mükemmel
-            'google/gemma-3-27b-it:free',                // Google'ın en yeni 27B modeli (Gemma 3)
-            'google/gemini-2.0-flash-exp:free',          // Google Gemini (Hızlı ve zeki)
-            'google/gemma-3-12b-it:free',                // Orta boy ama kaliteli
-            'mistralai/mistral-small-3.1-24b-instruct:free',
-            'nvidia/nemotron-3-nano-30b-a3b:free',
-            'mistralai/mistral-7b-instruct:free'         // En son çare (Ultra hızlı)
+            'google/gemini-2.0-flash-exp:free',          // Google Gemini 2.0 - En iyi Türkçe desteği
+            'google/gemini-exp-1206:free',               // Google Gemini Experimental
+            'google/gemma-2-9b-it:free',                 // Gemma 2 - Stabil Türkçe
+            'meta-llama/llama-3.3-70b-instruct:free',    // Llama 70B - Yedek
+            'mistralai/mistral-small-3.1-24b-instruct:free' // Mistral - Son çare
         ];
 
         let lastError = null;

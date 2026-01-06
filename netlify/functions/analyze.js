@@ -54,14 +54,14 @@ Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hi
 - ASLA "kullanıcı" kelimesini kullanma. Her zaman "siz", "sizin", "cevabınız" gibi doğrudan hitap kullan.
         `;
 
-        // Büyük ve Türkçe'de güçlü modeller öncelikli
+        // Google modelleri öncelikli - Türkçe'de en stabil performans
         const freeModels = [
-            'meta-llama/llama-3.3-70b-instruct:free',    // 70B - En güçlü açık model
-            'google/gemini-2.0-flash-exp:free',          // Google Gemini - Hızlı ve akıllı
-            'google/gemma-2-27b-it:free',                // Gemma 27B - Çok iyi Türkçe
-            'mistralai/mistral-small-3.1-24b-instruct:free',
-            'google/gemma-2-9b-it:free',
-            'mistralai/mistral-7b-instruct:free'
+            'google/gemma-2-27b-it:free',
+            'google/gemini-2.0-flash-exp:free',          // Google Gemini 2.0 - En iyi Türkçe desteği
+            'google/gemini-exp-1206:free',               // Google Gemini Experimental
+            'google/gemma-2-9b-it:free',                 // Gemma 2 - Stabil Türkçe
+            'meta-llama/llama-3.3-70b-instruct:free',    // Llama 70B - Yedek
+            'mistralai/mistral-small-3.1-24b-instruct:free' // Mistral - Son çare
         ];
 
         let lastError = null;
