@@ -18,47 +18,23 @@
     "recommendedFrequency": "Yılda bir veya kariyer değişikliği dönemlerinde"
   },
   "scoring": {
-    "method": "criterion_referenced",
+    "method": "category_based",
     "categories": [
       {
         "name": "self_awareness",
-        "title": "Öz-Farkındalık",
-        "ranges": [
-          {"min": 0, "max": 3, "level": "zayıf"},
-          {"min": 4, "max": 7, "level": "gelişime açık"},
-          {"min": 8, "max": 11, "level": "orta"},
-          {"min": 12, "max": 16, "level": "güçlü"}
-        ]
+        "title": "Öz-Farkındalık"
       },
       {
         "name": "self_management",
-        "title": "Öz-Yönetim",
-        "ranges": [
-          {"min": 0, "max": 3, "level": "zayıf"},
-          {"min": 4, "max": 7, "level": "gelişime açık"},
-          {"min": 8, "max": 11, "level": "orta"},
-          {"min": 12, "max": 16, "level": "güçlü"}
-        ]
+        "title": "Öz-Yönetim"
       },
       {
         "name": "social_awareness",
-        "title": "Sosyal Farkındalık",
-        "ranges": [
-          {"min": 0, "max": 3, "level": "zayıf"},
-          {"min": 4, "max": 7, "level": "gelişime açık"},
-          {"min": 8, "max": 11, "level": "orta"},
-          {"min": 12, "max": 16, "level": "güçlü"}
-        ]
+        "title": "Sosyal Farkındalık"
       },
       {
         "name": "relationship_management",
-        "title": "İlişki Yönetimi",
-        "ranges": [
-          {"min": 0, "max": 3, "level": "zayıf"},
-          {"min": 4, "max": 7, "level": "gelişime açık"},
-          {"min": 8, "max": 11, "level": "orta"},
-          {"min": 12, "max": 16, "level": "güçlü"}
-        ]
+        "title": "İlişki Yönetimi"
       }
     ]
   },

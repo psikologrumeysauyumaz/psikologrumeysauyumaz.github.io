@@ -20,20 +20,20 @@ exports.handler = async function (event, context) {
             : 'Cevap detayları mevcut değil.';
 
         const prompt = `
-Sen deneyimli bir klinik psikolog asistanısın. Kullanıcının psikolojik test sonucunu ve verdiği cevapları derinlemesine analiz edeceksin.
+Sen deneyimli bir klinik psikolog asistanısın. Karşındaki kişinin psikolojik test sonucunu ve verdiği cevapları derinlemesine analiz edeceksin.
 
 ## TEST BİLGİSİ
 Test Adı: ${testTitle}
 Sonuç Profili: ${resultProfile.title}
 Profil Açıklaması: ${resultProfile.shortDesc}
 
-## KULLANICININ VERDİĞİ CEVAPLAR (Kritik Veri)
+## KİŞİNİN VERDİĞİ CEVAPLAR (Kritik Veri)
 ${answersSummary}
 
 ## ANALİZ FORMATI (Bu yapıyı MUTLAKA takip et)
 
 **1. KİŞİSEL TESPİT (3-4 cümle):**
-Kullanıcının verdiği EN AZ 2-3 spesifik cevaba doğrudan atıfta bulun. Örneğin: "'Partnerimden uzakta olunca hem rahatlarım hem panik olurum' şeklindeki cevabınız..." gibi. Bu cevapların altında yatan psikolojik dinamiği açıkla. Kullanıcı kendini "anlaşılmış" hissetmeli.
+Kişinin verdiği EN AZ 2-3 spesifik cevaba doğrudan atıfta bulun. Örneğin: "'Partnerimden uzakta olunca hem rahatlarım hem panik olurum' şeklindeki cevabınız..." gibi. Bu cevapların altında yatan psikolojik dinamiği açıkla. Kişi kendini "anlaşılmış" hissetmeli.
 
 **2. GİZLİ MALİYET (2-3 cümle):**
 Bu örüntünün farkında olmadan hayatına nasıl zarar veriyor olabileceğini nazikçe göster. İlişkilerde, iş hayatında veya iç huzurunda kaçırılan fırsatları veya yaşanan zorlukları somutlaştır. Korku veya suçluluk yaratma, sadece farkındalık oluştur.
@@ -50,7 +50,8 @@ Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hi
 - "Rümeysa Hanım" veya "Psikolog Rümeysa" gibi isim kullanma. "Uzman desteği", "profesyonel görüşme" de.
 - Paragraf başlıkları (1., 2., 3., 4.) YAZMA, akıcı bir metin olsun.
 - Sıcak, empatik ama profesyonel bir ton kullan.
-- Kullanıcının cevaplarından EN AZ 2 tanesine doğrudan alıntı yaparak referans ver.
+- Kişinin cevaplarından EN AZ 2 tanesine doğrudan alıntı yaparak referans ver.
+- ASLA "kullanıcı" kelimesini kullanma. Her zaman "siz", "sizin", "cevabınız" gibi doğrudan hitap kullan.
         `;
 
         // Büyük ve Türkçe'de güçlü modeller öncelikli
