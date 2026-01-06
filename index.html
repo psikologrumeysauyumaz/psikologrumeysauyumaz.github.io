@@ -293,7 +293,6 @@
                                 <p class="font-semibold">Rölatif Psikoloji Kliniği</p>
                                 <span class="text-sm text-gray-500">Kasım 2024 – Ocak 2025</span>
                             </div>
-                            <p class="text-sm text-gray-500">Samsun, Türkiye</p>
                             <p class="mt-2 text-sm">Psikanalitik vaka toplantılarına katılarak formülasyonlar
                                 geliştirdim, danışan süreçlerinde süpervizyon altında aktif rol aldım ve klinik iletişim
                                 ağını yönettim.</p>
@@ -325,8 +324,8 @@
                     <div class="space-y-4 text-gray-700">
                         <div>
                             <p class="font-semibold">Psikanaliz Odaklı Bütüncül Psikoterapi Eğitimi</p>
-                            <p class="text-sm text-gray-500">Rölatif Psikoloji Kliniği · Samsun</p>
-                            <p class="text-sm mt-2">1 yıllık yüz yüze teorik-pratik süpervizyon programında vaka
+                            <p class="text-sm text-gray-500">Rölatif Psikoloji Kliniği</p>
+                            <p class="text-sm mt-2">1 yıllık teorik-pratik süpervizyon programında vaka
                                 formülasyonu, terapötik ilişki ve klinik etik üzerine çalışıyorum.</p>
                         </div>
                         <div>
@@ -343,7 +342,7 @@
             </div>
             <div class="bg-white rounded-2xl shadow-md p-8" data-aos="fade-up" data-aos-delay="200">
                 <h3 class="text-2xl font-semibold mb-4">Akademik Temel</h3>
-                <div class="space-y-3 text-gray-700">
+                <div>
                     <div>
                         <p class="font-semibold">Psikoloji Lisansı</p>
                         <p class="text-sm text-gray-500">Samsun Üniversitesi · İnsan ve Toplum Bilimleri Fakültesi</p>
@@ -360,22 +359,16 @@
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Birlikte Çalışalım</h2>
             <p class="text-lg text-center mb-16 max-w-2xl mx-auto text-gray-700">İçsel yolculuğunuzda ilk adımı atmaya
                 hazır mısınız? Aşağıdaki formu doldurarak ücretsiz ön görüşme randevusu alabilirsiniz.</p>
-            <div class="grid gap-6 mb-12 md:grid-cols-3">
+            <div class="grid gap-6 mb-12 md:grid-cols-2">
                 <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center text-center" data-aos="fade-up"
                     data-aos-delay="50">
-                    <i data-feather="map-pin" class="w-6 h-6 text-[#166534] mb-3"></i>
-                    <p class="font-semibold text-sm">Samsun, Türkiye</p>
-                    <p class="text-xs text-gray-600">Yüz yüze ve online görüşme seçenekleri</p>
-                </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center text-center" data-aos="fade-up"
-                    data-aos-delay="100">
                     <i data-feather="mail" class="w-6 h-6 text-[#166534] mb-3"></i>
                     <a href="mailto:psikologrumeysauyumaz@gmail.com"
                         class="font-semibold text-sm hover:text-[#166534] transition-colors">psikologrumeysauyumaz@gmail.com</a>
                     <p class="text-xs text-gray-600">Ön görüşme ve danışan talepleri</p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col items-center text-center" data-aos="fade-up"
-                    data-aos-delay="150">
+                    data-aos-delay="100">
                     <i data-feather="phone" class="w-6 h-6 text-[#166534] mb-3"></i>
                     <a href="tel:+905433468871" class="font-semibold text-sm hover:text-[#166534] transition-colors">+90
                         543 346 88 71</a>
@@ -684,8 +677,16 @@
                 e.preventDefault();
 
                 const submitBtn = this.querySelector('button[type="submit"]');
-                const originalBtnText = submitBtn.textContent;
-                submitBtn.textContent = 'WhatsApp\'a Yönlendiriliyor...';
+                const originalBtnText = submitBtn.innerHTML;
+                
+                // Loading animasyonu göster
+                submitBtn.innerHTML = `
+                    <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    WhatsApp'a Yönlendiriliyor...
+                `;
                 submitBtn.disabled = true;
 
                 try {
@@ -712,19 +713,31 @@
 
                     const encodedMessage = encodeURIComponent(message);
                     const whatsappNumber = "905433468871";
+                    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
-                    // WhatsApp'a yönlendir
-                    window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
-
-                    alert('Görüşme talebiniz hazırlandı. WhatsApp uygulamasında "Gönder" butonuna basarak süreci tamamlayabilirsiniz.');
-                    forms.forEach(form => form.reset());
-                    showStep(1);
+                    // Kısa bir gecikme ile kullanıcıya geri bildirim ver, sonra yönlendir
+                    setTimeout(() => {
+                        // Yeni sekmede aç
+                        const newWindow = window.open(whatsappUrl, '_blank');
+                        
+                        // Popup engellenmiş olabilir, alternatif olarak aynı sayfada aç
+                        if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+                            window.location.href = whatsappUrl;
+                        }
+                        
+                        // Formu sıfırla
+                        setTimeout(() => {
+                            forms.forEach(form => form.reset());
+                            showStep(1);
+                            submitBtn.innerHTML = originalBtnText;
+                            submitBtn.disabled = false;
+                        }, 1000);
+                    }, 500);
 
                 } catch (err) {
                     console.error('WhatsApp redirect error:', err);
                     alert('Bir hata oluştu. Lütfen doğrudan telefon numaramızdan iletişime geçin.');
-                } finally {
-                    submitBtn.textContent = originalBtnText;
+                    submitBtn.innerHTML = originalBtnText;
                     submitBtn.disabled = false;
                 }
             });
