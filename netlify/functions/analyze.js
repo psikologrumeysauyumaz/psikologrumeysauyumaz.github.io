@@ -14,47 +14,53 @@ exports.handler = async function (event, context) {
             };
         }
 
-        // Kullanıcı cevaplarını özetle (İlk 20 cevap)
+        // Kullanıcı cevaplarını özetle
         const answersSummary = userAnswers
-            ? userAnswers.slice(0, 20).map(a => `- Soru: "${a.question}" -> Cevap: "${a.answer}"`).join('\n')
+            ? userAnswers.slice(0, 25).map(a => `• "${a.question}" → "${a.answer}"`).join('\n')
             : 'Cevap detayları mevcut değil.';
 
         const prompt = `
-        Sen Psikolog Rümeysa Uyumaz'ın dijital asistanısın. Görevin, aşağıdaki test sonucunu ve kullanıcının verdiği cevapları analiz ederek "değer odaklı" bir yaklaşımla profesyonel desteğin faydasını sunmaktır.
-        
-        Test: ${testTitle}
-        Sonuç Profili: ${resultProfile.title}
-        Kısa Tanım: ${resultProfile.shortDesc}
-        
-        Kullanıcının Verdiği Bazı Kritik Cevaplar:
-        ${answersSummary}
-        
-        Yönerge:
-        Kullanıcının özellikle bu cevaplarına referans vererek ("X konusundaki yaklaşımınız..." gibi) analizini kişiselleştir.
-        
-        Kullanıcının durumunu analiz ederken şu "Satış/İkna" kurgusunu izle:
-        1. **Tanımla & Onayla:** Kullanıcının mevcut durumunu ve yaşadığı olası zorluğu, onu yargılamadan, "seni anlıyorum" tonunda özetle. (Örn: "Duygularınızı ifade etmekte zorlanmanız, aslında korunma ihtiyacınızdan kaynaklanıyor olabilir.")
-        2. **Farkındalık Yarat (Gap):** Bu durumun hayatında (ilişkilerinde, işinde veya iç dünyasında) nelere mal olabileceğini nazikçe hissettir.
-        3. **Değeri Sun (Value Proposition):** Bizimle yapacağı görüşmenin ona "ne kazandıracağını" net bir şekilde ifade et. Sadece "gelin konuşalım" deme; "Bu görüşme sayesinde X yeteneğinizi kazanacak, Y yükünden kurtulacaksınız" gibi somut bir fayda vaat et.
-        
-        Kurallar:
-        - Asla "Sadece bir test sonucudur" gibi basitleştirici ifadeler kullanma.
-        - "Rümeysa Hanım" ismini kullanma; "Uzman desteği", "Profesyonel görüşmemiz" ifadelerini kullan.
-        - Tonun: Bilge, güven verici, çözüm odaklı ve davetkar olsun.
-        - Mesajı mutlaka şu cümle ile bitir: "Bu yolculukta yalnız değilsiniz; profesyonel bir ön görüşme planlayarak, kendiniz için en değerli adımı bugün atabilirsiniz."
-        
-        Dil: Türkçe. Maksimum 160 kelime.
+Sen deneyimli bir klinik psikolog asistanısın. Kullanıcının psikolojik test sonucunu ve verdiği cevapları derinlemesine analiz edeceksin.
+
+## TEST BİLGİSİ
+Test Adı: ${testTitle}
+Sonuç Profili: ${resultProfile.title}
+Profil Açıklaması: ${resultProfile.shortDesc}
+
+## KULLANICININ VERDİĞİ CEVAPLAR (Kritik Veri)
+${answersSummary}
+
+## ANALİZ FORMATI (Bu yapıyı MUTLAKA takip et)
+
+**1. KİŞİSEL TESPİT (3-4 cümle):**
+Kullanıcının verdiği EN AZ 2-3 spesifik cevaba doğrudan atıfta bulun. Örneğin: "'Partnerimden uzakta olunca hem rahatlarım hem panik olurum' şeklindeki cevabınız..." gibi. Bu cevapların altında yatan psikolojik dinamiği açıkla. Kullanıcı kendini "anlaşılmış" hissetmeli.
+
+**2. GİZLİ MALİYET (2-3 cümle):**
+Bu örüntünün farkında olmadan hayatına nasıl zarar veriyor olabileceğini nazikçe göster. İlişkilerde, iş hayatında veya iç huzurunda kaçırılan fırsatları veya yaşanan zorlukları somutlaştır. Korku veya suçluluk yaratma, sadece farkındalık oluştur.
+
+**3. DÖNÜŞÜM VAADI (2-3 cümle):**
+Profesyonel destekle elde edebileceği SOMUT kazanımları listele. "Daha iyi hissedersiniz" gibi belirsiz ifadeler YASAK. Bunun yerine: "Çatışma anlarında sakin kalabilme becerisi", "Yakınlık korkusu yerine güvenli bağlanma deneyimi", "Kendi ihtiyaçlarınızı suçluluk duymadan ifade edebilme" gibi spesifik, ölçülebilir faydalar sun.
+
+**4. DAVET (1 cümle):**
+Şu cümleyle MUTLAKA bitir: "Bu yolculukta yalnız değilsiniz; profesyonel bir ön görüşme planlayarak, kendiniz için en değerli adımı bugün atabilirsiniz."
+
+## KRİTİK KURALLAR
+- Minimum 200, maksimum 280 kelime yaz.
+- SADECE Türkçe kullan. Tek bir yabancı kelime bile kullanma.
+- "Rümeysa Hanım" veya "Psikolog Rümeysa" gibi isim kullanma. "Uzman desteği", "profesyonel görüşme" de.
+- Paragraf başlıkları (1., 2., 3., 4.) YAZMA, akıcı bir metin olsun.
+- Sıcak, empatik ama profesyonel bir ton kullan.
+- Kullanıcının cevaplarından EN AZ 2 tanesine doğrudan alıntı yaparak referans ver.
         `;
 
+        // Büyük ve Türkçe'de güçlü modeller öncelikli
         const freeModels = [
-            'meta-llama/llama-3.3-70b-instruct:free',
-            'google/gemini-2.0-flash-exp:free',
+            'meta-llama/llama-3.3-70b-instruct:free',    // 70B - En güçlü açık model
+            'google/gemini-2.0-flash-exp:free',          // Google Gemini - Hızlı ve akıllı
+            'google/gemma-2-27b-it:free',                // Gemma 27B - Çok iyi Türkçe
             'mistralai/mistral-small-3.1-24b-instruct:free',
             'google/gemma-2-9b-it:free',
-            'mistralai/mistral-7b-instruct:free',
-            'nvidia/nemotron-3-nano-30b-a3b:free',
-            'qwen/qwen3-coder:free',
-            'tngtech/deepseek-r1t2-chimera:free'
+            'mistralai/mistral-7b-instruct:free'
         ];
 
         let lastError = null;
